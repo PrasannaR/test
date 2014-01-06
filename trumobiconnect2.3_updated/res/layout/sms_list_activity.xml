@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+ <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:id="@+id/parent_layout"
+        android:background="#F2F2F2" >
+<include 
+    layout="@layout/sms_header"
+    android:id="@+id/header"
+    >
+</include>
+<ListView
+        android:id="@+id/list_inbox"
+        android:layout_below="@+id/header"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="#FBFBFB"
+        android:layout_above="@+id/footer"
+        android:filterTouchesWhenObscured="true">    
+</ListView>
+<ListView
+        android:id="@+id/list_menu"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/sms_menu_bg_top"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="10dp"
+        android:layout_above="@+id/footer"
+        android:filterTouchesWhenObscured="true" >
+    </ListView>
+<LinearLayout
+    android:id="@+id/sms_no_conversation" 
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:layout_below="@+id/header"
+    android:layout_above="@+id/footer" >
+
+    <ImageView
+        android:id="@+id/corporate_icon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/sms_no_conversation"
+        android:filterTouchesWhenObscured="true" />
+
+</LinearLayout>
+
+<include 
+    layout="@layout/sms_footer"
+    android:id="@+id/footer"
+    android:layout_below="@+id/list_inbox"
+    >
+ </include>
+        
+</RelativeLayout>
+
+
+
+
+
+
+
+
+
+
+

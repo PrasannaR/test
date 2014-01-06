@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="horizontal"
+    android:paddingLeft="1dp"
+    android:paddingRight="8dp" >
+
+    <FrameLayout
+        android:layout_width="0dip"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:paddingLeft="1dp"
+        android:paddingRight="4dp"
+        android:paddingTop="1dp" >
+
+        <ImageView
+            android:id="@+id/contact_detail_image"
+            android:layout_width="fill_parent"
+            android:layout_height="175dip"
+            android:scaleType="fitXY"
+            android:src="@drawable/contacts_ic_contact_picture_180_holo_light" >
+        </ImageView>
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="0dip"
+        android:layout_height="match_parent"
+        android:layout_weight="2" >
+
+        <LinearLayout
+            android:id="@+id/contact_detail_container"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="5dp"
+            android:orientation="vertical" >
+
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingBottom="1dip"
+                android:paddingLeft="5dip"
+                android:paddingRight="5dip" >
+
+                <TextView
+                    android:id="@+id/contact_name"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:ellipsize="end"
+                    android:paddingTop="5dip"
+                    android:singleLine="true"
+                    android:text="ANNA"
+                    android:textColor="@color/Black"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <ImageView
+                    android:id="@+id/set_icon"
+                    android:layout_width="30dip"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:src="@drawable/contacts_ic_contacts_holo_dark" />
+            </RelativeLayout>
+
+            <!-- Suyash Added -->
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="1dp"
+                android:background="#710000" >
+            </View>
+
+            <LinearLayout
+                android:id="@+id/layoutTab1"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" >
+
+                <LinearLayout
+                    android:id="@+id/callTab"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="left"
+                    android:layout_weight="1"
+                    android:clickable="true"
+                    android:orientation="vertical" >
+
+                    <TextView
+                        android:id="@+id/contact_phone_no_value"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="left"
+                        android:clickable="true"
+                        android:paddingLeft="5dp"
+                        android:text=""
+                        android:textSize="20sp" />
+
+                    <TextView
+                        android:id="@+id/phoneType"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="left"
+                        android:clickable="true"
+                        android:paddingLeft="5dp"
+                        android:text="MOBILE"
+                        android:textSize="12sp" />
+                </LinearLayout>
+
+                <ImageView
+                    android:id="@+id/textmessage"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right"
+                    android:paddingRight="5dp"
+                    android:src="@drawable/contacts_ic_text_holo_light" />
+            </LinearLayout>
+
+            <ListView
+                android:id="@+id/call_log_list"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:paddingTop="5dp"
+                android:smoothScrollbar="true" />
+
+            <!-- Suyash Added -->
+
+        </LinearLayout>
+    </FrameLayout>
+
+</LinearLayout>

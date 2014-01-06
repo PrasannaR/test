@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<string name="tts_title">文本到语音</string>
+<string name="tts_install_title">安装语音数据</string>
+<string name="tts_install_message">是否要安装语音合成所需的语音数据?</string>
+</resources>
