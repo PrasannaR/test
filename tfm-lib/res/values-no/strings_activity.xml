@@ -1,0 +1,104 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources>
+   	<!-- About Activity -->
+   	<string name="label_product">%s Mobile for Android\u2122</string>
+  	<string name="link_about"><a href="http://www.thinkfree.com/go?id=mobile_main">Om</a></string>
+  	<string name="link_help"><a href="http://www.thinkfree.com/go?id=help_en_us_and_hd">Hjelp</a></string>
+  	<string name="link_support"><a href="http://www.thinkfree.com/go?id=help_online">Støtte</a></string>
+  	<string name="link_terms"><a href="http://www.thinkfree.com/go?id=terms">Vilkår</a></string>
+  	<string name="link_privacy"><a href="http://www.thinkfree.com/go?id=privacy">Personvern</a></string>
+  	<string name="link_ack"><a href="http://www.thinkfree.com/go?id=ack_and">Bekreftelse</a></string>
+  	<string name="link_separator">|</string>
+  	<string name="label_copyright">\u00A92012 Hancom Inc. Med enerett. \nThinkFree og ThinkFree-logoen er varemerker for Hancom Inc.</string>
+  	<string name="label_accord">Deler av dette produktet er modifikasjoner basert på arbeid som er skapt og 
+ <a href="http://code.google.com/policies.html">delt av Google</a>
+ og brukt i henhold til vilkårene beskrevet i 
+ <a href="http://creativecommons.org/licenses/by/3.0">Creative Commons 3.0 Attributions License.</a>
+	</string>
+
+  	<!-- File Properties Activity -->
+    <string name="fileproperties">Egenskaper</string>
+    <string name="fileprop_noinfo">Ingen informasjon</string>
+    <string name="fileprop_basic">Grunnleggende</string>
+    <string name="fileprop_extended">Utvidet</string>
+    <string name="fileprop_filename">Navn</string>
+	<string name="fileprop_filesize">Størrelse</string>
+    <string name="fileprop_title">Tittel</string>
+    <string name="fileprop_subject">Emne</string>
+    <string name="fileprop_author">Forfatter</string>
+    <string name="fileprop_keywords">Nøkkelord</string>
+    <string name="fileprop_comments">Kommentarer</string>
+    <string name="fileprop_template">Mal</string>
+    <string name="fileprop_revnumber">Revisjonsnummer</string>
+    <string name="fileprop_lastprinted">Sist skrevet ut</string>
+    <string name="fileprop_createdtm">Opprettet den</string>
+	<string name="fileprop_lastmodified">Sist endret</string>
+    <string name="fileprop_pagecount">Sidetelling</string>
+    <string name="fileprop_wordcount">Ordtelling</string>
+    <string name="fileprop_charcount">Tegntelling</string>
+	<string name="fileprop_appname">Programnavn</string>   
+	<string name="fileprop_creator">Opprettet av</string>
+	<string name="fileprop_description">Beskrivelse</string>
+	<string name="fileprop_lastmodifiedby">Sist endret av</string>
+	<string name="fileprop_version">Versjon</string>
+	<string name="fileprop_category">Kategori</string>
+	<string name="fileprop_language">Språk</string>
+	<string name="fileprop_charwithspacecount">Antall tegn med mellomrom</string>
+	<string name="fileprop_sharedoc">Delt</string>
+	<string name="fileprop_appversion">Programversjon</string>
+	<string name="fileprop_codepage">Tegntabell</string>
+	<string name="fileprop_presformat">Presentasjonsformat</string>     
+	<string name="fileprop_bytecount">Antall byte</string>
+	<string name="fileprop_linecount">Antall linjer</string>
+	<string name="fileprop_parcount">Antall avsnitt</string>
+	<string name="fileprop_slidecount">Antall lysbilder</string>
+	<string name="fileprop_notecouont">Antall merknader</string>
+	<string name="fileprop_hiddencount">Antall skjulte lysbilder</string>
+	<string name="fileprop_mmclipcount">Antall multimedieklipp</string>
+	<string name="fileprop_scale">Skalér</string>
+	<string name="fileprop_manager">Administrator</string>
+	<string name="fileprop_company">Firma</string>
+	<string name="fileprop_security">Sikkerhet</string>
+	<string name="fileprop_lastsavedtm">Sist lagret</string>
+	<string name="fileprop_value_shared">sann</string>
+	<string name="fileprop_value_not_shared">usann</string>
+	<string name="fileprop_filetype">Type</string>
+	<string name="fileprop_location">Plassering</string>
+	<string name="fileprop_value_attachment">Vedlegg</string>
+  	
+	<!-- Manager -->
+	<string name="new_file_hint">Filnavn</string>
+
+	<!-- messages -->
+	<string name="msg_calculating">Beregner ...</string>
+	<string name="msg_file_not_found">Fant ikke %s.</string>
+    <string name="msg_connection_refused">Det oppstod en feil ved nettverkstilkoblingen.</string>
+
+   	<!--  OOM Activity -->
+   	<string name="oom_error_msg">Ikke nok minne. Kan ikke laste filen riktig fordi det ikke er nok minne. Vil du vise innholdet som er lastet hittil?</string>
+    <string name="oom_error_close_label">Lukk</string>
+    <string name="oom_error_continue_label">Fortsett</string>
+    
+    <!-- Updater -->
+	<string name="updater_check">Kontrollerer ...</string>
+	<string name="updater_update_failed">Oppdatering mislyktes</string>
+	<string name="updater_uptodate">Nyeste versjon</string>
+	<string name="updater_confirm_update">Vil du oppdatere til nyeste versjon?</string>
+	<string name="updater_download_started">Nyeste versjon lastes ned.</string>
+	<string name="updater_download_completed">Nedlasting fullført</string>
+	
+    <!-- Activation -->
+    <string name="later">Senere</string>
+	<string name="activate_title">Aktivering</string>
+	<string name="activate_now">Aktiver nå</string>
+	<string name="activate_new_desc">
+	    Takk for at du bruker dette ThinkFree Office-produktet.\n
+		Velg &quot;Aktiver nå&quot; for å aktivere ThinkFree Office på enheten din.
+	</string>
+	<string name="activate_desc">Klikk på \&quot;%1$s\&quot; for å aktivere %2$s på enheten.</string>
+	<string name="activate_result_ok">Aktivering fullført</string>
+	<string name="activate_result_failed_network_error">Nettverkstilkobling er påkrevd.</string>
+	<string name="activate_result_failed_invalid_hardware">%s kan ikke aktiveres på denne enheten.</string>
+	<string name="activate_result_failed_server_error">En dataoverføringsfeil oppstod ved aktivering av produktet.</string>
+		
+</resources>

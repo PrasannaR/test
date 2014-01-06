@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+
+
+	<integer name="calc_header_color_background">0xffdddcdd</integer>
+	<integer name="calc_header_color_selection">0xffd0e5bd</integer>
+	<integer name="calc_header_color_selection_alpha">127</integer>
+	<integer name="calc_header_color_text">0xff000000</integer> <!-- Color.BLACK -->
+	<integer name="calc_header_color_line">0xff888888</integer> <!-- Color.GRAY -->
+</resources>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="calc_tab_minWidth">120dip</dimen>
+    <dimen name="calc_tab_fixedNewButtonWidth">95dip</dimen>
+    <dimen name="calc_tab_fixedWidth">200dip</dimen>
+	<dimen name="calc_tab_overlap_width">23dip</dimen>
+    <dimen name="calc_tab_height">42dip</dimen>
+    <dimen name="calc_tab_font_height">17dip</dimen>
+    <dimen name="calc_tab_font_select_height">18dip</dimen>
+    <dimen name="calc_hpadding_select">9dip</dimen>
+    <dimen name="calc_hpadding_other">5dip</dimen>
+    <dimen name="calc_rpadding_select">41dip</dimen>
+    <dimen name="calc_rpadding_other">36dip</dimen>
+    <dimen name="calc_vpadding">7dip</dimen>
+    <dimen name="calc_tab_first_hpadding">6dip</dimen>
+</resources>

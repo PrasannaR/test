@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="retry">Prøv igen</string>
+	
+    <!-- Purchase Activity -->
+    <string name="title_purchase">Køb en ThinkFree Mobile for Android v4.1</string>
+    <string name="market_android">Android</string>
+    <string name="market_amazon">Amazon</string>
+	
+    <!-- License Check Activity-->
+    <string name="msg_checking_license">Kontrollerer licens...</string>
+    <string name="title_application_error">Programfejl</string>
+    <string name="msg_application_error">Fejlkode: %1$d</string>
+    <string name="title_unlicensed">Program ikke licenseret</string>
+    <string name="msg_unlicensed">Dette program er ikke licenseret. Køb licens på %s Market.</string>
+	<string name="title_no_network_connection">Fejl i netværksforbindelse</string>
+	<string name="msg_no_network_connection">Der opstod en fejl i netværksforbindelsen. Kontroller, at din enhed er tilsluttet netværket.</string>
+	
+	<string name="inducement_to_purchase_tfm">Den betalte version af ThinkFree Office tilbyder flere funktioner, der forbedrer produktiviteten. Vil du gå til Market?</string>
+	<string name="inducement_to_purchase_print">Hvis du køber ThinkFree Mobile Print, kan du udskrive dokumenter. Vil du gå til Market?</string>
+	<string name="inducement_to_purchase_hwp">Hvis du har Hancom Viewer, er det muligt at se dette dokument gratis. Vil du gå til Market?</string>
+</resources>
