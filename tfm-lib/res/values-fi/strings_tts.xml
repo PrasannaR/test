@@ -1,6 +1,0 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<resources>
-<string name="tts_title">Teksti puheeksi</string>
-<string name="tts_install_title">Asenna äänitiedot</string>
-<string name="tts_install_message">Haluatko asentaa puhesynteesiin tarvittavat äänitiedot?</string>
-</resources>
