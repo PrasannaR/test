@@ -1,0 +1,204 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<resources>
+    <!-- words -->
+    <!-- apps -->
+    <string name="app_name" translatable="false">ThinkFree Office</string>
+    <string name="tfwrite" translatable="false">ThinkFree Write</string>
+    <string name="tfcalc" translatable="false">ThinkFree Calc</string>
+    <string name="tfshow" translatable="false">ThinkFree Show</string>
+    <string name="tfpdf" translatable="false">ThinkFree PDF Viewer</string>
+    <string name="market_pub" translatable="false">ThinkFree Office</string>
+    
+    <string name="file">檔案</string>
+    <string name="properties">內容</string>
+    <string name="send">傳送</string>
+    <string name="share">共用</string>
+    <string name="save">儲存</string>
+    <string name="zoom">縮放</string>
+    <string name="zoom_in">放大</string>
+    <string name="zoom_out">縮小</string>
+    <string name="preferences">喜好設定</string>
+    <string name="horizontal_page_scrolling">橫向捲動頁面</string>
+    <string name="vertical_page_scrolling">直向捲動頁面</string>
+    <string name="refresh">重新整理</string>
+    <string name="delete_all">全部刪除</string>
+    <string name="update">更新</string>
+    <string name="about">關於</string>
+    <string name="find">尋找</string>
+    <string name="replace">取代</string>
+    <string name="sort">排序</string>
+    <string name="fullscreen">全螢幕</string>
+    <string name="normalscreen">一般螢幕</string>
+    <string name="texttospeech">文字轉換語音</string>
+    <string name="dictionary">字典</string>
+    <string name="save_to">儲存至</string>
+    <string name="edit">編輯</string>
+    <string name="view">檢視</string>
+    <string name="save_as">另存新檔</string>
+    <string name="save_as_pdf">另存為 PDF</string>
+    <string name="select">選取</string>
+    <string name="select_all">全選</string>
+    <string name="select_word">選取單字</string>
+    <string name="select_line">選取行</string>
+    <string name="select_paragraph">選取段落</string>
+    <string name="insert_shape">插入圖案</string>
+    <string name="object">物件</string>
+    <string name="text">文字</string>
+    <string name="from_camera_image">從相機 (圖片)</string>
+    <string name="from_camera_video">從相機 (視訊)</string>
+    <string name="from_gallery_image">從圖庫 (圖片)</string>
+    <string name="from_gallery_video">從圖庫 (視訊)</string>
+    <string name="from_scribble_pad">從手寫板</string>
+    <string name="font">字型</string>
+    <string name="bold">粗體</string>
+    <string name="italic">斜體</string>
+    <string name="superscript">上標</string>
+    <string name="subscript">下標</string>
+    <string name="size">大小</string>
+    <string name="color">色彩</string>
+    <string name="align">對齊</string>
+    <string name="insert">插入</string>
+    <string name="delete">刪除</string>
+    <string name="insert_paragraph_break">插入段落符號</string>
+    <string name="keyboard">鍵盤</string>
+    <string name="clipboard">剪貼簿</string>
+    <string name="undo">復原</string>
+    <string name="redo">重做</string>
+    <string name="copy">複製</string>
+    <string name="cut">剪下</string>
+    <string name="paste">貼上</string>
+    <string name="all_caps">全部大寫</string>
+    <string name="small_caps">小型大寫字</string>
+    <string name="strike">刪除線</string>
+    <string name="dstrike">雙刪除線</string>
+    <string name="input_method">輸入法</string>
+    <string name="yes">是</string>
+    <string name="no">否</string>
+    <string name="ok">確定</string>
+    <string name="cancel">取消</string>
+    <string name="close">關閉</string>
+    <string name="more">其他...</string>
+    <string name="encrypted_document">加密的文件</string>
+    <string name="password">密碼</string>
+    <string name="text_encoding">文字編碼</string>
+    <string name="exit">結束</string>
+    <string name="others">其他</string>
+    <string name="build_number">組建編號</string>
+    <string name="create_backup_copy">建立備份</string>
+    <string name="align_left">左</string>
+    <string name="align_center">置中</string>
+    <string name="align_right">右</string>
+    <string name="align_justified">左右對齊</string>
+    <string name="auto">自動</string>
+    <string name="none">無</string>
+    <string name="effect">效果</string>
+    <string name="print">列印</string>
+    <string name="label_print_range">列印範圍</string>
+    <string name="label_print_range_all">所有投影片</string>
+    <string name="label_print_range_current">目前頁面</string>
+    <string name="label_print_range_from">從：</string>
+    <string name="label_print_range_to">到：</string>
+    <string name="fill_color">填滿色彩</string>
+    <string name="line_color">線條色彩</string>
+    <string name="line_width">線條寬度</string>
+    <string name="line_dash">虛線</string>
+    <string name="line_end">行尾</string>
+    <string name="image_style">圖像樣式</string>
+    <string name="shape_style">圖案樣式</string>
+    <string name="object_properties">物件內容</string>
+    <string name="limited_mode">受限模式</string>
+    <string name="insert_table">插入表格</string>
+    <string name="insert_table_row">列</string>
+    <string name="insert_table_column">欄</string>
+    <string name="insert_table_ok">確定</string>
+    <string name="table_properties">表格內容</string>
+    <string name="table_style">表格樣式</string>
+    <string name="table_style_options">表格樣式選項</string>
+    <string name="delete_table">刪除表格</string>
+    <string name="save_to_thinkfree_online">儲存到 ThinkFree Online</string>
+    <string name="save_to_local_folder">儲存到本機資料夾</string>
+    <string name="no_selected">無</string>
+    <string name="match_case">大小寫須相符</string>
+    <string name="find_whole_word_only">全字拼寫須相符</string>
+    <string name="find_entire_cell_only">儲存格內容須完全相符</string>
+    <string name="finder_view_find">尋找目標？</string>
+    <string name="finder_view_replace">取代為</string>
+    <string name="cache_management">儲存管理</string>
+    <string name="delete_data">內部快取</string>
+    <string name="delete_data_sub">刪除喜好設定的快取資料</string>
+    <string name="delete_thumbnail">外部快取</string>
+    <string name="delete_thumbnail_sub">刪除 ThinkFree 文件的快取資料</string>
+    <string name="delete_template">範本檔案快取</string>
+    <string name="delete_template_sub">刪除範本的快取資料</string>
+    <string name="delete_confirm_internal_cache">若要完全刪除內部快取，您必須結束 ThinkFree Office。 是否要刪除內部快取並結束 Office？</string>
+    <string name="confirm_deletion_des">確定要刪除選取的項目？</string>
+    <string name="msg_delete_completed">已成功刪除選取的項目。</string>
+    <string name="msg_delete_failed">無法刪除選取的項目。</string>
+    
+    <!-- messages -->
+    <string name="msg_saved_to">已儲存至\'%s\'</string>
+    <string name="msg_failed">失敗</string>
+    <string name="msg_loading">正在載入\'%s\'...</string>
+    <string name="msg_saving">正在儲存\'%s\'...</string>
+    <string name="msg_saving_general">儲存中...</string>
+    <string name="msg_failed_to_open">無法開啟</string>
+    <string name="msg_failed_to_save">無法儲存</string>
+    <string name="msg_no_matches">找不到相符項目</string>
+    <string name="msg_matches">%1$d/%2$d 個相符項目</string>
+    <string name="msg_enter_password">請輸入密碼</string>
+    <string name="msg_width">寬度： %d px</string>
+    <string name="msg_height">高度： %d px</string>
+    <string name="msg_ask_to_save">是否要儲存？</string>
+    <string name="msg_create_backup_copy">每次儲存文件時建立文件備份</string>
+    <string name="msg_not_enough_memory">記憶體不足</string>
+    <string name="msg_cannot_insert_over_size">此檔案超過 10 MB 的附件大小上限。</string>
+    <string name="msg_insert_sdcard">請插入SD 記憶卡。</string>
+    <string name="file_name">檔案名稱</string>
+    <string name="file_type">檔案類型</string>
+    <string name="msg_printing">正在列印 \'%s\'...</string>
+    <string name="msg_print_fail">列印失敗</string>
+    <string name="password_Incorrect">您輸入的密碼與註冊的密碼不相符。</string>
+    <string name="msg_cannot_open_encrypted_document">無法開啟此加密檔案</string>
+    <string name="msg_lost_password">若您另存新檔，便會停用檔案加密。 是否要繼續？</string>
+    <string name="msg_cannot_cancel_save">儲存過程中，此作業無法取消。</string>
+    <string name="msg_not_enough_sdcard_space">SD 記憶卡空間不足</string>
+    <string name="msg_invalid_format">格式不受支援或不明。</string>
+    <string name="msg_encryped_file">檔案已損毀。</string>
+    <string name="msg_invalid_version">文件版本不受支援或不明。</string>
+    <string name="msg_canceled_to_open">已取消開啟。</string>
+    
+    <!-- upload -->
+    <string name="msg_uploader_title">上傳到</string>
+    <string name="msg_uploader_prepared">正在準備上傳...</string>
+    <string name="msg_uploader_failed">上傳失敗</string>
+    <string name="msg_uploader_size_exceeded">此檔案超過 10 MB 的附件大小上限。</string>
+    <string name="msg_uploader_cancelled">已取消上傳</string>
+    <string name="msg_uploader_uploading">正在上傳...</string>
+    <string name="msg_uploader_finish">上傳完成</string>
+    <string name="msg_uploader_connection_fail">網路連線失敗。</string>
+    
+    <!-- Hyperlink -->
+    <string name="hyperlink">超連結</string>
+    <string name="delete_hyperlink">刪除超連結</string>
+    <string name="hyperlink_web_prefix">http://</string>
+    <string name="hyperlink_email_prefix">mailto:</string>
+    
+    <!-- caption name -->
+    <string name="caption_standard_color">標準色彩</string>
+    <string name="caption_natural_color">自然色彩</string>
+      
+    <!-- ActionBar -->
+    <string name="actionbar_limited_mode_title_postfix">[受限模式]</string>
+    <string name="prepare_print">正在準備列印...</string>
+    
+    <!-- Motion Detection -->
+    <string name="msg_right_to_left">動作偵測 - 下一頁</string>
+    <string name="msg_left_to_right">動作偵測 - 上一頁</string>
+    <string name="msg_warn_first_page">動作偵測 - 第一頁</string>
+    <string name="msg_warn_last_page">動作偵測 - 最後一頁</string>
+    <string name="msg_show_slideshow">動作偵測 - 顯示投影片</string>
+    <string name="msg_stop_slideshow">動作偵測 - 停止投影片</string>
+    
+    <!-- About -->
+	<string name="bullet_about_link">▶</string>
+</resources>

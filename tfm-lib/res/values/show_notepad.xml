@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- do not translate this file -->
+<resources>
+	<item name="notepad_action_switch_input_mode" type="id"/>
+	
+	<item name="notepad_action_pen" type="id"/>
+	<item name="notepad_action_signpen" type="id"/>
+	<item name="notepad_action_highlighter" type="id"/>
+	
+	<item name="notepad_action_line_color" type="id"/>
+	
+	<item name="notepad_action_delete" type="id"/>
+	<item name="notepad_action_delete_all" type="id"/>
+	
+	<item name="notepad_action_exit" type="id"/>
+	
+	<item name="notepad_action_done" type="id"/>
+	<item name="notepad_action_fill_color" type="id"/>
+</resources>

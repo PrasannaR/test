@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<!-- application names -->
+	<string name="calc_hd">ThinkFree Calc HD</string>
+	<string name="calc_preferences">ThinkFree Calc — preferencje</string>
+
+	<!-- menu titles/items -->
+	<string name="calc_title_app">ThinkFree Calc</string>
+	<string name="calc_worksheets">Arkusze</string>
+	<string name="calc_goto">Idź do</string>
+	<string name="calc_label_print_range">Zakres wydruku</string>
+
+	<!-- activity/dialog titles -->
+	<string name="calc_select_sheet">Zaznacz arkusz</string>
+	<string name="calc_show_hidden_sheets">Pokaż ukryte arkusze</string>
+
+	<!-- button labels
+	<string name="calc_button_sheets">Sheets</string>
+	-->
+
+	<!-- short messages for toasts and dialogs -->
+	<string name="calc_msg_title">Calc</string>
+	<string name="calc_msg_invalid_dir">Nieprawidłowy folder: \'%s\'</string>
+	<string name="calc_msg_empty_sheet">Brak zawartości w tym arkuszu.</string>
+	<string name="calc_msg_searching">Wyszukiwanie...</string>
+	<string name="calc_msg_invalid_ref">Niewłaściwe odwołanie</string>
+	<string name="calc_msg_enter_ref">Wprowadź odwołanie</string>
+	<string name="calc_msg_print_ok">OK</string>
+	<string name="calc_msg_print_cancel">Anuluj</string>
+	<string name="calc_msg_print_range_all">Bieżący arkusz</string>
+	<string name="calc_msg_print_current">Zaznaczony obszar</string>
+	<string name="calc_msg_row_resize">Punkt</string>
+	<string name="calc_msg_col_resize">Liczba znaków</string>
+
+	<!-- descriptions on the preference screen -->
+	<string name="calc_msg_shows_hidden_sheets">Wyświetl ukryte arkusze na liście</string>
+	
+	<string name="calc_sheethide">Ukryj zakładki arkuszy</string>
+	<string name="calc_sheetunhide">Odkryj zakładki arkuszy</string>
+	    
+</resources>

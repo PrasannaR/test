@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<PreferenceScreen 
+    	xmlns:android="http://schemas.android.com/apk/res/android" 
+    	android:id="@+id/preference_screen"
+    	android:background="@drawable/app_background"
+    	android:layout_width="fill_parent"
+   		android:layout_height="fill_parent"
+    >
+
+    <PreferenceCategory 
+        android:title="General Settings" 
+        android:key="general">
+        
+        <CheckBoxPreference 
+            android:key="smart_connect"
+            android:layout="@layout/custom_preference_layout"
+        />
+        
+        <CheckBoxPreference 
+            android:key="notifications_audio"
+            android:layout="@layout/custom_preference_layout"
+        />
+        
+        <CheckBoxPreference 
+            android:key="notifications_vibrate"
+            android:layout="@layout/custom_preference_layout"
+        />
+        
+        <Preference 
+            android:key="update_configuration"
+            android:layout="@layout/custom_preference_layout"
+            android:clickable="true"
+ 		/>
+        
+        <CheckBoxPreference 
+            android:key="enable_location_reporting"
+            android:layout="@layout/custom_preference_layout"
+            android:clickable="true"
+ 		/>
+        
+        <Preference 
+            android:key="set_portal_credentials"
+            android:layout="@layout/custom_preference_layout"
+ 		/>
+        
+        <Preference 
+            android:key="uninstall_application"
+            android:layout="@layout/custom_preference_layout"
+ 		/>
+        
+        <Preference 
+            android:key="terms_and_conditions"
+            android:layout="@layout/custom_preference_layout"
+ 		/>
+        
+        <Preference 
+            android:key="enable_debug_mode"
+            android:layout="@layout/custom_preference_layout"
+            android:clickable="true"
+ 		/>
+            
+    </PreferenceCategory>
+
+</PreferenceScreen>
