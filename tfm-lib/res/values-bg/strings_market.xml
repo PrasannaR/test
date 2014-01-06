@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="retry">Опитай отново</string>
+	
+    <!-- Purchase Activity -->
+    <string name="title_purchase">Закупете ThinkFree Mobile for Android</string>
+    <string name="market_android">Android</string>
+    <string name="market_amazon">Amazon</string>
+	
+    <!-- License Check Activity-->
+    <string name="msg_checking_license">Проверка на лиценз...</string>
+    <string name="title_application_error">Грешка в приложение</string>
+    <string name="msg_application_error">Код за грешка: %1$d</string>
+    <string name="title_unlicensed">Приложението не е лицензно</string>
+    <string name="msg_unlicensed">Това приложение не е лицензно. Моля, закупете го от %s Market.</string>
+	<string name="title_no_network_connection">Грешка в мрежова връзка</string>
+	<string name="msg_no_network_connection">Мрежовата връзка е неуспешна. Проверете дали устройството ви е свързано с мрежата.</string>
+</resources>

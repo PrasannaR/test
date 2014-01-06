@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 290778 modified for allappspage -->
+<resources>
+    <integer name="config_drawerColumnsPortrait">5</integer> 
+    <integer name="config_drawerRowsPortrait">5</integer> 
+    <integer name="config_drawerColumnsLandscape">7</integer> 
+    <integer name="config_drawerRowsLandscape">4</integer> 
+    <integer name="deviceType">1</integer>
+</resources>

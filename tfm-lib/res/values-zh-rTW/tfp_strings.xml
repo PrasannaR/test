@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<string name="tfp_app_name">ThinkFree PDF Viewer</string>
+<string name="tfp_err_bad_catalog">開啟檔案時發生錯誤。 頁面目錄無效。</string>
+<string name="tfp_err_damaged_file">開啟檔案時發生錯誤。 檔案可能已損毀。</string>
+<string name="tfp_err_open_file">開啟檔案時發生錯誤。 檔案不存在或無法讀取。</string>
+<string name="tfp_err_open_unknown">開啟檔案時發生錯誤。 檔案可能不是有效的 PDF 檔案。</string>
+<string name="tfp_err_out_of_memory">錯誤。 記憶體不足，無法繼續。</string>
+<string name="tfp_err_non_standard_security_handler">開啟檔案時發生錯誤。 檔案使用不受支援的安全性常式加密。</string>
+<string name="tfp_err_loading_page">載入頁面時發生錯誤。</string>
+<string name="tfp_msg_blank_page">空白頁</string>
+<string name="tfp_msg_no_read_mode">此頁面\n無法使用\n閱讀模式。</string>
+<string name="tfp_msg_err_loading_page">載入頁面時發生\n錯誤</string>
+<string name="tfp_menu_reading_view">閱讀檢視</string>
+<string name="tfp_menu_page_view">網頁檢視</string>
+<string name="tfp_misc_page" formatted="false">第 %1 頁，共 %2 頁</string>
+<string name="tfp_app_description">檢視原生 Adobe PDF 檔案與附件。</string>
+<string name="tfp_misc_ok">確定</string>
+<string name="tfp_msg_err_loading_file">載入檔案時發生錯誤</string>
+<string name="tfp_menu_about">關於</string>
+<string name="tfp_menu_go_to_page">移至指定頁</string>
+<string name="tfp_page_label">頁碼 (1-%1)：</string>
+<string name="tfp_misc_cancel">取消</string>
+<string name="tfp_err_invalid_page_num">請輸入有效的頁碼。</string>
+<string name="tfp_password_hint">密碼</string>
+<string name="tfp_password_instructions">此 PDF 受密碼保護。 請輸入密碼以繼續操作。</string>
+<string name="tfp_menu_save">儲存</string>
+<string name="tfp_unknown_name">Unknown.pdf</string>
+<string name="tfp_misc_yes">是</string>
+<string name="tfp_misc_no">否</string>
+<string name="tfp_confirm_save">儲存 \'%1\' 到記憶卡？</string>
+<string name="tfp_save_complete">儲存完畢</string>
+<string name="tfp_no_bookmarks">無書籤</string>
+<string name="tfp_menu_bookmarks">書籤</string>
+<string name="tfp_menu_go_to">移至</string>
+<string name="tfp_menu_collapse">摺疊</string>
+<string name="tfp_menu_expand">展開</string>
+<string name="tfp_menu_send">傳送</string>
+<string name="tfp_misc_emailing">正在寄送電子郵件： %1</string>
+<string name="tfp_menu_properties">內容</string>
+<string name="tfp_prop_title">標題：</string>
+<string name="tfp_prop_author">作者：</string>
+<string name="tfp_prop_subject">主旨：</string>
+<string name="tfp_prop_keywords">關鍵字：</string>
+<string name="tfp_prop_modified">修改時間：</string>
+<string name="tfp_menu_find">尋找</string>
+<string name="tfp_find_hint">尋找目標？</string>
+<string name="tfp_find_no_matches">找不到相符項目。</string>
+<string name="tfp_find_complete">搜尋完畢。</string>
+<string name="tfp_finding">正在尋找 \'%1\'。 請稍候...</string>
+<string name="tfp_wait_page_load">請等候目前頁面完成載入。</string>
+<string name="tfp_menu_print">列印</string>
+<string name="tfp_security_print">文件的安全性設定禁止列印。</string>
+<string name="tfp_misc_page_range">頁面範圍</string>
+<string name="tfp_all_pages_label">所有頁面</string>
+<string name="tfp_current_page_label">目前頁面</string>
+<string name="tfp_page_from_label">從：</string>
+<string name="tfp_page_to_label">到：</string>
+<string name="tfp_err_invalid_page_range">請輸入有效的頁面範圍。</string>
+<string name="tfp_preparing_page">準備頁面 %1...</string>
+<string name="tfp_menu_file">檔案</string>
+<string name="tfp_menu_zoom">縮放</string>
+<string name="tfp_menu_zoom_fit">符合螢幕寬度</string>
+<string name="tfp_menu_zoom_percent">%1%</string>
+<string name="tfp_menu_display_mode">顯示模式</string>
+<string name="tfp_misc_original_display">原機顯示</string>
+<string name="tfp_misc_positive_display">正色顯示</string>
+<string name="tfp_misc_negative_display">負片顯示</string>
+<string name="tfp_menu_brightness">亮度</string>
+<string name="tfp_misc_cancel_audio">按下返回按鈕取消音訊。</string>
+<string name="tfp_label_product">%s Mobile for Android\u2122</string>
+<string name="tfp_link_about"><a href="http://www.thinkfree.com/go?id=mobile_main">關於</a></string>
+<string name="tfp_link_help"><a href="http://www.thinkfree.com/go?id=help_en_us_and_hd">說明</a></string>
+<string name="tfp_link_support"><a href="http://www.thinkfree.com/go?id=help_online">支援</a></string>
+<string name="tfp_link_terms"><a href="http://www.thinkfree.com/go?id=terms">條款</a></string>
+<string name="tfp_link_privacy"><a href="http://www.thinkfree.com/go?id=privacy">隱私權</a></string>
+<string name="tfp_link_ack"><a href="http://www.thinkfree.com/go?id=ack_and">聲明</a></string>
+<string name="tfp_link_separator">|</string>
+<string name="tfp_label_copyright">\u00A92011 Hancom Inc. 著作權所有，並保留一切權利。 \nThinkFree 和 ThinkFree 標誌均為 Hancom Inc. 的商標。</string>
+<string name="tfp_label_accord">本產品部份內容係根據  <a href="http://code.google.com/policies.html">Google 所建立並共用</a> 之工作修改而成，並依據  <a href="http://creativecommons.org/licenses/by/2.5">Creative Commons 2.5 Attributions 授權中的說明進行使用。</a></string>
+</resources>

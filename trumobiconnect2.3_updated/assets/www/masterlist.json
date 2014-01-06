@@ -1,0 +1,10 @@
+{
+  "1": "Block_Allow",
+  "1f":"B",
+  "2": "Allow_Downloads",
+  "2f":"Y",
+  "3": "Allow_Copy",
+  "3f":"Y",
+  "4": "Block_Cookies",
+  "4f":"N"
+}

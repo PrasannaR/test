@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="200dp"
+    android:orientation="vertical"
+    android:padding="2dip" 
+    android:filterTouchesWhenObscured="true">
+
+    <ImageView
+        android:id="@+id/fav_image_thumb"
+        android:layout_width="fill_parent"
+        android:layout_height="200dp"
+        android:adjustViewBounds="true"
+        android:scaleType="fitXY"
+        android:src="@drawable/contacts_ic_contact_picture_180_holo_light" />
+
+    <TextView
+        android:id="@+id/fav_gray_name_overlay"
+        android:layout_width="fill_parent"
+        android:layout_height="35dp"
+        android:layout_alignBottom="@id/fav_image_thumb"
+        android:layout_alignParentBottom="true"
+        android:alpha="0.7"
+        android:background="@color/Black"
+        android:ellipsize="end"
+        android:gravity="left|center_vertical"
+        android:lines="1"
+        android:padding="4dip"
+        android:textColor="@color/White" >
+    </TextView>
+
+</RelativeLayout>

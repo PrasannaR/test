@@ -1,0 +1,23 @@
+// Vertex Shader. 
+
+attribute vec4 Position;
+attribute vec4 DiffuseMaterial;
+attribute vec4 Normal;
+attribute vec2 TextureCoord;
+
+uniform mat4 WorldMatrix;
+uniform mat4 Projection;
+uniform mat4 Modelview;
+uniform int ShadowOn;
+ 
+varying vec4 Diffuse;
+varying vec2 TextureCoordOut;
+
+
+void main(void)
+{
+    Diffuse = Normal;
+    gl_Position =  WorldMatrix * Position;
+    
+    TextureCoordOut = TextureCoord;
+}

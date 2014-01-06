@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+	<item android:id="@+id/calc_menu_file" android:title="@string/file" android:icon="@drawable/menu_file">
+		<menu>
+			<item android:id="@+id/calc_menu_save" android:title="@string/save" />
+			<item android:id="@+id/calc_menu_send" android:title="@string/send" />
+			<item android:id="@+id/calc_menu_prop" android:title="@string/properties" />
+		</menu>
+	</item>
+	<item android:id="@+id/calc_menu_find_group" android:title="@string/find" android:icon="@drawable/menu_find">
+		<menu>
+			<item android:id="@+id/calc_menu_find" android:title="@string/find" android:icon="@drawable/menu_find" />	
+			<item android:id="@+id/calc_menu_goto" android:title="@string/calc_goto" android:icon="@drawable/calc_menu_goto" />
+		</menu>
+	</item>
+	<item
+		android:id="@+id/calc_menu_sheet"
+		android:title="@string/calc_worksheets"
+		android:icon="@drawable/calc_menu_worksheets"
+	/>
+	<item
+		android:id="@+id/calc_menu_zoom"
+		android:title="@string/zoom"
+		android:icon="@drawable/menu_zoom"
+	/>
+	<item
+		android:id="@+id/calc_menu_sheet_hide_unhide"
+		android:title="@string/calc_sheethide"
+	/>
+	<item
+		android:id="@+id/calc_menu_full_screen"
+		android:title="@string/fullscreen"
+		android:icon="@drawable/menu_fullscreen"
+	/>
+	<item
+		android:id="@+id/calc_menu_preferences"
+		android:title="@string/preferences"
+		android:icon="@drawable/menu_preferences"
+	/>
+	<item
+		android:id="@+id/calc_menu_about"
+		android:title="@string/about"
+		android:icon="@drawable/menu_about"
+	/>
+	<item
+		android:id="@+id/calc_menu_print"
+		android:title="@string/print"
+		android:icon="@drawable/menu_print"
+	/>
+</menu>
