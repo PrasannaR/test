@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+   	<!-- option menu -->
+	<string name="write_goto_view_mode">Ga naar tekstmodus</string>
+    
+	<!-- words -->
+   	<string name="write_dictionary_select_language">Taal selecteren</string>
+	<string name="write_dictionary_english">Engels</string>
+	<string name="write_dictionary_korean">Koreaans</string>
+	<string name="write_dictionary_japanese">Japans</string>
+	<string name="write_dictionary_spanish">Spaans</string>
+	<string name="write_dictionary_french">Frans</string>
+	<string name="write_dictionary_portuguese">Portugees</string>
+	<string name="write_dictionary_chinese">Chinees</string>
+	<string name="write_display_mode">Weergavemodus</string>
+	<string name="write_fit_to_screen_width">Aanpassen aan schermbreedte</string>
+	<string name="write_show_all_marks">Alle bewerkingsmarkeringen weergeven</string>
+	<string name="write_show_smart_zoom">Smart-zoom weergeven</string>
+	<string name="write_show_picture_placeholders">Afbeeldingsaanduidingen weergeven</string>
+	<string name="write_show_scrolling_icons">Schuifpictogrammen weergeven</string>
+	<string name="write_reflow_view">Teruglopende weergave</string>
+	<string name="write_bookmark">Bladwijzers weergeven</string>
+	<string name="write_bookmark_add">Toevoegen</string>
+	<string name="write_bookmark_delete">Verwijderen</string>
+	<string name="write_bookmark_goto">Ga naar</string>
+	<string name="write_preferences">Voorkeuren voor Document Viewer</string>
+	<string-array name="write_display_modes">
+		<item>Oorspronkelijke weergave</item>
+		<item>Positieve weergave</item>
+		<item>Negatieve weergave</item>
+	</string-array>
+	
+	<!-- messages -->
+	<string name="write_msg_show_all_marks">Alle bewerkingsmarkeringen weergeven of verbergen</string>
+	<string name="write_msg_show_smart_zoom">Automatisch in- of uitzoomen op uw tekst</string>
+	<string name="write_msg_show_picture_placeholders">In documenten een leeg vak weergeven in plaats van een afbeelding</string>
+	<string name="write_msg_show_scrolling_icons">Schuifpictogrammen weergeven of verbergen</string>
+	<string name="write_msg_reflow_view">Documenten bekijken zonder horizontale schuifbalk</string>
+	<string name="write_msg_hyperlink">Dubbeltik op de koppeling om deze te volgen</string>
+	<string name="write_msg_bookmark">Bladwijzers weergeven of verbergen</string>
+	<string name="write_msg_dictionary_no_results">Geen resultaten gevonden voor \&quot;%s\&quot;</string>
+	<string name="write_msg_dictionary_invalid_response">Ongeldige reactie van server</string>
+	<string name="write_msg_select_txt_extention">Waarschuwing: Alleen tekst wordt opgeslagen.</string>
+	
+	<string name="write_msg_zoom">%d%%</string>
+</resources>

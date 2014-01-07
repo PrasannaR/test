@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<!-- application names -->
+	<string name="calc_hd">ThinkFree Calc HD</string>
+	<string name="calc_preferences">Innstillinger for ThinkFree Calc</string>
+
+	<!-- menu titles/items -->
+	<string name="calc_title_app">ThinkFree Calc</string>
+	<string name="calc_worksheets">Regneark</string>
+	<string name="calc_goto">Gå til</string>
+	<string name="calc_label_print_range">Utskriftsområde</string>
+
+	<!-- activity/dialog titles -->
+	<string name="calc_select_sheet">Velg ark</string>
+	<string name="calc_show_hidden_sheets">Vis skjulte ark</string>
+
+	<!-- button labels
+	<string name="calc_button_sheets">Sheets</string>
+	-->
+
+	<!-- short messages for toasts and dialogs -->
+	<string name="calc_msg_title">Calc</string>
+	<string name="calc_msg_invalid_dir">Ugyldig mappe: \'%s\'</string>
+	<string name="calc_msg_empty_sheet">Dette arket har ikke noe innhold.</string>
+	<string name="calc_msg_searching">Søker ...</string>
+	<string name="calc_msg_invalid_ref">Ugyldig referanse</string>
+	<string name="calc_msg_enter_ref">Angi referanse</string>
+	<string name="calc_msg_print_ok">OK</string>
+	<string name="calc_msg_print_cancel">Avbryt</string>
+	<string name="calc_msg_print_range_all">Gjeldende ark</string>
+	<string name="calc_msg_print_current">Valgt område</string>
+	<string name="calc_msg_row_resize">Punkt</string>
+	<string name="calc_msg_col_resize">Antall tegn</string>
+
+	<!-- descriptions on the preference screen -->
+	<string name="calc_msg_shows_hidden_sheets">Vis skjulte ark på denne listen</string>
+	
+	<string name="calc_sheethide">Skjul arkfaner</string>
+	<string name="calc_sheetunhide">Vis arkfaner</string>
+	    
+</resources>

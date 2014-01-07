@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<string name="tts_title">Text to speech</string>
+<string name="tts_install_title">Install voice data</string>
+<string name="tts_install_message">Do you want to install the voice data required for speech synthesis?</string>
+</resources>

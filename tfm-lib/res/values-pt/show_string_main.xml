@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<!-- title -->
+    <string name="show_title_app">ThinkFree Show</string>
+    <string name="show_title_preferences">Preferências do ThinkFree Show</string>
+
+	<!-- LABEL_COMMON -->
+    <string name="show_label_ok">OK</string>
+    <string name="show_label_cancel">Cancelar</string>
+
+    <!-- labels -->
+    <string name="show_label_slides">Diapositivos</string>
+    <string name="show_label_note">Nota</string>
+    <string name="show_label_slideshow">Apresentação de diapositivos</string>
+    <string name="show_label_print">Imprimir</string>
+    
+    <!-- messages -->
+    <string name="show_msg_loading">A carregar...</string>
+    <string name="show_msg_zoom">%d%%</string>
+    <string name="show_msg_no_slide">Sem diapositivo</string>
+    <string name="show_msg_no_note">Sem diapositivo</string>
+    <string name="show_msg_printing">A imprimir \'%s\'...</string>
+    <string name="show_msg_print_fail">Falha ao imprimir</string>
+    <string name="show_msg_out_of_memory">Memória insuficiente</string>
+    <string name="show_msg_unsurpported_video">Não é possível aceder ao ficheiro. Este formato não é suportado ou o ficheiro está em falta ou danificado.</string>
+    <string name="show_msg_last_slideshow">Fim da apresentação de diapositivos</string>
+    
+    <!-- LABEL_TOOL_BAR -->
+    <string name="show_label_print_range">Intervalo de impressão</string>
+    <string name="show_label_print_range_all">Tudo</string>
+    <string name="show_label_print_range_current">Diapositivo actual</string>
+    <string name="show_label_print_range_from">De:</string>
+    <string name="show_label_print_range_to">A:</string>
+    
+    <!-- video option -->
+    <string name="show_video_option">Opções de vídeo</string>
+    <string name="show_video_option_tapped">Quando tocado</string>
+    <string name="show_video_option_automatically">Automaticamente</string>
+    
+    <!-- string name="show_msg_unknown_problem">Unknown problem occurred</string-->
+
+    <!-- preferences -->
+    <string name="show_label_auto_orientation">Orientação automática do ecrã</string>
+    <string name="show_desc_auto_orientation">Activar a definição de orientação automática do ecrã pela proporção do diapositivo</string>
+    <string name="show_label_show_hidden_slides">Mostrar diapositivos ocultos</string>
+    <string name="show_desc_show_hidden_slides">Mostrar diapositivos ocultos</string>
+    <string name="show_label_show_ink_annotations">Mostrar anotações a tinta</string>
+    <string name="show_desc_show_ink_annotations">Mostrar anotações a tinta</string>
+    <string name="show_label_flowview_on_portrait">Definido como modo de vista na vertical</string>
+    <string name="show_desc_flowview_on_portrait">Definido como modo de vista em ecrã vertical e como modo de edição em modo horizontal</string>
+    
+    <!-- FILE TYPE -->
+    <string name="show_filetype_ppt">PowerPoint 97-2003(*.ppt)</string>
+    <string name="show_filetype_pptx">PowerPoint(*.pptx)</string>
+</resources>

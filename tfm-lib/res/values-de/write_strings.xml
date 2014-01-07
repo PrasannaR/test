@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+   	<!-- option menu -->
+	<string name="write_goto_view_mode">Zum Textmodus</string>
+    
+	<!-- words -->
+   	<string name="write_dictionary_select_language">Sprache auswählen</string>
+	<string name="write_dictionary_english">Englisch</string>
+	<string name="write_dictionary_korean">Koreanisch</string>
+	<string name="write_dictionary_japanese">Japanisch</string>
+	<string name="write_dictionary_spanish">Spanisch</string>
+	<string name="write_dictionary_french">Französisch</string>
+	<string name="write_dictionary_portuguese">Portugiesisch</string>
+	<string name="write_dictionary_chinese">Chinesisch</string>
+	<string name="write_display_mode">Anzeigemodus</string>
+	<string name="write_fit_to_screen_width">An Bildschirmbreite anpassen</string>
+	<string name="write_show_all_marks">Alle Bearbeitungsmarken einblenden</string>
+	<string name="write_show_smart_zoom">Intelligenten Zoom anzeigen</string>
+	<string name="write_show_picture_placeholders">Platzhalter für Grafiken anzeigen</string>
+	<string name="write_show_scrolling_icons">Bildlaufsymbole anzeigen</string>
+	<string name="write_reflow_view">Umformatierungsansicht</string>
+	<string name="write_bookmark">Textmarken anzeigen</string>
+	<string name="write_bookmark_add">Hinzufügen</string>
+	<string name="write_bookmark_delete">Löschen</string>
+	<string name="write_bookmark_goto">Gehe zu</string>
+	<string name="write_preferences">Document Viewer Voreinstellungen</string>
+	<string-array name="write_display_modes">
+		<item>Originalanzeige</item>
+		<item>Positive Anzeige</item>
+		<item>Negative Anzeige</item>
+	</string-array>
+	
+	<!-- messages -->
+	<string name="write_msg_show_all_marks">Alle Bearbeitungsmarken ein-/ausblenden</string>
+	<string name="write_msg_show_smart_zoom">Text automatisch vergrößern oder verkleinern</string>
+	<string name="write_msg_show_picture_placeholders">Zeigt ein leeres Feld anstelle der Grafik im Dokument an</string>
+	<string name="write_msg_show_scrolling_icons">Bildlaufsymbole ein-/ausblenden</string>
+	<string name="write_msg_reflow_view">Dokumente ohne die horizontale Bildlaufleiste anzeigen</string>
+	<string name="write_msg_hyperlink">Zum Aufrufen auf den Link doppeltippen</string>
+	<string name="write_msg_bookmark">Textmarken ein-/ausblenden</string>
+	<string name="write_msg_dictionary_no_results">Keine Ergebnisse mit \&quot;%s\&quot; gefunden</string>
+	<string name="write_msg_dictionary_invalid_response">Ungültige Antwort an Server</string>
+	<string name="write_msg_select_txt_extention">Warnung: Nur Text wird gespeichert.</string>
+	
+	<string name="write_msg_zoom">%d%%</string>
+</resources>

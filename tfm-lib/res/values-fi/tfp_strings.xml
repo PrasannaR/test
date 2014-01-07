@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<string name="tfp_app_name">ThinkFree PDF Viewer</string>
+<string name="tfp_err_bad_catalog">Virhe avattaessa tiedostoa. Sivuluettelo on virheellinen.</string>
+<string name="tfp_err_damaged_file">Virhe avattaessa tiedostoa. Se on viallinen.</string>
+<string name="tfp_err_open_file">Virhe avattaessa tiedostoa. Sitä ei ole, tai sitä ei voi lukea.</string>
+<string name="tfp_err_open_unknown">Virhe avattaessa tiedostoa. Se ei ehkä ole kelvollinen PDF-tiedosto.</string>
+<string name="tfp_err_out_of_memory">Virhe. Muisti ei riitä jatkamiseen.</string>
+<string name="tfp_err_non_standard_security_handler">Virhe avattaessa tiedostoa. Sen salaamiseen käytettyä suojauskäsittelijää ei tueta.</string>
+<string name="tfp_err_loading_page">Virhe ladattaessa sivua.</string>
+<string name="tfp_msg_blank_page">Tyhjä sivu</string>
+<string name="tfp_msg_no_read_mode">Lukutilaa\nei voi käyttää\ntällä sivulla.</string>
+<string name="tfp_msg_err_loading_page">Virhe ladattaessa\nsivua</string>
+<string name="tfp_menu_reading_view">Lukunäkymä</string>
+<string name="tfp_menu_page_view">Sivunäkymä</string>
+<string name="tfp_misc_page" formatted="false">%1/%2</string>
+<string name="tfp_app_description">Näytä alkuperäiset Adoben PDF-tiedostot ja liitteet.</string>
+<string name="tfp_misc_ok">OK</string>
+<string name="tfp_msg_err_loading_file">Virhe ladattaessa tiedostoa</string>
+<string name="tfp_menu_about">Tietoja</string>
+<string name="tfp_menu_go_to_page">Siirry sivulle</string>
+<string name="tfp_page_label">Sivu (1–%1):</string>
+<string name="tfp_misc_cancel">Peruuta</string>
+<string name="tfp_err_invalid_page_num">Anna kelvollinen sivunumero.</string>
+<string name="tfp_password_hint">Salasana</string>
+<string name="tfp_password_instructions">Tämä PDF on suojattu salasanalla. Jatka antamalla salasana.</string>
+<string name="tfp_menu_save">Tallenna</string>
+<string name="tfp_unknown_name">Tuntematon.pdf</string>
+<string name="tfp_misc_yes">Kyllä</string>
+<string name="tfp_misc_no">Ei</string>
+<string name="tfp_confirm_save">Tallennetaanko \'%1\' muistikorttiin?</string>
+<string name="tfp_save_complete">Tallennus valmis</string>
+<string name="tfp_no_bookmarks">Ei kirjanmerkkejä</string>
+<string name="tfp_menu_bookmarks">Kirjanmerkit</string>
+<string name="tfp_menu_go_to">Siirry</string>
+<string name="tfp_menu_collapse">Kutistus</string>
+<string name="tfp_menu_expand">Laajennus</string>
+<string name="tfp_menu_send">Lähetä</string>
+<string name="tfp_misc_emailing">Lähetetään sähköpostia: %1</string>
+<string name="tfp_menu_properties">Ominaisuudet</string>
+<string name="tfp_prop_title">Otsikko:</string>
+<string name="tfp_prop_author">Tekijä:</string>
+<string name="tfp_prop_subject">Aihe:</string>
+<string name="tfp_prop_keywords">Avainsanat:</string>
+<string name="tfp_prop_modified">Muokattu:</string>
+<string name="tfp_menu_find">Hae</string>
+<string name="tfp_find_hint">Haettava kohde:</string>
+<string name="tfp_find_no_matches">Ei vastineita.</string>
+<string name="tfp_find_complete">Haku valmis.</string>
+<string name="tfp_finding">Haetaan \'%1\'. Odota...</string>
+<string name="tfp_wait_page_load">Odota, että nykyisen sivun lataus on valmis.</string>
+<string name="tfp_menu_print">Tulosta</string>
+<string name="tfp_security_print">Asiakirjan suojaus estää tulostuksen.</string>
+<string name="tfp_misc_page_range">Sivualue</string>
+<string name="tfp_all_pages_label">Kaikki sivut</string>
+<string name="tfp_current_page_label">Nykyinen sivu</string>
+<string name="tfp_page_from_label">Mistä:</string>
+<string name="tfp_page_to_label">Mihin:</string>
+<string name="tfp_err_invalid_page_range">Anna kelvollinen sivualue.</string>
+<string name="tfp_preparing_page">Valmistellaan sivua %1...</string>
+<string name="tfp_menu_file">Tiedosto</string>
+<string name="tfp_menu_zoom">Zoomaa</string>
+<string name="tfp_menu_zoom_fit">Sovita näytön leveyteen</string>
+<string name="tfp_menu_zoom_percent">%1%</string>
+<string name="tfp_menu_display_mode">Näyttötila</string>
+<string name="tfp_misc_original_display">Alkuperäinen näyttö</string>
+<string name="tfp_misc_positive_display">Positiivinen näyttö</string>
+<string name="tfp_misc_negative_display">Negatiivinen näyttö</string>
+<string name="tfp_menu_brightness">Kirkkaus</string>
+<string name="tfp_misc_cancel_audio">Peruuta äänet paluupainikkeella.</string>
+<string name="tfp_label_product">%s Mobile for Android\u2122</string>
+<string name="tfp_link_about"><a href="http://www.thinkfree.com/go?id=mobile_main">Tietoja</a></string>
+<string name="tfp_link_help"><a href="http://www.thinkfree.com/go?id=help_en_us_and_hd">Ohje</a></string>
+<string name="tfp_link_support"><a href="http://www.thinkfree.com/go?id=help_online">Tuki</a></string>
+<string name="tfp_link_terms"><a href="http://www.thinkfree.com/go?id=terms">Ehdot</a></string>
+<string name="tfp_link_privacy"><a href="http://www.thinkfree.com/go?id=privacy">Tietosuoja</a></string>
+<string name="tfp_link_ack"><a href="http://www.thinkfree.com/go?id=ack_and">Ilmoitus</a></string>
+<string name="tfp_link_separator">|</string>
+<string name="tfp_label_copyright">\u00A92011 Hancom Inc. Kaikki oikeudet pidätetään. \n ThinkFree ja ThinkFree-logo ovat Hancom Inc:n tavaramerkkejä.</string>
+<string name="tfp_label_accord">Jotkin tämän tuotteen osat ovat muunnelmia, jotka perustuvat <a href="http://code.google.com/policies.html">Googlen luomaan ja jakamaan</a> tekniikkaan, jota käytetään <a href="http://creativecommons.org/licenses/by/2.5">Creative Commons 2.5 Attributions License -lisenssin ehtojen mukaisesti.</a></string>
+</resources>

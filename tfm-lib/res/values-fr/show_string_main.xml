@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<!-- title -->
+    <string name="show_title_app">ThinkFree Show</string>
+    <string name="show_title_preferences">Préférences ThinkFree Show</string>
+
+	<!-- LABEL_COMMON -->
+    <string name="show_label_ok">OK</string>
+    <string name="show_label_cancel">Annuler</string>
+
+    <!-- labels -->
+    <string name="show_label_slides">Diapositives</string>
+    <string name="show_label_note">Comment.</string>
+    <string name="show_label_slideshow">Diaporama</string>
+    <string name="show_label_print">Imprimer</string>
+    
+    <!-- messages -->
+    <string name="show_msg_loading">Chargement en cours</string>
+    <string name="show_msg_zoom">%d%%</string>
+    <string name="show_msg_no_slide">Aucune diapositive</string>
+    <string name="show_msg_no_note">Aucun commentaire</string>
+    <string name="show_msg_printing">Impression de “%s” en cours</string>
+    <string name="show_msg_print_fail">Échec de l\'impression</string>
+    <string name="show_msg_out_of_memory">Mémoire insuffisante</string>
+    <string name="show_msg_unsurpported_video">Impossible d\'accéder au fichier. Le type de fichier n\'est pas pris en charge ou le fichier est manquant ou corrompu.</string>
+    <string name="show_msg_last_slideshow">Fin du diaporama</string>
+    
+    <!-- LABEL_TOOL_BAR -->
+    <string name="show_label_print_range">Zone d\'impression</string>
+    <string name="show_label_print_range_all">Toutes</string>
+    <string name="show_label_print_range_current">Diapositive actuelle</string>
+    <string name="show_label_print_range_from">De :</string>
+    <string name="show_label_print_range_to">À :</string>
+    
+    <!-- video option -->
+    <string name="show_video_option">Options des vidéos</string>
+    <string name="show_video_option_tapped">Après une pression</string>
+    <string name="show_video_option_automatically">Automatiquement</string>
+    
+    <!-- string name="show_msg_unknown_problem">Unknown problem occurred</string-->
+
+    <!-- preferences -->
+    <string name="show_label_auto_orientation">Orientation automatique de l\'écran</string>
+    <string name="show_desc_auto_orientation">Activer l\'orientation automatique de l\'écran selon le rapport hauteur-largeur de la diapositive</string>
+    <string name="show_label_show_hidden_slides">Afficher les diapositives masquées</string>
+    <string name="show_desc_show_hidden_slides">Afficher les diapositives masquées</string>
+    <string name="show_label_show_ink_annotations">Afficher les annotations manuscrites</string>
+    <string name="show_desc_show_ink_annotations">Afficher les annotations manuscrites</string>
+    <string name="show_label_flowview_on_portrait">Définir comme mode d\'affichage en portrait</string>
+    <string name="show_desc_flowview_on_portrait">Définir comme mode d\'affichage en portrait, comme mode d\'édition en paysage</string>
+    
+    <!-- FILE TYPE -->
+    <string name="show_filetype_ppt">PowerPoint 97-2003 (*.ppt)</string>
+    <string name="show_filetype_pptx">PowerPoint (*.pptx)</string>
+</resources>
