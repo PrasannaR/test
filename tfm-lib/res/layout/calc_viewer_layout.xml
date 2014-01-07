@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:id="@+id/calc_window"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+>
+
+    <com.tf.thinkdroid.common.widget.Actionbar
+		android:id="@+id/calc_actionbar"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:layout_alignParentLeft="true"
+		android:layout_alignParentRight="true"
+		android:layout_alignParentTop="true"
+		android:visibility="gone"
+	/>
+    
+	<FrameLayout
+		android:id="@+id/calc_main_view_panel"
+		android:layout_width="fill_parent"
+		android:layout_height="fill_parent"
+		android:layout_alignParentLeft="true"
+		android:layout_alignParentRight="true"
+		android:layout_below="@+id/calc_actionbar"
+	>
+
+	    <com.tf.thinkdroid.calc.view.tab.TabContainer
+		    	android:id="@+id/calc_tab_container"
+				android:layout_width="fill_parent"
+				android:layout_height="fill_parent"
+			>
+			
+		    <com.tf.thinkdroid.calc.view.SurfaceBookView
+		    	android:id="@+id/calc_main_view"
+				android:layout_width="fill_parent"
+				android:layout_height="fill_parent"
+				android:scrollbars="vertical|horizontal"
+			/>
+	    </com.tf.thinkdroid.calc.view.tab.TabContainer>
+		    
+		<include android:id="@+id/calc_bottom_panel" layout="@layout/calc_bottom_panel" />
+		<com.tf.thinkdroid.common.widget.FinderView
+			android:id="@+id/calc_finder"
+			android:visibility="gone"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:layout_gravity="top|center_horizontal"
+		/>
+	</FrameLayout>
+	
+	<FrameLayout
+		android:id="@+id/calc_panel_ad"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:layout_alignParentBottom="true"
+		android:layout_alignParentLeft="true"
+		android:layout_alignParentRight="true"
+		android:background="#000000"
+	/>
+</RelativeLayout>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="50dp"
+    android:background="@drawable/cal_eventheadershadow"
+    android:baselineAligned="false"
+    android:orientation="horizontal" 
+    android:filterTouchesWhenObscured="true">
+
+    <FrameLayout
+        android:id="@+id/actionbar_discard"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:layout_marginRight="1dp"
+        android:clickable="true"
+        android:background="@drawable/header_bg" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:drawableLeft="@drawable/cal_ic_menu_cancel_holo_light"
+            android:drawablePadding="8dp"
+            android:gravity="center_vertical"
+            android:paddingRight="20dp"
+            android:text="@string/cancel"
+            android:textColor="@color/white"/>
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/actionbar_done"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:background="@drawable/header_bg" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:drawableLeft="@drawable/cal_ic_menu_done_holo_light"
+            android:drawablePadding="8dp"
+            android:gravity="center_vertical"
+            android:paddingRight="20dp"
+            android:text="@string/done"
+            android:textColor="@color/white" />
+    </FrameLayout>
+
+</LinearLayout>

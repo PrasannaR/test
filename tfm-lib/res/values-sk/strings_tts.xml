@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<string name="tts_title">Prevod textu na reč</string>
+<string name="tts_install_title">Inštalovať hlasové údaje</string>
+<string name="tts_install_message">Chcete nainštalovať hlasové údaje potrebné na syntézu reči?</string>
+</resources>

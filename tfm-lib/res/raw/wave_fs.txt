@@ -1,0 +1,15 @@
+// FragmentShader
+precision mediump float; 
+
+varying mediump vec2 TextureCoordOut;
+varying mediump float DarknessOut;
+
+uniform sampler2D Sampler;
+
+void main(void)
+{
+	if(DarknessOut == 1.0)
+		gl_FragColor = texture2D(Sampler, TextureCoordOut);
+	else
+		gl_FragColor = texture2D(Sampler, TextureCoordOut) * DarknessOut;
+}

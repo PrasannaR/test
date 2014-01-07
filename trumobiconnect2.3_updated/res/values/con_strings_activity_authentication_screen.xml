@@ -1,0 +1,16 @@
+<resources>
+
+    <!-- Strings related to login -->
+    <string name="container_prompt_email">Email</string>
+    <string name="container_prompt_password">Password</string>
+    <string name="container_action_sign_in_register"><b>Login</b></string>
+    <string name="container_action_sign_in_short">Sign in</string>
+    <string name="container_menu_forgot_password">Recover lost password</string>
+    <string name="container_login_progress_signing_in">Loading&#8230;</string>
+    <string name="container_login_progress_attachment_checking">Checking Attachments&#8230;</string>
+    <string name="container_error_invalid_email">This email address is invalid</string>
+    <string name="container_error_invalid_password">This password is too short</string>
+    <string name="container_error_incorrect_password">This password is incorrect</string>
+    <string name="container_error_field_required">This field is required</string>
+
+</resources>

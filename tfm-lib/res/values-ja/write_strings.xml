@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+   	<!-- option menu -->
+	<string name="write_goto_view_mode">テキスト モードに切り替え</string>
+    
+	<!-- words -->
+   	<string name="write_dictionary_select_language">言語の選択</string>
+	<string name="write_dictionary_english">英語</string>
+	<string name="write_dictionary_korean">韓国語</string>
+	<string name="write_dictionary_japanese">日本語</string>
+	<string name="write_dictionary_spanish">スペイン語</string>
+	<string name="write_dictionary_french">フランス語</string>
+	<string name="write_dictionary_portuguese">ポルトガル語</string>
+	<string name="write_dictionary_chinese">中国語</string>
+	<string name="write_display_mode">表示モード</string>
+	<string name="write_fit_to_screen_width">画面の幅に合わせる</string>
+	<string name="write_show_all_marks">すべての編集記号の表示</string>
+	<string name="write_show_smart_zoom">スマート ズームの表示</string>
+	<string name="write_show_picture_placeholders">プレースホルダー表示</string>
+	<string name="write_show_scrolling_icons">スクロール アイコン表示</string>
+	<string name="write_reflow_view">リフロー ビュー</string>
+	<string name="write_bookmark">ブックマークを表示</string>
+	<string name="write_bookmark_add">追加</string>
+	<string name="write_bookmark_delete">削除</string>
+	<string name="write_bookmark_goto">ジャンプ</string>
+	<string name="write_preferences">Document Viewer 環境設定</string>
+	<string-array name="write_display_modes">
+		<item>元の表示</item>
+		<item>ポジ表示</item>
+		<item>ネガ表示</item>
+	</string-array>
+	
+	<!-- messages -->
+	<string name="write_msg_show_all_marks">すべての編集記号の表示/非表示を切り替えます</string>
+	<string name="write_msg_show_smart_zoom">自動的にテキストにズームインまたはズームアウト</string>
+	<string name="write_msg_show_picture_placeholders">文書内のグラフィックの代わりに空の枠を表示します</string>
+	<string name="write_msg_show_scrolling_icons">スクロール アイコンの表示/非表示</string>
+	<string name="write_msg_reflow_view">水平スクロールせずに文書を表示</string>
+	<string name="write_msg_hyperlink">リンクをダブル タップして表示</string>
+	<string name="write_msg_bookmark">ブックマークの表示または非表示</string>
+	<string name="write_msg_dictionary_no_results">&quot;%s&quot; を含む結果は見つかりませんでした</string>
+	<string name="write_msg_dictionary_invalid_response">サーバーへの応答が無効です</string>
+	<string name="write_msg_select_txt_extention">警告: テキストのみが保存されます。</string>
+	
+	<string name="write_msg_zoom">%d%%</string>
+</resources>

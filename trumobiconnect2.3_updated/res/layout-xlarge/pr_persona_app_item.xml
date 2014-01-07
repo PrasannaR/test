@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" 
+    android:filterTouchesWhenObscured="true">
+
+    <ImageView
+        android:id="@+id/homeScreenAppIconView"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_centerVertical="true"
+        android:layout_marginBottom="20dip"
+        android:layout_marginLeft="20dip"
+        android:layout_marginRight="20dip"
+        android:layout_marginTop="20dip" />
+
+    <ProgressBar
+        android:id="@+id/progressImageIcon"
+        android:layout_width="15dip"
+        android:layout_height="15dip"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/grid_item_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/homeScreenAppIconView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:textColor="@color/COLOR_WHITE"
+        android:textStyle="bold"
+        android:textSize="15sp" />
+
+    <RelativeLayout
+        android:id="@+id/install_layout"
+        android:layout_width="60dp"
+        android:layout_height="25dp"
+        android:layout_below="@+id/grid_item_label"
+        android:layout_centerHorizontal="true"
+        android:background="#343030"
+        android:orientation="horizontal"
+        android:textColor="@color/COLOR_WHITE"
+        android:visibility="invisible" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="Install"
+            android:textColor="@color/COLOR_WHITE"
+            android:textSize="13sp"
+            android:textStyle="bold" />
+    </RelativeLayout>
+
+</RelativeLayout>
