@@ -1,0 +1,204 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<resources>
+    <!-- words -->
+    <!-- apps -->
+    <string name="app_name" translatable="false">ThinkFree Office</string>
+    <string name="tfwrite" translatable="false">ThinkFree Write</string>
+    <string name="tfcalc" translatable="false">ThinkFree Calc</string>
+    <string name="tfshow" translatable="false">ThinkFree Show</string>
+    <string name="tfpdf" translatable="false">ThinkFree PDF Viewer</string>
+    <string name="market_pub" translatable="false">ThinkFree Office</string>
+    
+    <string name="file">File</string>
+    <string name="properties">Proprietà</string>
+    <string name="send">Invia</string>
+    <string name="share">Condividi</string>
+    <string name="save">Salva</string>
+    <string name="zoom">Zoom</string>
+    <string name="zoom_in">Zoom avanti</string>
+    <string name="zoom_out">Zoom indietro</string>
+    <string name="preferences">Preferenze</string>
+    <string name="horizontal_page_scrolling">Scorrimento pagina orizzontale</string>
+    <string name="vertical_page_scrolling">Scorrimento pagina verticale</string>
+    <string name="refresh">Aggiorna</string>
+    <string name="delete_all">Elimina tutto</string>
+    <string name="update">Aggiornamenti</string>
+    <string name="about">Informazioni su</string>
+    <string name="find">Trova</string>
+    <string name="replace">Sostituisci</string>
+    <string name="sort">Ordina</string>
+    <string name="fullscreen">Schermo intero</string>
+    <string name="normalscreen">Schermo normale</string>
+    <string name="texttospeech">Sintesi vocale</string>
+    <string name="dictionary">Dizionario</string>
+    <string name="save_to">Salva in</string>
+    <string name="edit">Modifica</string>
+    <string name="view">Visualizza</string>
+    <string name="save_as">Salva con nome</string>
+    <string name="save_as_pdf">Salva come PDF</string>
+    <string name="select">Seleziona</string>
+    <string name="select_all">Seleziona tutto</string>
+    <string name="select_word">Seleziona parola</string>
+    <string name="select_line">Seleziona linea</string>
+    <string name="select_paragraph">Seleziona paragrafo</string>
+    <string name="insert_shape">Inserisci forma</string>
+    <string name="object">Oggetto</string>
+    <string name="text">Testo</string>
+    <string name="from_camera_image">Da fotocamera (immagine)</string>
+    <string name="from_camera_video">Da fotocamera (video)</string>
+    <string name="from_gallery_image">Da raccolta (immagine)</string>
+    <string name="from_gallery_video">Da raccolta (video)</string>
+    <string name="from_scribble_pad">Da scribble pad</string>
+    <string name="font">Caratt.</string>
+    <string name="bold">Grassetto</string>
+    <string name="italic">Corsivo</string>
+    <string name="superscript">Apice</string>
+    <string name="subscript">Pedice</string>
+    <string name="size">Dimensioni</string>
+    <string name="color">Colore</string>
+    <string name="align">Allinea</string>
+    <string name="insert">Inserisci</string>
+    <string name="delete">Elimina</string>
+    <string name="insert_paragraph_break">Inserisci interruzione paragrafo</string>
+    <string name="keyboard">Tastiera</string>
+    <string name="clipboard">Appunti</string>
+    <string name="undo">Annulla azione</string>
+    <string name="redo">Ripeti</string>
+    <string name="copy">Copia</string>
+    <string name="cut">Taglia</string>
+    <string name="paste">Incolla</string>
+    <string name="all_caps">Tutto maiuscole</string>
+    <string name="small_caps">Maiuscoletto</string>
+    <string name="strike">Barrato</string>
+    <string name="dstrike">Barrato doppio</string>
+    <string name="input_method">Metodo di immissione</string>
+    <string name="yes">Sì</string>
+    <string name="no">No</string>
+    <string name="ok">OK</string>
+    <string name="cancel">Annulla</string>
+    <string name="close">Chiudi</string>
+    <string name="more">Altro...</string>
+    <string name="encrypted_document">Documento crittografato</string>
+    <string name="password">Password</string>
+    <string name="text_encoding">Codifica testo</string>
+    <string name="exit">Esci</string>
+    <string name="others">Altri</string>
+    <string name="build_number">Numero build</string>
+    <string name="create_backup_copy">Crea copia backup</string>
+    <string name="align_left">Sinistra</string>
+    <string name="align_center">Centro</string>
+    <string name="align_right">Destra</string>
+    <string name="align_justified">Giustificato</string>
+    <string name="auto">Automatico</string>
+    <string name="none">Nessuno</string>
+    <string name="effect">Effetto</string>
+    <string name="print">Stampa</string>
+    <string name="label_print_range">Intervallo di stampa</string>
+    <string name="label_print_range_all">Tutto</string>
+    <string name="label_print_range_current">Pagina corrente</string>
+    <string name="label_print_range_from">Da:</string>
+    <string name="label_print_range_to">A:</string>
+    <string name="fill_color">Colore riempimento</string>
+    <string name="line_color">Colore linea</string>
+    <string name="line_width">Largh. linea</string>
+    <string name="line_dash">Tratteggio</string>
+    <string name="line_end">Fine riga</string>
+    <string name="image_style">Stile immagine</string>
+    <string name="shape_style">Stile forma</string>
+    <string name="object_properties">Proprietà oggetto</string>
+    <string name="limited_mode">Modalità limitata</string>
+    <string name="insert_table">Inserisci tabella</string>
+    <string name="insert_table_row">Righe</string>
+    <string name="insert_table_column">Colonne</string>
+    <string name="insert_table_ok">OK</string>
+    <string name="table_properties">Proprietà tabella</string>
+    <string name="table_style">Stile tabella</string>
+    <string name="table_style_options">Opzioni stile tabella</string>
+    <string name="delete_table">Elimina tabella</string>
+    <string name="save_to_thinkfree_online">Salva in ThinkFree Online</string>
+    <string name="save_to_local_folder">Salva in cartella locale</string>
+    <string name="no_selected">Nessuno</string>
+    <string name="match_case">Maiuscole/minuscole</string>
+    <string name="find_whole_word_only">Trova solo parole intere</string>
+    <string name="find_entire_cell_only">Trova solo celle intere</string>
+    <string name="finder_view_find">Cosa trovare?</string>
+    <string name="finder_view_replace">Sostituisci con</string>
+    <string name="cache_management">Gestione memorizzazione</string>
+    <string name="delete_data">Cache interna</string>
+    <string name="delete_data_sub">Elimina i dati nella cache per le preferenze</string>
+    <string name="delete_thumbnail">Cache esterna</string>
+    <string name="delete_thumbnail_sub">Elimina i dati nella cache per i documenti ThinkFree</string>
+    <string name="delete_template">Cache file modelli</string>
+    <string name="delete_template_sub">Elimina i dati nella cache per i modelli</string>
+    <string name="delete_confirm_internal_cache">Per eliminare completamente la cache interna, è necessario uscire da ThinkFree Office. Eliminare la cache interna e uscire da Office?</string>
+    <string name="confirm_deletion_des">Eliminare l\'elemento selezionato?</string>
+    <string name="msg_delete_completed">L\'elemento selezionato è stato eliminato.</string>
+    <string name="msg_delete_failed">Impossibile eliminare l\'elemento selezionato.</string>
+    
+    <!-- messages -->
+    <string name="msg_saved_to">Salvato in \'%s\'</string>
+    <string name="msg_failed">Errore</string>
+    <string name="msg_loading">Caricamento \'%s\' in corso...</string>
+    <string name="msg_saving">Salvataggio \'%s\' in corso...</string>
+    <string name="msg_saving_general">Salvataggio in corso...</string>
+    <string name="msg_failed_to_open">Impossibile aprire</string>
+    <string name="msg_failed_to_save">Impossibile salvare</string>
+    <string name="msg_no_matches">Nessuna corrispondenza trovata</string>
+    <string name="msg_matches">%1$d / %2$d corrispondenze</string>
+    <string name="msg_enter_password">Immettere una password</string>
+    <string name="msg_width">Larghezza: %d px</string>
+    <string name="msg_height">Altezza: %d px</string>
+    <string name="msg_ask_to_save">Salvare?</string>
+    <string name="msg_create_backup_copy">Crea la copia di backup di un documento ogni volta che viene salvato</string>
+    <string name="msg_not_enough_memory">Memoria insufficiente</string>
+    <string name="msg_cannot_insert_over_size">Questo allegato supera il limite di 10 MB.</string>
+    <string name="msg_insert_sdcard">Inserire una scheda di memoria SD.</string>
+    <string name="file_name">Nome file</string>
+    <string name="file_type">Tipo file</string>
+    <string name="msg_printing">Stampa di \'%s\' in corso...</string>
+    <string name="msg_print_fail">Impossibile stampare</string>
+    <string name="password_Incorrect">La password immessa non corrisponde alla password registrata.</string>
+    <string name="msg_cannot_open_encrypted_document">Impossibile aprire il file crittografato</string>
+    <string name="msg_lost_password">Se viene salvato come nuovo, la crittografia del file verrà disabilitata. Continuare?</string>
+    <string name="msg_cannot_cancel_save">Impossibile annullare questa operazione durante il processo di salvataggio.</string>
+    <string name="msg_not_enough_sdcard_space">Spazio insufficiente sulla scheda di memoria SD</string>
+    <string name="msg_invalid_format">Formato non supportato o sconosciuto.</string>
+    <string name="msg_encryped_file">File danneggiato.</string>
+    <string name="msg_invalid_version">Versione del documento non supportata o sconosciuta.</string>
+    <string name="msg_canceled_to_open">Impossibile aprire.</string>
+    
+    <!-- upload -->
+    <string name="msg_uploader_title">Carica in</string>
+    <string name="msg_uploader_prepared">Preparazione caricamento in corso...</string>
+    <string name="msg_uploader_failed">Caricamento non riuscito</string>
+    <string name="msg_uploader_size_exceeded">Questo allegato supera il limite di 10 MB.</string>
+    <string name="msg_uploader_cancelled">Caricamento annullato</string>
+    <string name="msg_uploader_uploading">Caricamento in corso...</string>
+    <string name="msg_uploader_finish">Caricamento completato</string>
+    <string name="msg_uploader_connection_fail">Impossibile connettersi alla rete.</string>
+    
+    <!-- Hyperlink -->
+    <string name="hyperlink">Collegamento ipertestuale</string>
+    <string name="delete_hyperlink">Elimina collegamento ipertestuale</string>
+    <string name="hyperlink_web_prefix">http://</string>
+    <string name="hyperlink_email_prefix">mailto:</string>
+    
+    <!-- caption name -->
+    <string name="caption_standard_color">Colore standard</string>
+    <string name="caption_natural_color">Colore naturale</string>
+      
+    <!-- ActionBar -->
+    <string name="actionbar_limited_mode_title_postfix">[Modalità limitata]</string>
+    <string name="prepare_print">Preparazione stampa in corso...</string>
+    
+    <!-- Motion Detection -->
+    <string name="msg_right_to_left">Rilevamento animazione - Pagina succ.</string>
+    <string name="msg_left_to_right">Rilevamento animazione - Pagina prec.</string>
+    <string name="msg_warn_first_page">Rilevamento animazione - Prima pagina</string>
+    <string name="msg_warn_last_page">Rilevamento animazione - Ultima pagina</string>
+    <string name="msg_show_slideshow">Rilevamento animazione - Mostra present.</string>
+    <string name="msg_stop_slideshow">Rilevamento animazione - Interrompi present.</string>
+    
+    <!-- About -->
+	<string name="bullet_about_link">▶</string>
+</resources>

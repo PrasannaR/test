@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:background="@color/COLOR_PERSONA_GREY"
+    android:orientation="vertical"
+    android:filterTouchesWhenObscured="true" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp" >
+
+        <ImageView
+            android:id="@+id/personaDialogFragmentTitleImage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            
+            android:layout_marginLeft="16dp" />
+
+        <TextView
+            android:id="@+id/personaDialogFragmentTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:text="Warning!"
+            android:textColor="@color/PR_BUTTON_PRESSED_COLOR"
+            android:textSize="@dimen/LargeFontSize"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2px"
+        android:layout_marginTop="10dp"
+        android:background="@color/PR_BUTTON_PRESSED_COLOR">
+    </View>
+
+    <TextView
+        android:id="@+id/personaDialogFragmentMessage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:lineSpacingExtra="3dp"
+        android:layout_marginTop="20dp"
+        android:textSize="@dimen/SmallFontSize"
+        android:textColor="@color/COLOR_BLACK"
+        />
+
+      <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:layout_marginTop="20dp"
+        android:background="@color/PR_DIALOG_DIVIDER_LINE_GREY_COLOR" >
+   		 </View>
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="2" >
+
+       
+        
+        <Button
+            android:id="@+id/personaDialogFragmentLeftButtonText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@android:color/transparent"
+            android:gravity="center"
+            android:layout_marginTop="20dp"
+             android:layout_marginBottom="25dp"
+            android:text="Contact"
+            android:textColor="@color/PR_TEXTBOX_NORMAL_COLOR"
+            android:textStyle="bold"
+            android:textSize="@dimen/SmallFontSize"
+            android:visibility="visible" />
+
+        <View
+        android:layout_width="1px"
+        android:layout_height="fill_parent"
+        android:background="@color/PR_DIALOG_DIVIDER_LINE_GREY_COLOR" >
+    	</View>
+    	
+        <Button
+            android:id="@+id/personaDialogFragmentRightButtonText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@android:color/transparent"
+            android:gravity="center"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="20dp"
+            android:text="OK"
+            android:textColor="@color/PR_BUTTON_PRESSED_COLOR"
+            android:textStyle="bold"
+            android:textSize="@dimen/SmallFontSize"
+            android:visibility="visible" />
+    </LinearLayout>
+
+</LinearLayout>

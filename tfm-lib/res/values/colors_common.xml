@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<color name="actionbar_label_color">#FFFFFFFF</color>
+	<color name="popupwindow_border_color">#FFFFFFFF</color>
+	<color name="popupwindow_background_color">#80808080</color>
+	
+	<color name="notification_text_color">#ffffffff</color>
+	
+	<color name="pathtext">#ffffff</color>
+	<color name="pathtext_shadow">#000000</color>
+	
+	<color name="about_link_text_color">#482404</color>
+	<color name="about_link_background_color">#dcc3af</color>
+	<color name="about_accord_text_color">#000000</color>
+</resources>

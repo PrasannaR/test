@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent" android:layout_height="wrap_content" android:gravity="center_horizontal" android:padding="5dip">
+	<ImageView
+		android:id="@+id/tts_progress" 
+		android:src="@drawable/tts"
+		android:layout_width="wrap_content" 
+		android:layout_height="wrap_content" 
+		android:layout_marginRight="5dip"
+		android:padding="0px"/>
+	<ImageButton 
+		android:id="@+id/tts_play" 
+		android:src="@drawable/tts_play" 
+		android:layout_width="wrap_content" 
+		android:layout_height="wrap_content" 
+		android:layout_marginRight="5dip"
+		android:padding="0px"/>
+	<ImageButton 
+		android:id="@+id/tts_stop" 
+		android:src="@drawable/tts_stop" 
+		android:layout_width="wrap_content" 
+		android:layout_height="wrap_content" 
+		android:padding="0px"/>
+</LinearLayout>

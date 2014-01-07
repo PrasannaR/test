@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<!-- application names -->
+	<string name="calc_hd">ThinkFree Calc HD</string>
+	<string name="calc_preferences">ThinkFree Calc 喜好設定</string>
+
+	<!-- menu titles/items -->
+	<string name="calc_title_app">ThinkFree Calc</string>
+	<string name="calc_worksheets">工作表</string>
+	<string name="calc_goto">移至</string>
+	<string name="calc_label_print_range">列印範圍</string>
+
+	<!-- activity/dialog titles -->
+	<string name="calc_select_sheet">選取工作表</string>
+	<string name="calc_show_hidden_sheets">顯示隱藏的工作表</string>
+
+	<!-- button labels
+	<string name="calc_button_sheets">Sheets</string>
+	-->
+
+	<!-- short messages for toasts and dialogs -->
+	<string name="calc_msg_title">Calc</string>
+	<string name="calc_msg_invalid_dir">無效的資料夾： \'%s\'</string>
+	<string name="calc_msg_empty_sheet">此工作表沒有內容。</string>
+	<string name="calc_msg_searching">正在搜尋...</string>
+	<string name="calc_msg_invalid_ref">無效的參照</string>
+	<string name="calc_msg_enter_ref">請輸入參照</string>
+	<string name="calc_msg_print_ok">確定</string>
+	<string name="calc_msg_print_cancel">取消</string>
+	<string name="calc_msg_print_range_all">目前的工作表</string>
+	<string name="calc_msg_print_current">選取的區域</string>
+	<string name="calc_msg_row_resize">點</string>
+	<string name="calc_msg_col_resize">字元數</string>
+
+	<!-- descriptions on the preference screen -->
+	<string name="calc_msg_shows_hidden_sheets">顯示清單中隱藏的工作表</string>
+	
+	<string name="calc_sheethide">隱藏工作表索引標籤</string>
+	<string name="calc_sheetunhide">取消隱藏工作表索引標籤</string>
+	    
+</resources>
