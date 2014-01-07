@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="white">#FFFFFF</color>
+    <color name="gray">#808080</color>
+    <color name="aqua">#00FFFF</color>
+    <color name="blue">#0000FF</color>
+    <color name="black">#000000</color>
+    <color name="hint">#99FFFFFF</color>
+    <color name="layoutbg">#DCDCDC</color>
+
+    <!-- The app wide background color -->
+    <color name="month_other_month_day_number">#ff939497</color>
+    <color name="edit_event_separator">#FFDDDDDD</color>
+
+    <!-- Background Color of past events in agenda view -->
+    <color name="agenda_past_days_bar_background_color">#FFDDDDDD</color>
+    <!-- Agenda day item text color -->
+    <color name="agenda_day_item_text_color">#FF666666</color>
+    <color name="cal_background_color">#FFFFFF</color>
+    <color name="cal_background_gray_color">#EEEEEE</color>
+    <color name="cal_background_highlight">#D8D8D8</color>
+    <color name="cal_text_active">#222222</color>
+    <color name="cal_text_normal">#777777</color>
+    <color name="cal_text_disabled">#B1B1B1</color>
+    <color name="cal_text_focused">#999999</color>
+    <color name="cal_bottom_border">#CECECE</color>
+    <color name="event_bgcolor">#6A6A6A</color>
+    <color name="month_default_font_color">#3f3f3f</color>
+    <color name="month_current_fontcolor">#000000</color>
+    <color name="def_hours">#EFEFEE</color>
+    <color name="line_hrs">#CDCECD</color>
+
+</resources>

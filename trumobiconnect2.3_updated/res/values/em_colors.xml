@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2008 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+  
+          http://www.apache.org/licenses/LICENSE-2.0
+  
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+
+<resources>
+    <color name="message_list_item_background_unread">#404040</color>
+    <color name="message_list_item_background_read">#ffffff</color>
+    <color name="message_list_item_text_color">#000000</color>
+    <color name="message_list_item_back_color">#ffffff</color>
+    <color name="message_list_item_select_color">#d4d4d4</color>
+    <color name="account_folder_list_item_separator">#303030</color>
+    <color name="connection_error_banner">#353535</color>
+    <color name="title_color">#ffffff</color>
+    <color name="inbox_bar">#8e8e8e</color>
+    <color name="edittext_bordercolor">#61676B</color>
+    <color name="button_normal_color">#F1F1F1</color>
+    <color name="button_pressed_color">#8D8E8D</color>
+    <color name="menu_conext_color">#8C8D8E</color>
+    <color name="menu_option_color">#353535</color>
+    
+    <!-- ADDED BY ME -->
+    <color name="default_text_color">#ff000000</color>
+    <color name="subject_text_color_unread">#555555</color>
+    <color name="snippet_text_color_unread">#555555</color>
+    <color name="senders_text_color_unread">#333333</color>
+    <color name="subject_text_color_read">#777777</color>
+    <color name="snippet_text_color_read">#777777</color>
+    <color name="senders_text_color_read">#555555</color>
+    <color name="date_text_color_unread">@color/senders_text_color_unread</color>
+    <color name="date_text_color_read">@color/senders_text_color_read</color>
+    <color name="label_list_heading_text_color">#777777</color>
+    <color name="actionbar_secondary">#777777</color>
+    <!-- ADDED BY ME -->
+    
+</resources>

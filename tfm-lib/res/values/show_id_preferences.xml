@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="show_pref_create_backup_copy">create_backup_copy</string>
+    <string name="show_pref_auto_orientation">auto_orientation</string>
+    <string name="show_pref_show_hidden_slides">show_hidden_slides</string>
+    <string name="show_pref_transition_type">transition_type</string>
+    <string name="show_pref_edit_text_zoom">edit_text_zoom</string>
+    <string name="show_pref_show_ink_annotations">show_ink_annotations</string>
+    <string name="show_pref_flowview_on_portrait">flowview_on_portrait</string>
+</resources>
