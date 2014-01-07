@@ -1,6 +1,0 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<resources>
-<string name="tts_title">Text în vorbire</string>
-<string name="tts_install_title">Instalare date de voce</string>
-<string name="tts_install_message">Instalaţi datele de voce necesare pentru sinteza vorbirii?</string>
-</resources>
