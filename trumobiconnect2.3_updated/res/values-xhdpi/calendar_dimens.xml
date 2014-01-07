@@ -1,5 +1,0 @@
-<resources>
-    <dimen name="cal_font_size_title">36sp</dimen>
-    <dimen name="cal_font_size_title_small">18sp</dimen>
-    <dimen name="cal_font_size_desc">28sp</dimen>
-</resources>
