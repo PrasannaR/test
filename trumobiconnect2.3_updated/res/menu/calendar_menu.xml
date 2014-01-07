@@ -1,0 +1,40 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+   <item
+        android:id="@+id/item_today"
+        android:showAsAction="never|collapseActionView"
+        android:title="@string/titleToday"
+        android:visible="false"/>    
+    <item
+        android:id="@+id/item_connect"
+        android:icon="@drawable/home_icon"
+        android:showAsAction="always"
+        android:title="Connect"/>
+    
+    <item
+        android:id="@+id/itemNewEvent"
+        android:icon="@drawable/cal_ic_menu_add_event_holo_light"
+        android:showAsAction="never"
+        android:title="@string/newEvent">
+    </item>
+    <item
+        android:id="@+id/itemRefresh"
+        android:title="@string/refresh">
+    </item>
+    <item
+        android:id="@+id/itemSearch"
+         android:icon="@drawable/cal_ic_menu_search_holo_light"
+        android:showAsAction="never|collapseActionView"
+        android:actionLayout="@layout/cal_collapsible_edittext"
+        android:title="@string/search">
+    </item>
+    <!-- <item
+        android:id="@+id/itemCalendars_to_Display"
+        android:title="@string/calDisp">
+    </item> -->
+    <item
+        android:id="@+id/itemSettings"
+        android:title="@string/settings">
+    </item>
+
+</menu>

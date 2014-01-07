@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<!-- title -->
+    <string name="show_title_app">ThinkFree Show</string>
+    <string name="show_title_preferences">Predvoľby aplikácie ThinkFree Show</string>
+
+	<!-- LABEL_COMMON -->
+    <string name="show_label_ok">OK</string>
+    <string name="show_label_cancel">Zrušiť</string>
+    
+    <!-- labels -->
+    <string name="show_label_slides">Snímky</string>
+    <string name="show_label_note">Poznámka</string>
+    <string name="show_label_slideshow">Prezentácia</string>
+    <string name="show_label_print">Tlačiť</string>
+    
+    <!-- messages -->
+    <string name="show_msg_loading">Načítava sa...</string>
+    <string name="show_msg_zoom">%d%%</string>
+    <string name="show_msg_no_slide">Žiadna snímka</string>
+    <string name="show_msg_no_note">Žiadna poznámka</string>
+    <string name="show_msg_printing">Tlačí sa \'%s\'...</string>
+    <string name="show_msg_print_fail">Tlač zlyhala</string>
+    <string name="show_msg_out_of_memory">Nedostatok pamäte</string>
+    <string name="show_msg_unsurpported_video">Prístup k súboru nie je možné získať. Typ súboru nie je podporovaný alebo je súbor poškodený.</string>
+    <string name="show_msg_last_slideshow">Koniec prezentácie</string>
+    
+    <!-- LABEL_TOOL_BAR -->
+    <string name="show_label_print_range">Rozsah tlače</string>
+    <string name="show_label_print_range_all">Všetko</string>
+    <string name="show_label_print_range_current">Aktuálna snímka</string>
+    <string name="show_label_print_range_from">Od:</string>
+    <string name="show_label_print_range_to">Do:</string>
+    
+    <!-- video option -->
+    <string name="show_video_option">Možnosti videí</string>
+    <string name="show_video_option_tapped">Po ťuknutí</string>
+    <string name="show_video_option_automatically">Automaticky</string>
+    
+    <!-- string name="show_msg_unknown_problem">Unknown problem occurred</string-->
+
+    <!-- preferences -->
+    <string name="show_label_auto_orientation">Automatická orientácia obrazovky</string>
+    <string name="show_desc_auto_orientation">Povoľte nastavenie automatickej orientácie obrazovky podľa pomeru strán snímky</string>
+    <string name="show_label_show_hidden_slides">Zobraziť skryté snímky</string>
+    <string name="show_desc_show_hidden_slides">Zobraziť skryté snímky</string>
+    <string name="show_label_show_ink_annotations">Zobraziť anotácie písané rukou</string>
+    <string name="show_desc_show_ink_annotations">Zobraziť anotácie písané rukou</string>
+    <string name="show_label_flowview_on_portrait">Nastaviť ako režim zobrazenia s orientáciou na výšku</string>
+    <string name="show_desc_flowview_on_portrait">Nastaviť ako režim zobrazenia na obrazovke s orientáciou na výšku a ako režim úprav na obrazovke s orientáciou na šírku</string>
+    
+    <!-- FILE TYPE -->
+    <string name="show_filetype_ppt">PowerPoint 97-2003(*.ppt)</string>
+    <string name="show_filetype_pptx">PowerPoint(*.pptx)</string>
+</resources>

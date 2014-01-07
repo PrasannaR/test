@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+	<!-- KPopup Frame -->
+	<dimen name="kpopup_max_width">275dp</dimen>
+	<dimen name="kpopup_max_height">300dp</dimen>
+	<integer name="kpopup_border_color">0xFF092E56</integer>
+	<integer name="kpopup_background_color">0xFFF3F3F3</integer>
+	<integer name="kpopup_arrow_color">0xFF3D3D3D</integer>
+	
+	<!-- Touch Item -->
+	<integer name="item_text_size">15</integer>
+	<integer name="enable_text_color">0xFF000000</integer>
+	<integer name="disable_text_color">0xFFABABAB</integer>
+	
+	<!-- Touch Color Button -->
+	<dimen name="selected_color_item_width">170dp</dimen>
+	
+	<!-- Touch Depth Button -->
+	<dimen name="depth_arrow_size">22dp</dimen>
+	
+	<!-- KPopup Captionbar -->
+	<integer name="caption_name_size">16</integer>
+	<dimen name="captionbar_width">230dp</dimen>
+	<dimen name="captionbar_height">31dp</dimen>
+	<dimen name="caption_arrow_size">33dp</dimen>
+	<integer name="caption_text_color">0xFFA8C4E0</integer>
+	
+	<!-- Color Chooser -->
+	<integer name="color_chooser_button_text_color">0xFF000000</integer>
+	
+	<!-- Standard Color Chooser -->
+	<dimen name="color_chooser_item_size">29dp</dimen>
+	<dimen name="color_chooser_item_gap">5dp</dimen>
+	
+	<!-- Natural Color Chooser -->
+	<dimen name="palette_width">295dp</dimen>
+	<dimen name="palette_height">112dp</dimen>
+	<dimen name="previewer_arc">1dp</dimen>
+	<dimen name="previewer_padding_left">5dp</dimen>
+	<dimen name="previewer_padding_right">5dp</dimen>
+	<dimen name="previewer_padding_top">5dp</dimen>
+	<dimen name="previewer_padding_bottom">5.5dp</dimen>
+	<dimen name="thumbPaddingFactor">5.5px</dimen>
+	
+	<!-- Touch Color Button -->
+	<dimen name="color_view_width">30dp</dimen>
+	<dimen name="color_view_height">11dp</dimen>
+	<dimen name="color_view_side_padding">5dp</dimen>	
+	<dimen name="color_view_top_padding">4.5dp</dimen>
+	<dimen name="color_view_bottom_padding">5.5dp</dimen>
+	<dimen name="color_view_side_padding_on_actionbar">1.7dp</dimen>	
+	<dimen name="color_view_top_bottom_padding_on_actionbar">2.3dp</dimen>
+	
+	<!-- Dictionary -->
+	<dimen name="dictionary_width">240dp</dimen>
+	<dimen name="dictionary_height">200dp</dimen>
+	
+	<!-- dp작업 addtional -->
+	<dimen name="item_horizontal_padding">7dp</dimen>
+	<dimen name="item_vertical_padding">2dp</dimen>
+	
+	<dimen name="item_icon_width">42dp</dimen>
+	<dimen name="item_icon_height">42dp</dimen>
+	
+	<dimen name="color_view_width_in_popup">100dp</dimen>
+	<dimen name="color_view_height_in_popup">33dp</dimen>
+	
+	<dimen name="actionbar_item_icon_width">42dp</dimen>
+	<dimen name="actionbar_item_icon_height">42dp</dimen>
+	
+	<dimen name="item_image_icon_width">52.5dp</dimen>
+	<dimen name="item_image_icon_height">52.5dp</dimen>
+	
+	<dimen name="item_image_group_icon_width">43dp</dimen>
+	<dimen name="item_image_group_icon_height">43dp</dimen>
+		
+	<dimen name="color_chooser_button_width">102dp</dimen>
+	<dimen name="color_chooser_button_height">30.6dp</dimen>
+	<integer name="standard_color_chooser_col_num">7</integer>
+	
+	<dimen name="previewer_width">71dp</dimen>
+	<dimen name="previewer_height">86dp</dimen>
+	<dimen name="previewer_center_padding">4dp</dimen>
+	<dimen name="item_auto_shape_size">50dp</dimen>
+	
+	<dimen name="item_spinner_icon_width">43dp</dimen>
+	<dimen name="item_spinner_icon_height">41dp</dimen>
+	<dimen name="item_format_toolbar_icon_width">45dp</dimen>
+	<dimen name="item_format_toolbar_icon_height">45dp</dimen>
+	<dimen name="item_format_toolbar_spinner_icon_width">45dp</dimen>
+	<dimen name="item_format_toolbar_spinner_icon_height">42dp</dimen>
+	
+	<dimen name="item_height">36dp</dimen>
+</resources>

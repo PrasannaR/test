@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout 	xmlns:android="http://schemas.android.com/apk/res/android"
+    			android:layout_width="match_parent" 
+    			android:layout_height="wrap_content"
+   	 			android:minHeight="?android:attr/listPreferredItemHeight"
+    			android:gravity="center_vertical" 
+    			android:baselineAligned="false"
+    			android:paddingRight="?android:attr/scrollbarSize">
+
+    <RelativeLayout android:layout_width="0dp"
+       				android:layout_height="wrap_content" 
+       				android:layout_marginLeft="6dp"
+       				android:layout_marginRight="6dp" 
+       				android:layout_marginTop="6dp"
+        			android:layout_marginBottom="6dp" 
+        			android:layout_weight="1">
+
+        <TextView 	android:id="@+android:id/title"
+            		android:layout_width="wrap_content" 
+            		android:layout_height="wrap_content"
+            		android:singleLine="false" 
+            		android:textAppearance="?android:attr/textAppearanceLarge"
+            		android:ellipsize="marquee" 
+            		android:fadingEdge="horizontal"
+            		android:textColor="@drawable/list_item_application_text_color"
+            		android:paddingBottom="5dp"
+            		/>
+
+        <TextView 	android:id="@+android:id/summary"
+            		android:layout_width="wrap_content" 
+            		android:layout_height="wrap_content"
+            		android:layout_below="@android:id/title" 
+            		android:layout_alignLeft="@android:id/title"
+            		android:textAppearance="?android:attr/textAppearanceSmall"
+            		android:maxLines="4" 
+            		android:layout_marginLeft="1dp"
+            		android:textColor="@drawable/list_item_application_text_summary_color"
+            		/>
+
+    </RelativeLayout>
+
+    <!-- place holder for preference widget -->
+    <LinearLayout 	android:id="@+android:id/widget_frame"
+        			android:layout_width="wrap_content" 
+        			android:layout_height="match_parent"
+        			android:gravity="center_vertical" 
+        			android:orientation="vertical" />
+
+</LinearLayout>

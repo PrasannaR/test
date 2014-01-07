@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<!-- title -->
+    <string name="show_title_app">ThinkFree Show</string>
+    <string name="show_title_preferences">Indstillinger for ThinkFree Show</string>
+
+	<!-- LABEL_COMMON -->
+    <string name="show_label_ok">OK</string>
+    <string name="show_label_cancel">Annuller</string>
+
+    <!-- labels -->
+    <string name="show_label_slides">Dias</string>
+    <string name="show_label_note">Notat</string>
+    <string name="show_label_slideshow">Diasshow</string>
+    <string name="show_label_print">Udskriv</string>
+    
+    <!-- messages -->
+    <string name="show_msg_loading">Indlæser...</string>
+    <string name="show_msg_zoom">%d%%</string>
+    <string name="show_msg_no_slide">Intet dias</string>
+    <string name="show_msg_no_note">Intet notat</string>
+    <string name="show_msg_printing">Udskriver \'%s\'...</string>
+    <string name="show_msg_print_fail">Kunne ikke udskrive</string>
+    <string name="show_msg_out_of_memory">Ikke mere hukommelse</string>
+    <string name="show_msg_unsurpported_video">Kan ikke åbne filen. Filtypen understøttes ikke, eller filen mangler eller er beskadiget.</string>
+    <string name="show_msg_last_slideshow">Slut på diasshow</string>
+    
+    <!-- LABEL_TOOL_BAR -->
+    <string name="show_label_print_range">Udskriftsområde</string>
+    <string name="show_label_print_range_all">Alle</string>
+    <string name="show_label_print_range_current">Aktuelt dias</string>
+    <string name="show_label_print_range_from">Fra:</string>
+    <string name="show_label_print_range_to">Til:</string>
+    
+    <!-- video option -->
+    <string name="show_video_option">Videoindstillinger</string>
+    <string name="show_video_option_tapped">Når der trykkes</string>
+    <string name="show_video_option_automatically">Automatisk</string>
+    
+    <!-- string name="show_msg_unknown_problem">Unknown problem occurred</string-->
+
+    <!-- preferences -->
+    <string name="show_label_auto_orientation">Automatisk skærmretning</string>
+    <string name="show_desc_auto_orientation">Tilpas automatisk skærmretning ud fra højde-/breddeforhold for dias</string>
+    <string name="show_label_show_hidden_slides">Vis skjulte dias</string>
+    <string name="show_desc_show_hidden_slides">Vis skjulte dias</string>
+    <string name="show_label_show_ink_annotations">Vis håndskrevne anmærkninger</string>
+    <string name="show_desc_show_ink_annotations">Vis håndskrevne anmærkninger</string>
+    <string name="show_label_flowview_on_portrait">Indstil som visningstilstand i stående format</string>
+    <string name="show_desc_flowview_on_portrait">Indstil som visningstilstand i stående visning og redigeringstilstand i liggende visning</string>
+    
+    <!-- FILE TYPE -->
+    <string name="show_filetype_ppt">PowerPoint 97-2003(*.ppt)</string>
+    <string name="show_filetype_pptx">PowerPoint(*.pptx)</string>
+</resources>

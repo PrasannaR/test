@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<!-- title -->
+    <string name="show_title_app">ThinkFree Show</string>
+    <string name="show_title_preferences">ThinkFree Show -asetukset</string>
+
+	<!-- LABEL_COMMON -->
+    <string name="show_label_ok">OK</string>
+    <string name="show_label_cancel">Peruuta</string>
+
+    <!-- labels -->
+    <string name="show_label_slides">Diat</string>
+    <string name="show_label_note">Huomautus</string>
+    <string name="show_label_slideshow">Diaesitys</string>
+    <string name="show_label_print">Tulosta</string>
+    
+    <!-- messages -->
+    <string name="show_msg_loading">Ladataan...</string>
+    <string name="show_msg_zoom">%d%%</string>
+    <string name="show_msg_no_slide">Ei diaa</string>
+    <string name="show_msg_no_note">Ei huomautusta</string>
+    <string name="show_msg_printing">Tulostetaan \'%s\'...</string>
+    <string name="show_msg_print_fail">Tulostus epäonnistui</string>
+    <string name="show_msg_out_of_memory">Muisti on lopussa</string>
+    <string name="show_msg_unsurpported_video">Tiedostoa ei voi käyttää. Tiedostotyyppiä ei tueta, tiedosto puuttuu tai se on vahingoittunut.</string>
+    <string name="show_msg_last_slideshow">Diaesityksen loppu</string>
+    
+    <!-- LABEL_TOOL_BAR -->
+    <string name="show_label_print_range">Tulostusalue</string>
+    <string name="show_label_print_range_all">Kaikki</string>
+    <string name="show_label_print_range_current">Nykyinen dia</string>
+    <string name="show_label_print_range_from">Mistä:</string>
+    <string name="show_label_print_range_to">Mihin:</string>
+    
+    <!-- video option -->
+    <string name="show_video_option">Videoiden asetukset</string>
+    <string name="show_video_option_tapped">Napautettuna</string>
+    <string name="show_video_option_automatically">Automaattisesti</string>
+    
+    <!-- string name="show_msg_unknown_problem">Unknown problem occurred</string-->
+
+    <!-- preferences -->
+    <string name="show_label_auto_orientation">Automaattinen näytön suunta</string>
+    <string name="show_desc_auto_orientation">Ota automaattinen näytön suunta käyttöön määrittämällä dian kuvasuhde</string>
+    <string name="show_label_show_hidden_slides">Näytä piilotetut diat</string>
+    <string name="show_desc_show_hidden_slides">Näytä piilotetut diat</string>
+    <string name="show_label_show_ink_annotations">Näytä käsin kirjoitetut huomautukset</string>
+    <string name="show_desc_show_ink_annotations">Näytä käsin kirjoitetut huomautukset</string>
+    <string name="show_label_flowview_on_portrait">Määritä näyttötilana pystysuunnassa</string>
+    <string name="show_desc_flowview_on_portrait">Määritä näyttötilana pystysuuntaisessa näytössä ja muokkaustilana vaakasuuntaisessa näytössä</string>
+    
+    <!-- FILE TYPE -->
+    <string name="show_filetype_ppt">PowerPoint 97-2003 (*.ppt)</string>
+    <string name="show_filetype_pptx">PowerPoint (*.pptx)</string>
+</resources>
