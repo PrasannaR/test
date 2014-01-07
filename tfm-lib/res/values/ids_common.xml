@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- do not translate this file -->
+<resources>
+	<item name="about_link" type="id"/>
+	<item name="about_link_about" type="id"/>
+	<item name="about_link_help" type="id"/>
+	<item name="about_link_support" type="id"/>
+	<item name="about_link_terms" type="id"/>
+	<item name="about_link_privacy" type="id"/>
+	<item name="about_link_acknowledgement" type="id"/>
+	
+	<item name="common_action_preview_attach" type="id"/>
+	
+	<item name="findview_find_textview" type="id"/>
+	<item name="findview_replace_textview" type="id"/>
+	<item name="findview_buttons" type="id"/>
+	<item name="findview_option_btn" type="id"/>
+	<item name="findview_replace_btn" type="id"/>
+	<item name="findview_prev_btn" type="id"/>
+	<item name="findview_next_btn" type="id"/>
+	<item name="findview_message" type="id"/>
+	<item name="findview_option_1" type="id"/>
+	<item name="findview_option_2" type="id"/>
+</resources>

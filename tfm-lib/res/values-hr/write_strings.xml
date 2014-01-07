@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<!-- words -->
+	<string name="write_dictionary_select_language">Odaberi jezik</string>
+	<string name="write_dictionary_english">Engleski</string>
+	<string name="write_dictionary_korean">Korejski</string>
+	<string name="write_display_mode">Način prikaza</string>
+	<string name="write_fit_to_screen_width">Prilagodi širini zaslona</string>
+	<string name="write_show_all_marks">Prikaži sve oznake za redakturu</string>
+	<string name="write_show_smart_zoom">Prikaži pametno zumiranje</string>
+	<string name="write_show_picture_placeholders">Prikaži rezervirana mjesta za slike</string>
+	<string name="write_show_scrolling_icons">Prikaži ikone za pomicanje</string>
+	<string name="write_reflow_view">Promijeni tijek prikaza</string>
+	<string name="write_bookmark">Prikaži knjižne oznake</string>
+	<string name="write_bookmark_add">Dodaj</string>
+	<string name="write_bookmark_delete">Izbriši</string>
+	<string name="write_bookmark_goto">Idi na</string>
+	<string name="write_preferences">Postavke za Document Viewer</string>
+	<string-array name="write_display_modes">
+		<item>Originalni prikaz</item>
+		<item>Pozitivan prikaz</item>
+		<item>Negativni prikaz</item>
+	</string-array>
+	
+	<!-- messages -->
+	<string name="write_msg_show_all_marks">Prikaži ili sakrij sve oznake za redakturu</string>
+	<string name="write_msg_show_smart_zoom">Automatsko povećavanje ili smanjivanje prikaza teksta</string>
+	<string name="write_msg_show_picture_placeholders">Prikaži prazan okvir umjesto svih grafičkih elemenata u dokumentu</string>
+	<string name="write_msg_show_scrolling_icons">Prikaži ili sakrij ikone za pomicanje</string>
+	<string name="write_msg_reflow_view">Prikaži dokumente bez vodoravne trake za pomicanje</string>
+	<string name="write_msg_hyperlink">Dvostruki pritisak za otvaranje veze</string>
+	<string name="write_msg_bookmark">Prikaži ili sakrij knjižne oznake</string>
+</resources>

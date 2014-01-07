@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    <item 
+        android:id="@+id/takephoto1"
+        android:title="Take photo"        
+        />
+    
+    <item 
+        android:id="@+id/takephoto2"
+        android:title="Choose photo from Gallery"        
+        />
+    
+<!--     <item 
+        android:id="@+id/action3"
+        android:title="Notes"        
+        />
+    
+
+    
+    
+       <item 
+        android:id="@+id/action4"
+        android:title="Nickname"        
+        />
+    
+    <item 
+        android:id="@+id/action5"
+        android:title="Website"        
+        />
+    
+    <item 
+        android:id="@+id/action6"
+        android:title="Internet call"        
+        /> -->
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+</menu>

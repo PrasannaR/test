@@ -1,0 +1,9 @@
+<TextView xmlns:android="http://schemas.android.com/apk/res/android"
+  android:id="@+id/prlistItem"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/pr_list_fragment_background"
+    android:layout_margin="@dimen/padding"
+    android:textColor="@color/COLOR_BLACK"
+    android:textSize="@dimen/LargeFontSize"
+    android:filterTouchesWhenObscured="true" />

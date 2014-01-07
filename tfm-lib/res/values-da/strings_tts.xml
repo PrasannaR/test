@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<string name="tts_title">Tekst til tale</string>
+<string name="tts_install_title">Installer taledata</string>
+<string name="tts_install_message">Vil du installere de taledata, der kræves til talesyntese?</string>
+</resources>

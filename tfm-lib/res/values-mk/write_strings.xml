@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<!-- words -->
+	<string name="write_dictionary_select_language">Избери јазик</string>
+	<string name="write_dictionary_english">Англиски</string>
+	<string name="write_dictionary_korean">Корејски</string>
+	<string name="write_display_mode">Режим за приказ</string>
+	<string name="write_fit_to_screen_width">Прилагоди кон широчина на екран</string>
+	<string name="write_show_all_marks">Прикажи ги сите ознаки за уредување</string>
+	<string name="write_show_smart_zoom">Прикажи интелигентен зум</string>
+	<string name="write_show_picture_placeholders">Прикажи места на поставување на слики</string>
+	<string name="write_show_scrolling_icons">Прикажи икони за придвижување</string>
+	<string name="write_reflow_view">Приказ на продолжен тек</string>
+	<string name="write_bookmark">Прикажи означени страници</string>
+	<string name="write_bookmark_add">Додади</string>
+	<string name="write_bookmark_delete">Избриши</string>
+	<string name="write_bookmark_goto">Оди на</string>
+	<string name="write_preferences">Document Viewer поставки</string>
+	<string-array name="write_display_modes">
+		<item>Оригинален приказ</item>
+		<item>Позитив-екран</item>
+		<item>Негатив-екран</item>
+	</string-array>
+	
+	<!-- messages -->
+	<string name="write_msg_show_all_marks">Приказ или криење на сите ознаки за уредување</string>
+	<string name="write_msg_show_smart_zoom">Автоматско зумирање или одзумирање на вашиот текст</string>
+	<string name="write_msg_show_picture_placeholders">Прикажи празна рамка на местото на секоја слика во документот</string>
+	<string name="write_msg_show_scrolling_icons">Приказ или криење на икони за придвижување</string>
+	<string name="write_msg_reflow_view">Прикажи документи без хоризонтално придвижување</string>
+	<string name="write_msg_hyperlink">Двоен допир на линкот за да го отворите</string>
+	<string name="write_msg_bookmark">Приказ или криење на означени страници</string>
+</resources>

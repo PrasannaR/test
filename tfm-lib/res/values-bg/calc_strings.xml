@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<!-- application names -->
+	<string name="calc_hd">ThinkFree Calc HD</string>
+	<string name="calc_preferences">Предпочитания за ThinkFree Calc</string>
+
+	<!-- menu titles/items -->
+	<string name="calc_title_app">ThinkFree Calc</string>
+	<string name="calc_worksheets">Работни листове</string>
+	<string name="calc_goto">Отиди на</string>
+	<string name="calc_label_print_range">Обхват на печат</string>
+
+	<!-- activity/dialog titles -->
+	<string name="calc_select_sheet">Избери лист</string>
+	<string name="calc_show_hidden_sheets">Покажи скритите листове</string>
+
+	<!-- button labels
+	<string name="calc_button_sheets">Sheets</string>
+	-->
+
+	<!-- short messages for toasts and dialogs -->
+	<string name="calc_msg_title">Calc</string>
+	<string name="calc_msg_invalid_dir">Невалидна папка: \'%s\'</string>
+	<string name="calc_msg_empty_sheet">В този лист липсва съдържание.</string>
+	<string name="calc_msg_searching">Търсене...</string>
+	<string name="calc_msg_invalid_ref">Невалидна справка</string>
+	<string name="calc_msg_enter_ref">Въведете справка</string>
+	<string name="calc_msg_print_ok">ОК</string>
+	<string name="calc_msg_print_cancel">Отмени</string>
+	<string name="calc_msg_print_range_all">Текущ лист</string>
+	<string name="calc_msg_print_current">Избрана област</string>
+	<string name="calc_msg_row_resize">Точка</string>
+	<string name="calc_msg_col_resize">Брой символи</string>
+
+	<!-- descriptions on the preference screen -->
+	<string name="calc_msg_shows_hidden_sheets">Покажи скрити листа в списъка</string>
+	
+	<string name="calc_sheethide">Скрий раздели в листове</string>
+	<string name="calc_sheetunhide">Покажи раздели в листове</string>
+	    
+</resources>

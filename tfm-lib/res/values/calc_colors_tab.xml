@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="calc_tab_title_selected">#e4fdc9</color>
+    <color name="calc_tab_title_unselected">#d1e8a4</color>
+    <color name="calc_tab_title_hidden">#bfbfbf</color>
+    <color name="calc_tab_title_newTab">#ffe38e</color>
+    <color name="calc_separator">#888888</color>
+    <color name="calc_bg_dark_transparent">#88000000</color>
+</resources>

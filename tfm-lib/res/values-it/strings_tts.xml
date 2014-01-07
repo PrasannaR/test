@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<string name="tts_title">Sintesi vocale</string>
+<string name="tts_install_title">Installa dati vocali</string>
+<string name="tts_install_message">Installare i dati vocali necessari per la sintesi vocale?</string>
+</resources>

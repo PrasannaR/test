@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="retry">Opakovat</string>
+	
+    <!-- Purchase Activity -->
+    <string name="title_purchase">Zakoupit ThinkFree Mobile for Android</string>
+    <string name="market_android">Android</string>
+    <string name="market_amazon">Amazon</string>
+	
+    <!-- License Check Activity-->
+    <string name="msg_checking_license">Kontroluji licenci...</string>
+    <string name="title_application_error">Chyba aplikace</string>
+    <string name="msg_application_error">Chybový kód: %1$d</string>
+    <string name="title_unlicensed">Aplikace nemá platnou licenci</string>
+    <string name="msg_unlicensed">Tato aplikace nemá platnou licenci. Zakupte ji na webu %s Market.</string>
+	<string name="title_no_network_connection">Chyba síťového připojení</string>
+	<string name="msg_no_network_connection">Síťové připojení selhalo. Zkontrolujte, zda je vaše zařízení připojeno k síti.</string>
+</resources>
