@@ -1,0 +1,297 @@
+-optimizations !code/simplification/arithmetic,!code/simplification/cast,!field/*,!class/merging/*,!code/allocation/variable
+-optimizationpasses 5
+-allowaccessmodification
+-dontpreverify
+-ignorewarnings
+
+-dontusemixedcaseclassnames
+-dontskipnonpubliclibraryclasses
+-dontskipnonpubliclibraryclassmembers 
+-verbose
+
+
+-keepattributes *Annotation*
+-keepattributes Signature 
+
+-keep public class com.google.vending.licensing.ILicensingService
+-keep public class com.android.vending.licensing.ILicensingService
+
+-keep public class * extends android.app.Activity
+-keep public class * extends android.app.Application
+-keep public class * extends android.app.Service
+-keep public class * extends android.app.ListActivity
+-keep public class * extends android.app.PreferenceActivity
+-keep public class * extends android.content.BroadcastReceiver
+-keep public class * extends android.content.ContentProvider
+-keep public class * extends android.app.backup.BackupAgentHelper
+-keep public class * extends android.preference.Preference
+
+-keep class android.support.v4.** { *; }
+-keep interface android.support.v4.** { *; }
+-keep interface android.os.IInterface.** { *; }
+-keep public class net.sqlcipher.** {*;}
+-keep public class android.app.FragmentManager
+-keep public class net.sqlcipher.database.** {*;}
+
+-keep class com.tf.** { *; }
+-keep interface com.tf.** { *; }
+
+-keep class com.thinkfree.** { *; }
+-keep interface com.thinkfree.** { *; }
+-keep class com.hancom.** { *; }
+-keep class java.** { *; }
+-keep class javax.swing.** { *; }
+-keeppackagenames com.tf.**
+
+
+-keep class com.actionbarsherlock.** { *; }
+-keep interface com.actionbarsherlock.** { *; }
+
+-keep public class com.google.ads.** { public protected *; } 
+-keep public class com.google.gson.** { public protected *; }
+-keep class sun.misc.Unsafe { *; }
+-keep class com.google.gson.examples.android.model.** { *; }
+
+
+
+-keep class com.cognizant.trumobi.em.mail.store.** { *; }
+-keep class com.cognizant.trumobi.exchange.** { *; }
+
+-keep class **.R$* {
+    <fields>;
+}
+
+-keep interface com.cognizant.trumobi.em.service.IEmailService.** { *; }
+-keep interface com.cognizant.trumobi.em.service.IEmailServiceCallback.** { *; }
+-keep interface com.cognizant.trumobi.em.provider.EmailContent.** { *; }
+
+-keep class com.cognizant.trumobi.exchange.** { *; }
+-keep class ezvcard.** { *; }
+
+
+-keep class com.google.gson.** { *; }
+
+-keep class sun.misc.Unsafe { *; }
+-keep public class com.google.gson.annotations.SerializedName.**
+-keep public class com.cognizant.trumobi.persona.net.** {
+public protected *;
+}
+
+-keep public class com.google.gson.** {
+public protected *;
+}
+-keep class com.cognizant.trumobi.em.provider.EmEmailContent$Account
+
+-keepclasseswithmembers class * { 
+  public static void actionEditIncomingSettings(android.app.Activity, com.cognizant.trumobi.em.provider.EmEmailContent$Account); 
+  } 
+  
+-keepclasseswithmembers class * { 
+  public static void actionEditOutgoingSettings(android.app.Activity, com.cognizant.trumobi.em.provider.EmEmailContent$Account); 
+}
+
+-keepclasseswithmembers class com.cognizant.trumobi.em.SecurityPolicy {
+  *** setContext(android.content.Context);
+}
+
+-keepclasseswithmembers class com.cognizant.trumobi.em.SecurityPolicy$PolicySet {
+  <init>(...);
+}
+
+-keep class com.cognizant.trumobi.em.mail.EmStore$PersistentDataCallbacks { 
+   *** getPersistentString(...); 
+   *** setPersistentString(...); 
+}
+
+-keepclasseswithmembers class com.cognizant.trumobi.em.EmGroupMessagingListener { 
+  *** removeListener(com.cognizant.trumobi.em.EmMessagingListener); 
+}
+
+-keepclasseswithmembers class com.android.email.mail.Address { 
+   <init>(...); 
+     *** parseAndPack(java.lang.String); 
+     *** legacyUnpack(java.lang.String); 
+}
+
+-keepclasseswithmembers class com.cognizant.trumobi.em.EmEmController { 
+   *** setProviderContext(android.content.Context); 
+ }
+
+-keepclasseswithmembers class * { 
+   public *** newInstance(java.lang.String, android.content.Context, com.cognizant.trumobi.em.mail.EmStore$PersistentDataCallbacks);
+}
+
+-keepclasseswithmembers class com.cognizant.trumobi.em.mail.EmAddress { 
+   <init>(...); 
+       *** parseAndPack(java.lang.String); 
+    *** legacyUnpack(java.lang.String); 
+}
+
+-keepclasseswithmembers class com.cognizant.trumobi.em.EmSecurityPolicy { 
+       *** setContext(android.content.Context); 
+}
+
+-keepclasseswithmembers class com.cognizant.trumobi.em.EmSecurityPolicy$PolicySet { 
+  <init>(...); 
+}
+
+-keepclasseswithmembers class com.cognizant.trumobi.em.EmMessagingController { 
+  *** injectMockController(com.cognizant.trumobi.em.EmMessagingController); 
+}
+
+-keepclasseswithmembers class com.cognizant.trumobi.em.provider.EmEmailProvider { 
+  *** getReadableDatabase(android.content.Context); 
+}
+
+-keepclasseswithmembers class com.cognizant.trumobi.em.provider.EmEmailContent$Attachment { 
+  *** createUniqueFile(java.lang.String); 
+}
+
+-keepclasseswithmembers class com.cognizant.trumobi.em.EmAccount { 
+  *** getContentUri(); 
+}
+
+-keepclasseswithmembers class com.cognizant.trumobi.em.EmPreferences { 
+  *** getAccountByContentUri(android.net.Uri); 
+} 
+
+-keep class com.cognizant.trumobi.em.mail.EmMessage$RecipientType 
+
+-keepclasseswithmembers class com.cognizant.trumobi.em.mail.EmMessage { 
+  *** setRecipient(...); 
+} 
+
+
+-keep class com.cognizant.trumobi.em.mail.EmPart 
+
+-keepclasseswithmembers class com.cognizant.trumobi.em.mail.EmStore { 
+  *** requireStructurePrefetch(); 
+}
+
+-keepclasseswithmembers class com.cognizant.trumobi.em.mail.EmFolder { 
+  *** getUnreadMessageCount(...); 
+  *** delete(...); 
+  *** getRole(...); 
+} 
+ 
+-keep class com.cognizant.trumobi.em.mail.EmFolder$FolderRole 
+
+-keepclasseswithmembers class com.cognizant.trumobi.em.mail.EmFolder$PersistentDataCallbacks { 
+ *** getPersistentString(...); 
+ *** setPersistentString(...); 
+ *** setPersistentStringAndMessageFlags(...); 
+} 
+
+-keepclasseswithmembers class com.cognizant.trumobi.exchange.adapter.EmParser { 
+ *** resetInput(...); 
+ } 
+
+-keep class com.cognizant.trumobi.em.mail.EmFlag
+
+
+
+-keep class org.apache.james.mime4j.field.Field {
+  *** getBody(...);
+}
+
+-keep class com.cognizant.trumobi.exchange.EmSyncManager
+
+-keep class org.apache.http.** {*;}
+
+-keep public class * extends com.phonegap.api.Plugin
+-keep public class * extends org.apache.cordova.api.Plugin
+-keep public class org.apache.cordova.DroidGap
+-keep public class org.apache.cordova.**
+
+
+-keep public class * extends org.apache.cordova.api.CordovaPlugin
+-keep class org.apache.cordova.** { *; }
+
+-keep class cx.hell.android.** { *; }
+-keep interface cx.hell.android.** { *; }
+
+
+-libraryjars /libs/apache_Jar2.3.jar
+-libraryjars /libs/bcprov-jdk16-145.jar
+-libraryjars /libs/beetstra_jutf7.jar
+-libraryjars /libs/gcm.jar
+-libraryjars /libs/gson-1.6.jar
+-libraryjars /libs/httpclient-4.0.3.jar
+-libraryjars /libs/httpcore-4.0.1.jar
+-libraryjars /libs/httpmime-4.0.3.jar
+-libraryjars /libs/jsr305-2.0.1.jar
+-libraryjars /libs/ez-vcard-0.8.5.jar
+-libraryjars /libs/bugsense-3.5.jar
+
+-keepclasseswithmembernames class * {
+    native <methods>;
+}
+
+-keepclassmembers public class * extends android.view.View {
+   void set*(***);
+   *** get*();
+}
+
+-keepclassmembers class * extends android.app.Activity {
+   public void *(android.view.View);
+}
+
+
+-keepclasseswithmembers class * {
+    public <init>(android.content.Context, android.util.AttributeSet);
+}
+
+-keepclasseswithmembers class * {
+    public <init>(android.content.Context, android.util.AttributeSet, int);
+}
+
+-keepclassmembers class * extends android.app.Activity {
+   public void *(android.view.View);
+}
+
+-keepclassmembers enum * {
+    public static **[] values();
+    public static ** valueOf(java.lang.String);
+}
+
+-keep class * implements android.os.Parcelable {
+  public static final android.os.Parcelable$Creator *;
+}
+
+
+-keep class net.sqlcipher.** {
+    *;
+}
+
+-keep class net.sqlcipher.database.** {
+    *;
+}
+
+-assumenosideeffects class android.util.Log {
+    public static *** d(...);
+    public static *** v(...);
+    public static *** w(...);
+    public static *** e(...);
+    public static *** i(...);
+}
+
+
+-dontwarn android.support.**
+-dontwarn org.apache.**
+-dontwarn com.google.**
+-dontwarn com.actionbarsherlock.**
+-dontwarn com.quintech.**
+-dontwarn cx.hell.android.**
+-dontwarn org.apache.http.entity.mime.**
+-dontwarn net.sqlcipher.**
+-dontwarn org.apache.commons.codec.**
+-dontwarn com.beetstra.jutf7.**
+-dontwarn com.androidquery.**
+-dontwarn org.apache.http.**
+-dontwarn android.support.v4.**
+-dontwarn org.apache.http.**
+-dontwarn org.brickred.**
+-dontwarn java.awt.**,javax.security.**,java.beans.**
+-dontwarn android.webkit.*
+-dontwarn com.tf.**
+-dontwarn com.thinkfree.**

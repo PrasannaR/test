@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<string name="tts_title">Teks untuk dilafalkan</string>
+<string name="tts_install_title">Instal data suara</string>
+<string name="tts_install_message">Ingin menginstal data suara yang diperlukan untuk sintesis pelafalan?</string>
+</resources>

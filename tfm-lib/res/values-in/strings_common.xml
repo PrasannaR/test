@@ -1,0 +1,204 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<resources>
+    <!-- words -->
+    <!-- apps -->
+    <string name="app_name" translatable="false">ThinkFree Office</string>
+    <string name="tfwrite" translatable="false">ThinkFree Write</string>
+    <string name="tfcalc" translatable="false">ThinkFree Calc</string>
+    <string name="tfshow" translatable="false">ThinkFree Show</string>
+    <string name="tfpdf" translatable="false">ThinkFree PDF Viewer</string>
+    <string name="market_pub" translatable="false">ThinkFree Office</string>
+    
+    <string name="file">File</string>
+    <string name="properties">Properti</string>
+    <string name="send">Kirim</string>
+    <string name="share">Bagikan</string>
+    <string name="save">Simpan</string>
+    <string name="zoom">Pembesaran</string>
+    <string name="zoom_in">Perbesar</string>
+    <string name="zoom_out">Perkecil</string>
+    <string name="preferences">Preferensi</string>
+    <string name="horizontal_page_scrolling">Pengguliran halaman horizontal</string>
+    <string name="vertical_page_scrolling">Pengguliran halaman vertikal</string>
+    <string name="refresh">Refresh</string>
+    <string name="delete_all">Hapus semua</string>
+    <string name="update">Perbarui</string>
+    <string name="about">Tentang</string>
+    <string name="find">Temukan</string>
+    <string name="replace">Ganti</string>
+    <string name="sort">Urutkan</string>
+    <string name="fullscreen">Layar penuh</string>
+    <string name="normalscreen">Layar normal</string>
+    <string name="texttospeech">Teks untuk dilafalkan</string>
+    <string name="dictionary">Kamus</string>
+    <string name="save_to">Simpan ke</string>
+    <string name="edit">Edit</string>
+    <string name="view">Tampilkan</string>
+    <string name="save_as">Simpan sebagai</string>
+    <string name="save_as_pdf">Simpan sebagai PDF</string>
+    <string name="select">Pilih</string>
+    <string name="select_all">Pilih semua</string>
+    <string name="select_word">Pilih kata</string>
+    <string name="select_line">Pilih baris</string>
+    <string name="select_paragraph">Pilih paragraf</string>
+    <string name="insert_shape">Sisipkan bentuk</string>
+    <string name="object">Objek</string>
+    <string name="text">Teks</string>
+    <string name="from_camera_image">Dari kamera (gambar)</string>
+    <string name="from_camera_video">Dari kamera (video)</string>
+    <string name="from_gallery_image">Dari galeri (gambar)</string>
+    <string name="from_gallery_video">Dari galeri (video)</string>
+    <string name="from_scribble_pad">Dari scribble pad</string>
+    <string name="font">Font</string>
+    <string name="bold">Tebal</string>
+    <string name="italic">Miring</string>
+    <string name="superscript">Superskrip</string>
+    <string name="subscript">Subskrip</string>
+    <string name="size">Ukuran</string>
+    <string name="color">Warna</string>
+    <string name="align">Ratakan</string>
+    <string name="insert">Sisipkan</string>
+    <string name="delete">Hapus</string>
+    <string name="insert_paragraph_break">Sisipkan hentian paragraf</string>
+    <string name="keyboard">Keyboard</string>
+    <string name="clipboard">Clipboard</string>
+    <string name="undo">Batalkan</string>
+    <string name="redo">Ulangi</string>
+    <string name="copy">Salin</string>
+    <string name="cut">Potong</string>
+    <string name="paste">Tempel</string>
+    <string name="all_caps">Semua kapital</string>
+    <string name="small_caps">Kapitalisasi kecil</string>
+    <string name="strike">Coret</string>
+    <string name="dstrike">Coret ganda</string>
+    <string name="input_method">Metode input</string>
+    <string name="yes">Ya</string>
+    <string name="no">Tidak</string>
+    <string name="ok">OK</string>
+    <string name="cancel">Batal</string>
+    <string name="close">Tutup</string>
+    <string name="more">Lainnya..</string>
+    <string name="encrypted_document">Dokumen terenkripsi</string>
+    <string name="password">Kata sandi</string>
+    <string name="text_encoding">Pengodean teks</string>
+    <string name="exit">Keluar</string>
+    <string name="others">Lainnya</string>
+    <string name="build_number">Nomor build</string>
+    <string name="create_backup_copy">Buat salinan cadangan</string>
+    <string name="align_left">Kiri</string>
+    <string name="align_center">Tengah</string>
+    <string name="align_right">Kanan</string>
+    <string name="align_justified">Rata kanan kiri</string>
+    <string name="auto">Otomatis</string>
+    <string name="none">Tidak ada</string>
+    <string name="effect">Efek</string>
+    <string name="print">Cetak</string>
+    <string name="label_print_range">Rentang cetak</string>
+    <string name="label_print_range_all">Semua</string>
+    <string name="label_print_range_current">Halaman saat ini</string>
+    <string name="label_print_range_from">Dari:</string>
+    <string name="label_print_range_to">Hingga:</string>
+    <string name="fill_color">Warna isian</string>
+    <string name="line_color">Warna garis</string>
+    <string name="line_width">Lebar garis</string>
+    <string name="line_dash">Garis putus</string>
+    <string name="line_end">Akhir garis</string>
+    <string name="image_style">Gaya gambar</string>
+    <string name="shape_style">Gaya bentuk</string>
+    <string name="object_properties">Properti objek</string>
+    <string name="limited_mode">Mode terbatas</string>
+    <string name="insert_table">Sisipkan tabel</string>
+    <string name="insert_table_row">Baris</string>
+    <string name="insert_table_column">Kolom</string>
+    <string name="insert_table_ok">OK</string>
+    <string name="table_properties">Properti tabel</string>
+    <string name="table_style">Gaya tabel</string>
+    <string name="table_style_options">Opsi gaya tabel</string>
+    <string name="delete_table">Hapus tabel</string>
+    <string name="save_to_thinkfree_online">Simpan ke ThinkFree Online</string>
+    <string name="save_to_local_folder">Simpan ke folder lokal</string>
+    <string name="no_selected">Tidak ada</string>
+    <string name="match_case">Cocokkan huruf</string>
+    <string name="find_whole_word_only">Temukan seluruh kata saja</string>
+    <string name="find_entire_cell_only">Temukan seluruh sel saja</string>
+    <string name="finder_view_find">Temukan apa?</string>
+    <string name="finder_view_replace">Ganti dengan</string>
+    <string name="cache_management">Manajemen penyimpanan</string>
+    <string name="delete_data">Singgahan internal</string>
+    <string name="delete_data_sub">Hapus data singgahan untuk preferensi</string>
+    <string name="delete_thumbnail">Singgahan eksternal</string>
+    <string name="delete_thumbnail_sub">Hapus data singgahan untuk dokumen ThinkFree</string>
+    <string name="delete_template">Singgahan file templat</string>
+    <string name="delete_template_sub">Hapus data singgahan untuk templat</string>
+    <string name="delete_confirm_internal_cache">Untuk sepenuhnya menghapus singgahan internal, Anda harus keluar dari ThinkFree Office. Hapus singgahan internal dan keluar dari Office?</string>
+    <string name="confirm_deletion_des">Benar-benar ingin menghapus item yang dipilih?</string>
+    <string name="msg_delete_completed">Item yang dipilih berhasil dihapus.</string>
+    <string name="msg_delete_failed">Item yang dipilih tidak bisa dihapus.</string>
+    
+    <!-- messages -->
+    <string name="msg_saved_to">Disimpan ke \'%s\'</string>
+    <string name="msg_failed">Gagal</string>
+    <string name="msg_loading">Memuat \'%s\'...</string>
+    <string name="msg_saving">Menyimpan \'%s\'...</string>
+    <string name="msg_saving_general">Menyimpan...</string>
+    <string name="msg_failed_to_open">Gagal dibuka</string>
+    <string name="msg_failed_to_save">Gagal disimpan</string>
+    <string name="msg_no_matches">Tidak menemukan kecocokan</string>
+    <string name="msg_matches">%1$d/%2$d cocok</string>
+    <string name="msg_enter_password">Harap masukkan kata sandi</string>
+    <string name="msg_width">Lebar: %d px</string>
+    <string name="msg_height">Tinggi: %d px</string>
+    <string name="msg_ask_to_save">Ingin menyimpan?</string>
+    <string name="msg_create_backup_copy">Buat salinan cadangan dokumen tiap kali Anda menyimpan dokumen</string>
+    <string name="msg_not_enough_memory">Memori tidak mencukupi</string>
+    <string name="msg_cannot_insert_over_size">File ini melebihi batas lampiran 10 MB.</string>
+    <string name="msg_insert_sdcard">Harap masukkan kartu memori SD.</string>
+    <string name="file_name">Nama file</string>
+    <string name="file_type">Tipe file</string>
+    <string name="msg_printing">Mencetak \'%s\'...</string>
+    <string name="msg_print_fail">Gagal mencetak</string>
+    <string name="password_Incorrect">Kata sandi yang Anda masukkan tidak sesuai dengan kata sandi yang didaftarkan.</string>
+    <string name="msg_cannot_open_encrypted_document">Tidak dapat membuka file terenkripsi ini</string>
+    <string name="msg_lost_password">Jika Anda menyimpan sebagai baru, enkripsi file akan dinonaktifkan. Ingin melanjutkan?</string>
+    <string name="msg_cannot_cancel_save">Operasi ini tidak bisa dibatalkan selagi dalam proses menyimpan.</string>
+    <string name="msg_not_enough_sdcard_space">Tidak cukup ruang di kartu memori SD</string>
+    <string name="msg_invalid_format">Format tidak didukung atau tidak diketahui.</string>
+    <string name="msg_encryped_file">File rusak.</string>
+    <string name="msg_invalid_version">Versi dokumen tidak didukung atau tidak diketahui.</string>
+    <string name="msg_canceled_to_open">Dibatalkan untuk membuka.</string>
+    
+    <!-- upload -->
+    <string name="msg_uploader_title">Unggah ke</string>
+    <string name="msg_uploader_prepared">Bersiap untuk mengunggah...</string>
+    <string name="msg_uploader_failed">Pengunggahan gagal</string>
+    <string name="msg_uploader_size_exceeded">File ini melebihi batas lampiran 10 MB.</string>
+    <string name="msg_uploader_cancelled">Pengunggahan dibatalkan</string>
+    <string name="msg_uploader_uploading">Mengunggah...</string>
+    <string name="msg_uploader_finish">pengunggahan selesai</string>
+    <string name="msg_uploader_connection_fail">Koneksi jaringan gagal.</string>
+    
+    <!-- Hyperlink -->
+    <string name="hyperlink">Hyperlink</string>
+    <string name="delete_hyperlink">Hapus hyperlink</string>
+    <string name="hyperlink_web_prefix">http://</string>
+    <string name="hyperlink_email_prefix">mailto:</string>
+    
+    <!-- caption name -->
+    <string name="caption_standard_color">Warna standar</string>
+    <string name="caption_natural_color">Warna alami</string>
+      
+    <!-- ActionBar -->
+    <string name="actionbar_limited_mode_title_postfix">[Mode terbatas]</string>
+    <string name="prepare_print">Bersiap untuk mencetak...</string>
+    
+    <!-- Motion Detection -->
+    <string name="msg_right_to_left">Deteksi Gerakan - Halaman Berikutnya</string>
+    <string name="msg_left_to_right">Deteksi Gerakan - Halaman Sebelumnya</string>
+    <string name="msg_warn_first_page">Deteksi Gerakan - Halaman Pertama</string>
+    <string name="msg_warn_last_page">Deteksi Gerakan - Halaman Terakhir</string>
+    <string name="msg_show_slideshow">Deteksi Gerakan - Perlihatkan peragaan slide</string>
+    <string name="msg_stop_slideshow">Deteksi Gerakan - Hentikan peragaan slide</string>
+    
+    <!-- About -->
+	<string name="bullet_about_link">▶</string>
+</resources>

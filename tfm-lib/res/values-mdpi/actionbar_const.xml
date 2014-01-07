@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+	<!-- Title Text -->
+	<integer name="actionbar_title_text_size">14</integer>
+	<integer name="actionbar_title_text_style">0</integer> <!-- Text Style: 0(Normal), 1(Bold), 2(Italic), 3(Bold&Italic) -->
+	<integer name="actionbar_title_text_color">0xFFA8C4E0</integer>
+	<integer name="actionbar_title_text_align">0x10</integer> <!-- gravity : 0x10(center_vertical)-->
+	
+	<!-- Actionbar margin -->
+	<dimen name="actionbar_left_edge_margin">7dp</dimen>
+	<dimen name="actionbar_right_edge_margin">7dp</dimen>
+
+	
+	<!-- Scribble Pad margin-->
+	<dimen name="scribble_pad_left_edge_margin">9dp</dimen>
+	<dimen name="scribble_pad_right_edge_margin">7dp</dimen>
+	<dimen name="scribble_pad_item_right_margin">12dp</dimen>
+	
+	<!-- ScribblePad Actionbar -->
+	<dimen name="scribblepad_colorview_height">9dp</dimen>
+	
+</resources>

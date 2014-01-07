@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+   	<!-- option menu -->
+	<string name="write_goto_view_mode">切換為文字模式</string>
+    
+	<!-- words -->
+   	<string name="write_dictionary_select_language">選取語言</string>
+	<string name="write_dictionary_english">英文</string>
+	<string name="write_dictionary_korean">韓文</string>
+	<string name="write_dictionary_japanese">日文</string>
+	<string name="write_dictionary_spanish">西班牙文</string>
+	<string name="write_dictionary_french">法文</string>
+	<string name="write_dictionary_portuguese">葡萄牙文</string>
+	<string name="write_dictionary_chinese">中文</string>
+	<string name="write_display_mode">顯示模式</string>
+	<string name="write_fit_to_screen_width">符合螢幕寬度</string>
+	<string name="write_show_all_marks">顯示所有編輯標記</string>
+	<string name="write_show_smart_zoom">顯示智慧縮放</string>
+	<string name="write_show_picture_placeholders">顯示圖片預留位置</string>
+	<string name="write_show_scrolling_icons">顯示捲動圖示</string>
+	<string name="write_reflow_view">重排檢視</string>
+	<string name="write_bookmark">顯示書籤</string>
+	<string name="write_bookmark_add">新增</string>
+	<string name="write_bookmark_delete">刪除</string>
+	<string name="write_bookmark_goto">移至</string>
+	<string name="write_preferences">Document Viewer 喜好設定</string>
+	<string-array name="write_display_modes">
+		<item>原機顯示</item>
+		<item>正色顯示</item>
+		<item>負片顯示</item>
+	</string-array>
+	
+	<!-- messages -->
+	<string name="write_msg_show_all_marks">顯示或隱藏所有編輯標記</string>
+	<string name="write_msg_show_smart_zoom">自動縮放文字</string>
+	<string name="write_msg_show_picture_placeholders">以空白方塊取代文件中的每個圖形顯示</string>
+	<string name="write_msg_show_scrolling_icons">顯示或隱藏捲動圖示</string>
+	<string name="write_msg_reflow_view">無需水平捲動文件即可輕鬆進行檢視</string>
+	<string name="write_msg_hyperlink">輕按兩下連結以開啟</string>
+	<string name="write_msg_bookmark">顯示或隱藏書籤</string>
+	<string name="write_msg_dictionary_no_results">找不到含“%s”的結果</string>
+	<string name="write_msg_dictionary_invalid_response">對伺服器的回應無效</string>
+	<string name="write_msg_select_txt_extention">警告： 只會儲存文字。</string>
+	
+	<string name="write_msg_zoom">%d%%</string>
+</resources>
