@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<!-- application names -->
+	<string name="calc_hd">ThinkFree Calc HD</string>
+	<string name="calc_preferences">ThinkFree Calc beállítások</string>
+
+	<!-- menu titles/items -->
+	<string name="calc_title_app">ThinkFree Calc</string>
+	<string name="calc_worksheets">Munkalapok</string>
+	<string name="calc_goto">Ugrás</string>
+	<string name="calc_label_print_range">Nyomtatási tartomány</string>
+
+	<!-- activity/dialog titles -->
+	<string name="calc_select_sheet">Lap kiválasztása</string>
+	<string name="calc_show_hidden_sheets">Elrejtett lapok megjelenítése</string>
+
+	<!-- button labels
+	<string name="calc_button_sheets">Sheets</string>
+	-->
+
+	<!-- short messages for toasts and dialogs -->
+	<string name="calc_msg_title">Calc</string>
+	<string name="calc_msg_invalid_dir">Érvénytelen mappa: \'%s\'</string>
+	<string name="calc_msg_empty_sheet">Ezen a lapon nincs tartalom.</string>
+	<string name="calc_msg_searching">Keresés...</string>
+	<string name="calc_msg_invalid_ref">Érvénytelen hivatkozás</string>
+	<string name="calc_msg_enter_ref">Adjon meg hivatkozást</string>
+	<string name="calc_msg_print_ok">OK</string>
+	<string name="calc_msg_print_cancel">Mégse</string>
+	<string name="calc_msg_print_range_all">Aktuális lap</string>
+	<string name="calc_msg_print_current">Kijelölt terület</string>
+	<string name="calc_msg_row_resize">Pont</string>
+	<string name="calc_msg_col_resize">Karakterszám</string>
+
+	<!-- descriptions on the preference screen -->
+	<string name="calc_msg_shows_hidden_sheets">Lista elrejtett lapjainak megjelenítése</string>
+	
+	<string name="calc_sheethide">Lapfülek elrejtése</string>
+	<string name="calc_sheetunhide">Lapfülek felfedése</string>
+	    
+</resources>

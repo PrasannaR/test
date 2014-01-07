@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:id="@+id/search_relative"
+    android:background="#F2F2F2">
+	<LinearLayout 
+        android:id="@+id/header"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="@drawable/sms_header_bg">
+        <ImageView
+	       android:id="@+id/home_back_button"
+	       android:layout_width="wrap_content"
+	       android:layout_height="wrap_content"
+	       android:layout_alignParentLeft="true"
+	       android:layout_centerVertical="true"
+	       android:src="@drawable/em_btn_back"
+	       android:filterTouchesWhenObscured="true" />
+	    <ImageView 
+	        android:id="@+id/message_icon"
+	        android:layout_width="wrap_content"
+	   		android:layout_height="wrap_content"
+	   		android:src="@drawable/sms_messenger_app_icon"
+	   		android:layout_gravity="center"
+	   		android:filterTouchesWhenObscured="true" />
+	    <com.cognizant.trumobi.commonabstractclass.TruMobBaseEditText
+	        android:id="@+id/search_text"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_weight="1"
+	        android:layout_gravity="center"
+	        android:hint="Search messages"
+	        android:textColor="#FFFFFF"
+	        android:imeOptions="actionSearch"
+	        android:background="@drawable/sms_edit_text_holo_light"
+	        android:drawableLeft="@drawable/sms_edittext_search"
+	        android:filterTouchesWhenObscured="true" />
+	   
+	    <ImageView
+	        android:id="@+id/corporate_icon"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_gravity="center"
+	        android:src="@drawable/sms_home_icon"
+	        android:filterTouchesWhenObscured="true" />
+    </LinearLayout>
+    
+	<ListView
+        android:id="@+id/list_search_inbox"
+        android:layout_below="@+id/header"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/footer"
+        android:filterTouchesWhenObscured="true" >    
+	</ListView>
+	
+	<ListView
+        android:id="@+id/list_search_menu"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/sms_menu_bg_top"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="10dp"
+        android:layout_above="@+id/footer"
+        android:filterTouchesWhenObscured="true" >
+    </ListView>
+    
+	<LinearLayout
+    android:id="@+id/sms_no_conversation_search" 
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:layout_below="@+id/header"
+    android:layout_above="@+id/footer" >
+
+    <ImageView
+        android:id="@+id/corporate_icon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/sms_no_conversation"
+        android:filterTouchesWhenObscured="true" />
+
+</LinearLayout>
+
+	<include 
+	    layout="@layout/sms_footer"
+	    android:id="@+id/footer"
+	    android:layout_below="@+id/list_inbox"
+	    >
+ 	</include>
+ 	
+	<ListView
+        android:id="@+id/search_list_view"
+        android:layout_width="300dip"
+        android:layout_marginLeft="30dip"
+        android:layout_marginRight="30dip"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/header"
+        android:background="#353535"
+        android:filterTouchesWhenObscured="true" />
+    
+
+</RelativeLayout>

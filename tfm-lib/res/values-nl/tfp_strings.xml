@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<string name="tfp_app_name">ThinkFree PDF Viewer</string>
+<string name="tfp_err_bad_catalog">Fout bij openen bestand. De paginacatalogus is ongeldig.</string>
+<string name="tfp_err_damaged_file">Fout bij openen bestand. Het lijkt beschadigd te zijn.</string>
+<string name="tfp_err_open_file">Fout bij openen bestand. Het bestaat niet of kan niet worden gelezen.</string>
+<string name="tfp_err_open_unknown">Fout bij openen bestand. Het is mogelijk geen geldig PDF-bestand.</string>
+<string name="tfp_err_out_of_memory">Fout. Onvoldoende geheugen beschikbaar om door te gaan.</string>
+<string name="tfp_err_non_standard_security_handler">Fout bij openen bestand. Het is gecodeerd met een niet-ondersteunde beveiligingshandler.</string>
+<string name="tfp_err_loading_page">Fout bij laden pagina.</string>
+<string name="tfp_msg_blank_page">Lege pagina</string>
+<string name="tfp_msg_no_read_mode">Leesmodus\nniet beschikbaar\nvoor deze pagina.</string>
+<string name="tfp_msg_err_loading_page">Fout bij laden\npagina</string>
+<string name="tfp_menu_reading_view">Leesweergave</string>
+<string name="tfp_menu_page_view">Paginaweergave</string>
+<string name="tfp_misc_page" formatted="false">%1 van %2</string>
+<string name="tfp_app_description">Oorspronkelijke Adobe PDF-bestanden en bijlagen weergeven.</string>
+<string name="tfp_misc_ok">OK</string>
+<string name="tfp_msg_err_loading_file">Fout bij laden bestand</string>
+<string name="tfp_menu_about">Info</string>
+<string name="tfp_menu_go_to_page">Ga naar pagina</string>
+<string name="tfp_page_label">Pagina (1-%1):</string>
+<string name="tfp_misc_cancel">Annuleren</string>
+<string name="tfp_err_invalid_page_num">Geef een geldig paginanummer op.</string>
+<string name="tfp_password_hint">Wachtwoord</string>
+<string name="tfp_password_instructions">Deze PDF is beveiligd met een wachtwoord. Geef het wachtwoord op om door te gaan.</string>
+<string name="tfp_menu_save">Opslaan</string>
+<string name="tfp_unknown_name">Onbekend.pdf</string>
+<string name="tfp_misc_yes">Ja</string>
+<string name="tfp_misc_no">Nee</string>
+<string name="tfp_confirm_save">Wilt u \'%1\' opslaan op de geheugenkaart?</string>
+<string name="tfp_save_complete">Opgeslagen</string>
+<string name="tfp_no_bookmarks">Geen bladwijzers</string>
+<string name="tfp_menu_bookmarks">Bladwijzers</string>
+<string name="tfp_menu_go_to">Ga naar</string>
+<string name="tfp_menu_collapse">Samenvouwen</string>
+<string name="tfp_menu_expand">Uitbreiden</string>
+<string name="tfp_menu_send">Verzenden</string>
+<string name="tfp_misc_emailing">E-mail verzenden: %1</string>
+<string name="tfp_menu_properties">Eigenschappen</string>
+<string name="tfp_prop_title">Titel:</string>
+<string name="tfp_prop_author">Auteur:</string>
+<string name="tfp_prop_subject">Onderwerp:</string>
+<string name="tfp_prop_keywords">Trefwoorden:</string>
+<string name="tfp_prop_modified">Gewijzigd:</string>
+<string name="tfp_menu_find">Zoeken</string>
+<string name="tfp_find_hint">Zoeken naar?</string>
+<string name="tfp_find_no_matches">Niets gevonden.</string>
+<string name="tfp_find_complete">Zoeken voltooid.</string>
+<string name="tfp_finding">Zoeken naar \'%1\'. Een ogenblik geduld...</string>
+<string name="tfp_wait_page_load">Wacht tot de huidige pagina volledig is geladen.</string>
+<string name="tfp_menu_print">Afdrukken</string>
+<string name="tfp_security_print">Beveiliging van document verhindert afdrukken.</string>
+<string name="tfp_misc_page_range">Paginabereik</string>
+<string name="tfp_all_pages_label">Alle pagina\'s</string>
+<string name="tfp_current_page_label">Huidige pagina</string>
+<string name="tfp_page_from_label">Van:</string>
+<string name="tfp_page_to_label">Tot:</string>
+<string name="tfp_err_invalid_page_range">Geef een geldig paginabereik op.</string>
+<string name="tfp_preparing_page">Pagina %1 voorbereiden...</string>
+<string name="tfp_menu_file">Bestand</string>
+<string name="tfp_menu_zoom">In- en uitzoomen</string>
+<string name="tfp_menu_zoom_fit">Aanpassen aan schermbreedte</string>
+<string name="tfp_menu_zoom_percent">%1%</string>
+<string name="tfp_menu_display_mode">Weergavemodus</string>
+<string name="tfp_misc_original_display">Oorspronkelijke weergave</string>
+<string name="tfp_misc_positive_display">Positieve weergave</string>
+<string name="tfp_misc_negative_display">Negatieve weergave</string>
+<string name="tfp_menu_brightness">Helderheid</string>
+<string name="tfp_misc_cancel_audio">Druk op knop Vorige om audio te annuleren.</string>
+<string name="tfp_label_product">%s Mobile for Android\u2122</string>
+<string name="tfp_link_about"><a href="http://www.thinkfree.com/go?id=mobile_main">Info</a></string>
+<string name="tfp_link_help"><a href="http://www.thinkfree.com/go?id=help_en_us_and_hd">Help</a></string>
+<string name="tfp_link_support"><a href="http://www.thinkfree.com/go?id=help_online">Ondersteuning</a></string>
+<string name="tfp_link_terms"><a href="http://www.thinkfree.com/go?id=terms">Voorwaarden</a></string>
+<string name="tfp_link_privacy"><a href="http://www.thinkfree.com/go?id=privacy">Privacy</a></string>
+<string name="tfp_link_ack"><a href="http://www.thinkfree.com/go?id=ack_and">Kennisgeving</a></string>
+<string name="tfp_link_separator">|</string>
+<string name="tfp_label_copyright">\u00A92011 Hancom Inc. Alle rechten voorbehouden. \nThinkFree en het ThinkFree-logo zijn handelsmerken van Hancom Inc.</string>
+<string name="tfp_label_accord">Delen van dit product zijn wijzigingen op basis van werk dat is gemaakt en <a href="http://code.google.com/policies.html">gedeeld via Google</a> en deze worden gebruikt in overeenstemming met de voorwaarden vastgelegd in de <a href="http://creativecommons.org/licenses/by/2.5">Creative Commons 2.5 Attribution License.</a></string>
+</resources>

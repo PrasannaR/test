@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="retry">Riprova</string>
+	
+    <!-- Purchase Activity -->
+    <string name="title_purchase">Acquista ThinkFree Mobile for Android v4.1</string>
+    <string name="market_android">Android</string>
+    <string name="market_amazon">Amazon</string>
+	
+    <!-- License Check Activity-->
+    <string name="msg_checking_license">Verifica della licenza...</string>
+    <string name="title_application_error">Errore applicazione</string>
+    <string name="msg_application_error">Codice errore: %1$d</string>
+    <string name="title_unlicensed">Applicazione senza licenza</string>
+    <string name="msg_unlicensed">Questa applicazione non dispone della licenza. Acquistarla da %s Market.</string>
+	<string name="title_no_network_connection">Errore di connessione di rete</string>
+	<string name="msg_no_network_connection">Impossibile connettersi alla rete. Accertarsi che il dispositivo sia connesso alla rete.</string>
+	
+	<string name="inducement_to_purchase_tfm">La versione a pagamento di ThinkFree Office offre maggiori funzionalità in grado di migliorare la produttività. Accedere a Market?</string>
+	<string name="inducement_to_purchase_print">Se si acquista ThinkFree Mobile Print, è possibile stampare i documenti. Accedere a Market?</string>
+	<string name="inducement_to_purchase_hwp">Se si scarica Hancom Viewer, è possibile visualizzare il documento gratuitamente. Accedere a Market?</string>
+</resources>
