@@ -1,6 +1,0 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<resources>
-<string name="tts_title">텍스트 읽어주기</string>
-<string name="tts_install_title">음성 데이터 설치하기</string>
-<string name="tts_install_message">음성 합성을 위해 음성 데이터를 설치하시겠습니까?</string>
-</resources>
