@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <PreferenceCategory android:title="@string/inline_preferences" >
+          <CheckBoxPreference
+            android:key="@string/key_display_personal_events_checkbox_preference"
+            android:title="@string/display_personal_events" 
+            android:layout="@layout/cal_checkbox_preference" />
+      <!--   <CheckBoxPreference
+            android:key="@string/key_hide_event_checkbox_preference"
+            android:title="@string/hide_declined_events"
+            android:layout="@layout/cal_checkbox_preference" /> -->
+        <CheckBoxPreference
+            android:key="@string/key_show_week_checkbox_preference"
+            android:title="@string/show_week_number"
+            android:layout="@layout/cal_checkbox_preference" />
+        <ListPreference
+            android:defaultValue="@string/cal_sync_default"
+            android:dialogTitle="@string/cal_sync_interval_title"
+            android:entries="@array/cal_sync_interval_string"
+            android:entryValues="@array/cal_sync_interval_values"
+            android:key="@string/cal_sync_key_list"         
+            android:title="@string/cal_sync_interval_title" />
+        <ListPreference
+            android:defaultValue="@string/locale_default"
+            android:dialogTitle="@string/week_start_on_title"
+            android:entries="@array/preferences_week_start_on"
+            android:entryValues="@array/preferences_week_start_on_values"
+            android:key="@string/key_list_preference"
+            android:summary="@string/locale_default"
+            android:title="@string/week_start_on" />
+
+        <CheckBoxPreference
+            android:key="@string/key_parent_calender"
+            android:summary="@string/display_calender"
+            android:title="@string/use_home_time"
+            android:layout="@layout/cal_checkbox_preference" />
+        <ListPreference
+            android:dependency="@string/key_parent_calender"
+            android:key="@string/key_home_time_zone_preference"
+            android:summary="@string/gmt_kolkata"
+            android:dialogTitle="@string/home_time_zone"
+            android:title="@string/home_time_zone"
+            android:entries="@array/preference_home_time_zone_label" 
+            android:entryValues="@array/preference_home_time_zone_label"/>
+        
+      <!--    android:dialogTitle="@string/default_reminder_time"
+            android:entries="@array/preferences_reminder_minutes_labels"
+            android:entryValues="@array/preferences_reminder_minutes_labels"
+            android:key="default_list_preference"
+            android:summary="@string/defailt_mins"
+            android:title="@string/default_reminder_time" -->
+
+        <Preference
+            android:key="@string/key_clear_search"
+            android:summary="@string/remove_all_search"
+            android:title="@string/clear_search_history" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/notification_reminders" >
+        <CheckBoxPreference
+            android:key="@string/key_parent_notifications"
+            android:title="@string/notifications"
+            android:layout="@layout/cal_checkbox_preference" />
+
+        <RingtonePreference
+            android:dependency="@string/key_parent_notifications"
+            android:key="@string/key_ringtone_preferences"
+            android:summary="@string/default_ringtone"
+            android:title="@string/sounds" />
+
+        <CheckBoxPreference
+            android:dependency="@string/key_parent_notifications"
+            android:key="@string/key_child_vibrate_notification"
+            android:title="@string/vibrate"
+            android:layout="@layout/cal_checkbox_preference" />
+        <CheckBoxPreference
+            android:dependency="@string/key_parent_notifications"
+            android:key="@string/key_child_popup_notification"
+            android:title="@string/popup_notification"
+            android:layout="@layout/cal_checkbox_preference" />
+
+        <ListPreference
+            android:dialogTitle="@string/default_reminder_time"
+            android:entries="@array/preferences_reminder_minutes_labels"
+            android:entryValues="@array/preferences_reminder_minutes_labels"
+            android:key="@string/key_default_reminderlist_preference"
+            android:title="@string/default_reminder_time" />
+
+       <!--  <PreferenceScreen
+            android:summary="@string/edit_default_response"
+            android:title="@string/quick_responses" >
+            <intent android:action=".activities.QuickResponse" />
+        </PreferenceScreen> -->
+
+    </PreferenceCategory>
+
+</PreferenceScreen>

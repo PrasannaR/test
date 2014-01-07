@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/lyt_mailitems_parent"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#FBFBFB"
+    android:orientation="vertical" 
+	android:filterTouchesWhenObscured="true">
+    <!-- android:background="#d9d9d9" -->
+
+    <!-- Mail List subheader items starts -->
+ 		<TextView
+            android:id="@+id/textView1"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:focusable="true"
+            android:text="TextView" 
+			android:filterTouchesWhenObscured="true"/>
+    <LinearLayout
+        android:id="@+id/lyt_mailitems_subheader"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/container_txt_search_bg"
+        android:orientation="vertical"
+        android:filterTouchesWhenObscured="true">
+
+        <com.cognizant.trumobi.commonabstractclass.TruMobBaseEditText
+            android:id="@+id/edtxt_subheader_name_att"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:background="@color/container_txt_search_bg"
+            android:drawableLeft="@drawable/con_search_icon_on"
+            android:gravity="center|left"
+            android:hint="Search"
+            android:singleLine="true"
+            android:textColor="@color/container_Black"
+            android:textColorHint="@color/container_txt_color_hint"
+            android:textSize="@dimen/txt_subtems_size"
+            android:paddingLeft="@dimen/edtbox"
+            android:paddingRight="@dimen/edtbox"
+            android:paddingTop="@dimen/container_edt_top_pad"
+            android:paddingBottom="@dimen/container_edt_top_pad"
+            android:cursorVisible="true"
+            android:filterTouchesWhenObscured="true" />
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+			android:filterTouchesWhenObscured="true"
+            android:background="@color/container_txt_search_bottom" />
+    </LinearLayout>
+    <!-- Mail List subheader items ends -->
+
+
+    <!-- Mail List footer items starts -->
+
+    <LinearLayout
+        android:id="@+id/lyt_mailitems_footer_mail"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="#76797C"
+        android:orientation="horizontal"
+        android:visibility="gone"
+        android:weightSum="2"
+android:filterTouchesWhenObscured="true"		>
+
+        <Button
+            android:id="@+id/btn_delete_mail"
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_marginBottom="1dp"
+            android:layout_marginLeft="1dp"
+            android:layout_marginTop="1dp"
+            android:layout_weight="1"
+            android:background="@color/container_NormalButton"
+            android:onClick="startEventAction"
+            android:text="@string/container_Delete"
+            android:textColor="@color/container_white"
+            android:textSize="@dimen/txt_subtems_size" 
+			android:filterTouchesWhenObscured="true"/>
+
+        <Button
+            android:id="@+id/btn_cancel_mail"
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_marginBottom="1dp"
+            android:layout_marginLeft="1dp"
+            android:layout_marginRight="1dp"
+            android:layout_marginTop="1dp"
+            android:layout_weight="1"
+            android:background="@color/container_NormalButton"
+            android:onClick="startEventAction"
+            android:text="@string/container_Cancel"
+            android:textColor="@color/container_white"
+            android:textSize="@dimen/txt_subtems_size" 
+			android:filterTouchesWhenObscured="true"/>
+    </LinearLayout>
+
+    <!-- Mail List footer items ends -->
+
+
+    <!-- Mail List starts -->
+
+    <ListView
+        android:id="@+id/listviewMail"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/lyt_mailitems_footer_mail"
+        android:layout_below="@id/lyt_mailitems_subheader"
+        android:background="@color/container_white"
+        android:clickable="true"
+        android:divider="@color/container_divider"
+        android:dividerHeight="1dp"
+        android:listSelector="@drawable/con_attachmentlistseparator"
+        android:scrollbars="vertical"
+		android:scrollingCache="false"
+        android:choiceMode="singleChoice" 
+		android:filterTouchesWhenObscured="true"/>
+    <!-- Mail List ends -->
+
+</RelativeLayout>
