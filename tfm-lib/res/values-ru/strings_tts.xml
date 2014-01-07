@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<string name="tts_title">Текст в речь</string>
+<string name="tts_install_title">Установить голосовые данные</string>
+<string name="tts_install_message">Установить голосовые данные, необходимые для синтеза речи?</string>
+</resources>

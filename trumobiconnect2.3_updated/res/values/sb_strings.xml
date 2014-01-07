@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="sb_app_name">Secure Browser</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="more">more</string>
+<string name="new_tab">New Tab</string>
+<string name="new_incognito_tab">New incognito tab</string>
+<string name="bookmarks">Bookmarks</string>
+<string name="history">History</string>
+<string name="find_in_page">Find in page</string>
+<string name="default_text">Search or Type URL</string>
+ <string name="sign_in_to">Sign in to</string>
+	<string name="settings">Settings</string>
+	<string name="username">Name</string>
+    <!-- Prompt for an input box that allows the user to enter their password -->
+    <string name="password">Password</string>
+    <!-- The label on the "sign in" button -->
+    <string name="action">Sign in</string>
+    <!-- The name of the add bookmark page activity.-->
+    <string name="bookmarks_add_page">Save bookmark</string>
+    <!-- The name of the bookmarks and history search suggestion source.  -->
+    <string name="bookmarks_search">Browser</string>
+    <!-- Label for a cancel button.  It is used for multiple cancel buttons in different contexts -->
+    <string name="cancel">Cancel</string>
+    <!-- Label for a confirm button.  Used in multiple contexts. -->
+    <string name="ok">OK</string>
+    <string name="proxy">Enable ProxySettings</string>
+    <string name="home">Goto Home</string>
+
+</resources>

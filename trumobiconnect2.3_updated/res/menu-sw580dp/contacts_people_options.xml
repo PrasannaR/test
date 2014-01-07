@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/menu_search"
+        android:actionLayout="@layout/contacts_search_layout"
+        android:icon="@drawable/contacts_ic_ab_search_holo_dark"
+        android:orderInCategory="100"
+        android:showAsAction="ifRoom|collapseActionView"
+        android:title="@string/menu_search"/>
+    <item
+        android:id="@+id/menu_add_contact"
+        android:icon="@drawable/contacts_ic_add_contact_holo_dark"
+        android:orderInCategory="200"
+        android:showAsAction="ifRoom"
+        android:title="@string/menu_new_contact_action_bar"/>
+    <item
+        android:id="@+id/menu_add_group_contact"
+        android:icon="@drawable/contacts_ic_add_group_holo_dark"
+        android:orderInCategory="200"
+        android:showAsAction="ifRoom"
+        android:title="@string/menu_new_group_contact_action_bar"
+        android:visible="false"/>
+    <item
+        android:id="@+id/menu_manual_sync"
+        android:icon="@drawable/contacts_ic_menu_refresh_holo_light"
+        android:orderInCategory="300"
+        android:showAsAction="ifRoom"
+        android:title="Sync"/>
+   <!--  <item
+        android:id="@+id/menu_edit"
+        android:alphabeticShortcut="e"
+        android:icon="@drawable/contacts_ic_menu_compose_holo_dark"
+        android:orderInCategory="400"
+        android:showAsAction="ifRoom"
+        android:title="@string/menu_editContact"/> -->
+    <item
+        android:id="@+id/menu_show_connect"
+        android:icon="@drawable/home_icon"
+        android:orderInCategory="500"
+        android:showAsAction="always"
+        android:title="@string/menu_connect_app"/>
+- 
+    <item
+        android:id="@+id/menu_settings"
+        android:orderInCategory="500"
+        android:title="@string/menu_settings">
+        
+         <item
+        android:id="@+id/menu_edit"
+        android:title="@string/menu_editContact"/>
+        
+        <item
+            android:id="@+id/menu_delete"
+            android:title="Delete"/>
+        <item
+            android:id="@+id/menu_share"
+            android:title="Share"/>
+        <item
+            android:id="@+id/menu_SetRingtone"
+            android:title="Set ringtone"/>
+        <item
+            android:id="@+id/contactstodisplay"
+            android:title="Contacts to display"/>
+- 
+        <!--
+                    <item
+            android:id="@+id/impexp"
+            android:title="Import/export"/>
+
+        -->
+- 
+        <!--
+                     <item
+            android:id="@+id/Accounts"
+            android:title="Accounts"/>
+
+        -->
+        <item
+            android:id="@+id/gsettings"
+            android:title="Settings"/>
+    </item>
+
+</menu>

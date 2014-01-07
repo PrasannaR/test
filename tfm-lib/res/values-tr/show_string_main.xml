@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<!-- title -->
+    <string name="show_title_app">ThinkFree Show</string>
+    <string name="show_title_preferences">ThinkFree Show tercihleri</string>
+
+	<!-- LABEL_COMMON -->
+    <string name="show_label_ok">Tamam</string>
+    <string name="show_label_cancel">İptal et</string>
+
+    <!-- labels -->
+    <string name="show_label_slides">Slaytlar</string>
+    <string name="show_label_note">Not</string>
+    <string name="show_label_slideshow">Slayt gösterisi</string>
+    <string name="show_label_print">Yazdır</string>
+    
+    <!-- messages -->
+    <string name="show_msg_loading">Yükleniyor...</string>
+    <string name="show_msg_zoom">%d%%</string>
+    <string name="show_msg_no_slide">Slayt yok</string>
+    <string name="show_msg_no_note">Not yok</string>
+    <string name="show_msg_printing">Yazdırılıyor \'%s\'...</string>
+    <string name="show_msg_print_fail">Yazdırılamadı</string>
+    <string name="show_msg_out_of_memory">Yetersiz bellek</string>
+    <string name="show_msg_unsurpported_video">Dosyaya erişilemiyor. Dosya türü desteklenmiyor veya dosya kayıp veya bozulmuş.</string>
+    <string name="show_msg_last_slideshow">Slayt gösterisi sonu</string>
+    
+    <!-- LABEL_TOOL_BAR -->
+    <string name="show_label_print_range">Yazdırma aralığı</string>
+    <string name="show_label_print_range_all">Tümü</string>
+    <string name="show_label_print_range_current">Geçerli slayt</string>
+    <string name="show_label_print_range_from">Kimden:</string>
+    <string name="show_label_print_range_to">Kime:</string>
+    
+    <!-- video option -->
+    <string name="show_video_option">Video seçenekleri</string>
+    <string name="show_video_option_tapped">Dokunulduğunda</string>
+    <string name="show_video_option_automatically">Otomatik</string>
+    
+    <!-- string name="show_msg_unknown_problem">Unknown problem occurred</string-->
+
+    <!-- preferences -->
+    <string name="show_label_auto_orientation">Otomatik ekran yönü</string>
+    <string name="show_desc_auto_orientation">Slayt en boy oranıyla otomatik ekran yönü ayarını etkinleştir</string>
+    <string name="show_label_show_hidden_slides">Gizli slaytları göster</string>
+    <string name="show_desc_show_hidden_slides">Gizli slaytları göster</string>
+    <string name="show_label_show_ink_annotations">Mürekkep Ek Açıklamalarını Göster</string>
+    <string name="show_desc_show_ink_annotations">Mürekkep Ek Açıklamalarını Göster</string>
+    <string name="show_label_flowview_on_portrait">Portrede Görünüm modu olarak ayarla</string>
+    <string name="show_desc_flowview_on_portrait">Portre ekranında Görünüm modu ve manzara ekranında Düzenleme modu olarak ayarla</string>
+    
+    <!-- FILE TYPE -->
+    <string name="show_filetype_ppt">PowerPoint 97-2003(*.ppt)</string>
+    <string name="show_filetype_pptx">PowerPoint(*.pptx)</string>
+</resources>

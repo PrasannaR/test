@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<!-- application names -->
+	<string name="calc_hd">ThinkFree Calc HD</string>
+	<string name="calc_preferences">ThinkFree Calc Tercihleri</string>
+
+	<!-- menu titles/items -->
+	<string name="calc_title_app">ThinkFree Calc</string>
+	<string name="calc_worksheets">Çalışma sayfaları</string>
+	<string name="calc_goto">Buraya Git</string>
+	<string name="calc_label_print_range">Yazdırma aralığı</string>
+
+	<!-- activity/dialog titles -->
+	<string name="calc_select_sheet">Sayfa seç</string>
+	<string name="calc_show_hidden_sheets">Gizli sayfaları göster</string>
+
+	<!-- button labels
+	<string name="calc_button_sheets">Sheets</string>
+	-->
+
+	<!-- short messages for toasts and dialogs -->
+	<string name="calc_msg_title">Calc</string>
+	<string name="calc_msg_invalid_dir">Geçersiz klasör: \'%s\'</string>
+	<string name="calc_msg_empty_sheet">Bu sayfada içerik yok.</string>
+	<string name="calc_msg_searching">Aranıyor...</string>
+	<string name="calc_msg_invalid_ref">Geçersiz başvuru</string>
+	<string name="calc_msg_enter_ref">Lütfen başvuru girin</string>
+	<string name="calc_msg_print_ok">Tamam</string>
+	<string name="calc_msg_print_cancel">İptal et</string>
+	<string name="calc_msg_print_range_all">Geçerli sayfa</string>
+	<string name="calc_msg_print_current">Seçili alan</string>
+	<string name="calc_msg_row_resize">Nokta</string>
+	<string name="calc_msg_col_resize">Karakter sayımı</string>
+
+	<!-- descriptions on the preference screen -->
+	<string name="calc_msg_shows_hidden_sheets">Listedeki gizli sayfaları göster</string>
+	
+	<string name="calc_sheethide">Sayfa sekmelerini gizle</string>
+	<string name="calc_sheetunhide">Sayfa sekmelerini göster</string>
+	    
+</resources>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+	<!-- KPopup Frame -->
+	<dimen name="kpopup_max_width">249dp</dimen>
+	<dimen name="kpopup_max_height">265dp</dimen>
+	<integer name="kpopup_border_color">0xFF092E56</integer>
+	<integer name="kpopup_background_color">0xFFF3F3F3</integer>
+	<integer name="kpopup_arrow_color">0xFF3D3D3D</integer>
+	
+	<!-- Touch Item -->
+	<integer name="item_text_size">13</integer>
+	<integer name="enable_text_color">0xFF000000</integer>
+	<integer name="disable_text_color">0xFFABABAB</integer>
+	
+	<!-- Touch Color Button -->
+	<dimen name="selected_color_item_width">170dp</dimen>
+	
+	<!-- Touch Depth Button -->
+	<dimen name="depth_arrow_size">22dp</dimen>
+	
+	<!-- KPopup Captionbar -->
+	<integer name="caption_name_size">14</integer>
+	<dimen name="captionbar_width">230dp</dimen>
+	<dimen name="captionbar_height">27dp</dimen>
+	<dimen name="caption_arrow_size">27dp</dimen>
+	<integer name="caption_text_color">0xFFA8C4E0</integer>
+	
+	<!-- Color Chooser -->
+	<integer name="color_chooser_button_text_color">0xFF000000</integer>
+	
+	<!-- Natural Color Chooser -->
+	<dimen name="color_chooser_item_size">27dp</dimen>
+	<dimen name="palette_width">229dp</dimen>
+	<dimen name="palette_height">99dp</dimen>
+	<dimen name="previewer_arc">1dp</dimen>
+	<dimen name="previewer_padding_left">7dp</dimen>
+	<dimen name="previewer_padding_right">7dp</dimen>
+	<dimen name="previewer_padding_top">7dp</dimen>
+	<dimen name="previewer_padding_bottom">7dp</dimen>
+	<dimen name="thumbPaddingFactor">5.5px</dimen>
+	
+	<!-- Dictionary -->
+	<dimen name="dictionary_width">240dp</dimen>
+	<dimen name="dictionary_height">200dp</dimen>
+	
+	
+</resources>
