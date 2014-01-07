@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<LinearLayout
-	xmlns:android="http://schemas.android.com/apk/res/android"
-	android:layout_width="wrap_content" 
-	android:layout_height="wrap_content"
-	android:orientation="vertical">
-	<ImageButton android:id="@+id/write_control_fullscreen_btn" android:src="@drawable/btn_fullscreen_exit"
-		android:layout_width="wrap_content" android:layout_height="wrap_content" />
-</LinearLayout>

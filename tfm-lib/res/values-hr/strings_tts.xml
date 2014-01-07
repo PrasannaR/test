@@ -1,6 +1,0 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<resources>
-<string name="tts_title">Tekst u govor</string>
-<string name="tts_install_title">Instaliraj glasovne podatke</string>
-<string name="tts_install_message">Želite li instalirati glasovne podatke potrebne za sintezu govora?</string>
-</resources>
