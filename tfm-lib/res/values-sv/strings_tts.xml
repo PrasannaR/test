@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<string name="tts_title">Text till tal</string>
+<string name="tts_install_title">Installera röstdata</string>
+<string name="tts_install_message">Vill du installera de röstdata som krävs för talsyntes?</string>
+</resources>

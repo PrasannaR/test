@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<!-- words -->
+	<string name="write_dictionary_select_language">Selectare limbă</string>
+	<string name="write_dictionary_english">Engleză</string>
+	<string name="write_dictionary_korean">Coreeană</string>
+	<string name="write_display_mode">Vizualizare</string>
+	<string name="write_fit_to_screen_width">Potrivire la lăţimea ecranului</string>
+	<string name="write_show_all_marks">Afişare toate marcajele de editare</string>
+	<string name="write_show_smart_zoom">Afişare panoramare inteligentă</string>
+	<string name="write_show_picture_placeholders">Afişare substituenţi de imagini</string>
+	<string name="write_show_scrolling_icons">Afişare pictograme de defilare</string>
+	<string name="write_reflow_view">Reîncadrare vizualizare</string>
+	<string name="write_bookmark">Afişare marcaje</string>
+	<string name="write_bookmark_add">Adăugare</string>
+	<string name="write_bookmark_delete">Ştergere</string>
+	<string name="write_bookmark_goto">Deplasare la</string>
+	<string name="write_preferences">Preferinţe Document Viewer</string>
+	<string-array name="write_display_modes">
+		<item>Afişaj original</item>
+		<item>Afişaj pozitiv</item>
+		<item>Afişaj negativ</item>
+	</string-array>
+	
+	<!-- messages -->
+	<string name="write_msg_show_all_marks">Afişare sau ascundere toate marcajele de editare</string>
+	<string name="write_msg_show_smart_zoom">Mărire sau micşorare automată text</string>
+	<string name="write_msg_show_picture_placeholders">Afişare casetă goală în locul fiecărei imagini din document</string>
+	<string name="write_msg_show_scrolling_icons">Afişare sau ascundere pictograme de defilare</string>
+	<string name="write_msg_reflow_view">Vizualizare documente fără defilare pe orizontală</string>
+	<string name="write_msg_hyperlink">Atingeţi de două ori legătura pentru a o urma</string>
+	<string name="write_msg_bookmark">Afişare sau ascundere marcaje</string>
+</resources>

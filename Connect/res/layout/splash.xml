@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+ 
+<LinearLayout 	xmlns:android="http://schemas.android.com/apk/res/android"
+				android:id="@+id/LinearLayout01"
+ 				android:layout_width="fill_parent" 
+ 				android:layout_height="fill_parent"
+				android:background="#000000"
+				android:gravity="fill">
+ 
+ <ImageView 	android:id="@+id/splash"
+				android:layout_width="fill_parent"  
+ 				android:layout_height="fill_parent" 
+ 				android:src="@drawable/splash_vzb" 
+ 				android:layout_gravity="fill" 
+ 				android:scaleType="fitXY" />
+ </LinearLayout>
+
