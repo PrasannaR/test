@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<selector xmlns:android="http://schemas.android.com/apk/res/android" >
-    <item android:state_focused="true" android:drawable="@drawable/pr_list_selected_bg"/>
-	<item  android:state_pressed="false" android:state_window_focused="false" android:drawable="@drawable/pr_panel_bg"></item>
-		<item  android:state_focused="false" android:state_window_focused="false" android:drawable="@drawable/pr_list_selected_bg"></item>
-	<item android:state_pressed="true" android:drawable="@drawable/contacts_list_pressed_holo"/>
-</selector>
- 
