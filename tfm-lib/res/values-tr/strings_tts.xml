@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<string name="tts_title">Metin okuma</string>
+<string name="tts_install_title">Sesli verileri yükle</string>
+<string name="tts_install_message">Konuşma birleştirmesi için gerekli sesli verileri yüklemek istiyor musunuz?</string>
+</resources>

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@id/show_ui_print_range_group"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:padding="10dip"
+    android:orientation="vertical">
+    <RadioButton
+        android:id="@id/show_ui_print_range_all"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/show_label_print_range_all"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:paddingBottom="2dip"
+        android:checked="true" />
+    <RadioButton
+        android:id="@id/show_ui_print_range_current"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/show_label_print_range_current" 
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:paddingBottom="2dip"/>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <RadioButton
+            android:id="@id/show_ui_print_range_from_to"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" 
+            android:layout_gravity="center_vertical"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:text="@string/show_label_print_range_from" 
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+        <EditText
+            android:id="@id/show_ui_print_range_from_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="10dip"
+            android:inputType="numberDecimal"
+            android:ems="3"
+            android:enabled="false" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="10dip"
+            android:text="@string/show_label_print_range_to"
+            android:textAppearance="?android:attr/textAppearanceMedium"/>
+        <EditText
+            android:id="@id/show_ui_print_range_to_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="10dip"
+            android:inputType="numberDecimal"
+            android:ems="3"
+            android:enabled="false" />
+    </LinearLayout>
+</LinearLayout>

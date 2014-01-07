@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <item name="show_ui_screen_background" type="id"/>
+    <item name="show_ui_frame_background" type="id"/>
+
+</resources>

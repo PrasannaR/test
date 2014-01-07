@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" 
+	android:filterTouchesWhenObscured="true">
+
+    <LinearLayout
+        android:id="@+id/lyt_listsection_header"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:clickable="false"
+        android:focusable="false"
+        android:orientation="vertical"
+        android:visibility="visible" 
+		android:filterTouchesWhenObscured="true">
+
+        <LinearLayout
+            android:id="@+id/dummyheader"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/container_head_bg"
+            android:orientation="vertical" 
+			android:filterTouchesWhenObscured="true">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+                android:background="@color/container_header_bg" 
+				android:filterTouchesWhenObscured="true">
+
+                <TextView
+                    android:id="@+id/txt_listgroup_header"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingBottom="8dp"
+                    android:paddingLeft="15dp"
+                    android:paddingTop="8dp"
+                    android:textColor="@color/container_txt_color_hint"
+                    android:textIsSelectable="false"
+					android:filterTouchesWhenObscured="true"
+                    android:textSize="@dimen/txt_document_name_size" />
+
+                <TextView
+                    android:id="@+id/container_no_items"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerInParent="true"
+                    android:paddingBottom="8dp"
+                    android:paddingRight="15dp"
+                    android:paddingTop="8dp"
+                    android:text="(3)"
+                    android:textColor="@color/container_txt_color_hint"
+                    android:textIsSelectable="false"
+                    android:textStyle="bold"
+					android:filterTouchesWhenObscured="true"
+                    />
+            </RelativeLayout>
+
+            <View
+                android:layout_width="fill_parent"
+				android:filterTouchesWhenObscured="true"
+                android:layout_height="@dimen/list_header_bottom"
+                android:background="@color/container_list_header_view" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:visibility="visible" 
+		android:filterTouchesWhenObscured="true"
+		>
+
+        <LinearLayout
+            android:id="@+id/lyt_listelements_parent"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+			android:filterTouchesWhenObscured="true"
+            android:orientation="horizontal"
+			android:paddingLeft="@dimen/container_txtvew_pad_left"
+            >
+
+            <LinearLayout
+                android:id="@+id/imgchk_lyt_listelements"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+				android:filterTouchesWhenObscured="true"
+                android:paddingTop="@dimen/container_left_pad"
+                android:paddingRight="@dimen/container_edt_top_pad"
+                >
+
+                <ImageView
+                    android:id="@+id/img_doctype"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+					android:layout_gravity="center"
+					android:filterTouchesWhenObscured="true"
+                    android:contentDescription="@string/container_EmptyDesc"
+                    android:src="@drawable/con_word_icon" />
+
+                <CheckBox
+                    android:id="@+id/img_delete"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+					android:filterTouchesWhenObscured="true"
+                    android:button="@drawable/con_customdeletecheckbox"
+                    android:contentDescription="@string/container_EmptyDesc"
+                    android:focusable="false"
+                     />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/lyt_listelements_content"
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:layout_gravity="left"
+				android:filterTouchesWhenObscured="true"
+                android:orientation="vertical"
+                android:gravity="left"
+                android:layout_weight="2"
+                android:layout_marginBottom="@dimen/container_edt_top_pad"
+                >
+
+                <TextView
+                    android:id="@+id/txt_document_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="0dp"
+                    android:ellipsize="end"
+					android:filterTouchesWhenObscured="true"
+					android:singleLine="true"
+                    android:text=""
+                    android:textColor="@color/container_list_title_color"
+                    android:textIsSelectable="false"
+                    android:textSize="@dimen/container_document_name_size"
+                    android:layout_weight="0.9"
+                    />
+
+                <TextView
+                    android:id="@+id/txt_email_address"
+                    android:layout_width="wrap_content"
+                    android:layout_height="0dp"
+                    android:ellipsize="end"
+					android:filterTouchesWhenObscured="true"
+                    android:singleLine="true"
+                    android:text="@string/container_error_field_required"
+                    android:textColor="@color/container_txt_color_small"
+                    android:textIsSelectable="false"
+                    android:textSize="@dimen/container_subitem_size"
+					android:layout_weight="0.7"	/>
+
+				<TextView
+                    android:id="@+id/txt_container_attsize"
+                    android:layout_width="wrap_content"
+                    android:layout_height="0dp"
+                    android:ellipsize="end"
+                    android:singleLine="true"
+					android:filterTouchesWhenObscured="true"
+                    android:text="@string/container_error_field_required"
+                    android:textColor="@color/container_txt_color_small"
+                    android:textIsSelectable="false"
+                    android:textSize="@dimen/container_subitem_size"
+                    android:layout_weight="0.7"
+                    />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:gravity="right"
+                android:layout_weight="1"
+				android:filterTouchesWhenObscured="true"
+                android:orientation="vertical"
+                android:paddingRight="@dimen/container_txtvew_pad_left" >
+
+               <!-- <FrameLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="right"
+                    android:orientation="vertical" > -->
+
+                    <TextView
+                        android:id="@+id/txt_email_time"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center_vertical"
+                        android:paddingLeft="5dp"
+                        android:paddingTop="10dp"
+                        android:text="11.00Am"
+						android:filterTouchesWhenObscured="true"
+                        android:textColor="@color/container_f1"
+                        android:textIsSelectable="false"
+                        android:textSize="@dimen/container_description_font_size" />
+
+                    <CheckBox
+                        android:id="@+id/img_bookmarked"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:filterTouchesWhenObscured="true"
+                        android:button="@drawable/con_customdrawablecheckbox"
+                        android:contentDescription="@string/container_EmptyDesc"
+                        android:focusable="false" />
+                <!-- </FrameLayout> -->
+            </LinearLayout>
+        </LinearLayout>
+
+        <View
+            android:layout_width="fill_parent"
+			android:filterTouchesWhenObscured="true"
+            android:layout_height="@dimen/container_btm_border"
+            android:background="@color/container_btm_border_colr" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/container_footer"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:clickable="false"
+        android:focusable="false"
+        android:orientation="vertical"
+		android:filterTouchesWhenObscured="true"
+        android:visibility="visible"
+        android:background="@color/White" >
+
+        <TextView
+        android:id="@+id/container_list_footer"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+		android:filterTouchesWhenObscured="true"
+        android:paddingLeft="@dimen/container_txtvew_pad_left"
+        android:paddingTop="@dimen/container_txtvew_pad"
+        android:paddingBottom="@dimen/container_txtvew_pad"
+        android:textColor="@color/COLOR_PERSONA_TEXT_COLOR_RED"
+        android:gravity="left"
+        android:textSize="@dimen/container_subitem_size"
+        android:textIsSelectable="false" />
+        
+        <View
+        android:layout_width="fill_parent"
+        android:layout_height="2dp"
+		android:filterTouchesWhenObscured="true"
+        android:background="@color/container_divider"
+        android:id="@+id/container_footer_view"
+        />
+
+    </LinearLayout>
+
+</LinearLayout>

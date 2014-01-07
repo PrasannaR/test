@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <!-- <dimen name="captionbar_width">230dp</dimen> -->
+    
+<dimen name="contextmenu_height">36dp</dimen>
+
+<dimen name="contextmenu_horizontal_padding">8dp</dimen>
+<dimen name="contextmenu_vertical_padding">0dp</dimen>
+<dimen name="contextmenu_arrow_size">8dp</dimen>
+<dimen name="item_vertical_padding">6dp</dimen>
+<dimen name="context_left_right_button_height">36dp</dimen>
+<dimen name="context_left_right_button_width">10dp</dimen>
+<dimen name="contextmenu_arrow_half_width_pixel">4dp</dimen>
+<dimen name="contextmenu_arrow_hegiht_pixel">4dp</dimen>
+<dimen name="contextmenubutton_minimum_width">40dp</dimen>
+</resources>

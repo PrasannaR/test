@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#d9d9d9"
+    android:orientation="vertical" 
+    android:filterTouchesWhenObscured="true">
+    
+        <!-- Mail List header items starts -->
+
+    <LinearLayout
+        android:id="@+id/pr_settings_mainscreen_header"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/con_header_bg"
+        android:baselineAligned="false"
+        android:orientation="horizontal"
+        android:weightSum="2" >
+
+        <LinearLayout
+            android:id="@+id/pr_settings_mainscreen_title_icon_layout"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.6"
+            android:orientation="horizontal" >
+
+            <ImageView
+                    android:id="@+id/pr_settings_mainscreen_back"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="left"
+                    android:clickable="true"
+                 
+                    android:src="@drawable/con_back_btn" 
+                    />
+             <ImageView
+                    android:id="@+id/pr_settings_mainscreen_appicon"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="left"
+                    android:clickable="false"
+                 
+                    android:src="@drawable/pr_app_icon" 
+                    />
+
+             <TextView
+                android:id="@+id/pr_settings_mainscreen_title"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:gravity="center|left"
+                android:text="@string/container_Settingshead1"
+                android:textStyle="bold"
+                android:textColor="@color/container_White"
+                android:textIsSelectable="false"
+                android:textSize="@dimen/container_txt_dropdownitems_size"
+                 /> 
+            
+        </LinearLayout>
+       
+    </LinearLayout>
+    <!-- Mail List header items ends -->
+    
+    
+    
+
+    <ListView
+        android:id="@+id/pr_settings_listview"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:divider="@color/container_divider"
+        android:dividerHeight="1dp" />
+
+</LinearLayout>
