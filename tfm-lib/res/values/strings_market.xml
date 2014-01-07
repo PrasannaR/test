@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="retry">Retry</string>
+	
+    <!-- Purchase Activity -->
+    <string name="title_purchase">Purchase a ThinkFree Mobile for Android v4.1</string>
+    <string name="market_android">Android</string>
+    <string name="market_amazon">Amazon</string>
+	
+    <!-- License Check Activity-->
+    <string name="msg_checking_license">Checking license...</string>
+    <string name="title_application_error">Application error</string>
+    <string name="msg_application_error">Error Code: %1$d</string>
+    <string name="title_unlicensed">Application not licensed</string>
+    <string name="msg_unlicensed">This application is not licensed. Please purchase it from %s Market.</string>
+	<string name="title_no_network_connection">Network connection error</string>
+	<string name="msg_no_network_connection">The network connection has failed. Please make sure your device is connected to network.</string>
+	
+	<string name="inducement_to_purchase_tfm">The paid version of ThinkFree Office offers more features to enhance your productivity. Do you want to go to Market?</string>
+	<string name="inducement_to_purchase_print">If you purchase ThinkFree Mobile Print, you can print documents. Do you want to go to Market?</string>
+	<string name="inducement_to_purchase_hwp">If you get Hancom Viewer, it is possible to view this document for free. Do you want to go to Market?</string>
+</resources>
