@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+   	<!-- option menu -->
+	<string name="write_goto_view_mode">Siirry tekstitilaan</string>
+    
+	<!-- words -->
+   	<string name="write_dictionary_select_language">Valitse kieli</string>
+	<string name="write_dictionary_english">Englanti</string>
+	<string name="write_dictionary_korean">Korea</string>
+	<string name="write_dictionary_japanese">Japani</string>
+	<string name="write_dictionary_spanish">Espanja</string>
+	<string name="write_dictionary_french">Ranska</string>
+	<string name="write_dictionary_portuguese">Portugali</string>
+	<string name="write_dictionary_chinese">Kiina</string>
+	<string name="write_display_mode">Näyttötila</string>
+	<string name="write_fit_to_screen_width">Sovita näytön leveyteen</string>
+	<string name="write_show_all_marks">Näytä kaikki muokkausmerkinnät</string>
+	<string name="write_show_smart_zoom">Näytä älykäs zoom</string>
+	<string name="write_show_picture_placeholders">Näytä kuvien paikkamerkit</string>
+	<string name="write_show_scrolling_icons">Näytä vierityskuvakkeet</string>
+	<string name="write_reflow_view">Sovitusnäkymä</string>
+	<string name="write_bookmark">Näytä kirjanmerkit</string>
+	<string name="write_bookmark_add">Lisää</string>
+	<string name="write_bookmark_delete">Poista</string>
+	<string name="write_bookmark_goto">Siirry</string>
+	<string name="write_preferences">Document Viewer -asetukset</string>
+	<string-array name="write_display_modes">
+		<item>Alkuperäinen näyttö</item>
+		<item>Positiivinen näyttö</item>
+		<item>Negatiivinen näyttö</item>
+	</string-array>
+	
+	<!-- messages -->
+	<string name="write_msg_show_all_marks">Näytä tai piilota kaikki muokkausmerkinnät</string>
+	<string name="write_msg_show_smart_zoom">Lähennä tai loitonna teksti automaattisesti</string>
+	<string name="write_msg_show_picture_placeholders">Näytä tyhjä kehys asiakirjan jokaisen kuvan kohdalla</string>
+	<string name="write_msg_show_scrolling_icons">Näytä tai piilota vierityskuvakkeet</string>
+	<string name="write_msg_reflow_view">Näytä asiakirjat ilman vaakasuuntaista vieritystä</string>
+	<string name="write_msg_hyperlink">Avaa linkki kaksoisnapauttamalla sitä</string>
+	<string name="write_msg_bookmark">Näytä tai piilota kirjanmerkit</string>
+	<string name="write_msg_dictionary_no_results">Ei tuloksia haulle \&quot;%s\&quot;</string>
+	<string name="write_msg_dictionary_invalid_response">Virheellinen vastaus palvelimelle</string>
+	<string name="write_msg_select_txt_extention">Varoitus: Vain teksti tallennetaan.</string>
+	
+	<string name="write_msg_zoom">%d%%</string>
+</resources>

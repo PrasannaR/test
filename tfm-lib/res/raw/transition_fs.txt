@@ -1,0 +1,33 @@
+// FragmentShader
+precision highp float; 
+
+varying highp vec2 TextureCoordOut;
+
+uniform highp int UseTextureAlpha;	//명암값 사용
+uniform highp int UseDarkness;	//명암값 사용
+uniform highp float TextureAlpha;
+uniform highp float Darkness;		//글로벌 명암
+uniform lowp int UseColor;		//컬러사용
+uniform sampler2D Sampler;
+
+
+
+void main(void)
+{
+	if(UseColor == 1)
+		gl_FragColor = vec4(1.0, 1.0, 1.0, 1.0);
+	else
+		gl_FragColor = texture2D(Sampler, TextureCoordOut);
+	
+	if(UseDarkness == 1)
+	{
+		gl_FragColor.r *= Darkness;
+		gl_FragColor.g *= Darkness;
+		gl_FragColor.b *= Darkness;
+	}   	   		
+
+	if(UseTextureAlpha == 1)
+	{   	
+   		gl_FragColor.a *= TextureAlpha;
+   	}
+}

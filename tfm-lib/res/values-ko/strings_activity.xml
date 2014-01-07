@@ -1,0 +1,110 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources>
+   	<!-- About Activity -->
+   	<string name="label_product">%s Mobile for Android\u2122</string>
+  	<string name="link_about"><a href="http://www.thinkfree.com/go?id=mobile_main">정보</a></string>
+  	<string name="link_help"><a href="http://www.thinkfree.com/go?id=help_ko_kr_and_50_Brown_tablet">도움말</a></string>
+  	<string name="link_support"><a href="http://www.thinkfree.com/go?id=help_online">지원</a></string>
+  	<string name="link_terms"><a href="http://www.thinkfree.com/go?id=terms">이용약관</a></string>
+  	<string name="link_privacy"><a href="http://www.thinkfree.com/go?id=privacy">개인정보취급방침</a></string>
+  	<string name="link_ack"><a href="http://www.thinkfree.com/go?id=ack_and">승인</a></string>
+  	<string name="label_copyright">\u00A92012 Hancom Inc. All rights reserved.\nThinkFree 및 ThinkFree 로고는 (주)한글과컴퓨터의 등록 상표입니다.</string>
+
+  	<!-- File Properties Activity -->
+    <string name="fileproperties">속성</string>
+    <string name="fileprop_noinfo">정보 없음</string>
+    <string name="fileprop_basic">기본</string>
+    <string name="fileprop_extended">확장</string>
+    <string name="fileprop_filename">이름</string>
+	<string name="fileprop_filesize">크기</string>
+    <string name="fileprop_title">제목</string>
+    <string name="fileprop_subject">주제</string>
+    <string name="fileprop_author">만든 이</string>
+    <string name="fileprop_keywords">키워드</string>
+    <string name="fileprop_comments">메모</string>
+    <string name="fileprop_template">템플릿</string>
+    <string name="fileprop_revnumber">수정 횟수</string>
+    <string name="fileprop_lastprinted">마지막으로 인쇄한 시간</string>
+    <string name="fileprop_createdtm">만든 시간</string>
+	<string name="fileprop_lastmodified">마지막으로 수정한 날짜</string>
+    <string name="fileprop_pagecount">페이지 수</string>
+    <string name="fileprop_wordcount">단어 수</string>
+    <string name="fileprop_charcount">문자 수</string>
+	<string name="fileprop_appname">응용 프로그램 이름</string>   
+	<string name="fileprop_creator">만든 이</string>
+	<string name="fileprop_description">설명</string>
+	<string name="fileprop_lastmodifiedby">마지막으로 수정한 사용자</string>
+	<string name="fileprop_version">버전</string>
+	<string name="fileprop_category">범주</string>
+	<string name="fileprop_language">언어</string>
+	<string name="fileprop_charwithspacecount">공백을 포함한 문자 수</string>
+	<string name="fileprop_sharedoc">공유됨</string>
+	<string name="fileprop_appversion">응용 프로그램 버전</string>
+	<string name="fileprop_codepage">코드 페이지</string>
+	<string name="fileprop_presformat">프레젠테이션 형식</string>     
+	<string name="fileprop_bytecount">바이트 수</string>
+	<string name="fileprop_linecount">줄 수</string>
+	<string name="fileprop_parcount">단락 수</string>
+	<string name="fileprop_slidecount">슬라이드 수</string>
+	<string name="fileprop_notecouont">메모 수</string>
+	<string name="fileprop_hiddencount">숨겨진 슬라이드 수</string>
+	<string name="fileprop_mmclipcount">멀티미디어 클립 수</string>
+	<string name="fileprop_scale">배율</string>
+	<string name="fileprop_manager">관리자</string>
+	<string name="fileprop_company">회사</string>
+	<string name="fileprop_security">보안</string>
+	<string name="fileprop_lastsavedtm">마지막으로 저장한 시간</string>
+	<string name="fileprop_value_shared">공유됨</string>
+	<string name="fileprop_value_not_shared">공유되지 않음</string>
+	<string name="fileprop_filetype">형식</string>
+	<string name="fileprop_location">위치</string>
+	<string name="fileprop_value_attachment">첨부</string>
+  	
+	<!-- Manager -->
+	<string name="new_file_hint">파일 이름</string>
+
+	<!-- messages -->
+	<string name="msg_calculating">계산하는 중...</string>
+	<string name="msg_file_not_found">%s을(를) 찾을 수 없습니다.</string>
+    <string name="msg_connection_refused">연결이 거부되었습니다.</string>
+
+	<string name="btn_email_attach_preview">파일 첨부하기</string>
+    
+    <!-- Font -->
+    <string name="font_introduce_dialog_message">글꼴을 추가로 설치하면 다양한 글꼴을 사용할 수 있습니다.\n글꼴 다운로드 페이지로 이동할까요?</string>
+    <string name="font_introduce_dialog_check_message">다음부터 이 창 띄우지 않음</string>
+    
+   	<!--  OOM Activity -->
+   	<string name="oom_error_msg">메모리가 부족하여 파일을 정상적으로 불러올 수 없습니다. \n현재까지 불러온 내용을 제한 모드에서 확인하시겠습니까?</string>
+    <string name="oom_error_close_label">닫기</string>
+    <string name="oom_error_continue_label">계속</string>
+    
+    <!-- Updater -->
+	<string name="updater_check">확인 중...</string>
+	<string name="updater_update_failed">업데이트를 실패했습니다.</string>
+	<string name="updater_uptodate">최신 버전 입니다.</string>
+	<string name="updater_confirm_update">최신 버전으로 업데이트 하시겠습니까?</string>
+	<string name="updater_download_started">최신 버전을 다운로드하는 중입니다.</string>
+	<string name="updater_download_completed">다운로드 완료</string>
+	
+	<!-- Preview -->
+	<string name="txt_none_select_item">선택된 문서가 없습니다.</string>
+	<string name="txt_file_size">파일 크기</string>
+	<string name="txt_last_modify_date">마지막으로 수정한 날짜</string>
+	<string name="txt_file_format">파일 형식</string>
+    
+    <!-- Activation -->
+    <string name="later">나중에</string>
+	<string name="activate_title">사용자 등록</string>
+	<string name="activate_now">지금 정품 인증</string>
+	<string name="activate_new_desc">
+	    ThinkFree Office 제품을 사용해 주셔서 감사합니다.\n
+		“지금 정품 인증”을 눌러 모바일 장치에서 Thinkfree Office의 정품 인증을 받습니다.
+	</string>
+	<string name="activate_desc">\&quot;%1$s\&quot;을(를) 눌러 모바일 장치에서 %2$s의 정품 인증을 받습니다.</string>
+	<string name="activate_result_ok">정품 인증이 완료되었습니다.</string>
+	<string name="activate_result_failed_network_error">네트워크에 연결해야 합니다.</string>
+	<string name="activate_result_failed_invalid_hardware">이 하드웨어 장치에서는 %s을(를) 정품 인증할 수 없습니다.</string>
+	<string name="activate_result_failed_server_error">제품을 인증하는 동안 데이터 전송 오류가 발생했습니다.</string>
+		
+</resources>

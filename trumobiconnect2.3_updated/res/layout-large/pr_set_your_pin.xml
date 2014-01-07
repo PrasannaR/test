@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_centerHorizontal="true"
+    android:layout_centerVertical="true"
+    android:background="@color/COLOR_WHITE"
+    android:orientation="vertical"
+    android:weightSum="1"
+    android:filterTouchesWhenObscured="true" >
+
+    <RelativeLayout
+        android:id="@+id/prRelativeImage"
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/app_header_height"
+        android:background="@drawable/pr_header_bg" >
+
+        <ImageView
+            android:id="@+id/appIconImageView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginBottom="@dimen/paddingBottomMin"
+            android:layout_marginLeft="@dimen/paddingBottomMin"
+            android:layout_marginTop="@dimen/paddingBottomMin"
+            android:src="@drawable/pr_connect_header_icon" />
+
+        <TextView
+            style="@style/personaLargeBoldFontStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/paddingBottomMin"
+            android:layout_toRightOf="@+id/appIconImageView"
+            android:text="@string/pr_app_name"
+            android:textColor="@color/COLOR_WHITE" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_below="@+id/prRelativeImage"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:background="@color/COLOR_WHITE"
+        android:orientation="vertical"
+        android:weightSum="1" >
+
+        <ScrollView
+            android:id="@+id/containerView"
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.9"
+            android:fadeScrollbars="false" >
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" >
+
+                <LinearLayout
+                    android:id="@+id/prSubHeader"
+                    android:layout_width="fill_parent"
+                    android:layout_height="@dimen/sub_header_height"
+                    android:background="@color/COLOR_PERSONA_GREY"
+                    android:orientation="vertical" >
+
+                    <TextView
+                        android:id="@+id/setYourPinTextView"
+                        style="@style/personaLargeBoldFontStyle"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:paddingLeft="@dimen/paddingLarge"
+                        android:paddingTop="@dimen/paddingBottomMin"
+                        android:text="@string/set_your_pin_label"
+                        android:textColor="@color/COLOR_BLACK" />
+
+                    <TextView
+                        android:id="@+id/prSubCaption"
+                        style="@style/personaSmallFontStyle"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:paddingBottom="@dimen/paddingBottomMin"
+                        android:paddingLeft="@dimen/paddingLarge"
+                        android:textColor="@color/PR_HEADER_SUB_ITEM_COLOR" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/relativeLayoutSavePin"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical" >
+
+                    <TextView
+                        android:id="@+id/enter_credentials_label"
+                        style="@style/personaLargeBoldFontStyle"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="@dimen/paddingBottomMin"
+                        android:layout_marginLeft="@dimen/paddingLarge"
+                        android:layout_marginTop="@dimen/padding"
+                        android:text="@string/enter_persona_pin"
+                        android:textColor="@color/COLOR_BLACK" />
+
+                    <TextView
+                        android:id="@+id/minimumLengthLabel"
+                        style="@style/personaSmallFontStyle"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/paddingLarge"
+                        android:drawableLeft="@drawable/pr_hint_icon"
+                        android:drawablePadding="@dimen/paddingBottomMin"
+                        android:text="@string/pr_set_pin_hint_label"
+                        android:textColor="@color/PR_HEADER_SUB_ITEM_COLOR" />
+
+                    <com.cognizant.trumobi.commonabstractclass.TruMobBaseEditText
+                        android:id="@+id/enterPinEditText"
+                        android:layout_width="fill_parent"
+                        android:layout_height="@dimen/button_height"
+                        android:layout_marginLeft="@dimen/paddingLarge"
+                        android:layout_marginRight="@dimen/paddingLarge"
+                        android:layout_marginTop="@dimen/padding"
+                        android:background="@drawable/pr_edittext_bg"
+                        android:ellipsize="start"
+                        android:ems="10"
+                        android:gravity="center"
+                        android:imeOptions="actionNext"
+                        android:paddingLeft="@dimen/padding"
+                        android:paddingRight="@dimen/padding"
+                        android:password="true"
+                        android:textColor="@color/PR_TEXTBOX_NORMAL_COLOR" >
+
+                        <requestFocus />
+                    </com.cognizant.trumobi.commonabstractclass.TruMobBaseEditText>
+
+                    <TextView
+                        android:id="@+id/confirm_credentials_label"
+                        style="@style/personaLargeBoldFontStyle"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="@dimen/padding"
+                        android:layout_marginLeft="@dimen/paddingLarge"
+                        android:layout_marginRight="@dimen/paddingLarge"
+                        android:layout_marginTop="@dimen/padding"
+                        android:text="@string/confirm_persona_pin"
+                        android:textColor="@color/COLOR_BLACK" />
+
+                    <com.cognizant.trumobi.commonabstractclass.TruMobBaseEditText
+                        android:id="@+id/confirmPinEditText"
+                        android:layout_width="fill_parent"
+                        android:layout_height="@dimen/button_height"
+                        android:layout_marginLeft="@dimen/paddingLarge"
+                        android:layout_marginRight="@dimen/paddingLarge"
+                        android:background="@drawable/pr_edittext_bg"
+                        android:ellipsize="start"
+                        android:ems="10"
+                        android:gravity="center"
+                        android:paddingLeft="@dimen/padding"
+                        android:paddingRight="@dimen/padding"
+                        android:password="true"
+                        android:singleLine="true"
+                        android:textColor="@color/PR_TEXTBOX_NORMAL_COLOR"
+                        android:typeface="normal" />
+                </LinearLayout>
+            </LinearLayout>
+        </ScrollView>
+
+        <!--
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.1"
+        android:gravity="right"
+        android:orientation="horizontal"
+        android:weightSum="1" >
+
+        <Button
+            android:id="@+id/submitButton"
+            android:layout_width="0dip"
+            android:layout_height="@dimen/button_height"
+            android:layout_gravity="center_vertical"
+            android:layout_marginBottom="@dimen/paddingBottomMin"
+            android:layout_marginRight="@dimen/paddingLarge"
+            android:layout_marginTop="@dimen/padding"
+            android:layout_weight="0.30"
+            android:background="@drawable/pr_button_background"
+            android:gravity="center"
+            android:text="@string/prActionDone"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:visibility="gone" />
+    </LinearLayout>
+        -->
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:layout_weight="0.2"
+            android:gravity="bottom"
+            android:orientation="vertical" >
+
+            <com.cognizant.trumobi.persona.utils.Customkeyboard
+                android:id="@+id/key_edit"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                android:layout_marginTop="@dimen/paddingBottomMin"
+                android:layout_weight="1.0"
+                android:gravity="center_vertical"
+                android:visibility="gone" >
+            </com.cognizant.trumobi.persona.utils.Customkeyboard>
+
+            <com.cognizant.trumobi.persona.utils.Customkeyboard
+                android:id="@+id/key_edit1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                android:layout_marginTop="@dimen/paddingBottomMin"
+                android:layout_weight="1.0"
+                android:gravity="center_vertical"
+                android:visibility="gone" >
+            </com.cognizant.trumobi.persona.utils.Customkeyboard>
+        </LinearLayout>
+    </LinearLayout>
+
+</RelativeLayout>

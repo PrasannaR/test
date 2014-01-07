@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="pr_app_name">Enterprise Connect</string>
+    <string name="pr_UserName">Username</string>
+    <string name="pr_PassWord">Password</string>
+    <string name="gcm_registered">From GCM: device successfully registered!</string>
+    <string name="gcm_unregistered">From GCM: device successfully unregistered!</string>
+    <string name="gcm_message">From GCM: You’ve got message!</string>
+    <string name="gcm_error">From GCM: error (%1$s).</string>
+    <string name="pr_msg_download_complete">Download Success.</string>
+    <string name="pr_msg_download_error">Download error.</string>
+    <string name="persona_login_btn">Login</string>
+    <string name="persona_cancel_button">Cancel</string>
+    <string name="submitButton">Submit</string>
+    <string name="okButton">OK</string>
+    <string name="certificateAlreadyDownloaded">Certificate already downloaded</string>
+    <string name="alert">Alert</string>
+    <string name="deviceNotRegisteredWithGCM">Device not registered with GCM. Please try again.</string>
+    <string name="noconnection">Please connect to internet</string>
+    <string name="certificate_warning_message">User certificate not yet generated for this device, please login after some time</string>
+    <string name="certificate_warning_message_later"> Request to access corporate email is under process . On approval you will be notified via email.</string>
+    <string name="prFormSubHeaderLabel">Enter your Enterprise Credentials</string>
+    <string name="set_your_pin_label">Set your PIN</string>
+    <string name="forgot_pin_label">Forgot PIN?</string>
+    <string name="current_pin_label">Current PIN</string>
+    <string name="change_pin_label">Change PIN</string>
+    <string name="enter_new_pin_label">Enter New PIN</string>
+    <string name="confirm_new_pin_label">Confirm New PIN</string>
+    <string name="pr_set_pin_hint_label">PIN should be a %1$d-digit number</string>
+    <string name="rememberPin">Remember PIN for future login to Safe Space</string>
+    <string name="enter_persona_pin">Enter PIN</string>
+    <string name="confirm_persona_pin">Confirm PIN</string>
+    <string name="incorrect_pin">Incorrect PIN</string>
+    <string name="pin_not_matching">PIN values not matching</string>
+    <string name="pin_expired">PIN Expired</string>
+    <string name="pin_expired_subcaption">Please set your new PIN</string>
+    <string name="set_your_password_label">Set your Password</string>
+    <string name="forgot_password_label">Forgot Password?</string>
+    <string name="current_password_label">Current Password</string>
+    <string name="change_password_label">Change Password</string>
+    <string name="enter_new_password_label">Enter New Password</string>
+    <string name="confirm_new_password_label">Confirm New Password</string>
+    <string name="rememberPassword">Remember Password for future login to Safe Space</string>
+    <string name="pr_set_password_hint_label">Password should be of minimum %1$d characters length and contain Alphabets only</string>
+    <string name="pr_set_password_alphanumeric_hint_label">Password should be of minimum %1$d characters length and contain atleast an Alphabet and a Numeral</string>
+    <string name="enter_persona_password">Enter Password</string>
+    <string name="confirm_persona_password">Confirm Password</string>
+    <string name="incorrect_password">Incorrect Password</string>
+    <string name="password_not_matching">Password values not matching</string>
+    <string name="pr_pin_meet_criteria">Your PIN does not meet the required criteria</string>
+    <string name="pr_password_meet_criteria">Your password does not meet the required criteria</string>
+    <string name="install_app">Install</string>
+    <string name="registering_device">Registering Device</string>
+    <string name="server_unavailable">Server unavailable,please try later</string>
+    <string name="device_provisiong_message_one">Device provisioning</string>
+    <string name="device_provisiong_message_two">in progress</string>
+    <string name="download_email_certificate">Checking for Email certificate</string>
+    <string name="certificate_download_message">You have received a push notification to download the certificate.</string>
+    <string name="logout_message">Are you sure to you want to logout?</string>
+    <string name="error_in_connection">Error in connectivity</string>
+    <string name="try_again">Please check your internet connection</string>
+    <string name="downloading_message">Downloading &#8230;</string>
+    <string name="certificate_downloaded_successfully">Certificate downloaded successfully</string>
+    <string name="error_certificate_download">Error in downloding certificate</string>
+    <string name="error_sending_ack">Error in sending acknowledgement</string>
+    <string name="no_enterprise_apps">No Enterprise apps found</string>
+    <string name="loading">Loading &#8230;</string>
+    <string name="error_opening_app">Error in opening the application</string>
+    <string name="enterCredentialsLabel">Enter your Enterprise Credentials</string>
+    <string name="registerButton">Register</string>
+    <string name="action_previous">Previous</string>
+    <string name="action_next">Next</string>
+    <string name="action_finish">Finish</string>
+    <string name="prHelloWorld">Hello world!</string>
+    <string name="prcalendarLabel">Calendar</string>
+    <string name="prEmailLabel">Email</string>
+    <string name="prDialerLabel">Dialer</string>
+    <string name="prConnectLabel">Connect</string>
+    <string name="prMessengerLabel">Messenger</string>
+    <string name="prBrowserLabel">Browser</string>
+    <string name="prChangeBg">Change background</string>
+    <string name="prActionDone">Done</string>
+    <string name="prDeviceRegistrationMessage">Device Registered Successfully</string>
+    <string name="prPINSavedMessage">Pin saved Successfully</string>
+    <string name="prAutoLockPreferenceKey">personaautolock</string>
+    <string name="prDataWipedIncorrectPIN">You have entered credentials incorrectly in all attempts. All your enterprise data has been wiped out.\n\nTo access Safe Space you need to register your device again</string>
+    <string name="prDataWipedApplicationHacked">All your enterprise data has been wiped due to data violation.\n\nTo access Safe Space you need to register your device again</string>
+    <string name="prRegisterNow">Register Now</string>
+    <string name="prLater">Later</string>
+    <string name="prDataWipedOut">Data Wiped Out!</string>
+    <string name="prWarning">Warning!</string>
+    <string name="prCredentialsEexpiredWarning">Your %1$s will expire in %2$d day(s). Do you want to change it now?</string>
+
+    <!--
+      <string name="title_template_step">Step <xliff:g id="step_number">%1$d</xliff:g>: Lorem
+        Ipsum</string>
+    -->
+    <string name="prSaveCredentials">Saving Credentials...</string>
+    <string name="prValCredentials">Validating Credentials...</string>
+    <string name="prPinResetMessage">Pin changed Successfully!</string>
+    <string name="btn_installnow">Install now</string>
+    <string name="download_app_message">Download the latest Safe Space app</string>
+    <string name="prSettingsLabel">Settings</string>
+
+    <!-- Persona security event strings -->
+    <string name="pr_device_rooted_warn_message">%1$s found your device is rooted\nPlease be careful\nYour device and secure data are more vulnerable to attack by unknown sources</string>
+    <string name="pr_device_rooted_block_message">%1$s found your device is rooted. You have been denied access</string>
+    <string name="pr_imei_blacklist_block_message">Your IME is not found in Whitelist..!!\nYou are denied access %1$s.\nTo request access, contact admin team.</string>
+    <string name="pr_imei_blacklist_warn_message">Your IME is not found in Whitelist..!!</string>
+    <string name="pr_sim_removal_warn_message">%1$s found your Device ID and\nSIM number do not match</string>
+    <string name="pr_sim_removal_block_message">%1$s found your Device ID and\nSIM number do not match..!!\nYou are denied access Safe Space.\nTo request access, contact admin team.</string>
+    <string name="pr_pin_reset_success_message">PIN reset success!   </string>
+    <string name="pr_access_denied">Access Denied!</string>
+    <string name="pr_contact_button">Contact</string>
+
+    <!-- Exception messages -->
+    <string name="pr_app_crash_title">%1$s crashed!</string>
+    <string name="pr_app_crash_message">Unexpectedly %1$s crashed. Please login again to continue!</string>
+    <string name="service_notification_content_title">%1$s service required</string>
+    <!-- <string name="prDataWipedIncorrectPIN">You have entered credentials incorrectly in all attempts. All your enterprise data has been wiped out.\n\nTo access TruMobi Connect you need to register your device again</string> -->
+
+
+    <!-- Alert Messages -->
+
+    <string name="pr_enter_valid_credentials_alert_message">Please enter your enterprise credentials</string>
+    <string name="pr_title_couldn_authenticate">Could Not Authenticate</string>
+    <string name="pr_incorrect_credentials">Your username or password is incorrect</string>
+    <string name="pr_title_couldn_register">Could Not Register</string>
+    <string name="pr_server_error">The connection to the server is failed </string>
+    <string name="pin_not_matching">Enter PIN and Confirm PIN does not match. Please try again</string>
+
+    <!-- certificate error messages -->
+    <string name="pr_email_request">Requesting for email&#8230;</string>
+    <string name="pr_resubmit_request_message">Please ‘Submit’ to process your request again.</string>
+    <string name="pr_certificate_access_denied">You have been denied mail access on your mobile devices. Refer to access denial mail for details.</string>
+    <string name="prSetNowString">Set %1$s now</string>
+    <string name="prSetLaterString">Set %1$s later</string>
+    <string name="prBugSense">BugSense</string>
+    <string name="prBugSenseTitle">Capture diagnostic and\n usage information</string>
+    <string name="prBugSenseOnAlertMessage"> Enabling Debugger will capture diagnostic and usage information. It is recommended to enable this only when advised by support team. Do you want to enable?</string>
+    <string name="prUpdateSettings">Update Settings</string>
+    <string name="prForceUpdateSettings">Force update configuration settings</string>
+    <string name="prYesButton">Yes</string>
+    <string name="prNoButton">No</string>
+
+</resources>

@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+   	<!-- option menu -->
+	<string name="write_goto_view_mode">Ir para o modo de texto</string>
+    
+	<!-- words -->
+   	<string name="write_dictionary_select_language">Selecionar idioma</string>
+	<string name="write_dictionary_english">Inglês</string>
+	<string name="write_dictionary_korean">Coreano</string>
+	<string name="write_dictionary_japanese">Japonês</string>
+	<string name="write_dictionary_spanish">Espanhol</string>
+	<string name="write_dictionary_french">Francês</string>
+	<string name="write_dictionary_portuguese">Português</string>
+	<string name="write_dictionary_chinese">Chinês</string>
+	<string name="write_display_mode">Modo de exibição</string>
+	<string name="write_fit_to_screen_width">Ajustar à largura da tela</string>
+	<string name="write_show_all_marks">Mostrar todas as marcas de edição</string>
+	<string name="write_show_smart_zoom">Mostrar zoom inteligente</string>
+	<string name="write_show_picture_placeholders">Mostrar os espaços reservados de imagens</string>
+	<string name="write_show_scrolling_icons">Mostrar ícones de rolagem</string>
+	<string name="write_reflow_view">Exibição de refluxo</string>
+	<string name="write_bookmark">Mostrar indicadores</string>
+	<string name="write_bookmark_add">Adicionar</string>
+	<string name="write_bookmark_delete">Excluir</string>
+	<string name="write_bookmark_goto">Ir para</string>
+	<string name="write_preferences">Document Viewer Preferences</string>
+	<string-array name="write_display_modes">
+		<item>Exibição original</item>
+		<item>Exibição positiva</item>
+		<item>Exibição negativa</item>
+	</string-array>
+	
+	<!-- messages -->
+	<string name="write_msg_show_all_marks">Mostrar ou ocultar todas as marcas de edição</string>
+	<string name="write_msg_show_smart_zoom">Aumentar ou diminuir zoom automaticamente no seu texto</string>
+	<string name="write_msg_show_picture_placeholders">Exibir uma caixa vazia no lugar de cada elemento gráfico no documento</string>
+	<string name="write_msg_show_scrolling_icons">Mostrar ou ocultar ícones de rolagem</string>
+	<string name="write_msg_reflow_view">Exibir documentos sem rolagem horizontal</string>
+	<string name="write_msg_hyperlink">Toque duas vezes no link para segui-lo</string>
+	<string name="write_msg_bookmark">Mostrar ou ocultar indicadores</string>
+	<string name="write_msg_dictionary_no_results">Nenhum resultado encontrado com \&quot;%s\&quot;</string>
+	<string name="write_msg_dictionary_invalid_response">Resposta inválida para o servidor</string>
+	<string name="write_msg_select_txt_extention">Atenção: Somente texto será salvo.</string>
+	
+	<string name="write_msg_zoom">%d%%</string>
+</resources>

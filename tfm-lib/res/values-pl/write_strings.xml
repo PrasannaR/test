@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+   	<!-- option menu -->
+	<string name="write_goto_view_mode">Przejdź do trybu tekstowego</string>
+    
+	<!-- words -->
+   	<string name="write_dictionary_select_language">Wybierz język</string>
+	<string name="write_dictionary_english">Angielski</string>
+	<string name="write_dictionary_korean">Koreański</string>
+	<string name="write_dictionary_japanese">Japoński</string>
+	<string name="write_dictionary_spanish">Hiszpański</string>
+	<string name="write_dictionary_french">Francuski</string>
+	<string name="write_dictionary_portuguese">Portugalski</string>
+	<string name="write_dictionary_chinese">Chiński</string>
+	<string name="write_display_mode">Tryb ekranu</string>
+	<string name="write_fit_to_screen_width">Dopasuj do szerokości ekranu</string>
+	<string name="write_show_all_marks">Pokaż wszystkie znaczniki edycji</string>
+	<string name="write_show_smart_zoom">Pokaż inteligentne zbliżenie</string>
+	<string name="write_show_picture_placeholders">Pokaż symbole zastępcze obrazów</string>
+	<string name="write_show_scrolling_icons">Pokaż ikony przewijania</string>
+	<string name="write_reflow_view">Dopasuj widok do zawartości</string>
+	<string name="write_bookmark">Pokaż zakładki</string>
+	<string name="write_bookmark_add">Dodaj</string>
+	<string name="write_bookmark_delete">Usuń</string>
+	<string name="write_bookmark_goto">Idź do</string>
+	<string name="write_preferences">Document Viewer — preferencje</string>
+	<string-array name="write_display_modes">
+		<item>Wyświetlanie oryginalne</item>
+		<item>Wyświetlanie pozytywowe</item>
+		<item>Wyświetlanie negatywowe</item>
+	</string-array>
+	
+	<!-- messages -->
+	<string name="write_msg_show_all_marks">Pokaż lub ukryj wszystkie znaczniki edycji</string>
+	<string name="write_msg_show_smart_zoom">Automatycznie przybliż lub oddal tekst</string>
+	<string name="write_msg_show_picture_placeholders">Wyświetl pustą ramkę zamiast poszczególnych grafik w dokumencie</string>
+	<string name="write_msg_show_scrolling_icons">Pokaż lub ukryj ikony przewijania</string>
+	<string name="write_msg_reflow_view">Wyświetl dokumenty bez paska przewijania w poziomie</string>
+	<string name="write_msg_hyperlink">Dwukrotnie stuknij łącze, aby je otworzyć</string>
+	<string name="write_msg_bookmark">Pokaż lub ukryj zakładki</string>
+	<string name="write_msg_dictionary_no_results">Nie znaleziono wyników dla „%s”</string>
+	<string name="write_msg_dictionary_invalid_response">Nieprawidłowa odpowiedź do serwera</string>
+	<string name="write_msg_select_txt_extention">Ostrzeżenie: Zostanie zapisany wyłącznie tekst.</string>
+	
+	<string name="write_msg_zoom">%d%%</string>
+</resources>
