@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<!-- SPopup Frame -->
+	<dimen name="spopup_item_padding">3.5dp</dimen>
+	<dimen name="spopup_actionbar_side_padding">5dp</dimen>
+	<dimen name="spopup_indicator_padding">4.5dp</dimen>
+	<dimen name="spopup_outline_width">2dp</dimen>
+	<dimen name="spopup_outline_corner">7dp</dimen>
+	<dimen name="spopup_seperate_padding">2.5dp</dimen>
+	<integer name="spopup_seperate_height">2</integer>
+
+	<!-- ContentView -->
+	<dimen name="spopup_content_view_item_padding">10.5dp</dimen>
+	<dimen name="spopup_content_view_left_padding">0dp</dimen>
+	<dimen name="spopup_content_view_top_padding">2.5dp</dimen>
+	<dimen name="spopup_content_view_right_padding">0dp</dimen>
+	<dimen name="spopup_content_view_bottom_padding">2.5dp</dimen>
+	
+	<!-- TabView -->
+	<integer name="spopup_tab_name_seperate_height">9</integer>
+	<dimen name="spopup_tab_name_seperate_width">2dp</dimen>
+	<dimen name="spopup_tab_name_item_container_side_padding">4.5dp</dimen>
+	<dimen name="spopup_tab_name_side_padding">7dp</dimen>
+	<dimen name="spopup_tab_name_container_minimum_height">31dp</dimen>
+	<dimen name="spopup_selected_tab_name_text_size">12px</dimen>
+	<dimen name="spopup_unselected_tab_name_text_size">11px</dimen>
+	<dimen name="spopup_tab_view_top_padding">4.5px</dimen>
+	<dimen name="spopup_tab_view_top_padding_notab">6px</dimen>
+	<dimen name="spopup_tab_view_button_padding">10dp</dimen>
+	
+	<!-- SPopupItem -->
+	<dimen name="spopup_icon_view_padding">2.5dp</dimen>
+	
+	<!-- TextItem -->
+	<integer name="spopup_text_item_text_size">14</integer>
+
+	<!-- ColorItem -->
+	<dimen name="spopup_color_item_width">75dp</dimen>
+	<dimen name="spopup_color_item_height">25dp</dimen>
+	<dimen name="spopup_color_item_top_bottom_padding">5dp</dimen>
+	<dimen name="spopup_color_item_side_padding">5dp</dimen>
+	<dimen name="spopup_color_view_arc">1dp</dimen>
+	<dimen name="spopup_color_view_stroke">1dp</dimen>
+	<dimen name="spopup_color_view_padding">2dp</dimen>
+	
+	<!-- DropListItem -->
+	<dimen name="spopup_drop_popup_width">89dp</dimen>
+	<dimen name="spopup_drop_popup_height">178dp</dimen>
+	<dimen name="spopup_drop_popup_border_width">1dp</dimen>
+	<dimen name="spopup_drop_popup_arrow_width_half">8dp</dimen>
+	<dimen name="spopup_drop_popup_arrow_height">9dp</dimen>
+	<dimen name="spopup_drop_popup_background_arc">0dp</dimen>
+	<dimen name="spopup_drop_list_item_width">267dp</dimen>
+	<dimen name="spopup_fixed_text_drop_list_item_width">174dp</dimen>
+	<dimen name="spopup_fixed_image_drop_list_item_width">130.5dp</dimen>
+
+	<!-- ColorChooser -->
+	<dimen name="colorchooser_control_height_gap">8.5dp</dimen>
+	<dimen name="colorchooser_button_width">75.5dp</dimen>
+	<dimen name="colorchooser_button_height">33.5dp</dimen>
+	<dimen name="colorchooser_button_gap">17dp</dimen>
+	<dimen name="colorchooser_button_font_size">14.5px</dimen>
+	<dimen name="colorchooser_color_container_gap">6dp</dimen>
+	<dimen name="colorchooser_recent_color_item_gap">6dp</dimen>
+	<dimen name="colorchooser_recent_color_item_gap_vertical">6dp</dimen>
+	<dimen name="colorchooser_recent_color_item_gap_horizontal">12.5dp</dimen>
+	<dimen name="colorchooser_toolbar_gap_horizontal">12.5dp</dimen>
+	<dimen name="colorchooser_slidebar_item_gap">6dp</dimen>	
+	<dimen name="colorchooser_color_item_border">1dp</dimen>		
+	<dimen name="colorchooser_recent_color_border_width">1dp</dimen>
+	<dimen name="colorchooser_button_padding">25dp</dimen>
+	
+	<!-- Standard ColorChooser -->
+	<dimen name="colorchooser_color_item_width">50dp</dimen>
+	<dimen name="colorchooser_color_item_height">19dp</dimen>
+	<dimen name="colorchooser_recent_color_item_width">36dp</dimen>
+	<dimen name="colorchooser_recent_color_item_height">25dp</dimen>
+	
+	<!-- Natural ColorChooser -->
+	<dimen name="colorchooser_color_palette_width">280dp</dimen>
+	<dimen name="colorchooser_color_palette_height">98dp</dimen>
+	<dimen name="colorchooser_color_preview_width">53dp</dimen>
+	<dimen name="colorchooser_color_preview_height">29.5dp</dimen>
+	<dimen name="colorchooser_color_preview_outline_corner">2.5dp</dimen>
+	<dimen name="colorchooser_seekbar_width">142dp</dimen>
+	
+	<!-- Image 관련 -->
+	<dimen name="spopup_image_view_image_width">44dp</dimen>
+	<dimen name="spopup_image_view_image_height">36dp</dimen>
+
+	<dimen name="spopup_outline_view_icon_width">32dp</dimen>
+	<dimen name="spopup_outline_view_icon_height">32dp</dimen>
+
+	<dimen name="spopup_actionbar_icon_width">38dp</dimen>
+	<dimen name="spopup_actionbar_icon_height">38dp</dimen>
+	<dimen name="spopup_actionbar_fold_button_width">38dp</dimen>
+	<dimen name="spopup_actionbar_fold_button_height">38dp</dimen>
+	<dimen name="spopup_actionbar_height">38dp</dimen>
+
+	<dimen name="spopup_tab_name_container_height">34dp</dimen>
+	<dimen name="spopup_tab_button_minimum_width">31dp</dimen>
+	<dimen name="spopup_tab_button_height">20dp</dimen>
+	<dimen name="spopup_tab_name_top_padding">4dp</dimen>
+	
+	<dimen name="colorchooser_recent_color_icon_size">27dp</dimen>
+	<dimen name="colorchooser_seekbar_icon_size">29dp</dimen>
+</resources>

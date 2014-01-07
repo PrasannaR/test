@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+   	<!-- option menu -->
+	<string name="write_goto_view_mode">Go to Text mode</string>
+    
+	<!-- words -->
+   	<string name="write_dictionary_select_language">Select language</string>
+	<string name="write_dictionary_english">English</string>
+	<string name="write_dictionary_korean">Korean</string>
+	<string name="write_dictionary_japanese">Japanese</string>
+	<string name="write_dictionary_spanish">Spanish</string>
+	<string name="write_dictionary_french">French</string>
+	<string name="write_dictionary_portuguese">Portuguese</string>
+	<string name="write_dictionary_chinese">Chinese</string>
+	<string name="write_display_mode">Display mode</string>
+	<string name="write_fit_to_screen_width">Fit to screen width</string>
+	<string name="write_show_all_marks">Show all editing marks</string>
+	<string name="write_show_smart_zoom">Show smart zoom</string>
+	<string name="write_show_picture_placeholders">Show picture placeholders</string>
+	<string name="write_show_scrolling_icons">Show scrolling icons</string>
+	<string name="write_reflow_view">Reflow view</string>
+	<string name="write_bookmark">Show bookmarks</string>
+	<string name="write_bookmark_add">Add</string>
+	<string name="write_bookmark_delete">Delete</string>
+	<string name="write_bookmark_goto">Go to</string>
+	<string name="write_preferences">Document Viewer Preferences</string>
+	<string-array name="write_display_modes">
+		<item>Original display</item>
+		<item>Positive display</item>
+		<item>Negative display</item>
+	</string-array>
+	
+	<!-- messages -->
+	<string name="write_msg_show_all_marks">Show or hide all editing marks</string>
+	<string name="write_msg_show_smart_zoom">Automatically zoom in or out on your text</string>
+	<string name="write_msg_show_picture_placeholders">Display an empty box in place of each graphic in the document</string>
+	<string name="write_msg_show_scrolling_icons">Show or hide scrolling icons</string>
+	<string name="write_msg_reflow_view">View documents without the horizontal scroll</string>
+	<string name="write_msg_hyperlink">Double tap the link to follow it</string>
+	<string name="write_msg_bookmark">Show or hide bookmarks</string>
+	<string name="write_msg_dictionary_no_results">No results found with \"%s\"</string>
+	<string name="write_msg_dictionary_invalid_response">Invalid response to server</string>
+	<string name="write_msg_select_txt_extention">Warning: Only text will be saved.</string>
+	
+	<string name="write_msg_zoom">%d%%</string>
+</resources>

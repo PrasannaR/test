@@ -1,0 +1,441 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <!--
+             This PreferenceScreen tag serves as a screen break (similar to page break
+             in word processing). Like for other preference types, we assign a key
+             here so it is able to save and restore its instance state.
+    -->
+    <PreferenceScreen
+        android:key="screenPreferences"
+        android:summary="@string/pref_summary_screen_preferences"
+        android:title="@string/pref_title_screen_preferences" >
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:key="hideStatusbar"
+            android:summary="@string/pref_summary_hide_statusbar"
+            android:title="@string/pref_title_hide_statusbar" />
+        <CheckBoxPreference
+            android:defaultValue="@bool/config_wallpaper_scroll"
+            android:key="wallpaper_scrolling"
+            android:summary="@string/pref_summary_wallpaper_scrolling"
+            android:title="@string/pref_title_wallpaper_scrolling" />
+
+        <PreferenceCategory android:title="@string/pref_title_screens_layout_preferencecategory" >
+            <CheckBoxPreference
+                android:defaultValue="false"
+                android:key="uiHideLabels"
+                android:summary="@string/pref_summary_hide_icon_labels"
+                android:title="@string/pref_title_hide_icon_labels" />
+            <CheckBoxPreference
+                android:defaultValue="false"
+                android:key="autosizeIcons"
+                android:summary="@string/pref_summary_autosize_icons"
+                android:title="@string/pref_title_autosize_icons" />
+
+            <com.cognizant.trumobi.persona.launcher.PersonaDialogSeekBarPreference
+                android:defaultValue="@integer/config_desktopColumns"
+                android:dialogMessage="@string/pref_dialog_desktop_columns"
+                android:key="desktopColumns"
+                android:max="6"
+                android:summary="@string/pref_summary_desktop_columns"
+                android:title="@string/pref_title_desktop_columns" /> 
+            <com.cognizant.trumobi.persona.launcher.PersonaDialogSeekBarPreference
+                android:defaultValue="@integer/config_desktopRows"
+                android:dialogMessage="@string/pref_dialog_desktop_rows"
+                android:key="desktopRows"
+                android:max="8"
+                android:summary="@string/pref_summary_desktop_rows"
+                android:title="@string/pref_title_desktop_rows" />
+          
+        </PreferenceCategory>
+        <PreferenceCategory android:title="@string/pref_title_screens_behaviour_preferencecategory" >
+            <com.cognizant.trumobi.persona.launcher.PersonaDialogSeekBarPreference
+                android:defaultValue="@integer/config_desktopSpeed"
+                android:dialogMessage="@string/pref_dialog_desktop_scrolling_speed"
+                android:key="desktopSpeed"
+                android:max="2000"
+                android:summary="@string/pref_summary_desktop_scrolling_speed"
+                android:title="@string/pref_title_desktop_scrolling_speed" />
+            <com.cognizant.trumobi.persona.launcher.PersonaDialogSeekBarPreference
+                android:defaultValue="@integer/config_desktopBounce"
+                android:dialogMessage="@string/pref_dialog_desktop_overshoot"
+                android:key="desktopBounce"
+                android:max="100"
+                android:summary="@string/pref_summary_desktop_overshoot"
+                android:title="@string/pref_title_desktop_overshoot" />
+
+            <ListPreference
+                android:defaultValue="@string/config_desktop_transition"
+                android:entries="@array/desktop_transition_entries"
+                android:entryValues="@array/desktop_transition_values"
+                android:key="desktop_transition_style"
+                android:summary="@string/pref_summary_desktop_transition"
+                android:title="@string/pref_title_desktop_transition" /> <!-- Set List Preference to Select Transition Styles -->
+        </PreferenceCategory>
+    </PreferenceScreen>
+    <PreferenceScreen
+        android:key="drawerPrerefences"
+        android:summary="@string/pref_summary_drawer_settings"
+        android:title="@string/pref_title_drawer_settings" >
+        <PreferenceCategory android:title="@string/pref_title_drawer_preferencecategory" >
+            <ListPreference
+                android:defaultValue="@string/config_drawer_style"
+                android:entries="@array/app_drawer_style_entries"
+                android:entryValues="@array/app_drawer_style_values"
+                android:key="drawer_style"
+                android:summary="@string/pref_summary_drawer_style"
+                android:title="@string/pref_title_drawer_style" />
+
+            <CheckBoxPreference
+                android:defaultValue="@bool/config_drawer_navigate_catalogs"
+                android:key="drawer_navigate_catalogs"
+                android:summary="@string/pref_summary_drawer_navigate_catalogs"
+                android:title="@string/pref_title_drawer_navigate_catalogs" />
+
+            <com.cognizant.trumobi.persona.launcher.PersonaDialogSeekBarPreference
+                android:defaultValue="@integer/config_drawerColumnsPortrait"
+                android:dialogMessage="@string/pref_dialog_drawer_columns_portrait"
+                android:key="drawerColumnsPortrait"
+                android:max="5"
+                android:summary="@string/pref_summary_drawer_columns_portrait"
+                android:title="@string/pref_title_drawer_columns_portrait" />
+            <com.cognizant.trumobi.persona.launcher.PersonaDialogSeekBarPreference
+                android:defaultValue="@integer/config_drawerRowsPortrait"
+                android:dialogMessage="@string/pref_dialog_drawer_rows_portrait"
+                android:key="drawerRowsPortrait"
+                android:max="5"
+                android:summary="@string/pref_summary_drawer_rows_portrait"
+                android:title="@string/pref_title_drawer_rows_portrait" />
+            <com.cognizant.trumobi.persona.launcher.PersonaDialogSeekBarPreference
+                android:defaultValue="@integer/config_drawerColumnsLandscape"
+                android:dialogMessage="@string/pref_dialog_drawer_columns_landscape"
+                android:key="drawerColumnsLandscape"
+                android:max="7"
+                android:summary="@string/pref_summary_drawer_columns_landscape"
+                android:title="@string/pref_title_drawer_columns_landscape" />
+            <com.cognizant.trumobi.persona.launcher.PersonaDialogSeekBarPreference
+                android:defaultValue="@integer/config_drawerRowsLandscape"
+                android:dialogMessage="@string/pref_dialog_drawer_rows_landscape"
+                android:key="drawerRowsLandscape"
+                android:max="4"
+                android:summary="@string/pref_summary_drawer_rows_landscape"
+                android:title="@string/pref_title_drawer_rows_landscape" />
+        </PreferenceCategory>
+        <PreferenceCategory android:title="@string/pref_title_drawer_visuals_preferencecategory" >
+            <CheckBoxPreference
+                android:defaultValue="true"
+                android:key="drawerAnimated"
+                android:summary="@string/pref_summary_animated_drawer"
+                android:title="@string/pref_title_animated_drawer" />
+
+            <com.cognizant.trumobi.persona.launcher.PersonaDialogSeekBarPreference
+                android:defaultValue="@integer/config_zoomSpeed"
+                android:dependency="drawerAnimated"
+                android:dialogMessage="@string/pref_dialog_zoom_effect_speed"
+                android:key="zoomSpeed"
+                android:max="1700"
+                android:summary="@string/pref_summary_zoom_effect_speed"
+                android:title="@string/pref_title_zoom_effect_speed" />
+
+            <CheckBoxPreference
+                android:defaultValue="@bool/config_drawerLabels"
+                android:key="drawerLabels"
+                android:summary="@string/pref_summary_drawer_labels"
+                android:title="@string/pref_title_drawer_labels" />
+            <CheckBoxPreference
+                android:defaultValue="@bool/config_fadeDrawerLabels"
+                android:dependency="drawerLabels"
+                android:key="fadeDrawerLabels"
+                android:summary="@string/pref_summary_fade_drawer_labels"
+                android:title="@string/pref_title_fade_drawer_labels" />
+
+            <Preference
+                android:defaultValue="-16777216"
+                android:key="drawer_color"
+                android:summary="@string/pref_summary_drawer_color"
+                android:title="@string/pref_title_drawer_color" />
+
+            <com.cognizant.trumobi.persona.launcher.PersonaDialogSeekBarPreference
+                android:defaultValue="20"
+                android:dialogMessage="@string/pref_dialog_page_horizontal_margin"
+                android:key="pageHorizontalMargin"
+                android:max="75"
+                android:summary="@string/pref_summary_page_horizontal_margin"
+                android:title="@string/pref_title_page_horizontal_margin" />
+        </PreferenceCategory>
+    </PreferenceScreen>
+    <PreferenceScreen
+        android:key="behaviourPreferences"
+        android:summary="@string/pref_summary_behaviour_preferences"
+        android:title="@string/pref_title_behaviour_preferences" >
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="previewsNew"
+            android:summary="@string/pref_summary_sense_previews"
+            android:title="@string/pref_title_sense_previews" />
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:key="uiCloseFolder"
+            android:summary="@string/pref_summary_closing_folder"
+            android:title="@string/pref_title_closing_folder" />
+        <CheckBoxPreference
+            android:defaultValue="@bool/config_notif_receiver"
+            android:key="notif_receiver"
+            android:summary="@string/pref_summary_notif_receiver"
+            android:title="@string/pref_title_notif_receiver" />
+
+        <com.cognizant.trumobi.persona.launcher.PersonaDialogSeekBarPreference
+            android:defaultValue="@integer/config_notif_size"
+            android:dialogMessage="@string/pref_dialog_notif_size"
+            android:key="notif_size"
+            android:max="14"
+            android:summary="@string/pref_summary_notif_size"
+            android:title="@string/pref_title_notif_size" />
+
+        <ListPreference
+            android:defaultValue="@string/config_Audio"
+            android:entries="@array/audio_settings_enteries"
+            android:entryValues="@array/audio_settings_values"
+            android:key="audio_setting"
+            android:summary="@string/pref_Audio_Settings"
+            android:title="@string/pref_title_Audio_Settings" />
+        <ListPreference
+            android:defaultValue="@string/config_homeBinding"
+            android:entries="@array/menu_binding_entries"
+            android:entryValues="@array/menu_binding_values"
+            android:key="homeBinding"
+            android:summary="@string/pref_summary_home_button_binding"
+            android:title="@string/pref_title_home_button_binding" />
+        <ListPreference
+            android:defaultValue="@string/config_swipedown_actions"
+            android:entries="@array/menu_binding_entries"
+            android:entryValues="@array/menu_binding_values"
+            android:key="swipedownActions"
+            android:summary="@string/pref_summary_swipedown_actions"
+            android:title="@string/pref_title_swipedown_actions" />
+        <ListPreference
+            android:defaultValue="@string/config_swipeup_actions"
+            android:entries="@array/menu_binding_entries"
+            android:entryValues="@array/menu_binding_values"
+            android:key="swipeupActions"
+            android:summary="@string/pref_summary_swipeup_actions"
+            android:title="@string/pref_title_swipeup_actions" />
+    </PreferenceScreen>
+    <PreferenceScreen
+        android:key="systemPreferences"
+        android:summary="@string/pref_summary_system_preferences"
+        android:title="@string/pref_title_system_preferences" >
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:key="wallpaperHack"
+            android:summary="@string/pref_summary_wallpaper_hack"
+            android:title="@string/pref_title_wallpaper_hack" />
+
+        <ListPreference
+            android:defaultValue="@string/config_screenCache"
+            android:entries="@array/screen_cache_entries"
+            android:entryValues="@array/screen_cache_values"
+            android:key="screenCache"
+            android:summary="@string/pref_summary_screen_cache"
+            android:title="@string/pref_title_screen_cache" />
+
+        <CheckBoxPreference
+            android:defaultValue="@bool/config_system_persistent"
+            android:key="systemPersistent"
+            android:summary="@string/pref_summary_system_persistent"
+            android:title="@string/pref_title_system_persistent" />
+
+        <ListPreference
+            android:defaultValue="@string/config_orientation_default"
+            android:entries="@array/home_orientation_entries"
+            android:entryValues="@array/home_orientation_values"
+            android:key="homeOrientation"
+            android:summary="@string/pref_summary_orientation_sensor"
+            android:title="@string/pref_title_orientation_sensor" />
+    </PreferenceScreen>
+
+    <ListPreference
+        android:key="workspacescreen"
+        android:entries="@array/Workspace_entries"
+        android:entryValues="@array/Workspace_values"
+        android:defaultValue="@string/config_workspace"
+         android:summary="@string/summary_workspace"
+         android:title="@string/choose_workspace"
+         />
+
+    <PreferenceScreen
+        android:key="buttonPrerefences"
+        android:summary="@string/pref_summary_ui_settings"
+        android:title="@string/pref_title_ui_settings" >
+        <PreferenceCategory android:title="@string/pref_title_ab_preferencecategory" >
+            <ListPreference
+                android:defaultValue="@string/config_main_dock_style"
+                android:entries="@array/main_dock_entries"
+                android:entryValues="@array/main_dock_values"
+                android:key="main_dock_style"
+                android:summary="@string/pref_summary_main_dock_style"
+                android:title="@string/pref_title_main_dock_style" />
+
+            <CheckBoxPreference
+                android:defaultValue="true"
+                android:key="uiDots"
+                android:summary="@string/pref_summary_desktop_dots"
+                android:title="@string/pref_title_desktop_dots" />
+
+            <com.cognizant.trumobi.persona.launcher.PersonaDialogSeekBarPreference
+                android:defaultValue="7"
+                android:dialogMessage="@string/pref_dialog_ab_scale_factor"
+                android:key="uiScaleAB"
+                android:max="9"
+                android:summary="@string/pref_summary_ab_scale_factor"
+                android:title="@string/pref_title_ab_scale_factor" />
+
+            <CheckBoxPreference
+                android:defaultValue="false"
+                android:key="uiABBg"
+                android:summary="@string/pref_summary_hide_ab_bg"
+                android:title="@string/pref_title_hide_ab_bg" />
+            <CheckBoxPreference
+                android:defaultValue="@bool/config_ab_tint"
+                android:key="uiABTint"
+                android:summary="@string/pref_summary_ab_tint"
+                android:title="@string/pref_title_ab_tint" />
+
+            <Preference
+                android:defaultValue="-16777216"
+                android:dependency="uiABTint"
+                android:key="uiABTintColor"
+                android:summary="@string/pref_summary_ab_tint_color"
+                android:title="@string/pref_title_ab_tint_color" />
+        </PreferenceCategory>
+        <PreferenceCategory android:title="@string/pref_title_dockbar_preferencecategory" >
+            <CheckBoxPreference
+                android:defaultValue="false"
+                android:key="uiDockbar"
+                android:summary="@string/pref_summary_dockbar"
+                android:title="@string/pref_title_dockbar" />
+            <CheckBoxPreference
+                android:defaultValue="false"
+                android:dependency="uiDockbar"
+                android:key="uiCloseDockbar"
+                android:summary="@string/pref_summary_closing_dockbar"
+                android:title="@string/pref_title_closing_dockbar" />
+            <CheckBoxPreference
+                android:defaultValue="@bool/config_close_apps_dockbar"
+                android:dependency="uiDockbar"
+                android:key="uiCloseAppsDockbar"
+                android:summary="@string/pref_summary_close_apps_dockbar"
+                android:title="@string/pref_title_close_apps_dockbar" />
+        </PreferenceCategory>
+        <PreferenceCategory android:title="@string/pref_title_highlights_preferencecategory" >
+            <CheckBoxPreference
+                android:defaultValue="true"
+                android:key="uiNewSelectors"
+                android:summary="@string/pref_summary_new_selectors"
+                android:title="@string/pref_title_new_selectors" />
+
+            <Preference
+                android:defaultValue="-16777216"
+                android:key="highlights_color"
+                android:summary="@string/pref_summary_icon_highlights"
+                android:title="@string/pref_title_icon_highlights" />
+            <Preference
+                android:defaultValue="-16777216"
+                android:dependency="uiNewSelectors"
+                android:key="highlights_color_focus"
+                android:summary="@string/pref_summary_icon_highlights_focus"
+                android:title="@string/pref_title_icon_highlights_focus" />
+        </PreferenceCategory>
+        <PreferenceCategory android:title="@string/pref_title_indicators_preferencecategory" >
+            <CheckBoxPreference
+                android:defaultValue="@bool/config_desktop_indicator"
+                android:key="uiDesktopIndicator"
+                android:summary="@string/pref_summary_desktop_indicator"
+                android:title="@string/pref_title_desktop_indicator" />
+            <CheckBoxPreference
+                android:defaultValue="@bool/config_desktop_indicator_autohide"
+                android:dependency="uiDesktopIndicator"
+                android:key="uiDesktopIndicatorAutohide"
+                android:summary="@string/pref_summary_desktop_indicator_autohide"
+                android:title="@string/pref_title_desktop_indicator_autohide" />
+
+            <ListPreference
+                android:defaultValue="@string/config_desktop_indicator_type"
+                android:dependency="uiDesktopIndicator"
+                android:entries="@array/desktop_indicator_entries"
+                android:entryValues="@array/desktop_indicator_values"
+                android:key="uiDesktopIndicatorType"
+                android:summary="@string/pref_summary_desktop_indicator_type"
+                android:title="@string/pref_title_desktop_indicator_type" />
+        </PreferenceCategory>
+        <PreferenceCategory android:title="@string/pref_title_deletezone_preferencecategory" >
+            <ListPreference
+                android:defaultValue="@string/config_deletezone_style"
+                android:entries="@array/deletezone_entries"
+                android:entryValues="@array/deletezone_values"
+                android:key="deletezone_style"
+                android:summary="@string/pref_summary_deletezone_style"
+                android:title="@string/pref_title_deletezone_style" />
+        </PreferenceCategory>
+    </PreferenceScreen>
+    <PreferenceScreen
+        android:key="themePrefences"
+        android:summary="@string/pref_summary_theme_settings"
+        android:title="@string/pref_title_theme_settings" >
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="themeIcons"
+            android:summary="@string/pref_summary_theme_icons"
+            android:title="@string/pref_title_theme_icons" />
+
+        <ListPreference
+            android:key="themePackageName"
+            android:summary="@string/pref_summary_theme_package"
+            android:title="@string/pref_title_theme_package" />
+
+        <com.cognizant.trumobi.persona.launcher.PersonaPreviewPreference
+            android:key="themePreview"
+            android:layout="@layout/pr_theme_preview" />
+    </PreferenceScreen>
+    <PreferenceScreen
+        android:key="xmlPreferences"
+        android:title="@string/pref_title_import_export" >
+        <PreferenceCategory android:title="@string/pref_title_xml" >
+            <Preference
+                android:key="xml_export"
+                android:summary="@string/pref_summary_xml_export"
+                android:title="@string/pref_title_xml_export" />
+            <Preference
+                android:key="xml_import"
+                android:summary="@string/pref_summary_xml_import"
+                android:title="@string/pref_title_xml_import" />
+        </PreferenceCategory>
+        <PreferenceCategory android:title="@string/pref_title_db" >
+            <Preference
+                android:key="db_export"
+                android:summary="@string/pref_summary_db_export"
+                android:title="@string/pref_title_db_export" />
+            <Preference
+                android:key="db_import"
+                android:summary="@string/pref_summary_db_import"
+                android:title="@string/pref_title_db_import" />
+        </PreferenceCategory>
+    </PreferenceScreen>
+
+    <PreferenceCategory android:title="@string/pref_title_build_info" >
+        <Preference
+            android:key="adw_version"
+            android:summary="@string/adw_version"
+            android:title="@string/pref_title_adw_version" />
+        <Preference
+            android:key="adw_restart"
+            android:summary="@string/pref_summary_adw_restart"
+            android:title="@string/pref_title_adw_restart" />
+        <Preference
+            android:key="adw_reset"
+            android:summary="@string/pref_summary_adw_reset"
+            android:title="@string/pref_title_adw_reset" />
+    </PreferenceCategory>
+
+</PreferenceScreen>

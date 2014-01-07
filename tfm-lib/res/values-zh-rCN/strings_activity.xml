@@ -1,0 +1,113 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources>   
+   	<!-- About Activity -->
+   	<string name="label_product">%s Mobile for Android\u2122</string>
+  	<string name="link_about"><a href="http://www.thinkfree.com/go?id=mobile_main">关于</a></string>
+  	<string name="link_help"><a href="http://www.thinkfree.com/go?id=help_en_us_and_hd">帮助</a></string>
+  	<string name="link_support"><a href="http://www.thinkfree.com/go?id=help_online">支持</a></string>
+  	<string name="link_terms"><a href="http://www.thinkfree.com/go?id=terms">条款</a></string>
+  	<string name="link_privacy"><a href="http://www.thinkfree.com/go?id=privacy">隐私</a></string>
+  	<string name="link_ack"><a href="http://www.thinkfree.com/go?id=ack_and">致谢</a></string>
+  	<string name="link_separator">|</string>
+  	<string name="label_copyright">\u00A92011 Hancom Inc. 保留所有权利。 \nThinkFree 和 ThinkFree 徽标是 Hancom Inc. 的商标。</string>
+	
+  	<!-- File Properties Activity -->
+    <string name="fileproperties">属性</string>
+    <string name="fileprop_noinfo">无信息</string>
+    <string name="fileprop_basic">基本</string>
+    <string name="fileprop_extended">扩展</string>
+    <string name="fileprop_filename">名称</string>
+	<string name="fileprop_filesize">大小</string>
+    <string name="fileprop_title">标题</string>
+    <string name="fileprop_subject">主题</string>
+    <string name="fileprop_author">作者</string>
+    <string name="fileprop_keywords">关键字</string>
+    <string name="fileprop_comments">备注</string>
+    <string name="fileprop_template">模板</string>
+    <string name="fileprop_revnumber">修订号</string>
+    <string name="fileprop_lastprinted">上次打印时间</string>
+    <string name="fileprop_createdtm">创建时间</string>
+	<string name="fileprop_lastmodified">上次修改</string>
+    <string name="fileprop_pagecount">页数</string>
+    <string name="fileprop_wordcount">字数</string>
+    <string name="fileprop_charcount">字符数</string>
+	<string name="fileprop_appname">应用程序名称</string>   
+	<string name="fileprop_creator">创建者</string>
+	<string name="fileprop_description">说明</string>
+	<string name="fileprop_lastmodifiedby">上次修改者</string>
+	<string name="fileprop_version">版本</string>
+	<string name="fileprop_category">类别</string>
+	<string name="fileprop_language">语言</string>
+	<string name="fileprop_charwithspacecount">包含空格的字符数</string>
+	<string name="fileprop_sharedoc">共享</string>
+	<string name="fileprop_appversion">应用程序版本</string>
+	<string name="fileprop_codepage">代码页</string>
+	<string name="fileprop_presformat">演示文稿格式</string>     
+	<string name="fileprop_bytecount">字节数</string>
+	<string name="fileprop_linecount">行数</string>
+	<string name="fileprop_parcount">段落数</string>
+	<string name="fileprop_slidecount">幻灯片数</string>
+	<string name="fileprop_notecouont">备注数</string>
+	<string name="fileprop_hiddencount">隐藏幻灯片数</string>
+	<string name="fileprop_mmclipcount">多媒体剪辑数</string>
+	<string name="fileprop_scale">缩放比例</string>
+	<string name="fileprop_manager">管理器</string>
+	<string name="fileprop_company">公司</string>
+	<string name="fileprop_security">安全</string>
+	<string name="fileprop_lastsavedtm">上次保存时间</string>
+	<string name="fileprop_value_shared">True</string>
+	<string name="fileprop_value_not_shared">False</string>
+	<string name="fileprop_filetype">类型</string>
+	<string name="fileprop_location">位置</string>
+	<string name="fileprop_value_attachment">附件</string>
+  	
+	<!-- Manager -->
+	<string name="new_file_hint">文件名</string>
+
+	<!-- messages -->
+	<string name="msg_calculating">正在计算...</string>
+	<string name="msg_loading_asis">正在加载...</string>
+    <string name="msg_processing">正在处理...</string>
+	<string name="msg_file_not_found">找不到 %s。</string>
+    <string name="msg_connection_refused">网络连接失败</string>
+    
+   	<!--  OOM Activity -->
+   	<string name="oom_error_msg">内存不足。 无法正确加载文件。 \n 是否要查看目前已经加载的内容？</string>
+    <string name="oom_error_close_label">关闭</string>
+    <string name="oom_error_continue_label">继续</string>
+    
+    <!-- Updater -->
+	<string name="updater_check">正在检查...</string>
+	<string name="updater_update_failed">更新失败</string>
+	<string name="updater_uptodate">最新版本</string>
+	<string name="updater_confirm_update">是否要更新到最新版本？</string>
+	<string name="updater_download_started">正在下载最新版本。</string>
+	<string name="updater_download_completed">下载完成</string>
+	
+	<!-- Font -->
+    <string name="font_introduce_dialog_message">如果您安装字体程序包，则可以使用各种字体。\n是否确定要移至下载页面？</string>
+    <string name="font_introduce_dialog_check_message">下次不再显示</string>
+    
+    <!-- Preview -->
+	<string name="txt_none_select_item">尚未选中文档。</string>
+	<string name="txt_file_size">文件大小</string>
+	<string name="txt_last_modify_date">上次修改</string>
+	<string name="txt_file_format">文件格式</string>
+    
+	<string name="btn_email_attach_preview">附件</string>
+	
+	<!-- Activation -->
+	<string name="later">稍后</string>
+	<string name="activate_title">激活</string>
+	<string name="activate_now">立即激活</string>
+	<string name="activate_new_desc">
+	    感谢您使用 ThinkFree Office 产品。\n
+		请选择“立即激活”，激活您设备上的 ThinkFree Office。
+	</string>
+	<string name="activate_desc">单击 “%1$s”激活您的设备上的 %2$s。</string>
+	<string name="activate_result_ok">激活完成</string>
+	<string name="activate_result_failed_network_error">需要网络连接。</string>
+	<string name="activate_result_failed_invalid_hardware">此硬件设备上无法激活 %s。</string>
+	<string name="activate_result_failed_server_error">在产品激活期间，数据传输失败。</string>
+	
+</resources>

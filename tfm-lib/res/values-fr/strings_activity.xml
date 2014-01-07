@@ -1,0 +1,113 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources>   
+   	<!-- About Activity -->
+   	<string name="label_product">%s Mobile for Android\u2122</string>
+  	<string name="link_about"><a href="http://www.thinkfree.com/go?id=mobile_main">À propos de</a></string>
+  	<string name="link_help"><a href="http://www.thinkfree.com/go?id=help_en_us_and_hd">Aide</a></string>
+  	<string name="link_support"><a href="http://www.thinkfree.com/go?id=help_online">Assistance</a></string>
+  	<string name="link_terms"><a href="http://www.thinkfree.com/go?id=terms">Conditions</a></string>
+  	<string name="link_privacy"><a href="http://www.thinkfree.com/go?id=privacy">Confidentialité</a></string>
+  	<string name="link_ack"><a href="http://www.thinkfree.com/go?id=ack_and">Reconnaissance</a></string>
+  	<string name="link_separator">|</string>
+  	<string name="label_copyright">\u00A92011 Hancom Inc. Tous droits réservés. \n ThinkFree et le logo ThinkFree sont des marques commerciales de Hancom Inc.</string>
+	
+  	<!-- File Properties Activity -->
+    <string name="fileproperties">Propriétés</string>
+    <string name="fileprop_noinfo">Aucune information</string>
+    <string name="fileprop_basic">De base</string>
+    <string name="fileprop_extended">Étendu</string>
+    <string name="fileprop_filename">Nom</string>
+	<string name="fileprop_filesize">Taille</string>
+    <string name="fileprop_title">Titre</string>
+    <string name="fileprop_subject">Sujet</string>
+    <string name="fileprop_author">Auteur</string>
+    <string name="fileprop_keywords">Mots clés</string>
+    <string name="fileprop_comments">Commentaires</string>
+    <string name="fileprop_template">Modèle</string>
+    <string name="fileprop_revnumber">Numéro de révision</string>
+    <string name="fileprop_lastprinted">Heure de la dernière impression</string>
+    <string name="fileprop_createdtm">Heure de création</string>
+	<string name="fileprop_lastmodified">Dernière modification</string>
+    <string name="fileprop_pagecount">Nombre de pages</string>
+    <string name="fileprop_wordcount">Statistiques</string>
+    <string name="fileprop_charcount">Nombre de caractères</string>
+	<string name="fileprop_appname">Nom d\'application</string>   
+	<string name="fileprop_creator">Créateur</string>
+	<string name="fileprop_description">Description</string>
+	<string name="fileprop_lastmodifiedby">Dernière modification par</string>
+	<string name="fileprop_version">Version</string>
+	<string name="fileprop_category">Catégorie</string>
+	<string name="fileprop_language">Langue</string>
+	<string name="fileprop_charwithspacecount">Caractères espaces compris</string>
+	<string name="fileprop_sharedoc">Partagé</string>
+	<string name="fileprop_appversion">Version de l\'application</string>
+	<string name="fileprop_codepage">Page de codes</string>
+	<string name="fileprop_presformat">Format de présentation</string>     
+	<string name="fileprop_bytecount">Nombre d\'octets</string>
+	<string name="fileprop_linecount">Nombre de lignes</string>
+	<string name="fileprop_parcount">Nombre de paragraphes</string>
+	<string name="fileprop_slidecount">Nombre de diapositives</string>
+	<string name="fileprop_notecouont">Nombre de commentaires</string>
+	<string name="fileprop_hiddencount">Nombre de diapositives masqué</string>
+	<string name="fileprop_mmclipcount">Nombre de clips multimédias</string>
+	<string name="fileprop_scale">Échelle</string>
+	<string name="fileprop_manager">Responsable</string>
+	<string name="fileprop_company">Société</string>
+	<string name="fileprop_security">Sécurité</string>
+	<string name="fileprop_lastsavedtm">Heure du dernier enregistrement</string>
+	<string name="fileprop_value_shared">vrai</string>
+	<string name="fileprop_value_not_shared">faux</string>
+	<string name="fileprop_filetype">Type</string>
+	<string name="fileprop_location">Emplacement</string>
+	<string name="fileprop_value_attachment">Pièce jointe</string>
+  	
+	<!-- Manager -->
+	<string name="new_file_hint">Nom du fichier</string>
+
+	<!-- messages -->
+	<string name="msg_calculating">Calcul en cours...</string>
+	<string name="msg_loading_asis">Chargement en cours</string>
+    <string name="msg_processing">Traitement en cours...</string>
+	<string name="msg_file_not_found">%s est introuvable.</string>
+    <string name="msg_connection_refused">La connexion au réseau a échoué.</string>
+    
+   	<!--  OOM Activity -->
+   	<string name="oom_error_msg">Mémoire insuffisante. Impossible de charger correctement le fichier. \nVoulez-vous afficher le contenu chargé jusqu\'à présent ?</string>
+    <string name="oom_error_close_label">Fermer</string>
+    <string name="oom_error_continue_label">Continuer</string>
+    
+    <!-- Updater -->
+	<string name="updater_check">Vérification en cours...</string>
+	<string name="updater_update_failed">Échec de la mise à jour</string>
+	<string name="updater_uptodate">Dernière version</string>
+	<string name="updater_confirm_update">Voulez-vous installer la dernière version ?</string>
+	<string name="updater_download_started">La dernière version est en cours de téléchargement.</string>
+	<string name="updater_download_completed">Téléchargement terminé</string>
+	
+	<!-- Font -->
+    <string name="font_introduce_dialog_message">Si vous installez des packs de polices, vous pourrez utiliser différentes polices.\nVoulez-vous vous rendre sur la page de téléchargement ?</string>
+    <string name="font_introduce_dialog_check_message">Ne plus afficher</string>
+    
+    <!-- Preview -->
+	<string name="txt_none_select_item">Aucun document n\'a été sélectionné.</string>
+	<string name="txt_file_size">Taille du fichier</string>
+	<string name="txt_last_modify_date">Dernière modification</string>
+	<string name="txt_file_format">Format de fichier</string>
+    
+	<string name="btn_email_attach_preview">Joindre un fichier</string>
+	
+	<!-- Activation -->
+	<string name="later">Ultérieurement</string>
+	<string name="activate_title">Activation</string>
+	<string name="activate_now">Activer maintenant</string>
+	<string name="activate_new_desc">
+	    Merci d\'utiliser ThinkFree Office.\n
+		Sélectionnez « Activer maintenant » pour activer ThinkFree Office sur votre appareil.
+	</string>
+	<string name="activate_desc">Cliquez sur \&quot;%1$s\&quot; pour activer %2$s sur votre appareil.</string>
+	<string name="activate_result_ok">Activation effectuée</string>
+	<string name="activate_result_failed_network_error">Connexion réseau requise</string>
+	<string name="activate_result_failed_invalid_hardware">%s ne peut pas être activé sur cet appareil matériel.</string>
+	<string name="activate_result_failed_server_error">Échec de transmission des données lors de l\'activation du produit.</string>
+	
+</resources>
