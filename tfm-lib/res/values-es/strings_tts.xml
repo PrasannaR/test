@@ -1,6 +1,0 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<resources>
-<string name="tts_title">Texto a voz</string>
-<string name="tts_install_title">Instalar datos de voz</string>
-<string name="tts_install_message">¿Desea instalar los datos de voz necesarios para el sintetizador de voz?</string>
-</resources>
