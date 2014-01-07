@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources>
-<!-- dimensions for EditTextDialog -->
-<dimen name="show_edit_text_zoom_control_padding">10dp</dimen>
-<dimen name="show_edit_text_root_view_padding">30dp</dimen>
-<dimen name="show_edit_text_visibility_adjustment">30dp</dimen>
-<dimen name="show_edit_text_inline_padding">200dp</dimen>
-</resources>
