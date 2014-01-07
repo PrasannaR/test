@@ -1,0 +1,104 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources>
+   	<!-- About Activity -->
+   	<string name="label_product">%s Mobile for Android\u2122</string>
+  	<string name="link_about"><a href="http://www.thinkfree.com/go?id=mobile_main">Névjegy</a></string>
+  	<string name="link_help"><a href="http://www.thinkfree.com/go?id=help_en_us_and_hd">Súgó</a></string>
+  	<string name="link_support"><a href="http://www.thinkfree.com/go?id=help_online">Támogatás</a></string>
+  	<string name="link_terms"><a href="http://www.thinkfree.com/go?id=terms">Feltételek</a></string>
+  	<string name="link_privacy"><a href="http://www.thinkfree.com/go?id=privacy">Adatvédelem</a></string>
+  	<string name="link_ack"><a href="http://www.thinkfree.com/go?id=ack_and">Nyugtázás</a></string>
+  	<string name="link_separator">|</string>
+  	<string name="label_copyright">\u00A92012 Hancom Inc. Minden jog fenntartva. \nA ThinkFree és a ThinkFree embléma a Hancom Inc. védjegye.</string>
+  	<string name="label_accord">A termék egyes részei a 
+		<a href="http://code.google.com/policies.html">Google által létrehozott és megosztott</a> munkán alapuló módosítások
+	 	és használatuk a 
+		<a href="http://creativecommons.org/licenses/by/3.0">Creative Commons 3.0 Attributions License</a> licencben rögzített feltételek szerint történik.
+	</string>
+
+  	<!-- File Properties Activity -->
+    <string name="fileproperties">Tulajdonságok</string>
+    <string name="fileprop_noinfo">Nincs adat</string>
+    <string name="fileprop_basic">Alap</string>
+    <string name="fileprop_extended">Kibővített</string>
+    <string name="fileprop_filename">Név</string>
+	<string name="fileprop_filesize">Méret</string>
+    <string name="fileprop_title">Cím</string>
+    <string name="fileprop_subject">Tárgy</string>
+    <string name="fileprop_author">Szerző</string>
+    <string name="fileprop_keywords">Kulcsszavak</string>
+    <string name="fileprop_comments">Megjegyzések</string>
+    <string name="fileprop_template">Sablon</string>
+    <string name="fileprop_revnumber">Változat száma</string>
+    <string name="fileprop_lastprinted">Utolsó nyomtatás ideje</string>
+    <string name="fileprop_createdtm">Létrehozás ideje</string>
+	<string name="fileprop_lastmodified">Utoljára módosítva</string>
+    <string name="fileprop_pagecount">Oldalszám</string>
+    <string name="fileprop_wordcount">Szószám</string>
+    <string name="fileprop_charcount">Karakterszám</string>
+	<string name="fileprop_appname">Alkalmazásnév</string>   
+	<string name="fileprop_creator">Készítő</string>
+	<string name="fileprop_description">Leírás</string>
+	<string name="fileprop_lastmodifiedby">Utoljára módosította</string>
+	<string name="fileprop_version">Verziószám</string>
+	<string name="fileprop_category">Kategória</string>
+	<string name="fileprop_language">Nyelv</string>
+	<string name="fileprop_charwithspacecount">Karakterszám (szóközzel)</string>
+	<string name="fileprop_sharedoc">Megosztott</string>
+	<string name="fileprop_appversion">Alkalmazásverzió</string>
+	<string name="fileprop_codepage">Kódlap</string>
+	<string name="fileprop_presformat">Bemutató formátuma</string>     
+	<string name="fileprop_bytecount">Bájtok száma</string>
+	<string name="fileprop_linecount">Sorok száma</string>
+	<string name="fileprop_parcount">Bekezdések száma</string>
+	<string name="fileprop_slidecount">Diák száma</string>
+	<string name="fileprop_notecouont">Megjegyzések száma</string>
+	<string name="fileprop_hiddencount">Rejtett diák száma</string>
+	<string name="fileprop_mmclipcount">Multimédiaklipek száma</string>
+	<string name="fileprop_scale">Méretarány</string>
+	<string name="fileprop_manager">Menedzser</string>
+	<string name="fileprop_company">Vállalat</string>
+	<string name="fileprop_security">Biztonság</string>
+	<string name="fileprop_lastsavedtm">Utolsó mentés ideje</string>
+	<string name="fileprop_value_shared">igaz</string>
+	<string name="fileprop_value_not_shared">hamis</string>
+	<string name="fileprop_filetype">Típus</string>
+	<string name="fileprop_location">Hely</string>
+	<string name="fileprop_value_attachment">Melléklet</string>
+  	
+	<!-- Manager -->
+	<string name="new_file_hint">Fájlnév</string>
+
+	<!-- messages -->
+	<string name="msg_calculating">Számolás...</string>
+	<string name="msg_file_not_found">%s nem található.</string>
+    <string name="msg_connection_refused">A hálózati kapcsolat nem működik.</string>
+	   	
+   	<!--  OOM Activity -->
+   	<string name="oom_error_msg">Nincs elég memória. Memóriahiány miatt nem lehet megfelelően betölteni a fájlt. Meg kívánja tekinteni az eddig betöltött tartalmat?</string>
+    <string name="oom_error_close_label">Bezárás</string>
+    <string name="oom_error_continue_label">Folytatás</string>
+    
+    <!-- Updater -->
+	<string name="updater_check">Ellenőrzés...</string>
+	<string name="updater_update_failed">Frissítés sikertelen</string>
+	<string name="updater_uptodate">Legfrissebb verzió</string>
+	<string name="updater_confirm_update">Frissít a legfrissebb verzióra?</string>
+	<string name="updater_download_started">A legfrissebb verzió töltődik.</string>
+	<string name="updater_download_completed">Letöltés kész</string>
+	
+    <!-- Activation -->
+    <string name="later">Később</string>
+	<string name="activate_title">Aktiválás</string>
+	<string name="activate_now">Aktiválás most</string>
+	<string name="activate_new_desc">
+	    Köszönjük, hogy a ThinkFree Office termékét használja.\n
+		Válassza az „Aktiválás most” lehetőséget, hogy aktiválhassa a ThinkFree Office alkalmazást a készülékén.
+	</string>
+	<string name="activate_desc">\&quot;%1$s\&quot;: Ide kattintva aktiválhatja készülékén a következőt: %2$s.</string>
+	<string name="activate_result_ok">Aktiválás kész</string>
+	<string name="activate_result_failed_network_error">Hálózati kapcsolat szükséges.</string>
+	<string name="activate_result_failed_invalid_hardware">%s nem aktiválható ezen a hardvereszközön.</string>
+	<string name="activate_result_failed_server_error">Adatátviteli hiba történt a termék aktiválása közben.</string>
+	
+</resources>

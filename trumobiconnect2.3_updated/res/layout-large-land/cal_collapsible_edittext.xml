@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="horizontal" 
+    android:filterTouchesWhenObscured="true">
+
+    <!--
+    <EditText 
+	    android:id="@+id/search_label"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:singleLine="true"
+	    android:imeOptions="actionDone"
+	    android:hint="Search"/>
+    -->
+
+   <!--  <LinearLayout
+        android:id="@+id/btn_back_search_actionbar_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:clickable="true"
+        android:focusable="true"
+        android:orientation="horizontal" >
+
+        <ImageButton
+            android:id="@+id/img_search_icon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/cal_btn_back"
+            android:clickable="false"
+            android:contentDescription="@string/app_name"
+            android:duplicateParentState="true" />
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="0dip"
+            android:background="@drawable/cal_app_icon"
+            android:clickable="false"
+            android:contentDescription="@string/app_name"
+            android:duplicateParentState="true" />
+    </LinearLayout> -->
+
+    <MultiAutoCompleteTextView
+        android:id="@+id/multiautocompletetextview"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/contacts_textview_background_selector"
+        android:completionThreshold="1"
+        android:drawableRight="@drawable/cal_ic_menu_search_holo_light"
+        android:imeOptions="actionDone"
+        android:singleLine="true"
+        android:textColor="#ffffff"
+        android:textCursorDrawable="@null" />
+
+</LinearLayout>
