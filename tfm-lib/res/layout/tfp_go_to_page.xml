@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+
+    <TextView 
+        android:id="@+id/tfp_page_label"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_marginLeft="12dip"
+        android:layout_marginRight="4dip"
+        android:layout_marginTop="6dip"
+        android:layout_marginBottom="6dip"
+        android:text="@string/tfp_page_label"
+        android:maxLines="1"
+        android:gravity="left|center_vertical"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+    />
+            
+    <EditText
+        android:id="@+id/tfp_page_edit"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_marginLeft="4dip"
+        android:layout_marginRight="12dip"
+        android:layout_marginTop="6dip"
+        android:layout_marginBottom="6dip"
+        android:minEms="4"
+        android:maxLines="1"
+        android:gravity="left|center_vertical"
+		android:maxLength="4"
+		android:inputType="number"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:imeOptions="actionNone"
+     />
+        
+</LinearLayout>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="TFDefaultTheme" parent="@android:style/Theme.Holo.Light">
+        <!-- Any customizations for your app running on devices with Theme.Holo here -->
+    </style>
+    <style name="TFDefaultTheme.Dialog" parent="@android:style/Theme.Holo.Light.Dialog">
+        <!-- Any customizations for your app running on devices with Theme.Holo here -->
+    </style>
+    <style name="TFDefaultTheme.NoActionBar" parent="@android:style/Theme.Holo.Light.NoActionBar">
+        <!-- Any customizations for your app running on devices with Theme.Holo here -->
+    </style>
+</resources>
