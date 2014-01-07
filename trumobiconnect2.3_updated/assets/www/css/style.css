@@ -1,0 +1,1241 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*********************************** RESET CSS **************************************/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*********************************** JQUERY ALERTS PLUGIN CSS ****************************/
+
+#popup_container {
+	
+	/*position:absolute;
+	top:0;
+	left:0;
+	bottom:0;
+	right:0;
+	margin:auto;*/
+	font-size: 12px;
+	min-width: 300px; /* Dialog will be no smaller than this */
+	max-width: 600px; /* Dialog will wrap after this width */
+	height:120px;
+	background: #FFF;
+	border: solid 5px #999;
+	color: #000;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+}
+
+#popup_title {
+	font-size: 16px;
+	font-weight: bold;
+	text-align: center;
+	line-height: 1.75em;
+	color: #FFF;
+	border: solid 1px #FFF;
+	background: #9c2c20;
+	border-bottom: solid 1px #999;
+	cursor: default;
+	padding: 0em;
+	margin: 0em;
+}
+
+#popup_content {
+	
+	padding:10px 0;
+	margin: 0em !important;
+	text-align:center !important;
+}
+
+#popup_content input[type=button]{
+	
+	color:#000;
+	/*font-size:2.45em;*/
+	font-size:14px;
+	padding:5px;
+	background:#CCC;
+	margin:5px;
+	width:80px;
+	
+	-webkit-border-radius:5px;
+	-moz-border-radius:5px;
+	-o-border-radius:5px;
+	border-radius:5px;
+	
+	border:1px solid #999;
+	
+}
+
+#popup_content.alert {
+	
+}
+
+#popup_content.confirm {
+	
+}
+
+#popup_content.prompt {
+	
+}
+
+#popup_message {
+	
+	font-size:14px;
+}
+
+#popup_panel {
+	text-align: center;
+	margin: 1em 0em 0em 1em;
+}
+
+#popup_prompt {
+	margin: .5em 0em;
+}
+
+/*********************************************** CUSTOM CSS ***********************************/
+
+/* Styles Common to All Pages - Starts */
+
+body{
+
+	font-family:'Roboto' !important;
+	-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    -webkit-focus-ring-color:  rgba(0, 0, 0, 0);
+    
+    background:#EDEDED;
+}
+
+.fleft{
+
+	float:left;
+}
+
+.fright{
+
+	float:right;
+}
+
+.clearfix{
+
+	clear:both;
+}
+
+.page-title-wrapper{
+	
+	height: 44px;
+width: 100%;
+margin: 0px !important;
+background: #EDEDED;
+border-bottom: 1px solid #CCCCCC;
+}
+
+.page-title-wrapper p.clear-all-button{
+	
+	font-weight:bold;
+	color: #9C2C20;
+	padding:13px 0;
+}
+
+.empty-message{
+	
+	/*display:none;*/
+	font-size:14px !important;
+	font-weight:bold;
+	margin:10px 0 0 13px !important;
+}
+
+/* Style Common to all pages - Ends */
+
+/* Style for History Page - Starts */
+
+.history-date{
+	
+	width:100%;
+	font-weight:bold;
+	color:#000;
+	border-bottom:1px solid #CCC;
+	background:#FFF;
+}
+
+.history-date h1{
+	
+	font-size:16px;
+	margin:10px 0 10px 10px;
+}
+
+.history-title{
+	
+	width:100%;
+	/*margin:0 50px;
+	margin:0 15px;*/
+	background:#FFF;
+	border-bottom:1px solid #CCC;
+	/*padding:10px 0;*/
+}
+.history-title img{
+	height:16px;
+	width:16px;
+	padding: 8px;
+}
+
+.history-title p{
+
+	/*font-size:2.2em;*/
+	font-size:14px;
+	color:#000;
+	margin:8px 10px 10px 10px;
+}
+
+.history-title h3{
+
+	font-size:12px !important;
+	/*padding:10px;*/
+}
+
+.cross-button{
+	width:32px;
+	height:32px;
+	background:url(../images/clear_icon.png) no-repeat;
+	background-size:100% 100%;
+	display:block;
+}
+
+.empty-message{
+
+	font-size:12px;
+	color:#000;
+	margin:10px 20px;
+}
+
+.left-wrapper{
+	width:85% !important;
+	height:32px !important;
+}
+
+.right-wrapper{
+	
+	width:10%;
+	display:block;
+}
+
+/* Style for History Page - Ends */
+
+/* Style for Recently Closed Tab - Starts */
+
+.recently-closed-title{
+	
+	width:100%;
+	/*margin:0 50px;
+	margin:0 15px;*/
+	background:#FFF;
+	border-bottom:1px solid #CCC;
+	/*padding:10px 0;*/
+}
+
+.recently-closed-title img{
+	height:16px;
+	width:16px;
+	padding: 8px;
+}
+
+.recently-closed-title p{
+
+	/*font-size:2.2em;*/
+	font-size:14px;
+	color:#000;
+	margin:8px 10px 10px 10px;
+}
+
+
+/* Style for Recently Closed Tab - Ends */
+
+/* Style for Add Bookmarks Page - Starts */
+
+.page-title-wrapper p{
+	
+	margin:0 15px;
+}
+
+.bookmarks-header{
+	width:100%;
+	background-color: #FAFAFA;
+}
+.bookmarks-header p{
+	width:100%;
+	padding-left:5%;
+	padding-bottom:4%;
+	padding-top:15px;
+	padding-bottom:15px;
+	border-bottom:1px solid #d7d7d7 !important;
+	font-weight:bold;
+}
+
+.bookmarks-form{
+	margin-top:5px;
+	width:100%;
+}
+
+.bookmarks-form .form-label{
+
+	width:20%;
+	font-size:14px;
+	font-weight:bold;
+	margin-left:2%;
+	margin-top:30px;
+	padding-left:4%;
+	padding-right:4%;
+}
+
+.bookmark-site-title img{
+	height:16px;
+	width:16px;
+	padding:8px;
+	
+}
+
+.bookmarks-form input[type=text]{
+
+	width:60%;
+	padding:2px 10px;
+	border:1px solid #d7d7d7 !important;
+	margin-top:20px;
+	height:30px;
+}
+
+.add-bookmarks-actions{
+
+	padding:13px 0;
+	font-weight:bold;
+	color: #9C2C20;	
+}
+
+.error-message{
+	
+    width:100%;
+    margin-top:15px;
+    text-align:center;
+}
+
+.error-message p{
+
+    color:#F00 !important;
+
+}
+
+.align-center{
+	
+	text-align:center;
+}
+
+/* Style for Add Bookmarks Page - Ends */
+
+/* Style for Bookmarks Page - Starts */
+
+.bookmarks-title{
+
+	font-size: 17px;
+	color: #000000;
+	padding: 13px;
+}
+
+.bookmark-site-title{
+	
+	width:100%;
+	background:#FFF;
+	border-bottom:1px solid #CCC;
+	/*padding:10px 0;*/
+}
+
+.bookmark-site-title a{
+
+	color:#000 !important;
+	text-decoration:none !important;
+}
+
+.bookmark-site-title p{
+
+	/*font-size:2.2em;*/
+	font-size:14px;
+	color:#000;
+	margin:8px 10px 10px 10px;
+}
+
+.bookmark-category-title{
+	
+	width:100%;
+	background:#FFF;
+	border-bottom:1px solid #CCC;
+	padding:5px 0;
+}
+
+.bookmark-category-title p{
+
+	font-size:14px;
+	color:#000;
+	margin:12px 13px;
+}
+
+.arrow-icon{
+	
+	width:38px;
+	height:38px;
+	background:url(../images/list_arrow_icon.png) no-repeat;
+	background-size:100% 100%;
+	display:block;
+}
+
+/* Style for Bookmarks Page - Ends */
+
+/* Style for Error Page Starts */
+
+.error-page{
+	
+	 width:100%;
+	 background:#CCC !important;
+}
+
+ .error-panel{
+          
+          position: absolute;
+          top:0;
+          bottom: 0;
+	      left: 0;
+          right: 0;
+          text-align:center;
+          color: #666;
+          width: 250px;
+          height: 250px;
+          font-size:16px !important;
+          margin: auto;
+          
+      }
+
+.error-panel p{
+    
+    margin:15px 0;
+}
+
+/* Style for Error page Ends */
+
+/* Style for Settings Page Starts */
+
+.on-off-button{
+	
+	width:69px;
+	height:38px;
+	background:url(../images/switch_on.png) no-repeat;
+	background-size:100% 100%;
+	display:block;
+	margin:0 5px;
+}
+
+.on-off-button.active{
+	
+	background:url(../images/switch_off.png) no-repeat;
+}
+
+.home-page-textbox{
+	
+	width:88%;
+	height:30px;
+	margin:10px 13px !important;
+	padding:2px 10px;
+	border:1px solid #d7d7d7 !important;
+}
+
+/* Style for Settings page Ends */
+
+/* Style for Custom Alert Popup Starts */
+
+.popup-background{
+    
+    display:none;
+    position:absolute;
+    top:0;
+    left:0;
+    width:100%;
+    background:#000;
+    opacity:0.5;
+    z-index:1;
+}
+
+.popup-alert{
+    
+    display:none;
+    position:absolute;
+    width:244px;
+    height:102px;
+    top:50%;
+    left:50%;
+    margin-top:-51px;
+    margin-left:-122px;
+    background:#FFF;
+    -webkit-border-radius:2px;
+    border-radius:2px;
+    text-align:center;
+    z-index:2;
+    
+    -webkit-box-shadow: 0 0 2px 1px #333;
+    box-shadow: 0 0 2px 1px #333;
+}
+
+.alert-message{
+
+    margin:20px 0;
+    font-size:16px;
+}
+
+.popup-confirm{
+    
+    display:none;
+    position:absolute;
+    width:244px;
+    height:102px;
+    top:50%;
+    left:50%;
+    margin-top:-51px;
+    margin-left:-122px;
+    background:#FFF;
+    -webkit-border-radius:2px;
+    border-radius:2px;
+    text-align:center;
+    z-index:2;
+    
+    -webkit-box-shadow: 0 0 2px 1px #333;
+    box-shadow: 0 0 2px 1px #333;
+}
+
+.alert-button-full{
+    
+    position:absolute;
+    left:0;
+    bottom:0;
+    width:100%;
+    padding:5px 0;
+    background:#FFF;
+    border:none;
+    font-weight:bold;
+    border-top:1px groove #b9b9b9;
+    font-size:15px;
+    color:#710000;
+    -webkit-border-bottom-right-radius:2px;
+    -webkit-border-bottom-left-radius:2px;
+    border-bottom-right-radius:2px;
+    border-bottom-left-radius:2px;
+}
+
+.alert-button-half-left{
+    
+    position:absolute;
+    bottom:0;
+    left:0;
+    width:50%;
+    padding:5px 0;
+    background:#FFF;
+    border:none;
+    border-top:1px groove #b9b9b9;
+    border-right:1px solid #b9b9b9;
+    font-size:15px;
+    color:#710000;
+    -webkit-border-bottom-left-radius:2px;
+    border-bottom-left-radius:2px;
+}
+
+.alert-button-half-right{
+    
+    position:absolute;
+    bottom:0;
+    right:0;
+    width:50%;
+    padding:5px 0;
+    background:#FFF;
+    border:none;
+    font-weight:bold;
+    border-top:1px groove #b9b9b9;
+    font-size:15px;
+    color:#710000;
+    -webkit-border-bottom-right-radius:2px;
+    border-bottom-right-radius:2px;
+
+}
+
+/* Style for Custom Alert Popup Ends */
+
+
+/***************************** Style for Tablets Using CSS Media Query *********************/
+
+/* NEXUS 7 and other 7" Tablets */
+
+@media only screen and (width : 603px) and (orientation: portrait) {
+
+.edit-button{
+
+	padding:10px !important;
+}
+
+.history-date{
+	
+	width:91% !important;
+	font-size:20px !important;
+	
+}
+
+.history-title{
+	
+	width:91% !important;
+	margin:0 15px !important;
+}
+
+.history-title p{
+
+	font-size:14px !important;
+}
+
+.history-title h3{
+
+	font-size:14px !important;
+	padding:10px;
+}
+
+
+.cross-button{
+	width:32px !important;
+	height:32px !important;
+	background-size:100% 100%;
+}
+
+.empty-message{
+
+	font-size:14px !important;
+}
+
+.incognito-message p{
+
+	margin:30px 15px;
+	text-align:justify;
+	line-height:20px;
+	font-size:16px;
+}
+
+.tab-title{
+	
+	width:91%;
+}
+
+.tab-title p{
+
+	font-size:14px;
+}
+
+.recently-closed-title{
+	
+	width:91%;
+}
+
+.recently-closed-title p{
+
+	font-size:14px !important;
+}
+
+.bookmark-site-title img{
+	height:16px;
+	width:16px;
+	padding:8px;
+	
+}
+
+.bookmark-site-title p{
+	font-size:14px;
+	color:#000;
+	margin:8px 10px 10px 10px;
+}
+
+.bookmarks-form .form-label{
+
+	font-size:16px;
+}
+
+.bookmarks-form input[type=text]{
+
+	height:40px;
+}
+
+.add-bookmarks-actions input[type=button]{
+
+	font-size:16px;	
+}
+.error-panel{
+
+    position: absolute;
+	top:0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+    text-align:center;
+    color: #666;
+    width: 350px;
+	height: 350px;
+    font-size:20px !important;
+	margin: auto;
+
+    }
+
+	.error-message p{
+	
+	font-size:14px;
+}
+	
+}
+
+/***************************** Style for Tablets Using CSS Media Query *********************/
+
+/* NEXUS 7 and other 7" Tablets */
+
+@media only screen and (width : 603px) and (orientation: portrait) {
+
+.edit-button{
+
+       padding:10px !important;
+}
+
+.history-date{
+       
+       width:100% !important;
+       font-size:20px !important;
+       
+}
+
+.history-title{
+       
+       width:100% !important;
+       /*margin:0 15px !important;*/
+}
+
+.history-title p{
+
+       font-size:14px !important;
+}
+
+.history-title h3{
+
+       font-size:14px !important;
+       padding:10px;
+}
+
+
+.cross-button{
+       width:32px !important;
+       height:32px !important;
+       background-size:100% 100%;
+}
+
+.empty-message{
+
+       font-size:14px !important;
+}
+
+.incognito-message p{
+
+       margin:30px 15px;
+       text-align:justify;
+       line-height:20px;
+       font-size:16px;
+}
+
+.tab-title{
+       
+       width:100%;
+}
+
+.tab-title p{
+
+       font-size:14px;
+}
+
+.recently-closed-title{
+       
+       width:100%;
+}
+
+.recently-closed-title p{
+
+       font-size:14px !important;
+}
+
+.bookmark-site-title img{
+       height:16px;
+       width:16px;
+       padding:8px;
+       
+}
+
+.bookmark-site-title p{
+       font-size:14px;
+       color:#000;
+       margin:8px 10px 10px 10px;
+}
+
+.bookmarks-form .form-label{
+
+       font-size:16px;
+}
+
+.bookmarks-form input[type=text]{
+
+       height:40px;
+}
+
+.add-bookmarks-actions input[type=button]{
+
+       font-size:16px;      
+}
+.error-panel{
+
+    position: absolute;
+       top:0;
+       bottom: 0;
+       left: 0;
+       right: 0;
+    text-align:center;
+    color: #666;
+    width: 350px;
+       height: 350px;
+    font-size:20px !important;
+       margin: auto;
+
+    }
+
+       .error-message p{
+       
+       font-size:14px;
+}
+
+.left-wrapper{
+       width:85% !important;
+}
+
+.right-wrapper{
+       
+       width:10%;
+       
+}
+       
+}
+
+/* NEXUS 7 and other 7" Tablets */
+
+@media only screen and (width : 966px) and (orientation: landscape) {
+       
+.edit-button{
+
+       padding:10px !important;
+}
+
+.history-date{
+       
+       width:100% !important;
+       font-size:20px !important;
+       
+}
+
+.history-title{
+       
+       width:100% !important;
+       /*margin:0 15px !important;*/
+}
+
+.history-title p{
+
+       font-size:14px !important;
+}
+
+.history-title h3{
+
+       font-size:14px !important;
+       padding:10px;
+}
+
+.cross-button{
+       width:32px !important;
+       height:32px !important;
+       background-size:100% 100%;
+}
+
+.empty-message{
+
+       font-size:14px !important;
+}
+
+.incognito-message p{
+
+       margin:30px 15px;
+       text-align:justify;
+       line-height:20px;
+       font-size:16px;
+}
+
+.tab-title{
+       
+       width:100%;
+}
+
+.tab-title p{
+
+       font-size:14px;
+}
+
+.recently-closed-title{
+       
+       width:100%;
+}
+
+.recently-closed-title p{
+
+       font-size:14px;
+}
+
+
+.bookmarks-form .form-label{
+
+       font-size:16px;
+}
+
+.bookmark-site-title img{
+       height:16px;
+       width:16px;
+       padding:8px;
+       
+}
+.bookmark-site-title p{
+       font-size:14px;
+       color:#000;
+       margin:8px 10px 10px 10px;
+}
+
+.bookmarks-form input[type=text]{
+
+       height:40px;
+}
+
+.add-bookmarks-actions input[type=button]{
+
+       font-size:16px;      
+}
+.error-panel{
+
+    position: absolute;
+       top:0;
+       bottom: 0;
+       left: 0;
+       right: 0;
+    text-align:center;
+    color: #666;
+    width: 350px;
+       height: 350px;
+    font-size:20px !important;
+       margin: auto;
+
+    }
+
+.error-message p{
+       
+       font-size:14px;
+}      
+
+.left-wrapper{
+       width:90% !important;
+}
+
+.right-wrapper{
+       
+       width:5%;
+       
+}
+       
+}
+
+
+
+/* NEXUS 10 and other 10" Tablets */
+
+@media only screen and (min-width : 750px) and (max-width : 1300px) and (orientation: portrait) {
+
+.edit-button{
+
+       padding:10px !important;
+}
+
+.history-date{
+       
+       width:100% !important;
+       font-size:20px !important;
+       
+}
+
+.history-title{
+       
+       width:100% !important;
+       
+}
+
+.history-title p{
+
+       font-size:14px !important;
+}
+.history-title h3{
+
+       font-size:14px !important;
+       padding:10px;
+}
+
+.cross-button{
+       width:32px !important;
+       height:32px !important;
+       background-size:100% 100%;
+}
+
+.empty-message{
+
+       font-size:14px !important;
+}
+
+.incognito-message p{
+
+       margin:30px 15px;
+       text-align:justify;
+       line-height:20px;
+       font-size:16px;
+}
+
+.tab-title{
+       
+       width:100%;
+}
+
+.tab-title p{
+
+       font-size:14px;
+}
+
+.recently-closed-title{
+       
+       width:100%;
+}
+
+.recently-closed-title p{
+
+       font-size:14px;
+}
+
+
+.bookmarks-form .form-label{
+
+       font-size:16px;
+}
+
+.bookmark-site-title img{
+       height:16px;
+       width:16px;
+       padding:8px;
+       
+}
+
+.bookmark-site-title p{
+       font-size:14px;
+       color:#000;
+       margin:8px 10px 10px 10px;
+}
+
+.bookmarks-form input[type=text]{
+
+       height:40px;
+}
+
+.add-bookmarks-actions input[type=button]{
+
+       font-size:16px;      
+}
+       
+.error-message p{
+       
+       font-size:14px;
+}
+
+}
+
+/* NEXUS 10 and other 10" Tablets */
+
+@media only screen and (min-width : 750px) and (max-width : 1300px) and (orientation: landscape) {
+       
+.edit-button{
+
+       padding:10px !important;
+}
+
+.history-date{
+       
+       width:100% !important;
+       font-size:20px !important;
+       
+}
+
+.history-title{
+       
+       width:100% !important;
+       
+}
+
+.history-title p{
+
+       font-size:14px !important;
+}
+.history-title h3{
+
+       font-size:14px !important;
+       padding:10px;
+}
+
+.cross-button{
+       width:32px !important;
+       height:32px !important;
+       background-size:100% 100%;
+}
+
+.empty-message{
+
+       font-size:14px !important;
+}
+
+.incognito-message p{
+
+       margin:30px 15px;
+       text-align:justify;
+       line-height:20px;
+       font-size:16px;
+}
+
+.tab-title{
+       
+       width:100%;
+}
+
+.tab-title p{
+
+       font-size:14px;
+}
+
+.recently-closed-title{
+       
+       width:100%;
+}
+
+.recently-closed-title p{
+
+       font-size:14px;
+}
+
+.bookmark-site-title p{
+       font-size:14px;
+       color:#000;
+       margin:8px 10px 10px 10px;
+}
+
+.bookmarks-form .form-label{
+
+       font-size:16px;
+}
+
+.bookmarks-form input[type=text]{
+
+       height:40px;
+}
+
+.bookmark-site-title img{
+       height:16px;
+       width:16px;
+       padding:8px;
+       
+}
+
+.add-bookmarks-actions input[type=button]{
+
+       font-size:16px;      
+}
+
+.error-panel{
+
+    position: absolute;
+       top:0;
+       bottom: 0;
+       left: 0;
+       right: 0;
+    text-align:center;
+    color: #666;
+    width: 350px;
+       height: 350px;
+    font-size:20px !important;
+       margin: auto;
+
+    }
+.error-message p{
+       
+       font-size:14px;
+}
+       
+}
+
+
+/* Hide the Action Bar when Key-Board Popups in small phone and devices */
+
+@media only screen and (max-height : 200px) {
+
+.add-bookmarks-actions{
+	
+	display:none !important;
+}
+	
+}
+

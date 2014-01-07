@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+   	<!-- option menu -->
+	<string name="write_goto_view_mode">Gå til tekstmodus</string>
+    
+	<!-- words -->
+   	<string name="write_dictionary_select_language">Velg språk</string>
+	<string name="write_dictionary_english">Engelsk</string>
+	<string name="write_dictionary_korean">Koreansk</string>
+	<string name="write_dictionary_japanese">Japansk</string>
+	<string name="write_dictionary_spanish">Spansk</string>
+	<string name="write_dictionary_french">Fransk</string>
+	<string name="write_dictionary_portuguese">Portugisisk</string>
+	<string name="write_dictionary_chinese">Kinesisk</string>
+	<string name="write_display_mode">Visningsmodus</string>
+	<string name="write_fit_to_screen_width">Tilpass til skjermbredden</string>
+	<string name="write_show_all_marks">Vis alle redigeringsmerker</string>
+	<string name="write_show_smart_zoom">Vis smart zoom</string>
+	<string name="write_show_picture_placeholders">Vis plassholdere for bilder</string>
+	<string name="write_show_scrolling_icons">Vis rulleikoner</string>
+	<string name="write_reflow_view">Tilpasset flyt</string>
+	<string name="write_bookmark">Vis bokmerker</string>
+	<string name="write_bookmark_add">Legg til</string>
+	<string name="write_bookmark_delete">Slett</string>
+	<string name="write_bookmark_goto">Gå til</string>
+	<string name="write_preferences">Innstillinger for Document Viewer</string>
+	<string-array name="write_display_modes">
+		<item>Opprinnelig visning</item>
+		<item>Positiv visning</item>
+		<item>Negativ visning</item>
+	</string-array>
+	
+	<!-- messages -->
+	<string name="write_msg_show_all_marks">Vis eller skjul alle redigeringsmerker</string>
+	<string name="write_msg_show_smart_zoom">Zoom automatisk inn eller ut på teksten</string>
+	<string name="write_msg_show_picture_placeholders">Vis et tomt felt i stedet for grafikk i dokumentet</string>
+	<string name="write_msg_show_scrolling_icons">Vis eller skjul rulleikoner</string>
+	<string name="write_msg_reflow_view">Vis dokumenter uten horisontal rulling</string>
+	<string name="write_msg_hyperlink">Dobbelttrykk på koblingen for å følge den</string>
+	<string name="write_msg_bookmark">Vis eller skjul bokmerker</string>
+	<string name="write_msg_dictionary_no_results">Fant ingen resultater med \&quot;%s\&quot;</string>
+	<string name="write_msg_dictionary_invalid_response">Ugyldig svar til server</string>
+	<string name="write_msg_select_txt_extention">Advarsel: Bare tekst blir lagret.</string>
+	
+	<string name="write_msg_zoom">%d%%</string>
+</resources>

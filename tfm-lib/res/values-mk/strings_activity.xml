@@ -1,0 +1,104 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources>
+   	<!-- About Activity -->
+   	<string name="label_product">%s Mobile for Android\u2122</string>
+  	<string name="link_about"><a href="http://www.thinkfree.com/go?id=mobile_main">За</a></string>
+  	<string name="link_help"><a href="http://www.thinkfree.com/go?id=help_en_us_and_hd">Помош</a></string>
+  	<string name="link_support"><a href="http://www.thinkfree.com/go?id=help_online">Поддршка</a></string>
+  	<string name="link_terms"><a href="http://www.thinkfree.com/go?id=terms">Одредби</a></string>
+  	<string name="link_privacy"><a href="http://www.thinkfree.com/go?id=privacy">Приватност</a></string>
+  	<string name="link_ack"><a href="http://www.thinkfree.com/go?id=ack_and">Признание</a></string>
+  	<string name="link_separator">|</string>
+  	<string name="label_copyright">\u00A92012 Hancom Inc. Сите права се задржани. \nThinkFree и логото на ThinkFree се заштитени трговски марки на Hancom Inc.</string>
+  	<string name="label_accord">Делови од овој производ се модификации кои се базираат на работата која е креирана и 
+		<a href="http://code.google.com/policies.html">споделена од страна на Google</a>
+	 	и се употребуваат во согласност со одредбите опишани во 
+		<a href="http://creativecommons.org/licenses/by/3.0">Creative Commons 3.0 Attributions License.</a>
+	</string>
+	
+  	<!-- File Properties Activity -->
+    <string name="fileproperties">Својства</string>
+    <string name="fileprop_noinfo">Нема информации</string>
+    <string name="fileprop_basic">Основно</string>
+    <string name="fileprop_extended">Проширено</string>
+    <string name="fileprop_filename">Име</string>
+	<string name="fileprop_filesize">Големина</string>
+    <string name="fileprop_title">Наслов</string>
+    <string name="fileprop_subject">Тема</string>
+    <string name="fileprop_author">Автор</string>
+    <string name="fileprop_keywords">Клучни зборови</string>
+    <string name="fileprop_comments">Коментари</string>
+    <string name="fileprop_template">Шаблон</string>
+    <string name="fileprop_revnumber">Број на преработено издание</string>
+    <string name="fileprop_lastprinted">Време на последно печатење</string>
+    <string name="fileprop_createdtm">Време на креирање</string>
+	<string name="fileprop_lastmodified">Последна измена</string>
+    <string name="fileprop_pagecount">Број на страници</string>
+    <string name="fileprop_wordcount">Број на зборови</string>
+    <string name="fileprop_charcount">Број на знаци</string>
+	<string name="fileprop_appname">Име на апликација</string>   
+	<string name="fileprop_creator">Креатор</string>
+	<string name="fileprop_description">Опис</string>
+	<string name="fileprop_lastmodifiedby">Последна измена од</string>
+	<string name="fileprop_version">Верзија</string>
+	<string name="fileprop_category">Категорија</string>
+	<string name="fileprop_language">Јазик</string>
+	<string name="fileprop_charwithspacecount">Број на знаци со празно место</string>
+	<string name="fileprop_sharedoc">Споделено</string>
+	<string name="fileprop_appversion">Верзија на апликација</string>
+	<string name="fileprop_codepage">Кодна страница</string>
+	<string name="fileprop_presformat">Формат на презентација</string>     
+	<string name="fileprop_bytecount">Број на бајти</string>
+	<string name="fileprop_linecount">Број на линии</string>
+	<string name="fileprop_parcount">Број на параграфи</string>
+	<string name="fileprop_slidecount">Број на слајдови</string>
+	<string name="fileprop_notecouont">Број на забелешки</string>
+	<string name="fileprop_hiddencount">Број на скриени слајдови</string>
+	<string name="fileprop_mmclipcount">Број на мултимедијални записи</string>
+	<string name="fileprop_scale">Прилагоди големина</string>
+	<string name="fileprop_manager">Управувач</string>
+	<string name="fileprop_company">Компанија</string>
+	<string name="fileprop_security">Сигурност</string>
+	<string name="fileprop_lastsavedtm">Време на последно зачувување</string>
+	<string name="fileprop_value_shared">true</string>
+	<string name="fileprop_value_not_shared">false</string>
+	<string name="fileprop_filetype">Тип</string>
+	<string name="fileprop_location">Локација</string>
+	<string name="fileprop_value_attachment">Прикачен фајл</string>
+
+	<!-- Manager -->
+	<string name="new_file_hint">Име на фајл</string>
+
+	<!-- messages -->
+	<string name="msg_calculating">Пресметување...</string>
+	<string name="msg_file_not_found">%s не е најдено.</string>
+    <string name="msg_connection_refused">Мрежното поврзување не беше успешно.</string>
+	
+   	<!--  OOM Activity -->
+   	<string name="oom_error_msg">Нема веќе меморија. Не е можно правилно вчитување на фајлот заради недостаток на меморија. Дали сакате да ги прегледате содржините кои се вчитани досега?</string>
+    <string name="oom_error_close_label">Затвори</string>
+    <string name="oom_error_continue_label">Продолжи</string>
+    
+    <!-- Updater -->
+	<string name="updater_check">Проверка...</string>
+	<string name="updater_update_failed">Ажурирањето е неуспешно</string>
+	<string name="updater_uptodate">Најнова верзија</string>
+	<string name="updater_confirm_update">Дали сакате да извршите ажурирање со најновата верзија?</string>
+	<string name="updater_download_started">Превземање на најновата верзија.</string>
+	<string name="updater_download_completed">Превземањето е завршено</string>
+	
+	<!-- Activation -->
+    <string name="later">Подоцна</string>
+	<string name="activate_title">Активирање</string>
+	<string name="activate_now">Активирај сега</string>
+	<string name="activate_new_desc">
+	    Ви благодариме за користењето на ThinkFree Office производ.\n
+		Изберете “Активирај сега” за активирање на ThinkFree Office на вашиот уред.
+	</string>
+	<string name="activate_desc">Кликнете \&quot;%1$s\&quot; за да активирате %2$s на вашиот уред.</string>
+	<string name="activate_result_ok">Активирањето е завршено</string>
+	<string name="activate_result_failed_network_error">Потребно е мрежно поврзување.</string>
+	<string name="activate_result_failed_invalid_hardware">%s не може да се активира на овој хардверски уред.</string>
+	<string name="activate_result_failed_server_error">За време на активирање на производот настана грешка при пренесување на податоци.</string>
+	
+</resources>

@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="retry">Spróbuj ponownie</string>
+	
+    <!-- Purchase Activity -->
+    <string name="title_purchase">Kup pakiet ThinkFree Mobile for Android</string>
+    <string name="market_android">Android</string>
+    <string name="market_amazon">Amazon</string>
+	
+    <!-- License Check Activity-->
+    <string name="msg_checking_license">Sprawdzanie licencji...</string>
+    <string name="title_application_error">Błąd aplikacji</string>
+    <string name="msg_application_error">Kod błędu: %1$d</string>
+    <string name="title_unlicensed">Aplikacja bez licencji</string>
+    <string name="msg_unlicensed">Ta aplikacja nie jest objęta licencją. Prosimy o jej zakup w sklepie %s Market.</string>
+	<string name="title_no_network_connection">Błąd połączenia z siecią</string>
+	<string name="msg_no_network_connection">Połączenie z siecią nie powiodło się. Upewnij się, że urządzenie jest podłączone do sieci.</string>
+</resources>

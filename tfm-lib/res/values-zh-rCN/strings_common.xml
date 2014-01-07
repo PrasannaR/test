@@ -1,0 +1,204 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<resources>
+    <!-- words -->
+    <!-- apps -->
+    <string name="app_name" translatable="false">ThinkFree Office</string>
+    <string name="tfwrite" translatable="false">ThinkFree Write</string>
+    <string name="tfcalc" translatable="false">ThinkFree Calc</string>
+    <string name="tfshow" translatable="false">ThinkFree Show</string>
+    <string name="tfpdf" translatable="false">ThinkFree PDF Viewer</string>
+    <string name="market_pub" translatable="false">ThinkFree Office</string>
+    
+    <string name="file">文件</string>
+    <string name="properties">属性</string>
+    <string name="send">发送</string>
+    <string name="share">共享</string>
+    <string name="save">保存</string>
+    <string name="zoom">显示比例</string>
+    <string name="zoom_in">放大</string>
+    <string name="zoom_out">缩小</string>
+    <string name="preferences">预置</string>
+    <string name="horizontal_page_scrolling">水平页面滚动</string>
+    <string name="vertical_page_scrolling">垂直页面滚动</string>
+    <string name="refresh">刷新</string>
+    <string name="delete_all">全部删除</string>
+    <string name="update">更新</string>
+    <string name="about">关于</string>
+    <string name="find">查找</string>
+    <string name="replace">替换</string>
+    <string name="sort">排序</string>
+    <string name="fullscreen">全屏</string>
+    <string name="normalscreen">正常屏幕</string>
+    <string name="texttospeech">文本到语音</string>
+    <string name="dictionary">词典</string>
+    <string name="save_to">保存到</string>
+    <string name="edit">编辑</string>
+    <string name="view">视图</string>
+    <string name="save_as">另存为</string>
+    <string name="save_as_pdf">另存为 PDF</string>
+    <string name="select">选择</string>
+    <string name="select_all">全选</string>
+    <string name="select_word">选择文字</string>
+    <string name="select_line">选择行</string>
+    <string name="select_paragraph">选择段落</string>
+    <string name="insert_shape">插入形状</string>
+    <string name="object">对象</string>
+    <string name="text">文本</string>
+    <string name="from_camera_image">从相机（图片）</string>
+    <string name="from_camera_video">从相机（视频）</string>
+    <string name="from_gallery_image">从图库（图片）</string>
+    <string name="from_gallery_video">从图库（视频）</string>
+    <string name="from_scribble_pad">从草稿本</string>
+    <string name="font">字体</string>
+    <string name="bold">加粗</string>
+    <string name="italic">倾斜</string>
+    <string name="superscript">上标</string>
+    <string name="subscript">下标</string>
+    <string name="size">大小</string>
+    <string name="color">颜色</string>
+    <string name="align">对齐</string>
+    <string name="insert">插入</string>
+    <string name="delete">删除</string>
+    <string name="insert_paragraph_break">插入分段符</string>
+    <string name="keyboard">键盘</string>
+    <string name="clipboard">剪贴板</string>
+    <string name="undo">撤消</string>
+    <string name="redo">重做</string>
+    <string name="copy">复制</string>
+    <string name="cut">剪切</string>
+    <string name="paste">粘贴</string>
+    <string name="all_caps">全部大写</string>
+    <string name="small_caps">小型大写字母</string>
+    <string name="strike">删除线</string>
+    <string name="dstrike">双删除线</string>
+    <string name="input_method">输入法</string>
+    <string name="yes">是</string>
+    <string name="no">否</string>
+    <string name="ok">确定</string>
+    <string name="cancel">取消</string>
+    <string name="close">关闭</string>
+    <string name="more">更多...</string>
+    <string name="encrypted_document">加密文件</string>
+    <string name="password">密码</string>
+    <string name="text_encoding">文本编码</string>
+    <string name="exit">退出</string>
+    <string name="others">其他</string>
+    <string name="build_number">内部版本号</string>
+    <string name="create_backup_copy">创建备份副本</string>
+    <string name="align_left">左对齐</string>
+    <string name="align_center">居中对齐</string>
+    <string name="align_right">右对齐</string>
+    <string name="align_justified">两端对齐</string>
+    <string name="auto">自动</string>
+    <string name="none">无</string>
+    <string name="effect">效果</string>
+    <string name="print">打印</string>
+    <string name="label_print_range">打印范围</string>
+    <string name="label_print_range_all">全部</string>
+    <string name="label_print_range_current">当前页面</string>
+    <string name="label_print_range_from">从:</string>
+    <string name="label_print_range_to">到:</string>
+    <string name="fill_color">填充颜色</string>
+    <string name="line_color">线条颜色</string>
+    <string name="line_width">线条粗细</string>
+    <string name="line_dash">线条虚实</string>
+    <string name="line_end">线条端点</string>
+    <string name="image_style">图像样式</string>
+    <string name="shape_style">形状样式</string>
+    <string name="object_properties">对象属性</string>
+    <string name="limited_mode">受限模式</string>
+    <string name="insert_table">插入表格</string>
+    <string name="insert_table_row">行</string>
+    <string name="insert_table_column">列</string>
+    <string name="insert_table_ok">确定</string>
+    <string name="table_properties">表格属性</string>
+    <string name="table_style">表格样式</string>
+    <string name="table_style_options">表格样式选项</string>
+    <string name="delete_table">删除表格</string>
+    <string name="save_to_thinkfree_online">保存到 ThinkFree Online</string>
+    <string name="save_to_local_folder">保存到本地文件夹</string>
+    <string name="no_selected">无</string>
+    <string name="match_case">匹配大小写</string>
+    <string name="find_whole_word_only">仅全字匹配查找</string>
+    <string name="find_entire_cell_only">仅整个单元格匹配查找</string>
+    <string name="finder_view_find">查找什么?</string>
+    <string name="finder_view_replace">替换为</string>
+    <string name="cache_management">存储管理</string>
+    <string name="delete_data">内部缓存</string>
+    <string name="delete_data_sub">删除预置缓存数据</string>
+    <string name="delete_thumbnail">外部缓存</string>
+    <string name="delete_thumbnail_sub">删除 ThinkFree 文档缓存数据</string>
+    <string name="delete_template">模板文件缓存</string>
+    <string name="delete_template_sub">删除模板缓存数据</string>
+    <string name="delete_confirm_internal_cache">要彻底删除内部缓存，您必须退出 ThinkFree Office。 是否删除内部缓存并退出 Office？</string>
+    <string name="confirm_deletion_des">是否确实要删除选定项目？</string>
+    <string name="msg_delete_completed">已成功删除选定项目。</string>
+    <string name="msg_delete_failed">无法删除选定项目。</string>
+    
+    <!-- messages -->
+    <string name="msg_saved_to">保存到 “%s”</string>
+    <string name="msg_failed">失败</string>
+    <string name="msg_loading">正在加载 “%s”...</string>
+    <string name="msg_saving">正在保存 “%s”...</string>
+    <string name="msg_saving_general">正在保存...</string>
+    <string name="msg_failed_to_open">无法打开</string>
+    <string name="msg_failed_to_save">无法保存</string>
+    <string name="msg_no_matches">找不到匹配项</string>
+    <string name="msg_matches">%1$d/%2$d 匹配项</string>
+    <string name="msg_enter_password">请输入密码</string>
+    <string name="msg_width">宽度： %d 像素</string>
+    <string name="msg_height">高度： %d 像素</string>
+    <string name="msg_ask_to_save">是否要保存？</string>
+    <string name="msg_create_backup_copy">每次保存文档时创建文档的备份副本</string>
+    <string name="msg_not_enough_memory">内存不足</string>
+    <string name="msg_cannot_insert_over_size">此文件超过 10MB 附件限制。</string>
+    <string name="msg_insert_sdcard">请插入 SD 存储卡。</string>
+    <string name="file_name">文件名</string>
+    <string name="file_type">文件类型</string>
+    <string name="msg_printing">正在打印 \'%s\'...</string>
+    <string name="msg_print_fail">无法打印</string>
+    <string name="password_Incorrect">您输入的密码与注册密码不匹配。</string>
+    <string name="msg_cannot_open_encrypted_document">无法打开此加密文件</string>
+    <string name="msg_lost_password">如果另存为新文件，文件加密将禁用。 是否继续？</string>
+    <string name="msg_cannot_cancel_save">正在保存时无法取消此操作。</string>
+    <string name="msg_not_enough_sdcard_space">SD 存储卡空间不够</string>
+    <string name="msg_invalid_format">格式不受支持或未知。</string>
+    <string name="msg_encryped_file">文件已损坏。</string>
+    <string name="msg_invalid_version">文件版本不受支持或未知。</string>
+    <string name="msg_canceled_to_open">取消打开。</string>
+    
+    <!-- upload -->
+    <string name="msg_uploader_title">上载到</string>
+    <string name="msg_uploader_prepared">正在准备上载...</string>
+    <string name="msg_uploader_failed">上载失败</string>
+    <string name="msg_uploader_size_exceeded">此文件超过 10MB 附件限制。</string>
+    <string name="msg_uploader_cancelled">上载已取消</string>
+    <string name="msg_uploader_uploading">正在上载...</string>
+    <string name="msg_uploader_finish">上载完成</string>
+    <string name="msg_uploader_connection_fail">网络连接失败。</string>
+    
+    <!-- Hyperlink -->
+    <string name="hyperlink">超链接</string>
+    <string name="delete_hyperlink">删除超链接</string>
+    <string name="hyperlink_web_prefix">http://</string>
+    <string name="hyperlink_email_prefix">mailto：</string>
+    
+    <!-- caption name -->
+    <string name="caption_standard_color">标准颜色</string>
+    <string name="caption_natural_color">自然色</string>
+      
+    <!-- ActionBar -->
+    <string name="actionbar_limited_mode_title_postfix">[受限模式]</string>
+    <string name="prepare_print">正在准备打印...</string>
+    
+    <!-- Motion Detection -->
+    <string name="msg_right_to_left">运动检测 - 下一页</string>
+    <string name="msg_left_to_right">运动检测 - 上一页</string>
+    <string name="msg_warn_first_page">运动检测 - 首页</string>
+    <string name="msg_warn_last_page">运动检测 - 末页</string>
+    <string name="msg_show_slideshow">运动检测 - 开始播放幻灯片</string>
+    <string name="msg_stop_slideshow">运动检测 - 停止播放幻灯片</string>
+    
+    <!-- About -->
+	<string name="bullet_about_link">▶</string>
+</resources>

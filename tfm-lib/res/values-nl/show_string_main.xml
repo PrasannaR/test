@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<!-- title -->
+    <string name="show_title_app">ThinkFree Show</string>
+    <string name="show_title_preferences">Voorkeuren voor ThinkFree Show</string>
+
+	<!-- LABEL_COMMON -->
+    <string name="show_label_ok">OK</string>
+    <string name="show_label_cancel">Annuleren</string>
+
+    <!-- labels -->
+    <string name="show_label_slides">Dia\'s</string>
+    <string name="show_label_note">Notitie</string>
+    <string name="show_label_slideshow">Diavoorstelling</string>
+    <string name="show_label_print">Afdrukken</string>
+    
+    <!-- messages -->
+    <string name="show_msg_loading">Laden...</string>
+    <string name="show_msg_zoom">%d%%</string>
+    <string name="show_msg_no_slide">Geen dia</string>
+    <string name="show_msg_no_note">Geen notitie</string>
+    <string name="show_msg_printing">\'%s\' afdrukken...</string>
+    <string name="show_msg_print_fail">Kan niet afdrukken</string>
+    <string name="show_msg_out_of_memory">Geen geheugen beschikbaar</string>
+    <string name="show_msg_unsurpported_video">Kan het bestand niet openen. Het bestandstype wordt niet ondersteund, ontbreekt of is beschadigd.</string>
+    <string name="show_msg_last_slideshow">Einde van de diavoorstelling</string>
+    
+    <!-- LABEL_TOOL_BAR -->
+    <string name="show_label_print_range">Afdrukbereik</string>
+    <string name="show_label_print_range_all">Alles</string>
+    <string name="show_label_print_range_current">Huidige dia</string>
+    <string name="show_label_print_range_from">Van:</string>
+    <string name="show_label_print_range_to">Tot:</string>
+    
+    <!-- video option -->
+    <string name="show_video_option">Video-opties</string>
+    <string name="show_video_option_tapped">Indien getikt</string>
+    <string name="show_video_option_automatically">Automatisch</string>
+    
+    <!-- string name="show_msg_unknown_problem">Unknown problem occurred</string-->
+
+    <!-- preferences -->
+    <string name="show_label_auto_orientation">Automatische schermstand</string>
+    <string name="show_desc_auto_orientation">Automatische instelling van de schermstand inschakelen voor de hoogte-breedteverhouding van dia\'s.</string>
+    <string name="show_label_show_hidden_slides">Verborgen dia\'s weergeven</string>
+    <string name="show_desc_show_hidden_slides">Verborgen dia\'s weergeven</string>
+    <string name="show_label_show_ink_annotations">Aantekeningen in inkt weergeven</string>
+    <string name="show_desc_show_ink_annotations">Aantekeningen in inkt weergeven</string>
+    <string name="show_label_flowview_on_portrait">Weergavemodus als staand instellen</string>
+    <string name="show_desc_flowview_on_portrait">Het scherm bij weergavemodus als staand instellen en bij bewerkmodus als liggend instellen</string>
+    
+    <!-- FILE TYPE -->
+    <string name="show_filetype_ppt">PowerPoint 97-2003 (*.ppt)</string>
+    <string name="show_filetype_pptx">PowerPoint (*.pptx)</string>
+</resources>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<declare-styleable name="DrawableFlowView">
+		<attr name="android:orientation" />
+		<attr name="spacing" format="dimension" />
+	</declare-styleable>
+
+	<declare-styleable name="ShowSlidingDrawer">
+		<attr name="animationDuration" format="integer" />
+		<attr name="position">
+			<enum name="top" value="0" />
+			<enum name="bottom" value="1" />
+			<enum name="left" value="2" />
+			<enum name="right" value="3" />
+		</attr>
+		<attr name="openedHandle" format="reference|color" />
+		<attr name="closedHandle" format="reference|color" />
+	</declare-styleable>
+</resources>
