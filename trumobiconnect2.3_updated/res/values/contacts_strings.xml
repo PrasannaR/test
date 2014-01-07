@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<resources>
+
+    <string name="Contacts_app_name">Contacts</string>
+    <string name="dialer_name">Dialer</string>
+    <string name="frag1">Fragment 1</string>
+    <string name="frag2">Fragment 2</string>
+    <string name="frag3">No Favorites.</string>
+    <string name="phonetic_name">PHONETIC NAME</string>
+    <string name="nick_name">NICK NAME</string>
+    <string name="contact_phone">PHONE</string>
+    <string name="contact_email">EMAIL</string>
+    <string name="contact_im">IM</string>
+    <string name="address">ADDRESS</string>
+    <string name="website">WEBSITE</string>
+    <string name="notes">NOTES</string>
+    <string name="nickname">NICKNAME</string>
+    <string name="internetcall">INTERNET CALL</string>
+    <string name="find_contact">Find Contact</string>
+    <string name="find_contacts">Find contacts</string>
+     <string name="search_contacts">Search Contacts</string>
+    <string name="menu_new_group_contact_action_bar">Add Group</string>
+    <string name="menu_connect_app">Connect</string>
+    <string name="menu_editContact">Edit</string>
+    <string name="account_phone" product="tablet">Tablet-only, unsynced</string>
+    <string name="user_profile_contacts_list_header" msgid="9154761216179882405">Me</string>
+    <string name="profile_display_name">Set up my profile</string>
+	<string name="ContactsInternetConnectionNotAvail">Please check Internet Connectivity</string>
+	
+	<string name="prefNative_Contacts">prefNativeContacts</string>
+	<string name="native_contacts">Native Contacts</string>
+	<string name="prefSort_Order">prefSortOrder</string>
+	<string name="prefView_Type">prefViewType</string>
+	
+    
+    <!-- Menu item (in the action bar) that creates a new contact [CHAR LIMIT=30] -->
+    <string name="menu_new_contact_action_bar">Add Contact</string>
+    <!-- Menu item that splits an item from the contact detail into a separate aggregate -->
+    <string name="menu_splitAggregate">Separate</string>
+
+    <!-- Menu item that joins an aggregate with another aggregate -->
+    <string name="menu_joinAggregate">Join</string>
+
+    <!-- Menu item to indicate you want to stop editing a contact and NOT save the changes you've made [CHAR LIMIT=12] -->
+    <string name="menu_discard">Discard</string>
+
+    <!-- Menu item for invoking contextual help [CHAR LIMIT=64] -->
+    <string name="menu_help">Help</string>
+    <string name="account_phone" product="tablet">Tablet-only, unsynced</string>
+    <!--
+         Title for data source when creating or editing a contact that doesn't
+         belong to a specific account.  This contact will only exist on the phone
+         and will not be synced.
+    -->
+    <string name="account_phone" product="default">Phone-only, unsynced</string>
+
+    <!-- Field title for the full name of a contact [CHAR LIMIT=64] -->
+    <string name="full_name">Name</string>
+    <!-- Field title for the given name of a contact -->
+    <string name="name_given">Given name</string>
+    <!-- Field title for the family name of a contact -->
+    <string name="name_family">Family name</string>
+    <!-- Field title for the prefix name of a contact -->
+    <string name="name_prefix">Name prefix</string>
+    <!-- Field title for the middle name of a contact -->
+    <string name="name_middle">Middle name</string>
+    <!-- Field title for the suffix name of a contact -->
+    <string name="name_suffix">Name suffix</string>
+    <!-- Field title for the phonetic given name of a contact -->
+    <string name="name_phonetic_given">Phonetic given name</string>
+    <!-- Field title for the phonetic middle name of a contact -->
+    <string name="name_phonetic_middle">Phonetic middle name</string>
+    <!-- Field title for the phonetic family name of a contact -->
+    <string name="name_phonetic_family">Phonetic family name</string>
+    <!-- Field title for the phonetic name of a contact [CHAR LIMIT=64] -->
+    <string name="name_phonetic">Phonetic name</string>
+    <string name="app_name">Contacts</string>
+
+    <!-- <string name="invalid_server_detail">Could not find the server, are you sure the name is right?</string> -->
+
+    <string name="contact_name_alert">Contact Name cannot be empty</string>
+
+    <!-- Menu Strings -->
+    <string name="menu_dial">Dial</string>
+    <string name="menu_newcontact">New contact</string>
+    <string name="menu_showmissed">Show missed only</string>
+    <string name="menu_showincomming">Show incoming only</string>
+    <string name="menu_showoutgoing">Show outgoing only</string>
+    <string name="menu_clearcalllog">Clear call log</string>
+    <string name="menu_showallcalls">Show all calls</string>
+    <string name="menu_removecalllog">Remove from call log</string>
+    <string name="menu_editnum">Edit number before call</string>
+    <string name="menu_extractcalllog">Extract call log</string>
+    
+
+    <!-- Preference Strings -->
+    <string name="pref_ringtone">RINGTONE &amp; VIBRATE</string>
+    <string name="pref_phone_ringtone">Phone Ringtone</string>
+    <string name="pref_vibrate">Vibrate When Phone Ringing</string>
+    <string name="pref_othercall">OTHER CALL SETTINGS</string>
+    <string name="pref_voicemail">Voicemail</string>
+    <string name="pref_dialpad">Dial pad touch tone</string>
+    <string name="pref_quickresponse">Quick responses</string>
+    <string name="pref_fixed_dial_number">Fixed Dialing Numbers</string>
+    <string name="pref_callfwd">Call forwarding</string>
+
+    <!-- Dailer Strings -->
+
+    <string name="contacts_description_image_button_one">one</string>
+    <string name="contacts_description_image_button_two">two</string>
+    <string name="contacts_description_image_button_three">three</string>
+    <string name="contacts_description_image_button_four">four</string>
+    <string name="contacts_description_image_button_five">five</string>
+    <string name="contacts_description_image_button_six">six</string>
+    <string name="contacts_description_image_button_seven">seven</string>
+    <string name="contacts_description_image_button_eight">eight</string>
+    <string name="contacts_description_image_button_nine">nine</string>
+    <string name="contacts_description_image_button_star">star</string>
+    <string name="contacts_description_image_button_zero">zero</string>
+    <string name="contacts_description_image_button_pound">pound</string>
+    <string name="phone_regex"></string>
+    <string name="dialog_phone_call_prohibited_message">Call Not Sent</string>
+    <string name="empty_callLog">Call log is empty</string>
+    <string name="loading_callLog">Loading call log</string>
+      <string name="call_log_type">Filter call log</string>
+
+</resources>

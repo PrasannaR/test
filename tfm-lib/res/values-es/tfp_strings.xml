@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<string name="tfp_app_name">ThinkFree PDF Viewer</string>
+<string name="tfp_err_bad_catalog">Error al abrir el archivo. El catálogo de páginas no es válido.</string>
+<string name="tfp_err_damaged_file">Error al abrir el archivo. Parece estar dañado.</string>
+<string name="tfp_err_open_file">Error al abrir el archivo. No existe o no se puede leer.</string>
+<string name="tfp_err_open_unknown">Error al abrir el archivo. Puede que no sea un archivo PDF válido.</string>
+<string name="tfp_err_out_of_memory">Error. Memoria insuficiente para continuar.</string>
+<string name="tfp_err_non_standard_security_handler">Error al abrir el archivo. Está cifrado con un controlador de seguridad no compatible.</string>
+<string name="tfp_err_loading_page">Error al cargar la página.</string>
+<string name="tfp_msg_blank_page">Página en blanco</string>
+<string name="tfp_msg_no_read_mode">Modo Lectura\nno disponible\npara esta página.</string>
+<string name="tfp_msg_err_loading_page">Error al cargar la \npágina</string>
+<string name="tfp_menu_reading_view">Vista Lectura</string>
+<string name="tfp_menu_page_view">Vista Página</string>
+<string name="tfp_misc_page" formatted="false">%1 de %2</string>
+<string name="tfp_app_description">Ver archivos y adjuntos nativos de Adobe PDF.</string>
+<string name="tfp_misc_ok">Aceptar</string>
+<string name="tfp_msg_err_loading_file">Error al cargar la página</string>
+<string name="tfp_menu_about">Acerca de</string>
+<string name="tfp_menu_go_to_page">Ir a página</string>
+<string name="tfp_page_label">Página (1-%1):</string>
+<string name="tfp_misc_cancel">Cancelar</string>
+<string name="tfp_err_invalid_page_num">Escriba un número de página válido.</string>
+<string name="tfp_password_hint">Contraseña</string>
+<string name="tfp_password_instructions">Este PDF está protegido mediante contraseña. Escriba la contraseña para continuar.</string>
+<string name="tfp_menu_save">Guardar</string>
+<string name="tfp_unknown_name">Unknown.pdf</string>
+<string name="tfp_misc_yes">Sí</string>
+<string name="tfp_misc_no">No</string>
+<string name="tfp_confirm_save">¿Guardar \'%1\' en tarjeta de memoria?</string>
+<string name="tfp_save_complete">Guardado completado</string>
+<string name="tfp_no_bookmarks">No hay marcadores</string>
+<string name="tfp_menu_bookmarks">Marcadores</string>
+<string name="tfp_menu_go_to">Ir a</string>
+<string name="tfp_menu_collapse">Contraer</string>
+<string name="tfp_menu_expand">Expandir</string>
+<string name="tfp_menu_send">Enviar</string>
+<string name="tfp_misc_emailing">Enviando por correo electrónico: %1</string>
+<string name="tfp_menu_properties">Propiedades</string>
+<string name="tfp_prop_title">Título:</string>
+<string name="tfp_prop_author">Autor:</string>
+<string name="tfp_prop_subject">Asunto:</string>
+<string name="tfp_prop_keywords">Palabras clave:</string>
+<string name="tfp_prop_modified">Modificado el:</string>
+<string name="tfp_menu_find">Buscar</string>
+<string name="tfp_find_hint">Buscar:</string>
+<string name="tfp_find_no_matches">No se han encontrado coincidencias.</string>
+<string name="tfp_find_complete">Búsqueda completada.</string>
+<string name="tfp_finding">Buscando \'%1\'. Espere...</string>
+<string name="tfp_wait_page_load">Espere a que termine de cargar la página actual.</string>
+<string name="tfp_menu_print">Imprimir</string>
+<string name="tfp_security_print">La seguridad de este documento no permite la impresión.</string>
+<string name="tfp_misc_page_range">Intervalo de páginas</string>
+<string name="tfp_all_pages_label">Todas las páginas</string>
+<string name="tfp_current_page_label">Página actual</string>
+<string name="tfp_page_from_label">Desde:&amp;#160;</string>
+<string name="tfp_page_to_label">Hasta:&amp;#160;</string>
+<string name="tfp_err_invalid_page_range">Introduzca un intervalo de páginas válido.</string>
+<string name="tfp_preparing_page">Preparando la página %1...</string>
+<string name="tfp_menu_file">Archivo</string>
+<string name="tfp_menu_zoom">Zoom</string>
+<string name="tfp_menu_zoom_fit">Ajustar a ancho de pantalla</string>
+<string name="tfp_menu_zoom_percent">%1%</string>
+<string name="tfp_menu_display_mode">Modo de visualización</string>
+<string name="tfp_misc_original_display">Pantalla original</string>
+<string name="tfp_misc_positive_display">Visualización positiva</string>
+<string name="tfp_misc_negative_display">Visualización negativa</string>
+<string name="tfp_menu_brightness">Brillo</string>
+<string name="tfp_misc_cancel_audio">Pulse el botón Atrás para cancelar el audio.</string>
+<string name="tfp_label_product">%s Mobile for Android\u2122</string>
+<string name="tfp_link_about"><a href="http://www.thinkfree.com/go?id=mobile_main">Acerca de</a></string>
+<string name="tfp_link_help"><a href="http://www.thinkfree.com/go?id=help_en_us_and_hd">Ayuda</a></string>
+<string name="tfp_link_support"><a href="http://www.thinkfree.com/go?id=help_online">Soporte</a></string>
+<string name="tfp_link_terms"><a href="http://www.thinkfree.com/go?id=terms">Términos</a></string>
+<string name="tfp_link_privacy"><a href="http://www.thinkfree.com/go?id=privacy">Privacidad</a></string>
+<string name="tfp_link_ack"><a href="http://www.thinkfree.com/go?id=ack_and">Reconocimiento</a></string>
+<string name="tfp_link_separator">|</string>
+<string name="tfp_label_copyright">\u00A92011 Hancom Inc. Reservados todos los derechos. \nThinkFree y el logotipo de ThinkFree son marcas de Hancom Inc.</string>
+<string name="tfp_label_accord">Partes de este producto son modificaciones basadas en el trabajo creado y <a href="http://code.google.com/policies.html">compartido por Google</a> y se usan según los términos descritos en la <a href="http://creativecommons.org/licenses/by/2.5">Licencia de atribución Creative Commons 2.5.</a></string>
+</resources>

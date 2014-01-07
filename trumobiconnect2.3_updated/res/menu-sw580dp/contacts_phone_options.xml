@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/menu_search"
+        android:icon="@drawable/contacts_ic_ab_search_holo_dark"
+        android:orderInCategory="200"
+        android:showAsAction="ifRoom|collapseActionView"
+        android:title="@string/menu_search"/>
+    <item
+        android:id="@+id/menu_dial"
+        android:icon="@drawable/contacts_ic_dial_action_call"
+        android:orderInCategory="100"
+        android:showAsAction="always"
+        android:title="@string/menu_dial"/>
+    <item
+        android:id="@+id/menu_new_contact"
+        android:icon="@drawable/contacts_ic_add_contact_holo_dark"
+        android:orderInCategory="300"
+        android:showAsAction="always"
+        android:title="@string/menu_newcontact"/>
+    <item
+        android:id="@+id/menu_filter_calllog"
+        android:icon="@drawable/call_log_account"
+        android:orderInCategory="400"
+        android:showAsAction="always"
+        android:title="@string/call_log_type"/>
+    <item
+        android:id="@+id/menu_show_connect"
+        android:icon="@drawable/home_icon"
+        android:orderInCategory="500"
+        android:showAsAction="always"
+        android:title="@string/menu_connect_app"/>
+    <item
+        android:id="@+id/menu_settings"
+        android:title="@string/menu_settings">
+    </item>
+    <item
+        android:id="@+id/menu_extractcallLog"
+        android:title="@string/menu_extractcalllog"/>
+    <item
+        android:id="@+id/menu_callLog"
+        android:title="@string/menu_clearcalllog"/>
+    <item
+        android:id="@+id/menu_showincomming"
+        android:title="@string/menu_showincomming"/>
+    <item
+        android:id="@+id/menu_showmissed"
+        android:title="@string/menu_showmissed"/>
+    <item
+        android:id="@+id/menu_showoutgoing"
+        android:title="@string/menu_showoutgoing"/>
+    <item
+        android:id="@+id/menu_showallCalls"
+        android:title="@string/menu_showallcalls"/>
+
+</menu>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+   <RelativeLayout 
+       xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="50dip"
+    android:background="@drawable/sms_grey_bg" 
+    android:layout_alignParentBottom="true"   
+    >
+       <ImageView
+       android:id="@+id/icon_search"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_centerInParent="true"
+       android:src="@drawable/sms_search" 
+       android:layout_centerVertical="true"
+       android:filterTouchesWhenObscured="true" />
+
+       <ImageView
+           android:id="@+id/icon_overflow"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_alignParentRight="true"
+           android:layout_centerVertical="true"
+           android:layout_marginRight="16dp"
+           android:src="@drawable/sms_overflow"
+           android:filterTouchesWhenObscured="true" />
+
+       <ImageView
+           android:id="@+id/icon_new_messeage"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_alignParentLeft="true"
+           android:layout_centerVertical="true"
+           android:layout_marginLeft="14dp"
+           android:paddingLeft="10dp"
+           android:src="@drawable/sms_new_message"
+           android:filterTouchesWhenObscured="true" />
+      
+</RelativeLayout>

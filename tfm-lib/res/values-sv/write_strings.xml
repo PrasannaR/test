@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+   	<!-- option menu -->
+	<string name="write_goto_view_mode">Växla till textläge</string>
+    
+	<!-- words -->
+   	<string name="write_dictionary_select_language">Välj språk</string>
+	<string name="write_dictionary_english">Engelska</string>
+	<string name="write_dictionary_korean">Koreanska</string>
+	<string name="write_dictionary_japanese">Japanska</string>
+	<string name="write_dictionary_spanish">Spanska</string>
+	<string name="write_dictionary_french">Franska</string>
+	<string name="write_dictionary_portuguese">Portugisiska</string>
+	<string name="write_dictionary_chinese">Kinesiska</string>
+	<string name="write_display_mode">Visningsläge</string>
+	<string name="write_fit_to_screen_width">Anpassa till skärmbredd</string>
+	<string name="write_show_all_marks">Visa alla redigeringsmärken</string>
+	<string name="write_show_smart_zoom">Visa smart zoom</string>
+	<string name="write_show_picture_placeholders">Visa bildplatshållare</string>
+	<string name="write_show_scrolling_icons">Visa rullande ikoner</string>
+	<string name="write_reflow_view">Flöda om visningen</string>
+	<string name="write_bookmark">Visa bokmärken</string>
+	<string name="write_bookmark_add">Lägg till</string>
+	<string name="write_bookmark_delete">Ta bort</string>
+	<string name="write_bookmark_goto">Gå till</string>
+	<string name="write_preferences">Document Viewer-inställningar</string>
+	<string-array name="write_display_modes">
+		<item>Originalvisning</item>
+		<item>Positiv visning</item>
+		<item>Negativ visning</item>
+	</string-array>
+	
+	<!-- messages -->
+	<string name="write_msg_show_all_marks">Visa eller dölj alla redigeringsmärken</string>
+	<string name="write_msg_show_smart_zoom">Zooma in eller ut i texten automatiskt</string>
+	<string name="write_msg_show_picture_placeholders">Visa tomma rutor i stället för bilder i dokumentet</string>
+	<string name="write_msg_show_scrolling_icons">Visa eller dölj rullande ikoner</string>
+	<string name="write_msg_reflow_view">Visa dokument utan horisontell bläddring</string>
+	<string name="write_msg_hyperlink">Om du vill visa länken dubbelklickar du på den</string>
+	<string name="write_msg_bookmark">Visa eller dölj bokmärken</string>
+	<string name="write_msg_dictionary_no_results">Din sökning med \&quot;%s\&quot; gav inga träffar</string>
+	<string name="write_msg_dictionary_invalid_response">Ogiltigt svar till server</string>
+	<string name="write_msg_select_txt_extention">Varning! Endast text sparas.</string>
+	
+	<string name="write_msg_zoom">%d %%</string>
+</resources>

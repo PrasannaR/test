@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<!-- application names -->
+	<string name="calc_hd">ThinkFree Calc HD</string>
+	<string name="calc_preferences">Voorkeuren voor ThinkFree Calc</string>
+
+	<!-- menu titles/items -->
+	<string name="calc_title_app">ThinkFree Calc</string>
+	<string name="calc_worksheets">Werkbladen</string>
+	<string name="calc_goto">Ga naar</string>
+	<string name="calc_label_print_range">Afdrukbereik</string>
+
+	<!-- activity/dialog titles -->
+	<string name="calc_select_sheet">Blad selecteren</string>
+	<string name="calc_show_hidden_sheets">Verborgen bladen weergeven</string>
+
+	<!-- button labels
+	<string name="calc_button_sheets">Sheets</string>
+	-->
+
+	<!-- short messages for toasts and dialogs -->
+	<string name="calc_msg_title">Calc</string>
+	<string name="calc_msg_invalid_dir">Ongeldige map: \'%s\'</string>
+	<string name="calc_msg_empty_sheet">Dit blad is leeg.</string>
+	<string name="calc_msg_searching">Zoeken...</string>
+	<string name="calc_msg_invalid_ref">Ongeldige verwijzing</string>
+	<string name="calc_msg_enter_ref">Geef een verwijzing op</string>
+	<string name="calc_msg_print_ok">OK</string>
+	<string name="calc_msg_print_cancel">Annuleren</string>
+	<string name="calc_msg_print_range_all">Huidig blad</string>
+	<string name="calc_msg_print_current">Geselecteerd gebied</string>
+	<string name="calc_msg_row_resize">Aanwijzen</string>
+	<string name="calc_msg_col_resize">Aantal tekens</string>
+
+	<!-- descriptions on the preference screen -->
+	<string name="calc_msg_shows_hidden_sheets">Verborgen bladen in de lijst weergeven</string>
+	
+	<string name="calc_sheethide">Tabs verbergen</string>
+	<string name="calc_sheetunhide">Tabs zichtbaar maken</string>
+	    
+</resources>

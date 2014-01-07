@@ -1,0 +1,113 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources>   
+   	<!-- About Activity -->
+   	<string name="label_product">%s Mobile for Android\u2122</string>
+  	<string name="link_about"><a href="http://www.thinkfree.com/go?id=mobile_main">Sobre</a></string>
+  	<string name="link_help"><a href="http://www.thinkfree.com/go?id=help_en_us_and_hd">Ajuda</a></string>
+  	<string name="link_support"><a href="http://www.thinkfree.com/go?id=help_online">Suporte</a></string>
+  	<string name="link_terms"><a href="http://www.thinkfree.com/go?id=terms">Termos</a></string>
+  	<string name="link_privacy"><a href="http://www.thinkfree.com/go?id=privacy">Privacidade</a></string>
+  	<string name="link_ack"><a href="http://www.thinkfree.com/go?id=ack_and">Confirmação</a></string>
+  	<string name="link_separator">|</string>
+  	<string name="label_copyright">\u00A92011 Hancom Inc. Todos os direitos reservados. \nThinkFree e o logotipo do ThinkFree são marcas comerciais da Hancom Inc.</string>
+	
+  	<!-- File Properties Activity -->
+    <string name="fileproperties">Propriedades</string>
+    <string name="fileprop_noinfo">Sem informações</string>
+    <string name="fileprop_basic">Básico</string>
+    <string name="fileprop_extended">Estendido</string>
+    <string name="fileprop_filename">Nome</string>
+	<string name="fileprop_filesize">Tamanho</string>
+    <string name="fileprop_title">Título</string>
+    <string name="fileprop_subject">Assunto</string>
+    <string name="fileprop_author">Autor</string>
+    <string name="fileprop_keywords">Palavras-chave</string>
+    <string name="fileprop_comments">Comentários</string>
+    <string name="fileprop_template">Modelo</string>
+    <string name="fileprop_revnumber">Número de revisão</string>
+    <string name="fileprop_lastprinted">Hora da última impressão</string>
+    <string name="fileprop_createdtm">Hora da criação</string>
+	<string name="fileprop_lastmodified">Última modificação</string>
+    <string name="fileprop_pagecount">Contagem de páginas</string>
+    <string name="fileprop_wordcount">Contagem de palavras</string>
+    <string name="fileprop_charcount">Contagem de caracteres</string>
+	<string name="fileprop_appname">Nome do aplicativo</string>   
+	<string name="fileprop_creator">Criador</string>
+	<string name="fileprop_description">Descrição</string>
+	<string name="fileprop_lastmodifiedby">Última modificação por</string>
+	<string name="fileprop_version">Versão</string>
+	<string name="fileprop_category">Categoria</string>
+	<string name="fileprop_language">Idioma</string>
+	<string name="fileprop_charwithspacecount">Contagem de caracteres com espaços</string>
+	<string name="fileprop_sharedoc">Compartilhado</string>
+	<string name="fileprop_appversion">Versão do aplicativo</string>
+	<string name="fileprop_codepage">Página de código</string>
+	<string name="fileprop_presformat">Formato de apresentação</string>     
+	<string name="fileprop_bytecount">Contagem de bytes</string>
+	<string name="fileprop_linecount">Contagem de linhas</string>
+	<string name="fileprop_parcount">Contagem de parágrafos</string>
+	<string name="fileprop_slidecount">Contagem de slides</string>
+	<string name="fileprop_notecouont">Contagem de observações</string>
+	<string name="fileprop_hiddencount">Contagem de slides ocultos</string>
+	<string name="fileprop_mmclipcount">Contagem de clipes multimídia</string>
+	<string name="fileprop_scale">Escala</string>
+	<string name="fileprop_manager">Gerente</string>
+	<string name="fileprop_company">Empresa</string>
+	<string name="fileprop_security">Segurança</string>
+	<string name="fileprop_lastsavedtm">Salvo pela última vez em</string>
+	<string name="fileprop_value_shared">verdadeiro</string>
+	<string name="fileprop_value_not_shared">falso</string>
+	<string name="fileprop_filetype">Tipo</string>
+	<string name="fileprop_location">Local</string>
+	<string name="fileprop_value_attachment">Anexo</string>
+  	
+	<!-- Manager -->
+	<string name="new_file_hint">Nome de arquivo</string>
+
+	<!-- messages -->
+	<string name="msg_calculating">Calculando...</string>
+	<string name="msg_loading_asis">Carregando...</string>
+    <string name="msg_processing">Processando...</string>
+	<string name="msg_file_not_found">%s não foi encontrado.</string>
+    <string name="msg_connection_refused">A conexão com a rede falhou</string>
+    
+   	<!--  OOM Activity -->
+   	<string name="oom_error_msg">Sem memória. Não foi possível carregar o arquivo corretamente. \nDeseja visualizar o conteúdo que foi carregado até o momento?</string>
+    <string name="oom_error_close_label">Fechar</string>
+    <string name="oom_error_continue_label">Continuar</string>
+    
+    <!-- Updater -->
+	<string name="updater_check">Verificando...</string>
+	<string name="updater_update_failed">Falha na atualização</string>
+	<string name="updater_uptodate">Versão mais recente</string>
+	<string name="updater_confirm_update">Deseja atualizar para a versão mais recente?</string>
+	<string name="updater_download_started">Fazendo download da versão mais recente.</string>
+	<string name="updater_download_completed">Download concluído</string>
+	
+	<!-- Font -->
+    <string name="font_introduce_dialog_message">Ao instalar pacotes de fontes, várias fontes poderão ser usadas.\nDeseja ir para a página de download?</string>
+    <string name="font_introduce_dialog_check_message">Não mostrar da próxima vez</string>
+    
+    <!-- Preview -->
+	<string name="txt_none_select_item">Nenhum documento foi selecionado.</string>
+	<string name="txt_file_size">Tamanho do arquivo</string>
+	<string name="txt_last_modify_date">Última modificação</string>
+	<string name="txt_file_format">Formato do arquivo</string>
+    
+	<string name="btn_email_attach_preview">Anexar arquivo</string>
+	
+	<!-- Activation -->
+	<string name="later">Mais tarde</string>
+	<string name="activate_title">Ativação</string>
+	<string name="activate_now">Ativar agora</string>
+	<string name="activate_new_desc">
+	    Obrigado por usar o produto ThinkFree Office.\n
+		Selecione “Ativar agora&quot; para ativar o ThinkFree Office no seu dispositivo.
+	</string>
+	<string name="activate_desc">Clique em \&quot;%1$s\&quot; para ativar %2$s em seu dispositivo.</string>
+	<string name="activate_result_ok">Ativação concluída</string>
+	<string name="activate_result_failed_network_error">É necessária uma conexão de rede.</string>
+	<string name="activate_result_failed_invalid_hardware">%s não pode ser ativado neste dispositivo de hardware.</string>
+	<string name="activate_result_failed_server_error">Falha na transmissão de dados durante a ativação do produto.</string>
+	
+</resources>

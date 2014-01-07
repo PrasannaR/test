@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="retry">Coba Lagi</string>
+	
+    <!-- Purchase Activity -->
+    <string name="title_purchase">Beli ThinkFree Mobile for Android v4.1</string>
+    <string name="market_android">Android</string>
+    <string name="market_amazon">Amazon</string>
+	
+    <!-- License Check Activity-->
+    <string name="msg_checking_license">Memeriksa lisensi...</string>
+    <string name="title_application_error">Kesalahan aplikasi</string>
+    <string name="msg_application_error">Kode Kesalahan: %1$d</string>
+    <string name="title_unlicensed">Aplikasi tidak berlisensi</string>
+    <string name="msg_unlicensed">Aplikasi ini tidak berlisensi. Harap beli dari %s Market.</string>
+	<string name="title_no_network_connection">Kesalahan koneksi jaringan</string>
+	<string name="msg_no_network_connection">Koneksi jaringan gagal. Harap pastikan perangkat Anda tersambung ke jaringan.</string>
+	
+	<string name="inducement_to_purchase_tfm">Penawaran ThinkFree Office versi berbayar menyediakan lebih banyak fitur untuk meningkatkan produktivitas Anda. Ingin mengunjungi Market?</string>
+	<string name="inducement_to_purchase_print">Jika Anda membeli ThinkFree Mobile Print, Anda bisa mencetak dokumen. Ingin mengunjungi Market?</string>
+	<string name="inducement_to_purchase_hwp">Jika Anda memiliki Hancom Viewer, dokumen ini bisa ditampilkan dengan gratis. Ingin mengunjungi Market?</string>
+</resources>
