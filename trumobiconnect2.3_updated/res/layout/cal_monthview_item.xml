@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/monthitem_view"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:filterTouchesWhenObscured="true" >
+
+    <LinearLayout
+        android:id="@+id/month_item"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_alignParentRight="true"        
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/month_item_date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="right"
+            android:textColor="@color/month_default_font_color"
+            android:singleLine="true"
+            android:padding="1dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/monthitem_events"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingLeft="3dp"
+        android:paddingTop="1dp"        
+        android:layout_toLeftOf="@id/month_item" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+             />
+    </LinearLayout>
+
+</RelativeLayout>

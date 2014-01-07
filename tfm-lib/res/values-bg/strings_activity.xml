@@ -1,0 +1,104 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources>
+   	<!-- About Activity -->
+   	<string name="label_product">%s Mobile for Android\u2122</string>
+  	<string name="link_about"><a href="http://www.thinkfree.com/go?id=mobile_main">Информация</a></string>
+  	<string name="link_help"><a href="http://www.thinkfree.com/go?id=help_en_us_and_hd">Помощ</a></string>
+  	<string name="link_support"><a href="http://www.thinkfree.com/go?id=help_online">Поддръжка</a></string>
+  	<string name="link_terms"><a href="http://www.thinkfree.com/go?id=terms">Условия</a></string>
+  	<string name="link_privacy"><a href="http://www.thinkfree.com/go?id=privacy">Поверителност</a></string>
+  	<string name="link_ack"><a href="http://www.thinkfree.com/go?id=ack_and">Потвърждение</a></string>
+  	<string name="link_separator">|</string>
+  	<string name="label_copyright">\u00A92012 Hancom Inc. Всички права запазени. \nЛогата на ThinkFree и ThinkFree са търговски марки на Hancom Inc.</string>
+  	<string name="label_accord">Части от този продукт представляват видоизменения въз основа на дейност,извършена и 
+		<a href="http://code.google.com/policies.html">споделена от Google</a>
+	 	и са използвани в съответствие с условията, описани в 
+		<a href="http://creativecommons.org/licenses/by/3.0">Криейтив Комънс Признание 3.0.</a>
+	</string>
+	
+    <!-- File Properties Activity -->
+    <string name="fileproperties">Свойства</string>
+    <string name="fileprop_noinfo">Няма информация</string>
+    <string name="fileprop_basic">Основен</string>
+    <string name="fileprop_extended">Разширен</string>
+    <string name="fileprop_filename">Име</string>
+	<string name="fileprop_filesize">Размер</string>
+    <string name="fileprop_title">Заглавие</string>
+    <string name="fileprop_subject">Тема</string>
+    <string name="fileprop_author">Автор</string>
+    <string name="fileprop_keywords">Ключови думи</string>
+    <string name="fileprop_comments">Коментари</string>
+    <string name="fileprop_template">Шаблон</string>
+    <string name="fileprop_revnumber">Номер на проверка</string>
+    <string name="fileprop_lastprinted">Последен момент на разпечатване</string>
+    <string name="fileprop_createdtm">Час на създаване</string>
+	<string name="fileprop_lastmodified">Последно променен</string>
+    <string name="fileprop_pagecount">Брой страници</string>
+    <string name="fileprop_wordcount">Брой думи</string>
+    <string name="fileprop_charcount">Брой знаци</string>
+	<string name="fileprop_appname">Име на приложение</string>   
+	<string name="fileprop_creator">Създател</string>
+	<string name="fileprop_description">Описание</string>
+	<string name="fileprop_lastmodifiedby">Последно променен от</string>
+	<string name="fileprop_version">Версия</string>
+	<string name="fileprop_category">Категория</string>
+	<string name="fileprop_language">Език</string>
+	<string name="fileprop_charwithspacecount">Брой знаци с интервали</string>
+	<string name="fileprop_sharedoc">Споделен</string>
+	<string name="fileprop_appversion">Версия на приложение</string>
+	<string name="fileprop_codepage">Кодова страница</string>
+	<string name="fileprop_presformat">Формат на презентация</string>     
+	<string name="fileprop_bytecount">Брой байтове</string>
+	<string name="fileprop_linecount">Брой редове</string>
+	<string name="fileprop_parcount">Брой параграфи</string>
+	<string name="fileprop_slidecount">Брой слайдове</string>
+	<string name="fileprop_notecouont">Брой забележки</string>
+	<string name="fileprop_hiddencount">Брой скрити слайдове</string>
+	<string name="fileprop_mmclipcount">Брой мултимедийни клипове</string>
+	<string name="fileprop_scale">Мащаб</string>
+	<string name="fileprop_manager">Мениджър</string>
+	<string name="fileprop_company">Компания</string>
+	<string name="fileprop_security">Сигурност</string>
+	<string name="fileprop_lastsavedtm">Последен момент на запис</string>
+	<string name="fileprop_value_shared">истински</string>
+	<string name="fileprop_value_not_shared">грешен</string>
+	<string name="fileprop_filetype">Тип</string>
+	<string name="fileprop_location">Местоположение</string>
+	<string name="fileprop_value_attachment">Прикачен файл</string>
+	
+	<!-- Manager -->
+	<string name="new_file_hint">Име на файл</string>
+
+	<!-- messages -->
+	<string name="msg_calculating">Изчисляване...</string>
+	<string name="msg_file_not_found">%s не е открит.</string>
+    <string name="msg_connection_refused">Мрежовата връзка е неуспешна.</string>
+	
+   	<!--  OOM Activity -->
+   	<string name="oom_error_msg">Недостатъчно памет. Файлът не може да се зареди правилно, поради недостатъчно памет. Желаете ли да видите съдържанието, което е заредено до момента?</string>
+    <string name="oom_error_close_label">Затвори</string>
+    <string name="oom_error_continue_label">Продължи</string>
+    
+    <!-- Updater -->
+	<string name="updater_check">Проверка...</string>
+	<string name="updater_update_failed">Неуспешно актуализиране</string>
+	<string name="updater_uptodate">Най-нова версия</string>
+	<string name="updater_confirm_update">Желаете ли да актуализирате последната версия?</string>
+	<string name="updater_download_started">Най-новата версия се изтегля.</string>
+	<string name="updater_download_completed">Изтеглянето завърши</string>
+	
+	<!-- Activation -->
+	<string name="later">По-късно</string>
+	<string name="activate_title">Активация</string>
+	<string name="activate_now">Активирайте сега</string>
+	<string name="activate_new_desc">
+	    Благодарим ви, че използвате продукта ThinkFree Office.\n
+		За да активирате ThinkFree Office на своето устройство, изберете “Активирай сега”.
+	</string>
+	<string name="activate_desc">Щракнете \&quot;%1$s\&quot;, за да активирате %2$s на вашето устройство.</string>
+	<string name="activate_result_ok">Активирането завърши</string>
+	<string name="activate_result_failed_network_error">Необходима е мрежова връзка.</string>
+	<string name="activate_result_failed_invalid_hardware">%s не може да се активира в това хардуерно устройство.</string>
+	<string name="activate_result_failed_server_error">По време на активиране на продукта се е появила грешка.</string>
+	
+</resources>

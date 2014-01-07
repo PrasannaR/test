@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2009 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+  
+          http://www.apache.org/licenses/LICENSE-2.0
+  
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+
+<com.cognizant.trumobi.em.activity.EmMessageListItem
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="?android:attr/listPreferredItemHeight"
+    android:paddingRight="10dip"
+    android:background="@color/message_list_item_back_color"
+    android:filterTouchesWhenObscured="true"
+    >
+    <View
+        android:id="@+id/chip"
+        android:background="@drawable/em_appointment_indicator_leftside_1"
+        android:layout_width="4dip"
+        android:layout_height="match_parent"
+        android:layout_centerVertical="true" 
+        android:visibility="gone"/>
+    <!-- TODO: Remove the top padding hack and align to the subject baseline -->
+    <ImageView
+        android:id="@+id/selected"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/chip"
+        android:paddingTop="10dip"
+        android:paddingLeft="15dip"
+        android:src="@drawable/em_btn_check_off_normal_holo_light" />
+    <!-- TODO: Remove the top padding hack and align to the subject baseline -->
+    <ImageView
+        android:id="@+id/favorite"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:paddingTop="10dip"
+        android:paddingRight="15dip"
+        android:src="@android:drawable/star_off" />
+    <TextView
+        android:id="@+id/from"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/selected"
+        android:layout_toLeftOf="@id/favorite"
+        android:ellipsize="end"
+        android:singleLine="true"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:paddingLeft="10dip"
+        android:drawablePadding="4dip"
+        android:paddingTop="12dip" 
+        android:textColor="@color/message_list_item_text_color"/>
+    <TextView
+        android:id="@+id/date"
+        android:ellipsize="end"
+        android:singleLine="true"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignBaseline="@+id/subject"
+        android:paddingRight="15dip" 
+        android:textColor="@color/message_list_item_text_color"/>
+    <TextView
+        android:id="@+id/subject"
+        android:ellipsize="end"
+        android:singleLine="true"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:layout_width="0dip"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/from"
+        android:layout_alignLeft="@id/from"
+        android:layout_toLeftOf="@id/date"
+        android:paddingLeft="10dip"
+        android:layout_marginRight="6dip" 
+        android:textColor="@color/message_list_item_text_color"/>
+</com.cognizant.trumobi.em.activity.EmMessageListItem>

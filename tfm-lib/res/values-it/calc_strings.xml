@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<!-- application names -->
+	<string name="calc_hd">ThinkFree Calc HD</string>
+	<string name="calc_preferences">ThinkFree Calc beállítások</string>
+
+	<!-- menu titles/items -->
+	<string name="calc_title_app">ThinkFree Calc</string>
+	<string name="calc_worksheets">Fogli di lavoro</string>
+	<string name="calc_goto">Vai a</string>
+	<string name="calc_label_print_range">Intervallo di stampa</string>
+
+	<!-- activity/dialog titles -->
+	<string name="calc_select_sheet">Seleziona foglio</string>
+	<string name="calc_show_hidden_sheets">Mostra fogli nascosti</string>
+
+	<!-- button labels
+	<string name="calc_button_sheets">Sheets</string>
+	-->
+
+	<!-- short messages for toasts and dialogs -->
+	<string name="calc_msg_title">Calc</string>
+	<string name="calc_msg_invalid_dir">Cartella non valida: \'%s\'</string>
+	<string name="calc_msg_empty_sheet">Il foglio non contiene dati.</string>
+	<string name="calc_msg_searching">Ricerca in corso...</string>
+	<string name="calc_msg_invalid_ref">Riferimento non valido</string>
+	<string name="calc_msg_enter_ref">Immettere un riferimento</string>
+	<string name="calc_msg_print_ok">OK</string>
+	<string name="calc_msg_print_cancel">Annulla</string>
+	<string name="calc_msg_print_range_all">Foglio corrente</string>
+	<string name="calc_msg_print_current">Area selezionata</string>
+	<string name="calc_msg_row_resize">Punto</string>
+	<string name="calc_msg_col_resize">Conteggio caratteri</string>
+
+	<!-- descriptions on the preference screen -->
+	<string name="calc_msg_shows_hidden_sheets">Mostra fogli nascosti nell\'elenco</string>
+	
+	<string name="calc_sheethide">Nascondi schede</string>
+	<string name="calc_sheetunhide">Scopri schede</string>
+	    
+</resources>

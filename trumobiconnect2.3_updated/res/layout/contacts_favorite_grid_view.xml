@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/Framelay"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center_vertical" 
+    android:filterTouchesWhenObscured="true">
+      <TextView
+          android:id="@+id/nofavorites_txt"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:layout_centerInParent="true"
+          android:gravity="center"
+          android:text="No Favorites."
+          android:textAppearance="?android:attr/textAppearanceLarge"
+          android:textColor="?android:attr/textColorSecondary" android:visibility="gone"/>
+      
+    <LinearLayout android:layout_width="fill_parent" android:id="@+id/gridview_holder"
+	    android:layout_height="fill_parent"
+	    android:orientation="vertical" android:visibility="gone" >
+	
+	    <GridView
+	        android:id="@+id/fav_grid_view"
+	        android:layout_width="fill_parent"
+	        android:layout_height="fill_parent"
+	        android:layout_margin="5dip"
+	        android:listSelector="@drawable/contacts_listview_background"
+	        android:horizontalSpacing="4dip"
+	        android:verticalSpacing="4dip"
+	        android:numColumns="2" />
+
+</LinearLayout>
+
+</RelativeLayout>

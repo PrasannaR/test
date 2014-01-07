@@ -1,0 +1,204 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<resources>
+    <!-- words -->
+    <!-- apps -->
+    <string name="app_name" translatable="false">ThinkFree Office</string>
+    <string name="tfwrite" translatable="false">ThinkFree Write</string>
+    <string name="tfcalc" translatable="false">ThinkFree Calc</string>
+    <string name="tfshow" translatable="false">ThinkFree Show</string>
+    <string name="tfpdf" translatable="false">ThinkFree PDF Viewer</string>
+    <string name="market_pub" translatable="false">ThinkFree Office</string>
+    
+    <string name="file">Fil</string>
+    <string name="properties">Egenskaber</string>
+    <string name="send">Send</string>
+    <string name="share">Del</string>
+    <string name="save">Gem</string>
+    <string name="zoom">Zoom</string>
+    <string name="zoom_in">Zoom ind</string>
+    <string name="zoom_out">Zoom ud</string>
+    <string name="preferences">Indstillinger</string>
+    <string name="horizontal_page_scrolling">Vandret siderulning</string>
+    <string name="vertical_page_scrolling">Lodret siderulning</string>
+    <string name="refresh">Opdater</string>
+    <string name="delete_all">Slet alt</string>
+    <string name="update">Opdateringer</string>
+    <string name="about">Om</string>
+    <string name="find">Søg</string>
+    <string name="replace">Erstat</string>
+    <string name="sort">Sorter</string>
+    <string name="fullscreen">Fuld skærm</string>
+    <string name="normalscreen">Normal skærm</string>
+    <string name="texttospeech">Tekst til tale</string>
+    <string name="dictionary">Ordbog</string>
+    <string name="save_to">Gem i</string>
+    <string name="edit">Rediger</string>
+    <string name="view">Vis</string>
+    <string name="save_as">Gem som</string>
+    <string name="save_as_pdf">Gem som PDF</string>
+    <string name="select">Marker</string>
+    <string name="select_all">Marker alt</string>
+    <string name="select_word">Marker ord</string>
+    <string name="select_line">Marker linje</string>
+    <string name="select_paragraph">Marker afsnit</string>
+    <string name="insert_shape">Indsæt figur</string>
+    <string name="object">Objekt</string>
+    <string name="text">Tekst</string>
+    <string name="from_camera_image">Fra kamera (billede)</string>
+    <string name="from_camera_video">Fra kamera (video)</string>
+    <string name="from_gallery_image">Fra galleri (billede)</string>
+    <string name="from_gallery_video">Fra galleri (video)</string>
+    <string name="from_scribble_pad">Fra notesblok</string>
+    <string name="font">Skrifttype</string>
+    <string name="bold">Fed</string>
+    <string name="italic">Kursiv</string>
+    <string name="superscript">Hævet skrift</string>
+    <string name="subscript">Sænket skrift</string>
+    <string name="size">Størrelse</string>
+    <string name="color">Farve</string>
+    <string name="align">Juster</string>
+    <string name="insert">Indsæt</string>
+    <string name="delete">Slet</string>
+    <string name="insert_paragraph_break">Indsæt afsnitsskift</string>
+    <string name="keyboard">Tastatur</string>
+    <string name="clipboard">Udklipsholder</string>
+    <string name="undo">Fortryd</string>
+    <string name="redo">Annuller fortryd</string>
+    <string name="copy">Kopier</string>
+    <string name="cut">Klip</string>
+    <string name="paste">Indsæt</string>
+    <string name="all_caps">Store bogstaver</string>
+    <string name="small_caps">Kapitæler</string>
+    <string name="strike">Gennemstreget</string>
+    <string name="dstrike">Dobbelt gennemstreget</string>
+    <string name="input_method">Inputmetode</string>
+    <string name="yes">Ja</string>
+    <string name="no">Nej</string>
+    <string name="ok">OK</string>
+    <string name="cancel">Annuller</string>
+    <string name="close">Luk</string>
+    <string name="more">Mere..</string>
+    <string name="encrypted_document">Krypteret dokument</string>
+    <string name="password">Adgangskode</string>
+    <string name="text_encoding">Tekstkodning</string>
+    <string name="exit">Afslut</string>
+    <string name="others">Andre</string>
+    <string name="build_number">Build-nummer</string>
+    <string name="create_backup_copy">Opret sikkerhedskopi</string>
+    <string name="align_left">Venstre</string>
+    <string name="align_center">Midten</string>
+    <string name="align_right">Højre</string>
+    <string name="align_justified">Lige margener</string>
+    <string name="auto">Auto</string>
+    <string name="none">Ingen</string>
+    <string name="effect">Effekt</string>
+    <string name="print">Udskriv</string>
+    <string name="label_print_range">Udskriftsområde</string>
+    <string name="label_print_range_all">Alle</string>
+    <string name="label_print_range_current">Aktuel side</string>
+    <string name="label_print_range_from">Fra:</string>
+    <string name="label_print_range_to">Til:</string>
+    <string name="fill_color">Fyldfarve</string>
+    <string name="line_color">Stregfarve</string>
+    <string name="line_width">Stregtykkelse</string>
+    <string name="line_dash">Stregtegn</string>
+    <string name="line_end">Stregafslutning</string>
+    <string name="image_style">Billedtypografi</string>
+    <string name="shape_style">Figurtypografi</string>
+    <string name="object_properties">Objektegenskaber</string>
+    <string name="limited_mode">Begrænset tilstand</string>
+    <string name="insert_table">Indsæt tabel</string>
+    <string name="insert_table_row">Rækker</string>
+    <string name="insert_table_column">Kolonner</string>
+    <string name="insert_table_ok">OK</string>
+    <string name="table_properties">Egenskaber for tabel</string>
+    <string name="table_style">Tabeltypografi</string>
+    <string name="table_style_options">Indstillinger for tabeltypografi</string>
+    <string name="delete_table">Slet tabel</string>
+    <string name="save_to_thinkfree_online">Gem i ThinkFree Online</string>
+    <string name="save_to_local_folder">Gem i lokal mappe</string>
+    <string name="no_selected">Ingen</string>
+    <string name="match_case">Forskel på store og små bogstaver</string>
+    <string name="find_whole_word_only">Kun hele ord</string>
+    <string name="find_entire_cell_only">Kun hele cellen</string>
+    <string name="finder_view_find">Søg efter?</string>
+    <string name="finder_view_replace">Erstat med</string>
+    <string name="cache_management">Administration af lager</string>
+    <string name="delete_data">Intern cache</string>
+    <string name="delete_data_sub">Slet cachelagret data for indstillinger</string>
+    <string name="delete_thumbnail">Ekstern cache</string>
+    <string name="delete_thumbnail_sub">Slet cachelagret data for ThinkFree-dokumenter</string>
+    <string name="delete_template">Cache for skabelonfil</string>
+    <string name="delete_template_sub">Slet cachelagret data for skabeloner</string>
+    <string name="delete_confirm_internal_cache">For at slette den interne cache helt, skal du afslutte ThinkFree Office. Vil du slette den interne cache og forlade Office?</string>
+    <string name="confirm_deletion_des">Er du sikker på, at du vil slette det valgte element?</string>
+    <string name="msg_delete_completed">Det valgte element er nu slettet.</string>
+    <string name="msg_delete_failed">Det valgte element kan ikke slettes.</string>
+    
+    <!-- messages -->
+    <string name="msg_saved_to">Gemt i \'%s\'</string>
+    <string name="msg_failed">Mislykket</string>
+    <string name="msg_loading">Indlæser \'%s\'...</string>
+    <string name="msg_saving">Gemmer \'%s\'...</string>
+    <string name="msg_saving_general">Gemmer ...</string>
+    <string name="msg_failed_to_open">Kunne ikke åbne</string>
+    <string name="msg_failed_to_save">Kunne ikke gemme</string>
+    <string name="msg_no_matches">Ingen matcher fundet</string>
+    <string name="msg_matches">%1$d/%2$d match(er)</string>
+    <string name="msg_enter_password">Indtast adgangskode</string>
+    <string name="msg_width">Bredde: %d px</string>
+    <string name="msg_height">Højde: %d px</string>
+    <string name="msg_ask_to_save">Vil du gemme?</string>
+    <string name="msg_create_backup_copy">Opret en sikkerhedskopi af et dokument, hver gang du gemmer det</string>
+    <string name="msg_not_enough_memory">Ikke nok hukommelse</string>
+    <string name="msg_cannot_insert_over_size">Filen er større end grænsen på 10 MB for vedhæftede filer.</string>
+    <string name="msg_insert_sdcard">Indsæt SD-hukommelseskort.</string>
+    <string name="file_name">Filnavn</string>
+    <string name="file_type">Filtype</string>
+    <string name="msg_printing">Udskriver \'%s\'...</string>
+    <string name="msg_print_fail">Kunne ikke udskrive</string>
+    <string name="password_Incorrect">Den angivne adgangskode svarer ikke til den registrerede adgangskode.</string>
+    <string name="msg_cannot_open_encrypted_document">Den krypterede fil kan ikke åbnes</string>
+    <string name="msg_lost_password">Hvis du gemmer som ny, går filkrypteringen tabt. Vil du fortsætte?</string>
+    <string name="msg_cannot_cancel_save">Denne handling kan ikke annulleres, mens der gemmes.</string>
+    <string name="msg_not_enough_sdcard_space">Ikke nok hukommelse på SD-kort</string>
+    <string name="msg_invalid_format">Formatet understøttes ikke eller er ukendt.</string>
+    <string name="msg_encryped_file">Filen er beskadiget.</string>
+    <string name="msg_invalid_version">Dokumentversionen understøttes ikke eller er ukendt.</string>
+    <string name="msg_canceled_to_open">Annullerede åbning.</string>
+    
+    <!-- upload -->
+    <string name="msg_uploader_title">Upload til</string>
+    <string name="msg_uploader_prepared">Forbereder upload...</string>
+    <string name="msg_uploader_failed">Upload mislykkedes</string>
+    <string name="msg_uploader_size_exceeded">Filen er større end grænsen på 10 MB for vedhæftede filer.</string>
+    <string name="msg_uploader_cancelled">Upload annulleret</string>
+    <string name="msg_uploader_uploading">Uploader...</string>
+    <string name="msg_uploader_finish">Upload færdig</string>
+    <string name="msg_uploader_connection_fail">Der opstod en fejl i netværksforbindelsen.</string>
+    
+    <!-- Hyperlink -->
+    <string name="hyperlink">Hyperlink</string>
+    <string name="delete_hyperlink">Slet hyperlink</string>
+    <string name="hyperlink_web_prefix">http://</string>
+    <string name="hyperlink_email_prefix">mailto:</string>
+    
+    <!-- caption name -->
+    <string name="caption_standard_color">Standardfarve</string>
+    <string name="caption_natural_color">Naturlig farve</string>
+      
+    <!-- ActionBar -->
+    <string name="actionbar_limited_mode_title_postfix">[Begrænset tilstand]</string>
+    <string name="prepare_print">Forbereder udskrivning...</string>
+    
+    <!-- Motion Detection -->
+    <string name="msg_right_to_left">Motion Detection - Næste side</string>
+    <string name="msg_left_to_right">Motion Detection - Forrige side</string>
+    <string name="msg_warn_first_page">Motion Detection - Første side</string>
+    <string name="msg_warn_last_page">Motion Detection - Sidste side</string>
+    <string name="msg_show_slideshow">Motion Detection - Vis diasshow</string>
+    <string name="msg_stop_slideshow">Motion Detection - Stop diasshow</string>
+    
+    <!-- About -->
+	<string name="bullet_about_link">▶</string>
+</resources>
