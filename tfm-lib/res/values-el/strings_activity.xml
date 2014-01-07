@@ -1,0 +1,103 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources>
+   	<!-- About Activity -->
+   	<string name="label_product">%s Mobile for Android\u2122</string>
+  	<string name="link_about"><a href="http://www.thinkfree.com/go?id=mobile_main">Πληροφορίες</a></string>
+  	<string name="link_help"><a href="http://www.thinkfree.com/go?id=help_en_us_and_hd">Βοήθεια</a></string>
+  	<string name="link_support"><a href="http://www.thinkfree.com/go?id=help_online">Υποστήριξη</a></string>
+  	<string name="link_terms"><a href="http://www.thinkfree.com/go?id=terms">Όροι</a></string>
+  	<string name="link_privacy"><a href="http://www.thinkfree.com/go?id=privacy">Απόρρητο</a></string>
+  	<string name="link_ack"><a href="http://www.thinkfree.com/go?id=ack_and">Γνωστοποίηση</a></string>
+  	<string name="link_separator">|</string>
+  	<string name="label_copyright">\u00A92012 Hancom Inc. Με την επιφύλαξη παντός δικαιώματος. \nΗ ονομασία ThinkFree και το λογότυπο ThinkFree είναι εμπορικά σήματα της Hancom Inc.</string>
+  	<string name="label_accord">Ορισμένα τμήματα του προϊόντος αποτελούν τροποποιήσεις, οι οποίες βασίζονται σε έργο που έχει δημιουργηθεί και 
+		<a href="http://code.google.com/policies.html">κοινοποιηθεί από την Google</a>
+	 	και χρησιμοποιείται σύμφωνα με τους όρους της 
+		<a href="http://creativecommons.org/licenses/by/3.0">Άδειας χρήσης Creative Commons 3.0 Attributions.</a>
+	</string>
+
+  	<!-- File Properties Activity -->
+    <string name="fileproperties">Ιδιότητες</string>
+    <string name="fileprop_noinfo">Δεν υπάρχουν πληροφορίες</string>
+    <string name="fileprop_basic">Βασικές</string>
+    <string name="fileprop_extended">Εκτεταμένες</string>
+    <string name="fileprop_filename">Όνομα</string>
+	<string name="fileprop_filesize">Μέγεθος</string>
+    <string name="fileprop_title">Τίτλος</string>
+    <string name="fileprop_subject">Θέμα</string>
+    <string name="fileprop_author">Συντάκτης</string>
+    <string name="fileprop_keywords">Λέξεις-κλειδιά</string>
+    <string name="fileprop_comments">Σχόλια</string>
+    <string name="fileprop_template">Πρότυπο</string>
+    <string name="fileprop_revnumber">Αριθμός αναθεώρησης</string>
+    <string name="fileprop_lastprinted">Χρόνος τελευταίας εκτύπωσης</string>
+    <string name="fileprop_createdtm">Χρόνος δημιουργίας</string>
+	<string name="fileprop_lastmodified">Τελευταία τροποποίηση</string>
+    <string name="fileprop_pagecount">Καταμέτρηση σελίδων</string>
+    <string name="fileprop_wordcount">Καταμέτρηση λέξεων</string>
+    <string name="fileprop_charcount">Καταμέτρηση χαρακτήρων</string>
+	<string name="fileprop_appname">Όνομα εφαρμογής</string>   
+	<string name="fileprop_creator">Δημιουργός</string>
+	<string name="fileprop_description">Περιγραφή</string>
+	<string name="fileprop_lastmodifiedby">Τελευταία τροποποίηση από</string>
+	<string name="fileprop_version">Έκδοση</string>
+	<string name="fileprop_category">Κατηγορία</string>
+	<string name="fileprop_language">Γλώσσα</string>
+	<string name="fileprop_charwithspacecount">Καταμέτρηση χαρακτήρων με κενά</string>
+	<string name="fileprop_sharedoc">Κοινή χρήση</string>
+	<string name="fileprop_appversion">Έκδοση εφαρμογής</string>
+	<string name="fileprop_codepage">Κωδικοσελίδα</string>
+	<string name="fileprop_presformat">Μορφή παρουσίασης</string>     
+	<string name="fileprop_bytecount">Καταμέτρηση byte</string>
+	<string name="fileprop_linecount">Καταμέτρηση γραμμών</string>
+	<string name="fileprop_parcount">Καταμέτρηση παραγράφων</string>
+	<string name="fileprop_slidecount">Καταμέτρηση διαφανειών</string>
+	<string name="fileprop_notecouont">Καταμέτρηση σημειώσεων</string>
+	<string name="fileprop_hiddencount">Καταμέτρηση κρυφών διαφανειών</string>
+	<string name="fileprop_mmclipcount">Καταμέτρηση κλιπ πολυμέσων</string>
+	<string name="fileprop_scale">Κλίμακα</string>
+	<string name="fileprop_manager">Διευθυντής</string>
+	<string name="fileprop_company">Εταιρεία</string>
+	<string name="fileprop_security">Ασφάλεια</string>
+	<string name="fileprop_lastsavedtm">Χρόνος τελευταίας αποθήκευσης</string>
+	<string name="fileprop_value_shared">αληθές</string>
+	<string name="fileprop_value_not_shared">ψευδές</string>
+	<string name="fileprop_filetype">Τύπος</string>
+	<string name="fileprop_location">Θέση</string>
+	<string name="fileprop_value_attachment">Επισύναψη</string>
+  	
+	<!-- messages -->
+	<string name="msg_calculating">Υπολογισμός...</string>
+	<string name="msg_file_not_found">Το %s δεν βρέθηκε.</string>
+    <string name="msg_connection_refused">Η σύνδεση δικτύου απέτυχε.</string>
+
+	<!-- Manager -->
+	<string name="new_file_hint">Όνομα αρχείου</string>
+
+   	<!--  OOM Activity -->
+   	<string name="oom_error_msg">Η μνήμη εξαντλήθηκε. Δεν είναι δυνατή η σωστή φόρτωση του αρχείου λόγω ανεπαρκούς μνήμης. Θέλετε να προβάλετε τα περιεχόμενα που έχουν φορτωθεί μέχρι στιγμής;</string>
+    <string name="oom_error_close_label">Κλείσιμο</string>
+    <string name="oom_error_continue_label">Συνέχεια</string>
+  
+	<!-- Updater -->
+	<string name="updater_check">Έλεγχος...</string>
+	<string name="updater_update_failed">Αποτυχία ενημέρωσης</string>
+	<string name="updater_uptodate">Τελευταία έκδοση</string>
+	<string name="updater_confirm_update">Θέλετε να λάβετε την ενημέρωση της τελευταίας έκδοσης;</string>
+	<string name="updater_download_started">Γίνεται λήψη της τελευταίας έκδοσης.</string>
+	<string name="updater_download_completed">Η λήψη ολοκληρώθηκε</string>
+
+	<!-- Activation -->
+    <string name="later">Αργότερα</string>
+	<string name="activate_title">Ενεργοποίηση</string>
+	<string name="activate_now">Άμεση ενεργοποίηση</string>
+	<string name="activate_new_desc">
+	    Σας ευχαριστούμε που χρησιμοποιείτε το προϊόν ThinkFree Office.\n
+		Προκειμένου να ενεργοποιήσετε το ThinkFree Office στη συσκευή σας, επιλέξτε \&quot;Άμεση ενεργοποίηση\&quot;.
+	</string>
+	<string name="activate_desc">Κάντε κλικ στο \&quot;%1$s\&quot; για να ενεργοποιήσετε το %2$s στη συσκευή σας.</string>
+	<string name="activate_result_ok">Η ενεργοποίηση ολοκληρώθηκε</string>
+	<string name="activate_result_failed_network_error">Απαιτείται σύνδεση στο δίκτυο.</string>
+	<string name="activate_result_failed_invalid_hardware">Δεν είναι δυνατή η ενεργοποίηση του %s σε αυτή τη συσκευή.</string>
+	<string name="activate_result_failed_server_error">Παρουσιάστηκε σφάλμα μετάδοσης δεδομένων κατά την ενεργοποίηση του προϊόντος.</string>
+</resources>

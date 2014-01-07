@@ -1,0 +1,569 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+	<!--  string resource used in the manifest -->
+	<!--  Must manually change based on build type -->
+	
+	<!-- VZB Name -->
+		<string name="app_name">Enterprise Connect</string> 
+		
+	<!-- VZW Name 
+		<string name="app_name">Wi-Fi Access Zone</string> 
+	-->
+	
+		
+		
+    <string-array name="app_name" formatted="false">
+	    <item>Wi-Fi Access Zone</item>
+	    <item>Enterprise Connect</item>
+	</string-array>
+ 
+ 
+    <string-array name="browse_title" formatted="false">
+	    <item>Search</item>
+	    <item>Search</item>
+	</string-array>
+    
+    <string-array name="connect_title" formatted="false">
+	    <item>Connect</item>
+	    <item>Connect</item>
+	</string-array>
+    
+    <string-array name="settings_title" formatted="false">
+	    <item>Settings</item>
+	    <item>Settings</item>
+	</string-array>
+	
+    <string-array name="launching_label" formatted="false">
+	    <item>Launching</item>
+	    <item>Launching</item>
+	</string-array>
+	
+    <string-array name="currentlyrunning_label" formatted="false">
+	    <item>Currently running</item>
+	    <item>Currently running</item>
+	</string-array>
+	
+    <string-array name="Password" formatted="false">
+	    <item>Password</item>
+	    <item>Password</item>
+	</string-array>
+	
+    <string-array name="show_password" formatted="false">
+	    <item>Show password</item>
+	    <item>Show password</item>
+	</string-array>
+	
+	<string-array name="enter_password" formatted="false">
+	    <item>Enter Password</item>
+	    <item>Enter Password</item>
+	</string-array>
+	
+	
+	<string-array name="enter_userid" formatted="false">
+	    <item>Enter User ID</item>
+	    <item>Enter User ID</item>
+	</string-array>
+	
+	<string-array name="search_title" formatted="false">
+	    <item>Search</item>
+	    <item>Search</item>
+	</string-array>
+	
+	<string-array name="venue_search_button_text" formatted="false">
+	    <item>Find Hotspots</item>
+	    <item>Find Hotspots</item>
+	</string-array>
+	
+	<string-array name="venue_search_button_loading_text" formatted="false">
+	    <item>Searching&#8230;</item>
+	    <item>Searching&#8230;</item>
+	</string-array>
+	
+	<string-array name="not_in_range" formatted="false">
+	    <item>No Wi-Fi Access Zone Network Detected</item>
+	    <item>No Smart Connect Network Detected</item>
+	</string-array>
+	
+	<string-array name="wifi_not_enabled" formatted="false">
+	    <item>Wi-Fi Turned Off</item>
+	    <item>Wi-Fi Turned Off</item>
+	</string-array>
+	
+	<string-array name="connect" formatted="false">
+	    <item>Connect</item>
+	    <item>Connect</item>
+	</string-array>
+	
+	<string-array name="retry" formatted="false">
+	    <item>Retry</item>
+	    <item>Retry</item>
+	</string-array>
+	
+	<string-array name="disconnect" formatted="false">
+	    <item>Disconnect</item>
+	    <item>Disconnect</item>
+	</string-array>
+	
+	<string-array name="disable_smart_connect" formatted="false">
+	    <item>Turn off Smart Connect</item>
+	    <item>Turn off Smart Connect</item>
+	</string-array>
+	
+	<string-array name="connecting" formatted="false">
+	    <item>Connecting&#8230;</item>
+	    <item>Connecting&#8230;</item>
+	</string-array>
+	
+	<string-array name="disconnecting" formatted="false">
+	    <item>Disconnecting&#8230;</item>
+	    <item>Disconnecting&#8230;</item>
+	</string-array>
+	
+	<string-array name="update_configuration" formatted="false">
+	    <item>Update Configuration</item>
+	    <item>Update Configuration</item>
+	</string-array>
+	
+	<string-array name="set_rova_portal_credentials" formatted="false">
+	    <item>Set Login Credentials</item>
+	    <item>Set Login Credentials</item>
+	</string-array>
+	
+	<string-array name="updating_configuration" formatted="false">
+	    <item>Updating Configuration&#8230;</item>
+	    <item>Updating Configuration&#8230;</item>
+	</string-array>
+	
+	<string-array name="log_title" formatted="false">
+	    <item>Application Log</item>
+	    <item>Application Log</item>
+	</string-array>
+	
+	<string-array name="enable_wifi" formatted="false">
+	    <item>Turn on Wi-Fi</item>
+	    <item>Turn on Wi-Fi</item>
+	</string-array>
+	
+	<string-array name="enabling_wifi" formatted="false">
+	    <item>Turning on Wi-Fi&#8230;</item>
+	    <item>Turning on Wi-Fi&#8230;</item>
+	</string-array>
+	
+	<string-array name="enter_userid_decoration_label" formatted="false">
+	    <item>Enter User ID Decoration</item>
+	    <item>Enter User ID Decoration</item>
+	</string-array>
+	
+	<string-array name="enter_userid_decoration_description" formatted="false">
+	    <item>Please make sure to include %USERNAME% in the decoration.\n\nThe %USERNAME% will be replaced with the entered username or a default value.</item>
+	    <item>Please make sure to include %USERNAME% in the decoration.\n\nThe %USERNAME% will be replaced with the entered username or a default value.</item>
+	</string-array>
+	
+	<string-array name="country" formatted="false">
+	    <item>Country</item>
+	    <item>Country</item>
+	</string-array>
+	
+	<string-array name="state_code" formatted="false">
+	    <item>State Code</item>
+	    <item>State Code</item>
+	</string-array>
+	
+	<string-array name="city" formatted="false">
+	    <item>City</item>
+	    <item>City</item>
+	</string-array>
+	
+	<string-array name="no_results_found" formatted="false">
+	    <item>No results matched your search.</item>
+	    <item>No results matched your search.</item>
+	</string-array>
+	
+	<string-array name="smart_connect" formatted="false">
+	    <item>Smart Connect</item>
+	    <item>Smart Connect</item>
+	</string-array>
+	
+	<string-array name="audio_notifications" formatted="false">
+	    <item>Audio Notifications</item>
+	    <item>Audio Notifications</item>
+	</string-array>
+	
+	<string-array name="cancel" formatted="false">
+	    <item>Cancel</item>
+	    <item>Cancel</item>
+	</string-array>
+	
+	<string-array name="save" formatted="false">
+	    <item>Save</item>
+	    <item>Save</item>
+	</string-array>
+	
+	<string-array name="always_use_default_wispr_credential" formatted="false">
+	    <item>Always Use Default Credential</item>
+	    <item>Always Use Default Credential</item>
+	</string-array>
+	
+	<string-array name="always_use_default_userid_decoration" formatted="false">
+	    <item>Always Use Default User ID Decoration</item>
+	    <item>Always Use Default User ID Decoration</item>
+	</string-array>
+	
+	<string-array name="always_use_default_vzw_server" formatted="false">
+	    <item>Always Use Default HDS Server</item>
+	    <item>Always Use Default HDS Server</item>
+	</string-array>
+	
+	<string-array name="set_default_vzw_server" formatted="false">
+	    <item>Set Default HDS Server</item>
+	    <item>Set Default HDS Server</item>
+	</string-array>
+	
+	<string-array name="credential_prompt_title" formatted="false">
+	    <item>Enter Credential</item>
+	    <item>Enter Credential</item>
+	</string-array>
+	
+	<string-array name="vibration_notifications" formatted="false">
+	    <item>Vibration Notifications</item>
+	    <item>Vibration Notifications</item>
+	</string-array>
+	
+	<string-array name="enable_location_reporting" formatted="false">
+	    <item>Enable Location Reporting</item>
+	    <item>Enable Location Reporting</item>
+	</string-array>
+	
+	<string-array name="uninstall_app" formatted="false">
+	    <item>Uninstall Application</item>
+	    <item>Uninstall Application</item>
+	</string-array>
+
+	<string-array name="location_accuracy" formatted="false">
+	    <item>Location Reporting Accuracy</item>
+	    <item>Location Reporting Accuracy</item>
+	</string-array>
+	
+	<string-array name="location_accuracy_info" formatted="false">
+	    <item>Minimum accuracy (in meters) for reporting</item>
+	    <item>Minimum accuracy (in meters) for reporting</item>
+	</string-array>
+	
+	<string-array name="uninstall_app_info" formatted="false">
+	    <item>Tap to uninstall. All saved data will be removed.</item>
+	    <item>Tap to uninstall. All saved data will be removed.</item>
+	</string-array>
+	
+	<string-array name="view_application_log" formatted="false">
+	    <item>View Application Log</item>
+	    <item>View Application Log</item>
+	</string-array>
+	
+	<string-array name="email_application_logs" formatted="false">
+	    <item>Email Application Logs</item>
+	    <item>Email Application Logs</item>
+	</string-array>
+	
+	<string-array name="set_default_credentials" formatted="false">
+	    <item>Set Default Credentials</item>
+	    <item>Set Default Credentials</item>
+	</string-array>
+	
+	<string-array name="set_default_userid_decoration" formatted="false">
+	    <item>Set Default User ID Decoration</item>
+	    <item>Set Default User ID Decoration</item>
+	</string-array>
+	
+	<string-array name="device_information" formatted="false">
+	    <item>Device Information</item>
+	    <item>Device Information</item>
+	</string-array>
+	
+	<string-array name="set_username_decoration" formatted="false">
+	    <item>Set Username \nDecoration</item>
+	    <item>Set Username \nDecoration</item>
+	</string-array>
+	
+	<string-array name="click_here_to_connect" formatted="false">
+	    <item>Click here to connect.</item>
+	    <item>Click here to connect.</item>
+	</string-array>
+	
+	<string-array name="click_here_to_disconnect" formatted="false">
+	    <item>Click here to disconnect.</item>
+	    <item>Click here to disconnect.</item>
+	</string-array>
+	
+	<string-array name="available_network" formatted="false">
+	    <item>Available Wi-Fi Network</item>
+	    <item>Available Wi-Fi Network</item>
+	</string-array>
+	
+	<string-array name="connected_network" formatted="false">
+	    <item>Connected to</item>
+	    <item>Connected to</item>
+	</string-array>
+	
+	
+	<string-array name="notification_network_found" formatted="false">
+	    <item>%SSID% found</item>
+	    <item>Smart Connect Network %SSID% found</item>
+	</string-array>
+	
+	<string-array name="notification_network_connecting" formatted="false">
+	    <item>%SSID% Connecting</item>
+	    <item>Connecting Smart Connect Network %SSID%</item>
+	</string-array>
+	
+	<string-array name="notification_network_untrusted" formatted="false">
+	    <item>%SSID% Failed to verify Wi-Fi Access Zone</item>
+	    <item>Failed to verify Smart Connect Network %SSID%</item>
+	</string-array>
+	
+	<string-array name="notification_network_associate_failed_general" formatted="false">
+	    <item>Failed to connect to Wi-Fi Access Zone.</item>
+	    <item>Failed to connect to the Smart Connect Network.</item>
+	</string-array>
+	
+	<string-array name="notification_network_associate_failed_from" formatted="false">
+	    <item>%SSID% Failed to connect</item>
+	    <item>Failed to connect to Smart Connect Network %SSID%</item>
+	</string-array>
+	
+	<string-array name="notification_network_authenticating" formatted="false">
+	    <item>%SSID% Authenticating</item>
+	    <item>Authenticating to Smart Connect Network %SSID%</item>
+	</string-array>
+	
+	<string-array name="notification_network_authenticated" formatted="false">
+	    <item>%SSID% Connected </item>
+	    <item>Connected to Smart Connect Network %SSID%</item>
+	</string-array>
+	
+	<string-array name="notification_network_authentication_failed_general" formatted="false">
+	    <item>Failed to connect to Wi-Fi Access Zone.</item>
+	    <item>Failed to connect to the Smart Connect Network.</item>
+	</string-array>
+	
+	<string-array name="notification_network_authentication_failed_from" formatted="false">
+	    <item>%SSID% Failed to connect</item>
+	    <item>Failed to connect to Smart Connect Network %SSID%</item>
+	</string-array>
+	
+	<string-array name="notification_authenticating_rova_portal_credentials" formatted="false">
+	    <item>Authenticating Login Credentials</item>
+	    <item>Authenticating Login Credentials</item>
+	</string-array>
+	
+	<string-array name="notification_authentication_failed_rova_portal_credentials" formatted="false">
+	    <item>Failed to authenticate Login Credentials</item>
+	    <item>Failed to authenticate Login Credentials</item>
+	</string-array>
+	
+	<string-array name="click_here_to_try_again" formatted="false">
+	    <item>Tap to try again.</item>
+	    <item>Tap to try again.</item>
+	</string-array>
+	
+	<string-array name="notification_enter_rova_portal_credentials" formatted="false">
+	    <item>Please login to continue</item>
+	    <item>Please login to continue</item>
+	</string-array>
+	
+	<string-array name="click_here_to_authenticate" formatted="false">
+	    <item>Tap to login.</item>
+	    <item>Tap to login.</item>
+	</string-array>
+	
+	<string-array name="notification_request_device_administrator" formatted="false">
+	    <item>This application requires Device Administrator Access</item>
+	    <item>This application requires Device Administrator Access</item>
+	</string-array>
+	
+	<string-array name="click_here_to_authorize" formatted="false">
+	    <item>Tap to authorize.</item>
+	    <item>Tap to authorize.</item>
+	</string-array>
+	
+	<string-array name="notification_applications_required" formatted="false">
+	    <item>Required applications are available to install</item>
+	    <item>Required applications are available to install</item>
+	</string-array>
+	
+	<string-array name="notification_new_application_available" formatted="false">
+	    <item>1 new application available to be installed</item>
+	    <item>1 new application available to be installed</item>
+	</string-array>
+	
+	<string-array name="notification_new_applications_available" formatted="false">
+	    <item>%COUNT% new applications available to be installed</item>
+	    <item>%COUNT% new applications available to be installed</item>
+	</string-array>
+	
+	<string-array name="click_here_to_view" formatted="false">
+	    <item>Tap to view.</item>
+	    <item>Tap to view.</item>
+	</string-array>
+	
+	<string-array name="notification_password_reset_required" formatted="false">
+	    <item>Current passcode does not meet the minimum requirements</item>
+	    <item>Current passcode does not meet the minimum requirements</item>
+	</string-array>
+	
+	<string-array name="click_here_to_reset" formatted="false">
+	    <item>Tap to reset.</item>
+	    <item>Tap to reset.</item>
+	</string-array>
+	
+	<string-array name="notification_failed_to_open_database" formatted="false">
+	    <item>Failed to open database</item>
+	    <item>Failed to open database</item>
+	</string-array>
+	
+	<string-array name="select_an_email_application" formatted="false">
+	    <item>Select an email application</item>
+	    <item>Select an email application</item>
+	</string-array>
+	
+	<string-array name="application_logs_attached" formatted="false">
+	    <item>Application logs attached.</item>
+	    <item>Application logs attached.</item>
+	</string-array>
+	
+	<string-array name="launch" formatted="false">
+	    <item>Launch</item>
+	    <item>Launch</item>
+	</string-array>
+	
+	<string-array name="launching" formatted="false">
+	    <item>Launching</item>
+	    <item>Launching</item>
+	</string-array>
+	
+	<string-array name="uninstall" formatted="false">
+	    <item>Uninstall</item>
+	    <item>Uninstall</item>
+	</string-array>
+	
+	<string-array name="no_assigned_apps" formatted="false">
+	    <item>There are no available applications</item>
+	    <item>There are no available applications</item>
+	</string-array>
+	
+	<string-array name="register_new_account" formatted="false">
+	    <item>Register a New Account</item>
+	    <item>Register a New Account</item>
+	</string-array>
+	
+	<string-array name="for_all_wispr_authentications" formatted="false">
+	    <item>For all WISPr authentications</item>
+	    <item>For all WISPr authentications</item>
+	</string-array>
+	
+	<string-array name="connect_to_known_hotspots" formatted="false">
+	    <item>Automatically connect to known Wi-Fi hotspots</item>
+	    <item>Automatically connect to known Wi-Fi hotspots</item>
+	</string-array>
+	
+	<string-array name="check_to_enable" formatted="false">
+	    <item>Check to enable</item>
+	    <item>Check to enable</item>
+	</string-array>
+	
+	<string-array name="credentials_used_to_login_to_portal" formatted="false">
+	    <item>Credentials used to login to the portal</item>
+	    <item>Credentials used to login to the portal</item>
+	</string-array>
+	
+	<string-array name="tap_to_view" formatted="false">
+	    <item>Tap to view</item>
+	    <item>Tap to view</item>
+	</string-array>
+	
+	<string-array name="tap_to_install" formatted="false">
+	    <item>Tap to install</item>
+	    <item>Tap to install</item>
+	</string-array>
+	
+	<string-array name="credentials_required" formatted="false">
+	    <item>Valid credentials must be entered to continue</item>
+	    <item>Valid credentials must be entered to continue</item>
+	</string-array>
+	
+	<string-array name="added_app_to_queue" formatted="false">
+	    <item>Added %APP_NAME% to the download queue.</item>
+	    <item>Added %APP_NAME% to the download queue.</item>
+	</string-array>
+	
+	<string-array name="downloading_app" formatted="false">
+	    <item>Downloading %APP_NAME%. Tap on the notification when complete to install.</item>
+	    <item>Downloading %APP_NAME%. Tap on the notification when complete to install.</item>
+	</string-array>
+	
+	<string-array name="required_apps_must_be_installed" formatted="false">
+	    <item>Required applications must be installed prior to making new connections.</item>
+	    <item>Required applications must be installed prior to making new connections.</item>
+	</string-array>
+	
+	<string-array name="enrollment_policy_failure" formatted="false">
+	    <item>This device failed to enroll because it does not meet specified requirements.</item>
+	    <item>This device failed to enroll because it does not meet specified requirements.</item>
+	</string-array>
+	
+	<string-array name="location_access_required" formatted="false">
+	    <item>This application requires location services.</item>
+	    <item>This application requires location services.</item>
+	</string-array>
+	
+	<string-array name="enrollment_policy_failure_title" formatted="false">
+	    <item>Enrollment Policy Failure</item>
+	    <item>Enrollment Policy Failure</item>
+	</string-array>
+	
+	<string-array name="terms_and_conditions" formatted="false">
+	    <item>Terms and Conditions</item>
+	    <item>Terms and Conditions</item>
+	</string-array>
+	
+	<string-array name="enable_debug_mode" formatted="false">
+	    <item>Enable Debug Mode</item>
+	    <item>Enable Debug Mode</item>
+	</string-array>
+	
+	<string-array name="terms_and_conditions_html" formatted="false">
+	    <item>
+	    	<![CDATA[
+		    	<p align=\"center\">
+				<strong>Wi-Fi Access Zone Client License Agreement</strong>
+				</p>
+				
+				<br /><br/>
+				
+				<p align=\"justify\">
+					<strong>1. License Grant.</strong> We grant you a revocable, limited, non-exclusive, nontransferable, royalty-free license to install and use copies of the Wi-Fi Access Zone Software, and any online or electronic documentation, if any, relating thereto (collectively, the "Software"), solely for your use in accessing the Internet at designated locations. All other rights are reserved to Verizon Wireless and its Licensors. You shall not rent, lease, sell, sublicense, assign, or otherwise transfer the Software. You shall not reverse engineer, decompile, or disassemble the Software in any way.  You are responsible for protecting the security of your device and data. <u><font color=red> Many Wi-Fi hotspots are not secure. You should connect directly to the Verizon Wireless data network when more security is needed, in which case, you may incur data charges in accordance with your plan or feature.</font></u> 
+				</p>
+				<p align=\"justify\">
+					<strong>2. Disclaimer of Warranty.</strong> THE SOFTWARE IS PROVIDED "AS IS" WITHOUT WARRANTY OF ANY KIND. TO THE MAXIMUM EXTENT PERMITTED BY APPLICABLE LAW, VERIZON WIRELESS FURTHER DISCLAIMS ALL WARRANTIES, INCLUDING WITHOUT LIMITATION ANY IMPLIED WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, AND NON-INFRINGEMENT. THE ENTIRE RISK ARISING OUT OF THE USE OR PERFORMANCE OF THE SOFTWARE REMAINS WITH YOU.
+				</p>
+				<p align=\"justify\">	
+					<strong>3. Limitation of Liability.</strong> TO THE MAXIMUM EXTENT PERMITTED BY APPLICABLE LAW, IN NO EVENT SHALL VERIZON WIRELESS (OR ITS AFFILIATES, DIRECTORS, OFFICERS, OWNERS, EMPLOYEES, OR AGENTS) OR ITS LICENSORS BE LIABLE FOR ANY CONSEQUENTIAL, INCIDENTAL, DIRECT, INDIRECT, SPECIAL, PUNITIVE, OR OTHER DAMAGES WHATSOEVER (INCLUDING WITHOUT LIMITATION DAMAGES FOR LOSS OF BUSINESS PROFITS, BUSINESS INTERRUPTION, LOSS OF BUSINESS INFORMATION, OR OTHER PECUNIARY LOSS) ARISING OUT OF THE USE OR INABILITY TO USE THE SOFTWARE, EVEN IF VERIZON WIRELESS HAS BEEN ADVISED OF THE POSSIBILITY OF SUCH DAMAGES.
+				</p>
+				<p align=\"justify\">	
+					<strong>4. Indemnification.</strong> You shall indemnify and hold Verizon Wireless (and its affiliates, directors, officers, owners, employees, licensors or agents) harmless against, any losses, claims, damages, or expenses (including attorneys\' fees) relating to or arising out of any violation of the terms of this Agreement by you or any person receiving the Software through or from you.
+				</p>
+				<p align=\"justify\">	
+					<strong>5. Termination.</strong> The license granted hereunder may be terminated at any time, with or without notice, for any reason. The license granted hereunder shall terminate automatically, without notice from, if you fail to comply with this License Agreement. Upon such termination: (a) Section 1 of this Agreement shall terminate (except to the extent cross references or definitions are necessary for an understanding of the surviving provisions); (b) the provisions of Sections 2 through 7 of this License Agreement shall survive in perpetuity.
+				</p>
+				<p align=\"justify\">	
+					<strong>6. U.S. Government Restricted Rights.</strong> The Software is provided with RESTRICTED RIGHTS. Use, duplication or disclosure by the Government is subject to restrictions set forth in subparagraphs (a) through (d) of the Commercial Computer Software--Restricted Rights at FAR 52.227-19 when applicable, or in subparagraph (c)(1)(ii) of the Rights in Technical Data and Computer Software clause at DFARS 252.227-7013, and in similar clauses in the NASA FAR supplement, as applicable. Manufacturer is Verizon, 5000 Britton Road, Hilliard, Ohio 43026.
+				</p>
+				<p align=\"justify\">			
+					<strong>7. Export Controls.</strong> You are responsible for complying with all trade regulations and laws both foreign and domestic. You acknowledge that none of the Software or underlying information or technology may be downloaded or otherwise exported or re-exported (i) into (or to a national or resident of) Afghanistan, Angola, Cuba, Iraq, Libya, Sudan, North Korea, Iran, and Syria or any other country subject to a U.S. embargo; or (ii) to anyone on the U.S. Treasury Department\'s list of Specially Designated Nationals or the U.S. Commerce Department\'s Denied Parties List or Entity List. By using the Software you are agreeing to the foregoing and are representing and warranting that (i) no U.S. federal agency has suspended, revoked, or denied you export privileges, (ii) you are not located in or under the control of a national or resident of any such country or on any such list, and (iii) you will not export or re-export the Software to any prohibited county, or to any prohibited person, entity, or end-user as specified by U.S. export controls.
+				</p>
+			]]>
+		</item>
+	    <item>Terms and Conditions</item>
+	</string-array>
+
+</resources>

@@ -1,0 +1,19 @@
+// FragmentShader
+precision highp float; 
+
+varying highp vec2 TextureCoordOut;
+varying highp float AlphaOut;
+varying highp float TextureNum;
+
+uniform sampler2D Sampler, Sampler2;
+
+void main(void)
+{
+	//VertesShader에서 넘겨준 값에따라 sampler를 결정한다.
+	if(TextureNum == 0.0)
+		gl_FragColor = texture2D(Sampler, TextureCoordOut);
+	else if(TextureNum == 1.0)
+		gl_FragColor = texture2D(Sampler2, TextureCoordOut);
+		
+	gl_FragColor.a *= AlphaOut;
+}
