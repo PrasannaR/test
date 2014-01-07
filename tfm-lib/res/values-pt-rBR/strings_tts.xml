@@ -1,6 +1,0 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<resources>
-<string name="tts_title">Conversão de texto em fala</string>
-<string name="tts_install_title">Instalar dados de voz</string>
-<string name="tts_install_message">Deseja instalar os dados de voz necessários para a reprodução de fala?</string>
-</resources>

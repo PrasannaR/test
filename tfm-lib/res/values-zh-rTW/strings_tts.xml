@@ -1,6 +1,0 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<resources>
-<string name="tts_title">文字轉換語音</string>
-<string name="tts_install_title">安裝語音資料</string>
-<string name="tts_install_message">是否要安裝語音合成功能所需的語音資料？</string>
-</resources>
