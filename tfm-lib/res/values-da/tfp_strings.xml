@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<string name="tfp_app_name">ThinkFree PDF Viewer</string>
+<string name="tfp_err_bad_catalog">Fejl ved åbning af fil. Sidekataloget er ugyldigt.</string>
+<string name="tfp_err_damaged_file">Fejl ved åbning af fil. Den ser ud til at være beskadiget.</string>
+<string name="tfp_err_open_file">Fejl ved åbning af fil. Den findes ikke eller kan ikke læses.</string>
+<string name="tfp_err_open_unknown">Fejl ved åbning af fil. Det er muligvis ikke en gyldig PDF-fil.</string>
+<string name="tfp_err_out_of_memory">Fejl. Ikke nok tilgængelig hukommelse til at fortsætte.</string>
+<string name="tfp_err_non_standard_security_handler">Fejl ved åbning af fil. Den er krypteret med en sikkerhedsbeskyttelse, der ikke understøttes.</string>
+<string name="tfp_err_loading_page">Fejl ved indlæsning af side.</string>
+<string name="tfp_msg_blank_page">Tom side</string>
+<string name="tfp_msg_no_read_mode">Læsetilstand\ner ikke tilgængelig\nfor denne side.</string>
+<string name="tfp_msg_err_loading_page">Fejl ved indlæsning af\nside</string>
+<string name="tfp_menu_reading_view">Læsevisning</string>
+<string name="tfp_menu_page_view">Sidevisning</string>
+<string name="tfp_misc_page" formatted="false">%1 af %2</string>
+<string name="tfp_app_description">Vis oprindelige Adobe PDF-filer og vedhæftede filer.</string>
+<string name="tfp_misc_ok">OK</string>
+<string name="tfp_msg_err_loading_file">Fejl ved indlæsning af fil</string>
+<string name="tfp_menu_about">Om</string>
+<string name="tfp_menu_go_to_page">Gå til side</string>
+<string name="tfp_page_label">Side (1-%1):</string>
+<string name="tfp_misc_cancel">Annuller</string>
+<string name="tfp_err_invalid_page_num">Angiv et gyldigt sidenummer.</string>
+<string name="tfp_password_hint">Adgangskode</string>
+<string name="tfp_password_instructions">Denne PDF er beskyttet af en adgangskode. Indtast adgangskode for at fortsætte.</string>
+<string name="tfp_menu_save">Gem</string>
+<string name="tfp_unknown_name">Ukendt.pdf</string>
+<string name="tfp_misc_yes">Ja</string>
+<string name="tfp_misc_no">Nej</string>
+<string name="tfp_confirm_save">Gem \'%1\' på hukommelseskortet?</string>
+<string name="tfp_save_complete">Lagring gennemført</string>
+<string name="tfp_no_bookmarks">Ingen bogmærker</string>
+<string name="tfp_menu_bookmarks">Bogmærker</string>
+<string name="tfp_menu_go_to">Gå til</string>
+<string name="tfp_menu_collapse">Skjul</string>
+<string name="tfp_menu_expand">Udvid</string>
+<string name="tfp_menu_send">Send</string>
+<string name="tfp_misc_emailing">Sender e-mail til: %1</string>
+<string name="tfp_menu_properties">Egenskaber</string>
+<string name="tfp_prop_title">Titel:</string>
+<string name="tfp_prop_author">Forfatter:</string>
+<string name="tfp_prop_subject">Emne:</string>
+<string name="tfp_prop_keywords">Nøgleord:</string>
+<string name="tfp_prop_modified">Ændret:</string>
+<string name="tfp_menu_find">Søg</string>
+<string name="tfp_find_hint">Søg efter?</string>
+<string name="tfp_find_no_matches">Ingen matcher fundet.</string>
+<string name="tfp_find_complete">Søgning gennemført.</string>
+<string name="tfp_finding">Finder \'%1\'. Vent venligst...</string>
+<string name="tfp_wait_page_load">Vent til den aktuelle side er indlæst.</string>
+<string name="tfp_menu_print">Udskriv</string>
+<string name="tfp_security_print">Dokumentet\s sikkerhed forhindrer udskrivning.</string>
+<string name="tfp_misc_page_range">Sideområde</string>
+<string name="tfp_all_pages_label">Alle sider</string>
+<string name="tfp_current_page_label">Aktuel side</string>
+<string name="tfp_page_from_label">Fra:</string>
+<string name="tfp_page_to_label">Til:</string>
+<string name="tfp_err_invalid_page_range">Angiv et gyldigt sideområde.</string>
+<string name="tfp_preparing_page">Forbereder side %1...</string>
+<string name="tfp_menu_file">Fil</string>
+<string name="tfp_menu_zoom">Zoom</string>
+<string name="tfp_menu_zoom_fit">Tilpas til skærmbredde</string>
+<string name="tfp_menu_zoom_percent">%1%</string>
+<string name="tfp_menu_display_mode">Visning</string>
+<string name="tfp_misc_original_display">Oprindelig visning</string>
+<string name="tfp_misc_positive_display">Positiv visning</string>
+<string name="tfp_misc_negative_display">Negativ visning</string>
+<string name="tfp_menu_brightness">Lysstyrke</string>
+<string name="tfp_misc_cancel_audio">Tryk på knappen Tilbage for at annullere lyden.</string>
+<string name="tfp_label_product">%s Mobile for Android\u2122</string>
+<string name="tfp_link_about"><a href="http://www.thinkfree.com/go?id=mobile_main">Om</a></string>
+<string name="tfp_link_help"><a href="http://www.thinkfree.com/go?id=help_en_us_and_hd">Hjælp</a></string>
+<string name="tfp_link_support"><a href="http://www.thinkfree.com/go?id=help_online">Support</a></string>
+<string name="tfp_link_terms"><a href="http://www.thinkfree.com/go?id=terms">Vilkår</a></string>
+<string name="tfp_link_privacy"><a href="http://www.thinkfree.com/go?id=privacy">Beskyttelse af personlige oplysninger</a></string>
+<string name="tfp_link_ack"><a href="http://www.thinkfree.com/go?id=ack_and">Varemærker</a></string>
+<string name="tfp_link_separator">|</string>
+<string name="tfp_label_copyright">\u00A92011 Hancom Inc. Alle rettigheder forbeholdes. \nThinkFree og ThinkFree-logoet er varemærker tilhørende Hancom Inc.</string>
+<string name="tfp_label_accord">I dette produkt indgår modificerede dele baseret på arbejde, der er udført og <a href="http://code.google.com/policies.html">delt af Google</a> og som bruges i overensstemmelse med vilkår beskrevet i <a href="http://creativecommons.org/licenses/by/2.5">Creative Commons 2.5 Attribution License.</a></string>
+</resources>

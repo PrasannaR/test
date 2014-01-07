@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<string name="tfp_app_name">ThinkFree PDF Viewer</string>
+<string name="tfp_err_bad_catalog">Dosya açma hatası. Sayfa katalogu geçersiz.</string>
+<string name="tfp_err_damaged_file">Dosya açma hatası. Zarar görmüş olabilir.</string>
+<string name="tfp_err_open_file">Dosya açma hatası. Yok ya da okunamıyor.</string>
+<string name="tfp_err_open_unknown">Dosya açma hatası. Geçerli bir PDF dosyası olmayabilir.</string>
+<string name="tfp_err_out_of_memory">Hata. Devam etmek için yeterli bellek yok.</string>
+<string name="tfp_err_non_standard_security_handler">Dosya açma hatası. Desteklenmeyen bir güvenlik işleyicisiyle şifrelenmiş.</string>
+<string name="tfp_err_loading_page">Sayfa yükleme hatası.</string>
+<string name="tfp_msg_blank_page">Boş Sayfa</string>
+<string name="tfp_msg_no_read_mode">Okuma modu\nbu sayfa için\nkullanılamıyor.</string>
+<string name="tfp_msg_err_loading_page">Sayfa yükleme\nhatası</string>
+<string name="tfp_menu_reading_view">Okuma Görünümü</string>
+<string name="tfp_menu_page_view">Sayfa Görünümü</string>
+<string name="tfp_misc_page" formatted="false">%1 / %2</string>
+<string name="tfp_app_description">Orijinal Adobe PDF dosyalarını ve eklerini kontrol et.</string>
+<string name="tfp_misc_ok">Tamam</string>
+<string name="tfp_msg_err_loading_file">Dosya yükleme hatası</string>
+<string name="tfp_menu_about">Hakkında</string>
+<string name="tfp_menu_go_to_page">Sayfaya Git</string>
+<string name="tfp_page_label">Sayfa (1–%1):</string>
+<string name="tfp_misc_cancel">İptal et</string>
+<string name="tfp_err_invalid_page_num">Lütfen geçerli bir sayfa numarası girin.</string>
+<string name="tfp_password_hint">Parola</string>
+<string name="tfp_password_instructions">Bu PDF parola korumalıdır. Devam etmek için lütfen bir parola girin.</string>
+<string name="tfp_menu_save">Kaydet</string>
+<string name="tfp_unknown_name">Bilinmeyen.pdf</string>
+<string name="tfp_misc_yes">Evet</string>
+<string name="tfp_misc_no">Hayır</string>
+<string name="tfp_confirm_save">\'%1\' bellek kartına kaydedilsin mi?</string>
+<string name="tfp_save_complete">Kayıt tamamlandı</string>
+<string name="tfp_no_bookmarks">Yer imi yok</string>
+<string name="tfp_menu_bookmarks">Yer imleri</string>
+<string name="tfp_menu_go_to">Git</string>
+<string name="tfp_menu_collapse">Daralt</string>
+<string name="tfp_menu_expand">Genişlet</string>
+<string name="tfp_menu_send">Gönder</string>
+<string name="tfp_misc_emailing">E-posta gönderiliyor: %1</string>
+<string name="tfp_menu_properties">Özellikler</string>
+<string name="tfp_prop_title">Başlık:</string>
+<string name="tfp_prop_author">Yazar:</string>
+<string name="tfp_prop_subject">Konu:</string>
+<string name="tfp_prop_keywords">Anahtar kelimeler:</string>
+<string name="tfp_prop_modified">Değiştirme:</string>
+<string name="tfp_menu_find">Bul</string>
+<string name="tfp_find_hint">Ne bulunsun?</string>
+<string name="tfp_find_no_matches">Eşleşme bulunamadı.</string>
+<string name="tfp_find_complete">Bulma tamamlandı.</string>
+<string name="tfp_finding">\'%1\' bulunuyor. Lütfen bekleyin...</string>
+<string name="tfp_wait_page_load">Lütfen geçerli sayfanın yüklenmesinin bitmesini bekleyin.</string>
+<string name="tfp_menu_print">Yazdır</string>
+<string name="tfp_security_print">Belgenin güvenliği baskıyı engelliyor.</string>
+<string name="tfp_misc_page_range">Sayfa Aralığı</string>
+<string name="tfp_all_pages_label">Tüm Sayfalar</string>
+<string name="tfp_current_page_label">Mevcut Sayfa</string>
+<string name="tfp_page_from_label">Kimden:</string>
+<string name="tfp_page_to_label">Kime:</string>
+<string name="tfp_err_invalid_page_range">Lütfen geçerli bir sayfa aralığı girin.</string>
+<string name="tfp_preparing_page">Sayfa %1 hazırlanıyor...</string>
+<string name="tfp_menu_file">Dosya</string>
+<string name="tfp_menu_zoom">Yakınlaştır</string>
+<string name="tfp_menu_zoom_fit">Ekrana sığdır genişliği</string>
+<string name="tfp_menu_zoom_percent">%1%</string>
+<string name="tfp_menu_display_mode">Ekran modu</string>
+<string name="tfp_misc_original_display">Orijinal ekran</string>
+<string name="tfp_misc_positive_display">Pozitif ekran</string>
+<string name="tfp_misc_negative_display">Negatif ekran</string>
+<string name="tfp_menu_brightness">Parlaklık</string>
+<string name="tfp_misc_cancel_audio">Sesi iptal etmek için Geri düğmesine basın.</string>
+<string name="tfp_label_product">%s Mobile for Android\u2122</string>
+<string name="tfp_link_about"><a href="http://www.thinkfree.com/go?id=mobile_main">Hakkında</a></string>
+<string name="tfp_link_help"><a href="http://www.thinkfree.com/go?id=help_en_us_and_hd">Yardım</a></string>
+<string name="tfp_link_support"><a href="http://www.thinkfree.com/go?id=help_online">Destek</a></string>
+<string name="tfp_link_terms"><a href="http://www.thinkfree.com/go?id=terms">Koşullar</a></string>
+<string name="tfp_link_privacy"><a href="http://www.thinkfree.com/go?id=privacy">Gizlilik</a></string>
+<string name="tfp_link_ack"><a href="http://www.thinkfree.com/go?id=ack_and">Onay</a></string>
+<string name="tfp_link_separator">|</string>
+<string name="tfp_label_copyright">\u00A92011 Hancom Inc. Tüm hakları saklıdır. \nThinkFree ve ThinkFree logosu, Hancom Inc. şirketinin ticari markalarıdır.</string>
+<string name="tfp_label_accord">Bu ürünün bölümleri,  <a href="http://code.google.com/policies.html">Google tarafından oluşturulan</a> paylaşılan çalışmaları temel alan değişiklikler olup  <a href="http://creativecommons.org/licenses/by/2.5">Creative Commons 2.5 Nitelik Lisansı\'nda tanımlanan şartlara uygun olarak kullanılmaktadır.</a></string>
+</resources>

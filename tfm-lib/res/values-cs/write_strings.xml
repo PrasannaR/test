@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<!-- words -->
+	<string name="write_dictionary_select_language">Vyberte jazyk</string>
+	<string name="write_dictionary_english">Angličtina</string>
+	<string name="write_dictionary_korean">Korejština</string>
+	<string name="write_display_mode">Režim zobrazení</string>
+	<string name="write_fit_to_screen_width">Uzpůsobit šířce obrazovky</string>
+	<string name="write_show_all_marks">Zobrazit všechny značky úprav</string>
+	<string name="write_show_smart_zoom">Zobrazit inteligentní lupu</string>
+	<string name="write_show_picture_placeholders">Zobrazit zástupné symboly obrázků</string>
+	<string name="write_show_scrolling_icons">Zobrazit ikony posouvání</string>
+	<string name="write_reflow_view">Zobrazit textový tok</string>
+	<string name="write_bookmark">Zobrazit záložky</string>
+	<string name="write_bookmark_add">Přidat</string>
+	<string name="write_bookmark_delete">Odstranit</string>
+	<string name="write_bookmark_goto">Přejít na</string>
+	<string name="write_preferences">Předvolby Document Viewer</string>
+	<string-array name="write_display_modes">
+		<item>Původní displej</item>
+		<item>Pozitivní displej</item>
+		<item>Negativní displej</item>
+	</string-array>
+	
+	<!-- messages -->
+	<string name="write_msg_show_all_marks">Zobrazit nebo skrýt všechny značky úprav</string>
+	<string name="write_msg_show_smart_zoom">Automaticky přiblížit nebo oddálit text</string>
+	<string name="write_msg_show_picture_placeholders">Zobrazit v dokumentu na místě grafiky prázdná pole</string>
+	<string name="write_msg_show_scrolling_icons">Zobrazit nebo skrýt ikony posouvání</string>
+	<string name="write_msg_reflow_view">Zobrazit dokumenty bez vodorovného posunu</string>
+	<string name="write_msg_hyperlink">Dvojitým klepnutím na odkaz jej otevřete</string>
+	<string name="write_msg_bookmark">Zobrazit nebo skrýt záložky</string>
+</resources>

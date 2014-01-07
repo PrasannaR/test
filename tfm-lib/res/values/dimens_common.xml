@@ -1,0 +1,17 @@
+<resources>
+	<dimen name="popupwindow_arrowsize">10dp</dimen>
+	<dimen name="actionbar_height">40dp</dimen>
+	<dimen name="button_minWidth">100dip</dimen>
+	<integer name="actionbar_itemlabel_textsize">16</integer>
+	
+	<dimen name="margin_top_about_bi">125dp</dimen>
+	<dimen name="margin_top_about_bi_land">50dp</dimen>
+	<dimen name="margin_about_default">24dp</dimen>
+	
+	<dimen name="margin_top_about_link">0dp</dimen>
+	
+	<dimen name="margin_top_about_label_copyright">40dp</dimen>
+	<dimen name="margin_bottom_about_label_copyright">50dp</dimen>
+	<dimen name="margin_top_about_label_copyright_land">23dp</dimen>
+	<dimen name="margin_bottom_about_label_copyright_land">50dp</dimen>
+</resources>

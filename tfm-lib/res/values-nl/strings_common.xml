@@ -1,0 +1,204 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<resources>
+    <!-- words -->
+    <!-- apps -->
+    <string name="app_name" translatable="false">ThinkFree Office</string>
+    <string name="tfwrite" translatable="false">ThinkFree Write</string>
+    <string name="tfcalc" translatable="false">ThinkFree Calc</string>
+    <string name="tfshow" translatable="false">ThinkFree Show</string>
+    <string name="tfpdf" translatable="false">ThinkFree PDF Viewer</string>
+    <string name="market_pub" translatable="false">ThinkFree Office</string>
+    
+    <string name="file">Bestand</string>
+    <string name="properties">Eigenschappen</string>
+    <string name="send">Verzenden</string>
+    <string name="share">Delen</string>
+    <string name="save">Opslaan</string>
+    <string name="zoom">In- en uitzoomen</string>
+    <string name="zoom_in">Inzoomen</string>
+    <string name="zoom_out">Uitzoomen</string>
+    <string name="preferences">Voorkeuren</string>
+    <string name="horizontal_page_scrolling">Horizontaal door pagina bladeren</string>
+    <string name="vertical_page_scrolling">Verticaal door pagina bladeren</string>
+    <string name="refresh">Vernieuwen</string>
+    <string name="delete_all">Alles verwijderen</string>
+    <string name="update">Updates</string>
+    <string name="about">Info</string>
+    <string name="find">Zoeken</string>
+    <string name="replace">Vervangen</string>
+    <string name="sort">Sorteren</string>
+    <string name="fullscreen">Volledig scherm</string>
+    <string name="normalscreen">Normaal scherm</string>
+    <string name="texttospeech">Tekst naar spraak</string>
+    <string name="dictionary">Woordenlijst</string>
+    <string name="save_to">Opslaan in</string>
+    <string name="edit">Bewerken</string>
+    <string name="view">Beeld</string>
+    <string name="save_as">Opslaan als</string>
+    <string name="save_as_pdf">Opslaan als PDF</string>
+    <string name="select">Selecteren</string>
+    <string name="select_all">Alles selecteren</string>
+    <string name="select_word">Woord selecteren</string>
+    <string name="select_line">Regel selecteren</string>
+    <string name="select_paragraph">Alinea selecteren</string>
+    <string name="insert_shape">Vorm invoegen</string>
+    <string name="object">Object</string>
+    <string name="text">Tekstvak</string>
+    <string name="from_camera_image">Van camera (afbeelding)</string>
+    <string name="from_camera_video">Van camera (video)</string>
+    <string name="from_gallery_image">Van galerie (afbeelding)</string>
+    <string name="from_gallery_video">Van galerie (video)</string>
+    <string name="from_scribble_pad">Van notitieblok</string>
+    <string name="font">Lettertype</string>
+    <string name="bold">Vet</string>
+    <string name="italic">Cursief</string>
+    <string name="superscript">Superscript</string>
+    <string name="subscript">Subscript</string>
+    <string name="size">Grootte</string>
+    <string name="color">Kleur</string>
+    <string name="align">Teller</string>
+    <string name="insert">Invoegen</string>
+    <string name="delete">Verwijderen</string>
+    <string name="insert_paragraph_break">Alinea-einde invoegen</string>
+    <string name="keyboard">Toetsenbord</string>
+    <string name="clipboard">Klembord</string>
+    <string name="undo">Ongedaan maken</string>
+    <string name="redo">Opnieuw</string>
+    <string name="copy">Kopiëren</string>
+    <string name="cut">Knippen</string>
+    <string name="paste">Plakken</string>
+    <string name="all_caps">Hoofdletters</string>
+    <string name="small_caps">Klein kapitaal</string>
+    <string name="strike">Doorhalen</string>
+    <string name="dstrike">Dubbel doorhalen</string>
+    <string name="input_method">Invoermethode</string>
+    <string name="yes">Ja</string>
+    <string name="no">Nee</string>
+    <string name="ok">OK</string>
+    <string name="cancel">Annuleren</string>
+    <string name="close">Sluiten</string>
+    <string name="more">Meer...</string>
+    <string name="encrypted_document">Gecodeerd document</string>
+    <string name="password">Wachtwoord</string>
+    <string name="text_encoding">Tekstcodering</string>
+    <string name="exit">Afsluiten</string>
+    <string name="others">Overig</string>
+    <string name="build_number">Build-nummer</string>
+    <string name="create_backup_copy">Back-up maken</string>
+    <string name="align_left">Links</string>
+    <string name="align_center">Centreren</string>
+    <string name="align_right">Rechts</string>
+    <string name="align_justified">Uitvullen</string>
+    <string name="auto">Auto</string>
+    <string name="none">Geen</string>
+    <string name="effect">Effect</string>
+    <string name="print">Afdrukken</string>
+    <string name="label_print_range">Afdrukbereik</string>
+    <string name="label_print_range_all">Alles</string>
+    <string name="label_print_range_current">Huidige pagina</string>
+    <string name="label_print_range_from">Van:</string>
+    <string name="label_print_range_to">Tot:</string>
+    <string name="fill_color">Opvulkleur</string>
+    <string name="line_color">Lijnkleur</string>
+    <string name="line_width">Lijndikte</string>
+    <string name="line_dash">Lijnonderbreking</string>
+    <string name="line_end">Lijneinde</string>
+    <string name="image_style">Afbeeldingstijl</string>
+    <string name="shape_style">Vormstijl</string>
+    <string name="object_properties">Objectkenmerken</string>
+    <string name="limited_mode">Beperkte modus</string>
+    <string name="insert_table">Tabel invoegen</string>
+    <string name="insert_table_row">Rijen</string>
+    <string name="insert_table_column">Kolommen</string>
+    <string name="insert_table_ok">OK</string>
+    <string name="table_properties">Tabeleigenschappen</string>
+    <string name="table_style">Tabelopmaakprofiel</string>
+    <string name="table_style_options">Opties voor tabelopmaakprofiel</string>
+    <string name="delete_table">Tabel verwijderen</string>
+    <string name="save_to_thinkfree_online">Opslaan in ThinkFree Online</string>
+    <string name="save_to_local_folder">Opslaan in lokale map</string>
+    <string name="no_selected">Geen</string>
+    <string name="match_case">Identieke hoofdletters/kleine letters</string>
+    <string name="find_whole_word_only">Alleen heel woord zoeken</string>
+    <string name="find_entire_cell_only">Alleen hele cel zoeken</string>
+    <string name="finder_view_find">Zoeken naar?</string>
+    <string name="finder_view_replace">Vervangen door</string>
+    <string name="cache_management">Opslagbeheer</string>
+    <string name="delete_data">Interne cache</string>
+    <string name="delete_data_sub">Gegevens voor voorkeuren in cache verwijderen</string>
+    <string name="delete_thumbnail">Externe cache</string>
+    <string name="delete_thumbnail_sub">Gegevens voor ThinkFree-documenten in cache verwijderen</string>
+    <string name="delete_template">Cache met sjabloonbestand</string>
+    <string name="delete_template_sub">Gegevens voor sjablonen in cache verwijderen</string>
+    <string name="delete_confirm_internal_cache">Als u de interne cache volledig wilt verwijderen, moet u ThinkFree Office afsluiten. De interne cache verwijderen en Office afsluiten?</string>
+    <string name="confirm_deletion_des">Weet u zeker dat u het geselecteerde item wilt verwijderen?</string>
+    <string name="msg_delete_completed">Het geselecteerde item is verwijderd.</string>
+    <string name="msg_delete_failed">Het geselecteerde item kan niet worden verwijderd.</string>
+    
+    <!-- messages -->
+    <string name="msg_saved_to">Opgeslagen in \'%s\'</string>
+    <string name="msg_failed">Mislukt</string>
+    <string name="msg_loading">\'%s\' laden...</string>
+    <string name="msg_saving">\'%s\' opslaan...</string>
+    <string name="msg_saving_general">Opslaan...</string>
+    <string name="msg_failed_to_open">Openen mislukt</string>
+    <string name="msg_failed_to_save">Opslaan mislukt</string>
+    <string name="msg_no_matches">Niets gevonden</string>
+    <string name="msg_matches">%1$d/%2$d treffer(s)</string>
+    <string name="msg_enter_password">Geef wachtwoord op</string>
+    <string name="msg_width">Breedte: %d px</string>
+    <string name="msg_height">Hoogte: %d px</string>
+    <string name="msg_ask_to_save">Wilt u het bestand opslaan?</string>
+    <string name="msg_create_backup_copy">Maak een back-up van het document wanneer u het document opslaat</string>
+    <string name="msg_not_enough_memory">Onvoldoende geheugen</string>
+    <string name="msg_cannot_insert_over_size">Dit bestand is groter dan de limiet voor bijlagen van 10 MB.</string>
+    <string name="msg_insert_sdcard">Plaats de SD-geheugenkaart.</string>
+    <string name="file_name">Bestandsnaam</string>
+    <string name="file_type">Bestandstype</string>
+    <string name="msg_printing">\'%s\' afdrukken...</string>
+    <string name="msg_print_fail">Kan niet afdrukken</string>
+    <string name="password_Incorrect">Het opgegeven wachtwoord komt niet overeen met het geregistreerde wachtwoord.</string>
+    <string name="msg_cannot_open_encrypted_document">Kan dit gecodeerde bestand niet openen.</string>
+    <string name="msg_lost_password">Als u het bestand als nieuw opslaat, gaat de codering verloren. Wilt u doorgaan?</string>
+    <string name="msg_cannot_cancel_save">Kan deze bewerking niet annuleren tijdens opslaan.</string>
+    <string name="msg_not_enough_sdcard_space">Onvoldoende ruimte op SD-geheugenkaart</string>
+    <string name="msg_invalid_format">De indeling wordt niet ondersteund of is onbekend.</string>
+    <string name="msg_encryped_file">Het bestand is beschadigd.</string>
+    <string name="msg_invalid_version">De documentversie wordt niet ondersteund of is onbekend.</string>
+    <string name="msg_canceled_to_open">Openen geannuleerd.</string>
+    
+    <!-- upload -->
+    <string name="msg_uploader_title">Uploaden naar</string>
+    <string name="msg_uploader_prepared">Uploaden voorbereiden...</string>
+    <string name="msg_uploader_failed">Uploaden mislukt</string>
+    <string name="msg_uploader_size_exceeded">Dit bestand is groter dan de limiet voor bijlagen van 10 MB.</string>
+    <string name="msg_uploader_cancelled">Uploaden geannuleerd</string>
+    <string name="msg_uploader_uploading">Uploaden...</string>
+    <string name="msg_uploader_finish">Uploaden voltooid</string>
+    <string name="msg_uploader_connection_fail">De netwerkverbinding is mislukt.</string>
+    
+    <!-- Hyperlink -->
+    <string name="hyperlink">Hyperlink</string>
+    <string name="delete_hyperlink">Hyperlink verwijderen</string>
+    <string name="hyperlink_web_prefix">http://</string>
+    <string name="hyperlink_email_prefix">mailto:</string>
+    
+    <!-- caption name -->
+    <string name="caption_standard_color">Standaardkleur</string>
+    <string name="caption_natural_color">Natuurlijke kleur</string>
+      
+    <!-- ActionBar -->
+    <string name="actionbar_limited_mode_title_postfix">[Beperkte modus]</string>
+    <string name="prepare_print">Afdrukken voorbereiden...</string>
+    
+    <!-- Motion Detection -->
+    <string name="msg_right_to_left">Bewegingsdetectie - Volgende pagina</string>
+    <string name="msg_left_to_right">Bewegingsdetectie - Vorige pagina</string>
+    <string name="msg_warn_first_page">Bewegingsdetectie - Eerste pagina</string>
+    <string name="msg_warn_last_page">Bewegingsdetectie - Laatste pagina</string>
+    <string name="msg_show_slideshow">Bewegingsdetectie - Diavoorstelling weergeven</string>
+    <string name="msg_stop_slideshow">Bewegingsdetectie - Diavoorstelling stoppen</string>
+    
+    <!-- About -->
+	<string name="bullet_about_link">▶</string>
+</resources>

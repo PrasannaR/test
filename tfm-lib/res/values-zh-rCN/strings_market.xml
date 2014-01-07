@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="retry">重试</string>
+	
+    <!-- Purchase Activity -->
+    <string name="title_purchase">购买 ThinkFree Mobile for Android v4.1</string>
+    <string name="market_android">Android</string>
+    <string name="market_amazon">Amazon</string>
+	
+    <!-- License Check Activity-->
+    <string name="msg_checking_license">正在检查许可证...</string>
+    <string name="title_application_error">应用程序错误</string>
+    <string name="msg_application_error">错误代码： %1$d</string>
+    <string name="title_unlicensed">应用程序未经许可</string>
+    <string name="msg_unlicensed">该应用程序未经许可。 请从 %s Market 购买。</string>
+	<string name="title_no_network_connection">网络连接错误</string>
+	<string name="msg_no_network_connection">网络连接失败。 请确保您的设备已连接至网络。</string>
+	
+	<string name="inducement_to_purchase_tfm">ThinkFree Office 的付费版本可提供更多的特性，有助于提高您的生产率。 是否要转至 Market?</string>
+	<string name="inducement_to_purchase_print">如果您购买 ThinkFree Mobile Print，即可打印文件。 是否要转至 Market?</string>
+	<string name="inducement_to_purchase_hwp">如果您有 Hancom Viewer，则可以免费查看此文档。 是否要转至 Market?</string>
+</resources>

@@ -1,0 +1,11 @@
+uniform sampler2D Sampler;
+varying mediump vec2 TextureCoordOut;
+uniform lowp int UseColor;		//컬러사용
+
+void main(void)
+{
+	if(UseColor == 1)
+		gl_FragColor = vec4(1.0, 1.0, 1.0, 1.0);
+	else
+		gl_FragColor = texture2D(Sampler, TextureCoordOut);
+}

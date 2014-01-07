@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/list_holder"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" 
+    android:filterTouchesWhenObscured="true">
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/contact_primary_name_header"
+        android:layout_alignParentLeft="true"
+        android:layout_alignRight="@+id/frameLayout1"
+        android:layout_marginBottom="1dip"
+        android:background="#eeeeee" />
+
+    <TextView
+        android:id="@+id/contact_primary_name_header"
+        style="@style/ContactListSeparatorTextViewStyle"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignRight="@+id/frameLayout1"
+        android:textColor="#ab0f1c"
+        android:textStyle="bold" >
+"
+    </TextView>
+    <!--
+         <View
+        style="@style/QuickContactListBottomStyle" android:layout_below="@+id/contact_primary_name_header" android:id="@+id/header_divider"/>
+
+    -->
+
+    <FrameLayout
+        android:id="@+id/frameLayout1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/contact_primary_name_header" >
+
+        <ImageView
+            android:id="@+id/contact_image"
+            android:layout_width="50dip"
+            android:layout_height="50dip"
+            android:contentDescription="@string/abs__action_mode_done"
+            android:scaleType="fitXY"
+            android:src="@drawable/contacts_ic_contact_picture_holo_light" />
+
+        <ImageView
+            android:id="@+id/profile_image_spinner"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|right"
+            android:contentDescription="@string/abs__action_mode_done"
+            android:src="@drawable/contacts_quickcontact_badge_overlay_normal_light" />
+    </FrameLayout>
+
+    <LinearLayout
+        android:id="@+id/contact_txt_holder"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/contact_primary_name_header"
+        android:layout_marginTop="15dip"
+        android:layout_toLeftOf="@+id/corporate_cntx_icon"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/contact_primary_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dip"
+           
+            android:ellipsize="end"
+            android:singleLine="true"
+            android:text="sdfsadfsdfadsasasasasasasasasasasasasasasasasasasasasasasasasasasasa"
+            android:textAppearance="?android:attr/textAppearanceSmallInverse"
+            android:textColor="@color/Black" />
+        <!-- android:layout_weight="2.07" -->
+
+        <TextView
+            android:id="@+id/contact_sec_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dip"
+            android:ellipsize="end"
+            android:singleLine="true"
+            android:text="sdfsdfsadfdasdasdasdsadas"
+            android:textAppearance="?android:attr/textAppearanceSmallInverse"
+            android:textColor="@color/Black" />
+    </LinearLayout>
+
+     <ImageView
+            android:id="@+id/corporate_cntx_icon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:scaleType="fitXY"
+            android:layout_toLeftOf="@+id/frameLayout1"
+           	android:layout_below="@+id/contact_primary_name_header"
+        	android:layout_marginTop="18dip"
+        	android:layout_marginRight="5dip"
+        	android:layout_marginLeft="3dip"
+            android:contentDescription="@string/abs__action_mode_done"
+            android:src="@drawable/contacts_corporate_icon" />
+    <TextView
+        android:id="@+id/contact_prim_phone_no"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@id/contact_txt_holder"
+        android:textAppearance="?android:attr/textAppearanceSmallInverse"
+        android:textColor="@color/LightGrey"
+        android:visibility="gone" />
+
+</RelativeLayout>
