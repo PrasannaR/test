@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<!-- application names -->
+	<string name="calc_hd">ThinkFree Calc HD</string>
+	<string name="calc_preferences">Predvoľby ThinkFree Calc</string>
+
+	<!-- menu titles/items -->
+	<string name="calc_title_app">ThinkFree Calc</string>
+	<string name="calc_worksheets">Pracovné hárky</string>
+	<string name="calc_goto">Prejsť na</string>
+	<string name="calc_label_print_range">Rozsah tlače</string>
+
+	<!-- activity/dialog titles -->
+	<string name="calc_select_sheet">Vybrať hárok</string>
+	<string name="calc_show_hidden_sheets">Zobraziť skryté hárky</string>
+
+	<!-- button labels
+	<string name="calc_button_sheets">Sheets</string>
+	-->
+
+	<!-- short messages for toasts and dialogs -->
+	<string name="calc_msg_title">Calc</string>
+	<string name="calc_msg_invalid_dir">Neplatný priečinok: \'%s\'</string>
+	<string name="calc_msg_empty_sheet">Tento hárok nemá žiadny obsah.</string>
+	<string name="calc_msg_searching">Vyhľadáva sa...</string>
+	<string name="calc_msg_invalid_ref">Neplatný odkaz</string>
+	<string name="calc_msg_enter_ref">Zadajte odkaz</string>
+	<string name="calc_msg_print_ok">OK</string>
+	<string name="calc_msg_print_cancel">Zrušiť</string>
+	<string name="calc_msg_print_range_all">Aktuálny hárok</string>
+	<string name="calc_msg_print_current">Vybratá oblasť</string>
+	<string name="calc_msg_row_resize">Bod</string>
+	<string name="calc_msg_col_resize">Počty znakov</string>
+
+	<!-- descriptions on the preference screen -->
+	<string name="calc_msg_shows_hidden_sheets">Zobraziť skryté hárky v zozname</string>
+	
+	<string name="calc_sheethide">Skryť karty hárkov</string>
+	<string name="calc_sheetunhide">Odkryť karty hárkov</string>
+	    
+</resources>

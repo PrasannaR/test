@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:baselineAligned="false"
+    android:orientation="horizontal" 
+    android:filterTouchesWhenObscured="true">
+
+    <FrameLayout
+        android:id="@+id/displayList"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1" 
+        android:background="@drawable/pr_panel_bg" >
+
+        <include
+            android:id="@+id/contact_list_layout"
+            layout="@layout/contact_list_view" />
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/displayDetail"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="2" >
+
+    </FrameLayout>
+
+</LinearLayout>

@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+   	<!-- option menu -->
+	<string name="write_goto_view_mode">Masuk ke mode Teks</string>
+    
+	<!-- words -->
+   	<string name="write_dictionary_select_language">Pilih bahasa</string>
+	<string name="write_dictionary_english">Inggris</string>
+	<string name="write_dictionary_korean">Korea</string>
+	<string name="write_dictionary_japanese">Jepang</string>
+	<string name="write_dictionary_spanish">Spanyol</string>
+	<string name="write_dictionary_french">Prancis</string>
+	<string name="write_dictionary_portuguese">Portugis</string>
+	<string name="write_dictionary_chinese">Cina</string>
+	<string name="write_display_mode">Mode Tampilan</string>
+	<string name="write_fit_to_screen_width">Paskan dengan lebar layar</string>
+	<string name="write_show_all_marks">Perlihatkan semua tanda pengeditan</string>
+	<string name="write_show_smart_zoom">Perlihatkan pembesaran cerdas</string>
+	<string name="write_show_picture_placeholders">Perlihatkan tempat penampung gambar</string>
+	<string name="write_show_scrolling_icons">Perlihatkan ikon gulir</string>
+	<string name="write_reflow_view">Tampilan pengaliran ulang</string>
+	<string name="write_bookmark">Perlihatkan bookmark</string>
+	<string name="write_bookmark_add">Tambah</string>
+	<string name="write_bookmark_delete">Hapus</string>
+	<string name="write_bookmark_goto">Masuk ke</string>
+	<string name="write_preferences">Preferensi Penampil Dokumen</string>
+	<string-array name="write_display_modes">
+		<item>Tampilan asli</item>
+		<item>Tampilan positif</item>
+		<item>Tampilan negatif</item>
+	</string-array>
+	
+	<!-- messages -->
+	<string name="write_msg_show_all_marks">Perlihatkan atau sembunyikan semua tanda pengeditan</string>
+	<string name="write_msg_show_smart_zoom">Otomatis memperbesar atau memperkecil di teks Anda</string>
+	<string name="write_msg_show_picture_placeholders">Tampilkan kotak kosong di tempat tiap grafis di dokumen</string>
+	<string name="write_msg_show_scrolling_icons">Perlihatkan atau sembunyikan ikon gulir</string>
+	<string name="write_msg_reflow_view">Tampilkan dokumen tanpa gulir horizontal</string>
+	<string name="write_msg_hyperlink">Ketuk ganda tautan untuk mengikutinya</string>
+	<string name="write_msg_bookmark">Perlihatkan atau sembunyikan bookmark</string>
+	<string name="write_msg_dictionary_no_results">Tidak ditemukan hasil dengan \&quot;%s\&quot;</string>
+	<string name="write_msg_dictionary_invalid_response">Respons tidak valid ke server</string>
+	<string name="write_msg_select_txt_extention">Peringatan: Hanya teks yang akan disimpan.</string>
+	
+	<string name="write_msg_zoom">%d%%</string>
+</resources>

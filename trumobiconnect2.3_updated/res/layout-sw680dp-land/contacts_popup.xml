@@ -1,0 +1,919 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content" 
+    android:filterTouchesWhenObscured="true">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="200dip"
+       
+        android:background="#ffffff" >
+
+        <!-- Working, but image is in crop state -->
+     <!--      <ImageView
+            android:id="@+id/thumbImage"
+            android:layout_width="fill_parent"
+            android:layout_height="150dip"
+            android:layout_alignParentTop="true"
+            android:focusable="true"
+            android:scaleType="centerCrop"
+            android:src="@drawable/ic_contact_picture_180_holo_light" /> -->
+         <!--    android:layout_alignParentLeft="true" -->
+            
+        <ImageView
+            android:id="@+id/thumbImage"
+            android:layout_width="160dip"
+            android:layout_height="170dip"
+            android:layout_alignParentLeft="true"
+                    android:scaleType="fitXY"
+            
+            
+            android:focusable="true"
+            
+            android:src="@drawable/contacts_ic_contact_picture_180_holo_light" />
+        
+       <!--   android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:scaleType="fitXY"
+         -->
+        
+
+        <TextView
+            android:id="@+id/fullname"
+            android:layout_width="160dip"
+            android:layout_height="30dp"
+            android:layout_below="@id/thumbImage"
+            android:background="#AA000000"
+            android:drawableRight="@drawable/contacts_ic_contacts_holo_dark"
+            android:gravity="left|center"
+            android:paddingLeft="10dp"
+            android:text=""
+            android:textColor="#ffffffff"
+            android:textSize="10sp" />
+
+        <TabHost
+            android:id="@+id/tabhost"
+            android:layout_width="450dip"
+            android:layout_height="200dip"
+            android:layout_alignTop="@id/thumbImage" 
+            android:layout_toRightOf="@id/thumbImage" 
+            android:visibility="gone">
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:orientation="vertical"
+                android:padding="5dp" >
+
+                <TabWidget
+                    android:id="@android:id/tabs"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                <FrameLayout
+                    android:id="@android:id/tabcontent"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:padding="5dp" >
+
+                    
+                    
+                    
+                    
+                    
+                    
+                     <LinearLayout
+                        android:id="@+id/layoutTabPhone1"
+                        
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal" >
+
+                        <!-- android:visibility="gone" -->
+                     <ScrollView
+       					android:layout_width="fill_parent"
+       					android:layout_height="150dp"
+        				android:fillViewport="true" >
+        				
+                      <!--   <LinearLayout
+                            android:id="@+id/callTab"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="left"
+                            android:layout_weight="1"
+                            android:clickable="true"
+                            android:orientation="vertical" >
+                            
+                            
+
+                            		<TextView
+                                	android:id="@+id/Phonecall"
+                                	android:layout_width="fill_parent"
+                               	 	android:layout_height="wrap_content"
+                                	android:layout_gravity="left"
+                                	android:paddingLeft="5dp"
+                                	android:clickable="true"
+                                
+                                	android:text=""
+                                	android:textSize="20sp" />
+                            android:onClick="phonecall"
+
+                            		<TextView
+                                	android:id="@+id/Phonetype"
+                                	android:layout_width="fill_parent"
+                                	android:layout_height="wrap_content"
+                                	android:layout_gravity="left"
+                                	android:clickable="true"
+                                
+                                	android:paddingLeft="5dp"
+                                	android:text="MOBILE"
+                                	android:textSize="12sp" />
+                        	</LinearLayout>
+
+                        <ImageView
+                            android:id="@+id/textmessage"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="right"
+                            android:paddingRight="5dp"
+                            android:src="@drawable/contacts_ic_text_holo_light" /> -->
+                            
+                            
+                            
+                            
+                            
+                            
+                            <LinearLayout
+                    android:id="@+id/l_contact_phone_no"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:padding="5dip"
+                    android:visibility="gone" >
+
+                   <!--  <TextView
+                        android:id="@+id/contact_phone_no"
+                        
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/contact_phone"
+                        android:textColor="#710000"
+                        android:textStyle="bold" />
+
+                    <View
+                        android:layout_width="fill_parent"
+                        android:layout_height="1dp"
+                        android:background="#710000" >
+                    </View> -->
+
+                    <LinearLayout
+                        android:id="@+id/layoutTab1"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal" >
+
+                        <!-- android:visibility="gone" -->
+
+                        <LinearLayout
+                            android:id="@+id/callTab"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="left"
+                            android:layout_weight="1"
+                            android:clickable="true"
+                            android:orientation="vertical" >
+
+                            <TextView
+                                android:id="@+id/contact_phone_no_value"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="left"
+                                android:clickable="true"
+                                android:paddingLeft="5dp"
+                                android:text=""
+                                android:textSize="20sp" />
+                            <!-- android:onClick="phonecall" -->
+
+                            <TextView
+                                android:id="@+id/Phonetype"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="left"
+                                android:clickable="true"
+                                android:paddingLeft="5dp"
+                                android:text="MOBILE"
+                                android:textSize="12sp" />
+                        </LinearLayout>
+
+                        <ImageView
+                            android:id="@+id/textmessage"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="right"
+                            android:paddingRight="5dp"
+                            android:src="@drawable/contacts_ic_text_holo_light" />
+                    </LinearLayout>
+
+                    <View
+                        android:layout_width="fill_parent"
+                        android:layout_height="0.5dp"
+                        android:background="@color/LightGrey" >
+                    </View>
+
+                    <LinearLayout
+                        android:id="@+id/layoutTab2"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:visibility="gone" >
+
+                        <!-- android:visibility="gone" -->
+
+                        <LinearLayout
+                            android:id="@+id/callTab2"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="left"
+                            android:layout_weight="1"
+                            android:clickable="true"
+                            android:orientation="vertical" >
+
+                            <TextView
+                                android:id="@+id/contact_phone_no_value2"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="left"
+                                android:clickable="true"
+                                android:paddingLeft="5dp"
+                                android:text=""
+                                android:textSize="20sp" />
+                            <!-- android:onClick="phonecall" -->
+
+                            <TextView
+                                android:id="@+id/Phonetype2"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="left"
+                                android:clickable="true"
+                                android:paddingLeft="5dp"
+                                android:text="MOBILE"
+                                android:textSize="12sp" />
+                        </LinearLayout>
+
+                        <ImageView
+                            android:id="@+id/textmessage2"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="right"
+                            android:paddingRight="5dp"
+                            android:src="@drawable/contacts_ic_text_holo_light" />
+                    </LinearLayout>
+                    
+                    <View  android:layout_width="fill_parent"  android:layout_height="0.5dp"  android:background="@color/LightGrey" >
+                    </View>
+                    
+                    <LinearLayout
+                        android:id="@+id/layoutTab3" android:layout_width="fill_parent" android:layout_height="wrap_content"
+                        android:orientation="horizontal"  android:visibility="gone" >
+                        <LinearLayout
+                            android:id="@+id/callTab3" android:layout_width="0dp"   android:layout_height="wrap_content"
+                            android:layout_gravity="left"  android:layout_weight="1" android:clickable="true" android:orientation="vertical" >
+                            <TextView
+                                android:id="@+id/contact_phone_no_value3"   android:layout_width="wrap_content"    android:layout_height="wrap_content"
+                                android:layout_gravity="left"   android:clickable="true" android:paddingLeft="5dp"
+                                android:text="" android:textSize="20sp" />
+                            <TextView
+                                android:id="@+id/Phonetype3"   android:layout_width="wrap_content"     android:layout_height="wrap_content"
+                                android:layout_gravity="left"     android:clickable="true"     android:paddingLeft="5dp" android:text="MOBILE"  android:textSize="12sp" />
+                        </LinearLayout>
+                        <ImageView
+                            android:id="@+id/textmessage3" android:layout_width="wrap_content" android:layout_height="wrap_content"
+                            android:layout_gravity="right" android:paddingRight="5dp" android:src="@drawable/contacts_ic_text_holo_light" />
+                    </LinearLayout>
+                    
+                     <View  android:layout_width="fill_parent"  android:layout_height="0.5dp"  android:background="@color/LightGrey" >
+                    </View>
+                    
+                    <LinearLayout
+                        android:id="@+id/layoutTab4" android:layout_width="fill_parent" android:layout_height="wrap_content"
+                        android:orientation="horizontal"  android:visibility="gone" >
+                        <LinearLayout
+                            android:id="@+id/callTab4" android:layout_width="0dp"   android:layout_height="wrap_content"
+                            android:layout_gravity="left"  android:layout_weight="1" android:clickable="true" android:orientation="vertical" >
+                            <TextView
+                                android:id="@+id/contact_phone_no_value4"   android:layout_width="wrap_content"    android:layout_height="wrap_content"
+                                android:layout_gravity="left"   android:clickable="true" android:paddingLeft="5dp"
+                                android:text="" android:textSize="20sp" />
+                            <TextView
+                                android:id="@+id/Phonetype4"   android:layout_width="wrap_content"     android:layout_height="wrap_content"
+                                android:layout_gravity="left"     android:clickable="true"     android:paddingLeft="5dp" android:text="MOBILE"  android:textSize="12sp" />
+                        </LinearLayout>
+                        <ImageView
+                            android:id="@+id/textmessage4" android:layout_width="wrap_content" android:layout_height="wrap_content"
+                            android:layout_gravity="right" android:paddingRight="5dp" android:src="@drawable/contacts_ic_text_holo_light" />
+                    </LinearLayout>
+                  <View  android:layout_width="fill_parent"  android:layout_height="0.5dp"  android:background="@color/LightGrey" >
+                    </View>
+                    
+                <LinearLayout
+                        android:id="@+id/layoutTab5" android:layout_width="fill_parent" android:layout_height="wrap_content"
+                        android:orientation="horizontal"  android:visibility="gone" >
+                        <LinearLayout
+                            android:id="@+id/callTab5" android:layout_width="0dp"   android:layout_height="wrap_content"
+                            android:layout_gravity="left"  android:layout_weight="1" android:clickable="true" android:orientation="vertical" >
+                            <TextView
+                                android:id="@+id/contact_phone_no_value5"   android:layout_width="wrap_content"    android:layout_height="wrap_content"
+                                android:layout_gravity="left"   android:clickable="true" android:paddingLeft="5dp"
+                                android:text="" android:textSize="20sp" />
+                            <TextView
+                                android:id="@+id/Phonetype5"   android:layout_width="wrap_content"     android:layout_height="wrap_content"
+                                android:layout_gravity="left"     android:clickable="true"     android:paddingLeft="5dp" android:text="MOBILE"  android:textSize="12sp" />
+                        </LinearLayout>
+                        <ImageView
+                            android:id="@+id/textmessage5" android:layout_width="wrap_content" android:layout_height="wrap_content"
+                            android:layout_gravity="right" android:paddingRight="5dp" android:src="@drawable/contacts_ic_text_holo_light" />
+                    </LinearLayout>
+                      <View  android:layout_width="fill_parent"  android:layout_height="0.5dp"  android:background="@color/LightGrey" >
+                    </View>
+                    
+                	<LinearLayout
+                        android:id="@+id/layoutTab6" android:layout_width="fill_parent" android:layout_height="wrap_content"
+                        android:orientation="horizontal"  android:visibility="gone" >
+                        <LinearLayout
+                            android:id="@+id/callTab6" android:layout_width="0dp"   android:layout_height="wrap_content"
+                            android:layout_gravity="left"  android:layout_weight="1" android:clickable="true" android:orientation="vertical" >
+                            <TextView
+                                android:id="@+id/contact_phone_no_value6"   android:layout_width="wrap_content"    android:layout_height="wrap_content"
+                                android:layout_gravity="left"   android:clickable="true" android:paddingLeft="5dp"
+                                android:text="" android:textSize="20sp" />
+                            <TextView
+                                android:id="@+id/Phonetype6"   android:layout_width="wrap_content"     android:layout_height="wrap_content"
+                                android:layout_gravity="left"     android:clickable="true"     android:paddingLeft="5dp" android:text="MOBILE"  android:textSize="12sp" />
+                        </LinearLayout>
+                        <ImageView
+                            android:id="@+id/textmessage6" android:layout_width="wrap_content" android:layout_height="wrap_content"
+                            android:layout_gravity="right" android:paddingRight="5dp" android:src="@drawable/contacts_ic_text_holo_light" />
+                    </LinearLayout>
+                      <View  android:layout_width="fill_parent"  android:layout_height="0.5dp"  android:background="@color/LightGrey" >
+                    </View>
+                    
+                	<LinearLayout
+                        android:id="@+id/layoutTab7" android:layout_width="fill_parent" android:layout_height="wrap_content"
+                        android:orientation="horizontal"  android:visibility="gone" >
+                        <LinearLayout
+                            android:id="@+id/callTab7" android:layout_width="0dp"   android:layout_height="wrap_content"
+                            android:layout_gravity="left"  android:layout_weight="1" android:clickable="true" android:orientation="vertical" >
+                            <TextView
+                                android:id="@+id/contact_phone_no_value7"   android:layout_width="wrap_content"    android:layout_height="wrap_content"
+                                android:layout_gravity="left"   android:clickable="true" android:paddingLeft="5dp"
+                                android:text="" android:textSize="20sp" />
+                            <TextView
+                                android:id="@+id/Phonetype7"   android:layout_width="wrap_content"     android:layout_height="wrap_content"
+                                android:layout_gravity="left"     android:clickable="true"     android:paddingLeft="5dp" android:text="MOBILE"  android:textSize="12sp" />
+                        </LinearLayout>
+                        <ImageView
+                            android:id="@+id/textmessage7" android:layout_width="wrap_content" android:layout_height="wrap_content"
+                            android:layout_gravity="right" android:paddingRight="5dp" android:src="@drawable/contacts_ic_text_holo_light" />
+                    </LinearLayout>
+                      <View  android:layout_width="fill_parent"  android:layout_height="0.5dp"  android:background="@color/LightGrey" >
+                    </View>
+                    
+                	<LinearLayout
+                        android:id="@+id/layoutTab8" android:layout_width="fill_parent" android:layout_height="wrap_content"
+                        android:orientation="horizontal"  android:visibility="gone" >
+                        <LinearLayout
+                            android:id="@+id/callTab8" android:layout_width="0dp"   android:layout_height="wrap_content"
+                            android:layout_gravity="left"  android:layout_weight="1" android:clickable="true" android:orientation="vertical" >
+                            <TextView
+                                android:id="@+id/contact_phone_no_value8"   android:layout_width="wrap_content"    android:layout_height="wrap_content"
+                                android:layout_gravity="left"   android:clickable="true" android:paddingLeft="5dp"
+                                android:text="" android:textSize="20sp" />
+                            <TextView
+                                android:id="@+id/Phonetype8"   android:layout_width="wrap_content"     android:layout_height="wrap_content"
+                                android:layout_gravity="left"     android:clickable="true"     android:paddingLeft="5dp" android:text="MOBILE"  android:textSize="12sp" />
+                        </LinearLayout>
+                        <ImageView
+                            android:id="@+id/textmessage8" android:layout_width="wrap_content" android:layout_height="wrap_content"
+                            android:layout_gravity="right" android:paddingRight="5dp" android:src="@drawable/contacts_ic_text_holo_light" />
+                    </LinearLayout>
+                      <View  android:layout_width="fill_parent"  android:layout_height="0.5dp"  android:background="@color/LightGrey" >
+                    </View>
+                    
+                	<LinearLayout
+                        android:id="@+id/layoutTab9" android:layout_width="fill_parent" android:layout_height="wrap_content"
+                        android:orientation="horizontal"  android:visibility="gone" >
+                        <LinearLayout
+                            android:id="@+id/callTab9" android:layout_width="0dp"   android:layout_height="wrap_content"
+                            android:layout_gravity="left"  android:layout_weight="1" android:clickable="true" android:orientation="vertical" >
+                            <TextView
+                                android:id="@+id/contact_phone_no_value9"   android:layout_width="wrap_content"    android:layout_height="wrap_content"
+                                android:layout_gravity="left"   android:clickable="true" android:paddingLeft="5dp"
+                                android:text="" android:textSize="20sp" />
+                            <TextView
+                                android:id="@+id/Phonetype9"   android:layout_width="wrap_content"     android:layout_height="wrap_content"
+                                android:layout_gravity="left"     android:clickable="true"     android:paddingLeft="5dp" android:text="MOBILE"  android:textSize="12sp" />
+                        </LinearLayout>
+                        <ImageView
+                            android:id="@+id/textmessage9" android:layout_width="wrap_content" android:layout_height="wrap_content"
+                            android:layout_gravity="right" android:paddingRight="5dp" android:src="@drawable/contacts_ic_text_holo_light" />
+                    </LinearLayout>
+                	
+                	  <View  android:layout_width="fill_parent"  android:layout_height="0.5dp"  android:background="@color/LightGrey" >
+                    </View>
+                    
+                	<LinearLayout
+                        android:id="@+id/layoutTab10" android:layout_width="fill_parent" android:layout_height="wrap_content"
+                        android:orientation="horizontal"  android:visibility="gone" >
+                        <LinearLayout
+                            android:id="@+id/callTab10" android:layout_width="0dp"   android:layout_height="wrap_content"
+                            android:layout_gravity="left"  android:layout_weight="1" android:clickable="true" android:orientation="vertical" >
+                            <TextView
+                                android:id="@+id/contact_phone_no_value10"   android:layout_width="wrap_content"    android:layout_height="wrap_content"
+                                android:layout_gravity="left"   android:clickable="true" android:paddingLeft="5dp"
+                                android:text="" android:textSize="20sp" />
+                            <TextView
+                                android:id="@+id/Phonetype10"   android:layout_width="wrap_content"     android:layout_height="wrap_content"
+                                android:layout_gravity="left"     android:clickable="true"     android:paddingLeft="5dp" android:text="MOBILE"  android:textSize="12sp" />
+                        </LinearLayout>
+                        <ImageView
+                            android:id="@+id/textmessage10" android:layout_width="wrap_content" android:layout_height="wrap_content"
+                            android:layout_gravity="right" android:paddingRight="5dp" android:src="@drawable/contacts_ic_text_holo_light" />
+                    </LinearLayout>
+                	  <View  android:layout_width="fill_parent"  android:layout_height="0.5dp"  android:background="@color/LightGrey" >
+                    </View>
+                    
+                	<LinearLayout
+                        android:id="@+id/layoutTab11" android:layout_width="fill_parent" android:layout_height="wrap_content"
+                        android:orientation="horizontal"  android:visibility="gone" >
+                        <LinearLayout
+                            android:id="@+id/callTab11" android:layout_width="0dp"   android:layout_height="wrap_content"
+                            android:layout_gravity="left"  android:layout_weight="1" android:clickable="true" android:orientation="vertical" >
+                            <TextView
+                                android:id="@+id/contact_phone_no_value11"   android:layout_width="wrap_content"    android:layout_height="wrap_content"
+                                android:layout_gravity="left"   android:clickable="true" android:paddingLeft="5dp"
+                                android:text="" android:textSize="20sp" />
+                            <TextView
+                                android:id="@+id/Phonetype11"   android:layout_width="wrap_content"     android:layout_height="wrap_content"
+                                android:layout_gravity="left"     android:clickable="true"     android:paddingLeft="5dp" android:text="MOBILE"  android:textSize="12sp" />
+                        </LinearLayout>
+                        <ImageView
+                            android:id="@+id/textmessage11" android:layout_width="wrap_content" android:layout_height="wrap_content"
+                            android:layout_gravity="right" android:paddingRight="5dp" android:src="@drawable/contacts_ic_text_holo_light" />
+                    </LinearLayout>
+                      <View  android:layout_width="fill_parent"  android:layout_height="0.5dp"  android:background="@color/LightGrey" >
+                    </View>
+                    
+                	<LinearLayout
+                        android:id="@+id/layoutTab12" android:layout_width="fill_parent" android:layout_height="wrap_content"
+                        android:orientation="horizontal"  android:visibility="gone" >
+                        <LinearLayout
+                            android:id="@+id/callTab12" android:layout_width="0dp"   android:layout_height="wrap_content"
+                            android:layout_gravity="left"  android:layout_weight="1" android:clickable="true" android:orientation="vertical" >
+                            <TextView
+                                android:id="@+id/contact_phone_no_value12"   android:layout_width="wrap_content"    android:layout_height="wrap_content"
+                                android:layout_gravity="left"   android:clickable="true" android:paddingLeft="5dp"
+                                android:text="" android:textSize="20sp" />
+                            <TextView
+                                android:id="@+id/Phonetype12"   android:layout_width="wrap_content"     android:layout_height="wrap_content"
+                                android:layout_gravity="left"     android:clickable="true"     android:paddingLeft="5dp" android:text="MOBILE"  android:textSize="12sp" />
+                        </LinearLayout>
+                        <ImageView
+                            android:id="@+id/textmessage12" android:layout_width="wrap_content" android:layout_height="wrap_content"
+                            android:layout_gravity="right" android:paddingRight="5dp" android:src="@drawable/contacts_ic_text_holo_light" />
+                    </LinearLayout>
+                      <View  android:layout_width="fill_parent"  android:layout_height="0.5dp"  android:background="@color/LightGrey" >
+                    </View>
+                    
+                	<LinearLayout
+                        android:id="@+id/layoutTab13" android:layout_width="fill_parent" android:layout_height="wrap_content"
+                        android:orientation="horizontal"  android:visibility="gone" >
+                        <LinearLayout
+                            android:id="@+id/callTab13" android:layout_width="0dp"   android:layout_height="wrap_content"
+                            android:layout_gravity="left"  android:layout_weight="1" android:clickable="true" android:orientation="vertical" >
+                            <TextView
+                                android:id="@+id/contact_phone_no_value13"   android:layout_width="wrap_content"    android:layout_height="wrap_content"
+                                android:layout_gravity="left"   android:clickable="true" android:paddingLeft="5dp"
+                                android:text="" android:textSize="20sp" />
+                            <TextView
+                                android:id="@+id/Phonetype13"   android:layout_width="wrap_content"     android:layout_height="wrap_content"
+                                android:layout_gravity="left"     android:clickable="true"     android:paddingLeft="5dp" android:text="MOBILE"  android:textSize="12sp" />
+                        </LinearLayout>
+                        <ImageView
+                            android:id="@+id/textmessage13" android:layout_width="wrap_content" android:layout_height="wrap_content"
+                            android:layout_gravity="right" android:paddingRight="5dp" android:src="@drawable/contacts_ic_text_holo_light" />
+                    </LinearLayout>
+                      <View  android:layout_width="fill_parent"  android:layout_height="0.5dp"  android:background="@color/LightGrey" >
+                    </View>
+                    
+                	<LinearLayout
+                        android:id="@+id/layoutTab14" android:layout_width="fill_parent" android:layout_height="wrap_content"
+                        android:orientation="horizontal"  android:visibility="gone" >
+                        <LinearLayout
+                            android:id="@+id/callTab14" android:layout_width="0dp"   android:layout_height="wrap_content"
+                            android:layout_gravity="left"  android:layout_weight="1" android:clickable="true" android:orientation="vertical" >
+                            <TextView
+                                android:id="@+id/contact_phone_no_value14"   android:layout_width="wrap_content"    android:layout_height="wrap_content"
+                                android:layout_gravity="left"   android:clickable="true" android:paddingLeft="5dp"
+                                android:text="" android:textSize="20sp" />
+                            <TextView
+                                android:id="@+id/Phonetype14"   android:layout_width="wrap_content"     android:layout_height="wrap_content"
+                                android:layout_gravity="left"     android:clickable="true"     android:paddingLeft="5dp" android:text="MOBILE"  android:textSize="12sp" />
+                        </LinearLayout>
+                        <ImageView
+                            android:id="@+id/textmessage14" android:layout_width="wrap_content" android:layout_height="wrap_content"
+                            android:layout_gravity="right" android:paddingRight="5dp" android:src="@drawable/contacts_ic_text_holo_light" />
+                    </LinearLayout>
+                	
+                	  <View  android:layout_width="fill_parent"  android:layout_height="0.5dp"  android:background="@color/LightGrey" >
+                    </View>
+                    
+                	<LinearLayout
+                        android:id="@+id/layoutTab15" android:layout_width="fill_parent" android:layout_height="wrap_content"
+                        android:orientation="horizontal"  android:visibility="gone" >
+                        <LinearLayout
+                            android:id="@+id/callTab15" android:layout_width="0dp"   android:layout_height="wrap_content"
+                            android:layout_gravity="left"  android:layout_weight="1" android:clickable="true" android:orientation="vertical" >
+                            <TextView
+                                android:id="@+id/contact_phone_no_value15"   android:layout_width="wrap_content"    android:layout_height="wrap_content"
+                                android:layout_gravity="left"   android:clickable="true" android:paddingLeft="5dp"
+                                android:text="" android:textSize="20sp" />
+                            <TextView
+                                android:id="@+id/Phonetype15"   android:layout_width="wrap_content"     android:layout_height="wrap_content"
+                                android:layout_gravity="left"     android:clickable="true"     android:paddingLeft="5dp" android:text="MOBILE"  android:textSize="12sp" />
+                        </LinearLayout>
+                        <ImageView
+                            android:id="@+id/textmessage15" android:layout_width="wrap_content" android:layout_height="wrap_content"
+                            android:layout_gravity="right" android:paddingRight="5dp" android:src="@drawable/contacts_ic_text_holo_light" />
+                    </LinearLayout>
+                    	
+                 </LinearLayout>
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                        
+                        
+                         </ScrollView>
+                        
+                 </LinearLayout>
+
+                    <!-- <LinearLayout
+                        android:id="@+id/layoutTabEmail2"
+                      
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:visibility="gone"
+                        android:orientation="horizontal" >
+
+                          android:visibility="gone"
+                        <LinearLayout
+                            
+                            android:layout_width="0dp"
+                            android:layout_height="fill_parent"
+                            android:layout_gravity="left"
+                            android:layout_weight="1"
+                            android:orientation="vertical" >
+
+                            <TextView
+                                android:id="@+id/Emailid"
+                                android:layout_width="fill_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="left"
+                                android:paddingLeft="5dp"
+                                android:text=""
+                                android:textSize="20sp" />
+
+                            <TextView
+                                android:id="@+id/Emailtype"
+                                android:layout_width="fill_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="left"
+                                android:paddingLeft="5dp"
+                                android:text="HOME"
+                                android:textSize="12sp" />
+                        </LinearLayout>
+                    </LinearLayout> -->
+                    
+                   <LinearLayout
+                        android:id="@+id/layoutTabEmail2"
+                      
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:visibility="gone"
+                        android:orientation="horizontal" > 
+                        
+                          <ScrollView
+       					android:layout_width="fill_parent"
+       					android:layout_height="150dp"
+        				android:fillViewport="true" >
+                    
+                    
+                    <LinearLayout
+                    android:id="@+id/l_contact_email"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:padding="5dip"
+                    android:visibility="gone" >
+
+                  <!--   <TextView
+                        android:id="@+id/contact_email"
+                        
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/contact_email"
+                        android:textColor="#710000"
+                        android:textStyle="bold" />
+
+                    <View
+                        android:layout_width="fill_parent" android:layout_height="1dp"  android:background="#710000" ></View> -->
+					<LinearLayout
+                        android:id="@+id/layoutemailTab1" android:layout_width="fill_parent" android:layout_height="wrap_content"
+                        android:orientation="vertical" android:visibility="gone">
+	                    <TextView android:id="@+id/contact_email_value" android:layout_width="wrap_content" android:layout_height="wrap_content"
+	                        android:layout_marginLeft="8dip" android:paddingBottom="5dp"/>
+	                    <TextView
+	                        android:id="@+id/emailtype" android:layout_width="wrap_content" android:layout_height="wrap_content"
+	                        android:layout_gravity="left" android:clickable="true"  android:paddingLeft="5dp" android:text="HOME" android:textSize="12sp" />
+	                 </LinearLayout>
+                	 
+                	 <LinearLayout
+                        android:id="@+id/layoutemailTab2" android:layout_width="fill_parent" android:layout_height="wrap_content"
+                        android:orientation="vertical"  android:visibility="gone" >
+	                	 <View  android:layout_width="fill_parent"  android:layout_height="0.5dp"  android:background="@color/LightGrey" android:paddingBottom="5dip">
+	                    </View>
+	                    <TextView android:id="@+id/contact_email_value2" android:layout_width="wrap_content" android:layout_height="wrap_content"
+	                        android:layout_marginLeft="8dip" android:paddingBottom="5dp"/>
+	                    <TextView
+	                        android:id="@+id/emailtype2" android:layout_width="wrap_content" android:layout_height="wrap_content"
+	                        android:layout_gravity="left" android:clickable="true"  android:paddingLeft="5dp" android:text="HOME" android:textSize="12sp" />
+                	</LinearLayout>
+                	 
+                	  <LinearLayout
+                        android:id="@+id/layoutemailTab3" android:layout_width="fill_parent" android:layout_height="wrap_content"
+                        android:orientation="vertical"  android:visibility="gone" >
+	                	 <View  android:layout_width="fill_parent"  android:layout_height="0.5dp"  android:background="@color/LightGrey" android:paddingBottom="5dip">
+	                    </View>
+	                    <TextView android:id="@+id/contact_email_value3" android:layout_width="wrap_content" android:layout_height="wrap_content"
+	                        android:layout_marginLeft="8dip" android:paddingBottom="5dp"/>
+	                    <TextView
+	                        android:id="@+id/emailtype3" android:layout_width="wrap_content" android:layout_height="wrap_content"
+	                        android:layout_gravity="left" android:clickable="true"  android:paddingLeft="5dp" android:text="HOME" android:textSize="12sp" />
+                	</LinearLayout>
+                	
+                	   <LinearLayout
+                        android:id="@+id/layoutemailTab4" android:layout_width="fill_parent" android:layout_height="wrap_content"
+                        android:orientation="vertical"  android:visibility="gone" >
+	                	 <View  android:layout_width="fill_parent"  android:layout_height="0.5dp"  android:background="@color/LightGrey" android:paddingBottom="5dip">
+	                    </View>
+	                    <TextView android:id="@+id/contact_email_value4" android:layout_width="wrap_content" android:layout_height="wrap_content"
+	                        android:layout_marginLeft="8dip" android:paddingBottom="5dp"/>
+	                    <TextView
+	                        android:id="@+id/emailtype4" android:layout_width="wrap_content" android:layout_height="wrap_content"
+	                        android:layout_gravity="left" android:clickable="true"  android:paddingLeft="5dp" android:text="HOME" android:textSize="12sp" />
+                	</LinearLayout>
+                	
+                	<LinearLayout
+                        android:id="@+id/layoutemailTab5" android:layout_width="fill_parent" android:layout_height="wrap_content"
+                        android:orientation="vertical"  android:visibility="gone" >
+	                	 <View  android:layout_width="fill_parent"  android:layout_height="0.5dp"  android:background="@color/LightGrey" android:paddingBottom="5dip">
+	                    </View>
+	                    <TextView android:id="@+id/contact_email_value5" android:layout_width="wrap_content" android:layout_height="wrap_content"
+	                        android:layout_marginLeft="8dip" android:paddingBottom="5dp"/>
+	                    <TextView
+	                        android:id="@+id/emailtype5" android:layout_width="wrap_content" android:layout_height="wrap_content"
+	                        android:layout_gravity="left" android:clickable="true"  android:paddingLeft="5dp" android:text="HOME" android:textSize="12sp" />
+                	</LinearLayout>
+                
+                	<LinearLayout
+                        android:id="@+id/layoutemailTab6" android:layout_width="fill_parent" android:layout_height="wrap_content"
+                        android:orientation="vertical"  android:visibility="gone" >
+	                	 <View  android:layout_width="fill_parent"  android:layout_height="0.5dp"  android:background="@color/LightGrey" android:paddingBottom="5dip">
+	                    </View>
+	                    <TextView android:id="@+id/contact_email_value6" android:layout_width="wrap_content" android:layout_height="wrap_content"
+	                        android:layout_marginLeft="8dip" android:paddingBottom="5dp"/>
+	                    <TextView
+	                        android:id="@+id/emailtype6" android:layout_width="wrap_content" android:layout_height="wrap_content"
+	                        android:layout_gravity="left" android:clickable="true"  android:paddingLeft="5dp" android:text="HOME" android:textSize="12sp" />
+                	</LinearLayout>
+                </LinearLayout>
+                    
+                    
+                     </ScrollView>
+                    </LinearLayout>
+                    
+                    
+                    
+                      <LinearLayout
+                        android:id="@+id/layoutTabAddress3"
+                      
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:visibility="gone"
+                        android:orientation="horizontal" > 
+                        
+                          <ScrollView
+       					android:layout_width="fill_parent"
+       					android:layout_height="150dp"
+        				android:fillViewport="true" >
+                   
+                   
+                   
+                   
+                   <LinearLayout
+                    android:id="@+id/l_contact_address" android:layout_width="fill_parent"  android:layout_height="wrap_content"  
+                    android:orientation="vertical" android:padding="5dip"  android:visibility="gone" >
+                   
+                    
+                   <LinearLayout
+                       android:id="@+id/layoutaddrTab1" android:layout_width="fill_parent" android:layout_height="wrap_content"
+                       android:orientation="vertical"  android:visibility="gone" >
+                    <TextView
+                        android:id="@+id/contact_address_value1"  android:layout_width="wrap_content" android:layout_height="wrap_content"  android:layout_marginLeft="8dip" />
+                    <TextView
+                        android:id="@+id/addresstype1"  android:layout_width="wrap_content" android:layout_height="wrap_content"  android:layout_gravity="left"
+                        android:clickable="true"  android:paddingLeft="8dp"  android:textSize="12sp" android:paddingBottom="3dp" />
+                    </LinearLayout>
+                    
+                  	<LinearLayout
+                      android:id="@+id/layoutaddrTab2" android:layout_width="fill_parent" android:layout_height="wrap_content"
+                      android:orientation="vertical"  android:visibility="gone" >
+                	 <View  android:layout_width="fill_parent"  android:layout_height="0.5dp"  android:background="@color/LightGrey" android:paddingBottom="5dip">
+                    </View>
+                     <TextView
+                        android:id="@+id/contact_address_value2"  android:layout_width="wrap_content" android:layout_height="wrap_content"  android:layout_marginLeft="8dip" />
+                    <TextView
+                        android:id="@+id/addresstype2"  android:layout_width="wrap_content" android:layout_height="wrap_content"  android:layout_gravity="left"
+                        android:clickable="true"  android:paddingLeft="8dp"  android:textSize="12sp" android:paddingBottom="3dp"  />
+                    </LinearLayout>
+                    
+                    
+                  <LinearLayout
+                      android:id="@+id/layoutaddrTab3" android:layout_width="fill_parent" android:layout_height="wrap_content"
+                      android:orientation="vertical"  android:visibility="gone" >
+                	 <View  android:layout_width="fill_parent"  android:layout_height="0.5dp"  android:background="@color/LightGrey" android:paddingBottom="5dip">
+                    </View>
+                      <TextView
+                        android:id="@+id/contact_address_value3"  android:layout_width="wrap_content" android:layout_height="wrap_content"  android:layout_marginLeft="8dip" />
+                    <TextView
+                        android:id="@+id/addresstype3"  android:layout_width="wrap_content" android:layout_height="wrap_content"  android:layout_gravity="left"
+                        android:clickable="true"  android:paddingLeft="8dp"  android:textSize="12sp" android:paddingBottom="3dp"  />
+                    </LinearLayout>
+                  
+                </LinearLayout>
+                    
+                     </ScrollView>
+                </LinearLayout>
+                   
+                   
+                    
+                    
+                     <LinearLayout
+                        android:id="@+id/layoutTabWeb3"
+                      
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:visibility="gone"
+                        android:orientation="horizontal" > 
+                        
+                          <ScrollView
+       					android:layout_width="fill_parent"
+       					android:layout_height="100dp"
+        				android:fillViewport="true" >
+                   
+                   <LinearLayout
+                    android:id="@+id/l_website"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:padding="5dip"
+                    android:visibility="gone" >
+
+                 <!--    <TextView
+                        android:id="@+id/website"
+                        
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/website"
+                        android:textColor="#710000"
+                        android:textStyle="bold" />
+
+                    <View
+                        android:layout_width="fill_parent"
+                        android:layout_height="1dp"
+                        android:background="#710000" >
+                    </View> -->
+
+                    <TextView
+                        android:id="@+id/website_value"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="8dip" />
+                </LinearLayout>
+                   
+                     </ScrollView>
+                </LinearLayout>
+                    
+                    
+                    
+                    
+                    
+                    <!-- <LinearLayout
+                        android:id="@+id/layoutTab1"
+                        
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal" >
+
+                        android:visibility="gone"
+                        <LinearLayout
+                            android:id="@+id/callTab"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="left"
+                            android:layout_weight="1"
+                            android:clickable="true"
+                            android:orientation="vertical" >
+
+                            <TextView
+                                android:id="@+id/Phonecall"
+                                android:layout_width="fill_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="left"
+                                android:paddingLeft="5dp"
+                                android:clickable="true"
+                                
+                                android:text=""
+                                android:textSize="20sp" />
+                            android:onClick="phonecall"
+
+                            <TextView
+                                android:id="@+id/Phonetype"
+                                android:layout_width="fill_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="left"
+                                android:clickable="true"
+                                
+                                android:paddingLeft="5dp"
+                                android:text="MOBILE"
+                                android:textSize="12sp" />
+                        </LinearLayout>
+
+                        <ImageView
+                            android:id="@+id/textmessage"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="right"
+                            android:paddingRight="5dp"
+                            android:src="@drawable/contacts_ic_text_holo_light" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/layoutTab2"
+                      
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal" >
+
+                          android:visibility="gone"
+                        <LinearLayout
+                            
+                            android:layout_width="0dp"
+                            android:layout_height="fill_parent"
+                            android:layout_gravity="left"
+                            android:layout_weight="1"
+                            android:orientation="vertical" >
+
+                            <TextView
+                                android:id="@+id/Emailid"
+                                android:layout_width="fill_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="left"
+                                android:paddingLeft="5dp"
+                                android:text=""
+                                android:textSize="20sp" />
+
+                            <TextView
+                                android:id="@+id/Emailtype"
+                                android:layout_width="fill_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="left"
+                                android:paddingLeft="5dp"
+                                android:text="HOME"
+                                android:textSize="12sp" />
+                        </LinearLayout>
+                    </LinearLayout> -->
+                </FrameLayout>
+            </LinearLayout>
+        </TabHost>
+    </RelativeLayout>
+
+</RelativeLayout>

@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="retry">Yritä uudelleen</string>
+	
+    <!-- Purchase Activity -->
+    <string name="title_purchase">Osta ThinkFree Mobile for Android v4.1</string>
+    <string name="market_android">Android</string>
+    <string name="market_amazon">Amazon</string>
+	
+    <!-- License Check Activity-->
+    <string name="msg_checking_license">Tarkistetaan käyttöoikeutta...</string>
+    <string name="title_application_error">Sovellusvirhe</string>
+    <string name="msg_application_error">Virhekoodi: %1$d</string>
+    <string name="title_unlicensed">Sovellukselle ei ole käyttöoikeutta</string>
+    <string name="msg_unlicensed">Tälle sovellukselle ei ole käyttöoikeutta. Osta se %s Marketista.</string>
+	<string name="title_no_network_connection">Verkkoyhteysvirhe</string>
+	<string name="msg_no_network_connection">Verkkoyhteyden muodostaminen epäonnistui. Varmista, että laite on yhdistetty verkkoon.</string>
+	
+	<string name="inducement_to_purchase_tfm">Hankkimalla ThinkFree Officen maksullisen version saat käyttöösi lisää ominaisuuksia, jotka parantavat tuottavuutta. Haluatko siirtyä Market-sivustoon?</string>
+	<string name="inducement_to_purchase_print">Kun ostat ThinkFree Mobile Print -ohjelmiston, voit tulostaa asiakirjoja. Haluatko siirtyä Market-sivustoon?</string>
+	<string name="inducement_to_purchase_hwp">Voit tarkastella tätä asiakirjaa ilmaiseksi hankkimalla Hancom Viewerin. Haluatko siirtyä Market-sivustoon?</string>
+</resources>
