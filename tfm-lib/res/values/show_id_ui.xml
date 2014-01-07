@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <item name="show_ui_main" type="id"/>
+    <item name="show_ui_screen" type="id"/>
+    <item name="show_ui_screen_scroller" type="id"/>
+    <item name="show_ui_zoom_controls" type="id"/>
+    <item name="show_ui_front_board" type="id"/>
+    <item name="show_ui_front_board_title" type="id"/>
+    <item name="show_ui_front_board_content" type="id"/>
+    <item name="show_ui_flow" type="id"/>
+    <item name="show_ui_flow_scroller" type="id"/>
+    <item name="show_ui_slidesview" type="id"/>
+    <item name="show_ui_slideshow_controls" type="id"/> <!-- slideshow -->
+    <item name="show_drawable_native_slide_view" type="id"/> <!-- slideshow -->
+    <item name="show_slideshow_menu_button" type="id"/>
+
+    <item name="show_drawer" type="id"/>
+    <item name="show_drawerHandle" type="id"/>
+    <item name="show_drawerContent" type="id"/>
+    <item name="show_ui_slideshow_screen" type="id"/>
+    <item name="show_ui_slideshow_screen_stub" type="id"/>
+    <item name="show_hyperlink_view" type="id"/>
+    <item name="show_externalobject_view" type="id"/>
+    <item name="show_transition_view" type="id"/>
+    <item name="show_ui_slideshow" type="id"/>
+    <item name="show_ui_slideshow_stub" type="id"/>
+    <item name="show_ui_front_board_content_stub" type="id"/>
+    <item name="show_ui_slideshow_controls_stub" type="id"/>
+    <item name="show_ui_slideshow_notepad_controls" type="id"/>
+    <item name="show_ui_slideshow_notepad_controls_stub" type="id"/>
+
+    <!-- print -->
+    <item name="show_ui_print_range_group" type="id"/>
+    <item name="show_ui_print_range_all" type="id"/>
+    <item name="show_ui_print_range_current" type="id"/>
+    <item name="show_ui_print_range_from_to" type="id"/>
+    <item name="show_ui_print_range_from_text" type="id"/>
+    <item name="show_ui_print_range_to_text" type="id"/>
+
+</resources>

@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+	<!-- KPopup Frame -->
+	<dimen name="kpopup_max_width">372dp</dimen>
+	<dimen name="kpopup_max_height">450dp</dimen>
+	<integer name="kpopup_border_color">0xFF000000</integer>
+	<integer name="kpopup_background_color">0xFFF3F3F3</integer>
+	<integer name="kpopup_arrow_color">0xFFD6D6D6</integer>
+	
+	<!-- Touch Item -->
+	<integer name="item_text_size">20</integer>
+	<integer name="enable_text_color">0xFF1F1E1E</integer>
+	<integer name="disable_text_color">0xFFABABAB</integer>
+	
+	<!-- Touch Color Button -->
+	<dimen name="selected_color_item_width">170dp</dimen>
+	
+	<!-- Touch Depth Button -->
+	<dimen name="depth_arrow_size">32dp</dimen>
+	
+	<!-- KPopup Captionbar -->
+	<integer name="caption_name_size">24</integer>
+	<dimen name="captionbar_width">350dp</dimen>
+	<dimen name="captionbar_height">47dp</dimen>
+	<dimen name="caption_arrow_size">32dp</dimen>
+	<integer name="caption_text_color">0xFF000000</integer>
+	
+	<!-- Color Chooser -->
+	<integer name="color_chooser_button_text_color">0xFF1F1E1E</integer>
+	
+	<!-- Standard Color Chooser -->
+	<dimen name="color_chooser_item_gap">8dp</dimen>
+
+	<!-- Natural Color Chooser -->
+	<dimen name="color_chooser_item_size">32dp</dimen>
+	<dimen name="palette_width">340dp</dimen>
+	<dimen name="palette_height">170dp</dimen>
+	<dimen name="previewer_arc">6dp</dimen>
+	<dimen name="previewer_padding_left">10dp</dimen>
+	<dimen name="previewer_padding_right">10dp</dimen>
+	<dimen name="previewer_padding_top">10dp</dimen>
+	<dimen name="previewer_padding_bottom">10dp</dimen>
+	<dimen name="thumbPaddingFactor">7.0px</dimen>
+	
+	<!-- Dictionary -->
+	<dimen name="dictionary_width">240dp</dimen>
+	<dimen name="dictionary_height">200dp</dimen>
+	
+	<!-- dp작업 addtional -->
+	<dimen name="item_horizontal_padding">5dp</dimen>
+	<dimen name="item_vertical_padding">5dp</dimen>
+	
+	<dimen name="item_icon_width">42dp</dimen>
+	<dimen name="item_icon_height">42dp</dimen>
+	
+	<dimen name="color_view_width_in_popup">135dp</dimen>
+	<dimen name="color_view_height_in_popup">48dp</dimen>
+	
+	<dimen name="actionbar_item_icon_width">45dp</dimen>
+	<dimen name="actionbar_item_icon_height">45dp</dimen>
+	
+	<dimen name="item_image_icon_width">78dp</dimen>
+	<dimen name="item_image_icon_height">78dp</dimen>
+	
+	<dimen name="item_image_group_icon_width">60dp</dimen>
+	<dimen name="item_image_group_icon_height">60dp</dimen>
+	
+	<dimen name="color_chooser_button_width">153dp</dimen>
+	<dimen name="color_chooser_button_height">46dp</dimen>
+	<integer name="standard_color_chooser_col_num">7</integer>
+	
+	<dimen name="previewer_width">87dp</dimen>
+	<dimen name="previewer_height">109dp</dimen>
+	<dimen name="previewer_center_padding">5dp</dimen>
+	<dimen name="item_auto_shape_size">50dp</dimen>
+	
+	<dimen name="item_spinner_icon_width">50dp</dimen>
+	<dimen name="item_spinner_icon_height">46dp</dimen>
+	<dimen name="item_format_toolbar_icon_width">45dp</dimen>
+	<dimen name="item_format_toolbar_icon_height">45dp</dimen>
+	<dimen name="item_format_toolbar_spinner_icon_width">45dp</dimen>
+	<dimen name="item_format_toolbar_spinner_icon_height">42dp</dimen>
+	
+	<dimen name="item_height">40dp</dimen>
+	
+	<dimen name="keyboard_button_width">82dp</dimen>
+	<dimen name="keyboard_button_height">51dp</dimen>
+	
+	<dimen name="seekbar_thumb_size">25dp</dimen>
+</resources>

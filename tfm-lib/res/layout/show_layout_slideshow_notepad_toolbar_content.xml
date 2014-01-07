@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/show_icon_slideshow_toolbar_bg"
+    android:orientation="horizontal" >
+
+    <ImageButton
+        android:id="@+id/notepad_pen"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:background="@android:color/transparent"
+        android:src="@drawable/show_icon_notepad_pen" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/show_icon_slideshow_toolbar_line" />
+
+    <ImageButton
+        android:id="@+id/notepad_signpen"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:background="@android:color/transparent"
+        android:src="@drawable/show_icon_notepad_signpen" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/show_icon_slideshow_toolbar_line" />
+
+    <ImageButton
+        android:id="@+id/notepad_highlighter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:background="@android:color/transparent"
+        android:src="@drawable/show_icon_notepad_highlighter" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/show_icon_slideshow_toolbar_line" />
+
+    <ImageButton
+        android:id="@+id/notepad_color"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:background="@android:color/transparent"
+        android:src="@drawable/show_icon_notepad_pen_color" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/show_icon_slideshow_toolbar_line" />
+
+    <ImageButton
+        android:id="@+id/notepad_eraser"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:background="@android:color/transparent"
+        android:src="@drawable/show_icon_notepad_eraser" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/show_icon_slideshow_toolbar_line" />
+
+    <ImageButton
+        android:id="@+id/notepad_eraser_all"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:background="@android:color/transparent"
+        android:src="@drawable/show_icon_notepad_eraser_all" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/show_icon_slideshow_toolbar_line" />
+
+    <ImageButton
+        android:id="@+id/notepad_exit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@android:color/transparent"
+        android:src="@drawable/show_icon_notepad_exit" />
+
+</LinearLayout>

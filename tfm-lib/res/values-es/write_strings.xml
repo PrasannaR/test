@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+   	<!-- option menu -->
+	<string name="write_goto_view_mode">Ir a modo texto</string>
+    
+	<!-- words -->
+   	<string name="write_dictionary_select_language">Seleccionar idioma</string>
+	<string name="write_dictionary_english">Inglés</string>
+	<string name="write_dictionary_korean">Coreano</string>
+	<string name="write_dictionary_japanese">Japonés</string>
+	<string name="write_dictionary_spanish">Español</string>
+	<string name="write_dictionary_french">Francés</string>
+	<string name="write_dictionary_portuguese">Portugués</string>
+	<string name="write_dictionary_chinese">Chino</string>
+	<string name="write_display_mode">Modo de visualización</string>
+	<string name="write_fit_to_screen_width">Ajustar a ancho de pantalla</string>
+	<string name="write_show_all_marks">Mostrar todas las marcas de edición</string>
+	<string name="write_show_smart_zoom">Mostrar zoom inteligente</string>
+	<string name="write_show_picture_placeholders">Mostrar marcadores de imagen</string>
+	<string name="write_show_scrolling_icons">Mostrar iconos de desplazamiento</string>
+	<string name="write_reflow_view">Vista de reflujo</string>
+	<string name="write_bookmark">Mostrar marcadores</string>
+	<string name="write_bookmark_add">Agregar</string>
+	<string name="write_bookmark_delete">Eliminar</string>
+	<string name="write_bookmark_goto">Ir a</string>
+	<string name="write_preferences">Preferencias de Document Viewer</string>
+	<string-array name="write_display_modes">
+		<item>Pantalla original</item>
+		<item>Visualización positiva</item>
+		<item>Visualización negativa</item>
+	</string-array>
+	
+	<!-- messages -->
+	<string name="write_msg_show_all_marks">Mostrar u ocultar todas las marcas de edición</string>
+	<string name="write_msg_show_smart_zoom">Acercar o alejar el zoom en el texto automáticamente</string>
+	<string name="write_msg_show_picture_placeholders">Mostrar un cuadro vacío en lugar de cada gráfico en el documento</string>
+	<string name="write_msg_show_scrolling_icons">Mostrar u ocultar iconos de desplazamiento</string>
+	<string name="write_msg_reflow_view">Ver documentos sin desplazamiento horizontal</string>
+	<string name="write_msg_hyperlink">Tocar dos veces el vínculo para acceder a él</string>
+	<string name="write_msg_bookmark">Mostrar u ocultar marcadores</string>
+	<string name="write_msg_dictionary_no_results">No se han encontrado resultados para \&quot;%s\&quot;</string>
+	<string name="write_msg_dictionary_invalid_response">Respuesta al servidor no válida</string>
+	<string name="write_msg_select_txt_extention">Advertencia: Sólo se guardará el texto.</string>
+	
+	<string name="write_msg_zoom">%d%%</string>
+</resources>

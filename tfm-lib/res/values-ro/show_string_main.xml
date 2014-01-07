@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<!-- title -->
+    <string name="show_title_app">ThinkFree Show</string>
+    <string name="show_title_preferences">Preferinţe ThinkFree Show</string>
+
+	<!-- LABEL_COMMON -->
+    <string name="show_label_ok">OK</string>
+    <string name="show_label_cancel">Anulare</string>
+    
+    <!-- labels -->
+    <string name="show_label_slides">Diapozitive</string>
+    <string name="show_label_note">Notă</string>
+    <string name="show_label_slideshow">Expunere diapozitive</string>
+    <string name="show_label_print">Imprimare</string>
+    
+    <!-- messages -->
+    <string name="show_msg_loading">Se încarcă...</string>
+    <string name="show_msg_zoom">%d%%</string>
+    <string name="show_msg_no_slide">Niciun diapozitiv</string>
+    <string name="show_msg_no_note">Nicio notă</string>
+    <string name="show_msg_printing">Se imprimă \'%s\'...</string>
+    <string name="show_msg_print_fail">Eşec la imprimare</string>
+    <string name="show_msg_out_of_memory">Memorie insuficientă</string>
+    <string name="show_msg_unsurpported_video">Nu se poate accesa fişierul. Tipul de fişier este neacceptat sau fişierul este corupt.</string>
+    <string name="show_msg_last_slideshow">Sfârşit expunere diapozitive</string>
+    
+    <!-- LABEL_TOOL_BAR -->
+    <string name="show_label_print_range">Interval de imprimare</string>
+    <string name="show_label_print_range_all">Toate</string>
+    <string name="show_label_print_range_current">Diapozitiv curent</string>
+    <string name="show_label_print_range_from">De la:</string>
+    <string name="show_label_print_range_to">La:</string>
+    
+    <!-- video option -->
+    <string name="show_video_option">Opţiuni videoclipuri</string>
+    <string name="show_video_option_tapped">La atingere</string>
+    <string name="show_video_option_automatically">Automat</string>
+    
+    <!-- string name="show_msg_unknown_problem">Unknown problem occurred</string-->
+
+    <!-- preferences -->
+    <string name="show_label_auto_orientation">Orientare automată ecran</string>
+    <string name="show_desc_auto_orientation">Activaţi setarea de orientare automată a ecranului după raportul aspectului diapozitivelor</string>
+    <string name="show_label_show_hidden_slides">Afişare diapozitive ascunse</string>
+    <string name="show_desc_show_hidden_slides">Afişare diapozitive ascunse</string>
+    <string name="show_label_show_ink_annotations">Afişare adnotări cu cerneală</string>
+    <string name="show_desc_show_ink_annotations">Afişare adnotări cu cerneală</string>
+    <string name="show_label_flowview_on_portrait">Setare ca mod Vizualizare în portret</string>
+    <string name="show_desc_flowview_on_portrait">Setare ca mod Vizualizare în ecranul portret şi mod Editare în ecranul vedere</string>
+    
+    <!-- FILE TYPE -->
+    <string name="show_filetype_ppt">PowerPoint 97-2003 (*.ppt)</string>
+    <string name="show_filetype_pptx">PowerPoint (*.pptx)</string>
+</resources>

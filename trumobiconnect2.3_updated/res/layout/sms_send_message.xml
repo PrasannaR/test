@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:id="@+id/parent_layout"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <include 
+    layout="@layout/sms_send_header"
+    android:id="@+id/header"
+    >
+    </include>
+   
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="#F2F2F2" >
+        <LinearLayout
+            android:id="@+id/toLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#f2f2f2"
+           	android:orientation="horizontal" >
+            <com.cognizant.trumobi.messenger.sms.SmsChipsMultiAutoCompleteTextview
+                android:id="@+id/toNumber"
+                android:layout_width="0dip"
+                android:layout_weight=".9"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="To"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="10dp"
+                android:imeOptions="actionDone"
+                android:singleLine="true"
+                android:filterTouchesWhenObscured="true"/>
+        </LinearLayout>
+         <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:id="@+id/send"
+            android:background="#FFFFFF"
+            android:paddingBottom="16dp"
+            android:paddingTop="16dp"
+            android:orientation="horizontal" >
+            <com.cognizant.trumobi.commonabstractclass.TruMobBaseEditText
+                android:id="@+id/sendMessage"
+                android:layout_width="0dip"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="10dp"
+                android:layout_weight="0.50"
+                android:ems="10"
+                android:hint="Type Message"
+                android:filterTouchesWhenObscured="true" />
+
+             <ImageView
+                android:id="@+id/send_message"
+      		    android:layout_width="0dip"
+      		    android:layout_gravity="bottom"
+                android:layout_height="wrap_content"
+                android:layout_weight=".1"
+                android:src="@drawable/sms_android_social_send_now"
+                android:filterTouchesWhenObscured="true" />
+        </LinearLayout>
+           
+        <LinearLayout
+            android:id="@+id/msgList"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#f2f2f2"
+            android:layout_above="@id/send"
+             >
+            <ListView
+                android:id="@+id/listView"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+              	android:background="#f2f2f2"
+                android:stackFromBottom="true"
+                android:transcriptMode="normal"
+                android:filterTouchesWhenObscured="true" >
+            </ListView>
+
+        </LinearLayout>
+        
+        <View
+        android:id="@+id/linediv"
+        android:layout_width="fill_parent"
+        android:layout_height="4dp"
+        android:background="#f2f2f2"
+        android:layout_above="@+id/send"
+        android:filterTouchesWhenObscured="true" />
+        
+        <ListView
+        android:id="@+id/list_comp_menu"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/sms_menu_bg_bottom"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="10dp"
+        android:filterTouchesWhenObscured="true">
+    </ListView>
+        
+       </RelativeLayout>
+</LinearLayout>
+

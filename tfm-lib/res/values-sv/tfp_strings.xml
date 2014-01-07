@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<string name="tfp_app_name">ThinkFree PDF Viewer</string>
+<string name="tfp_err_bad_catalog">Fel när filen öppnades. Sidkatalogen är ogiltig.</string>
+<string name="tfp_err_damaged_file">Fel när filen öppnades. Den tycks vara skadad.</string>
+<string name="tfp_err_open_file">Fel när filen öppnades. Den finns inte eller går inte att läsa.</string>
+<string name="tfp_err_open_unknown">Fel när filen öppnades. Filen kanske inte är en giltig PDF-fil.</string>
+<string name="tfp_err_out_of_memory">Fel. Det finns inte tillräckligt med minne för att fortsätta.</string>
+<string name="tfp_err_non_standard_security_handler">Fel när filen öppnades. Den är krypterad med säkerhetshanterare som inte stöds.</string>
+<string name="tfp_err_loading_page">Fel när sidan lästes in.</string>
+<string name="tfp_msg_blank_page">Tom sida</string>
+<string name="tfp_msg_no_read_mode">Läsläge\när inte tillgängligt\nför den här sidan.</string>
+<string name="tfp_msg_err_loading_page">Fel när sidan\nlästes in</string>
+<string name="tfp_menu_reading_view">Läsvy</string>
+<string name="tfp_menu_page_view">Sidvy</string>
+<string name="tfp_misc_page" formatted="false">%1 av %2</string>
+<string name="tfp_app_description">Visa interna Adobe PDF-filer och bilagor.</string>
+<string name="tfp_misc_ok">OK</string>
+<string name="tfp_msg_err_loading_file">Fel när filen lästes in</string>
+<string name="tfp_menu_about">Om</string>
+<string name="tfp_menu_go_to_page">Gå till sida</string>
+<string name="tfp_page_label">Sida (1-%1):</string>
+<string name="tfp_misc_cancel">Avbryt</string>
+<string name="tfp_err_invalid_page_num">Ange ett giltigt sidnummer.</string>
+<string name="tfp_password_hint">Lösenord</string>
+<string name="tfp_password_instructions">Den här PDF-filen är lösenordsskyddad. Ange lösenordet för att fortsätta.</string>
+<string name="tfp_menu_save">Spara</string>
+<string name="tfp_unknown_name">Unknown.pdf</string>
+<string name="tfp_misc_yes">Ja</string>
+<string name="tfp_misc_no">Nej</string>
+<string name="tfp_confirm_save">Spara \'%1\' på minneskortet?</string>
+<string name="tfp_save_complete">Filen sparades</string>
+<string name="tfp_no_bookmarks">Inga bokmärken</string>
+<string name="tfp_menu_bookmarks">Bokmärken</string>
+<string name="tfp_menu_go_to">Gå till</string>
+<string name="tfp_menu_collapse">Komprimera</string>
+<string name="tfp_menu_expand">Expandera</string>
+<string name="tfp_menu_send">Skicka</string>
+<string name="tfp_misc_emailing">Skickar e-post: %1</string>
+<string name="tfp_menu_properties">Egenskaper</string>
+<string name="tfp_prop_title">Rubrik:</string>
+<string name="tfp_prop_author">Författare:</string>
+<string name="tfp_prop_subject">Ämne:</string>
+<string name="tfp_prop_keywords">Nyckelord:</string>
+<string name="tfp_prop_modified">Senast ändrad:</string>
+<string name="tfp_menu_find">Sök</string>
+<string name="tfp_find_hint">Vad söker du?</string>
+<string name="tfp_find_no_matches">Inga träffar hittades.</string>
+<string name="tfp_find_complete">Sökningen slutfördes.</string>
+<string name="tfp_finding">Söker efter \'%1\'. Vänta...</string>
+<string name="tfp_wait_page_load">Vänta tills den aktuella sidan har lästs in.</string>
+<string name="tfp_menu_print">Skriv ut</string>
+<string name="tfp_security_print">Dokumentets säkerhet förbjuder utskrift.</string>
+<string name="tfp_misc_page_range">Sidintervall</string>
+<string name="tfp_all_pages_label">Alla sidor</string>
+<string name="tfp_current_page_label">Aktuell sida</string>
+<string name="tfp_page_from_label">Från:</string>
+<string name="tfp_page_to_label">Till:</string>
+<string name="tfp_err_invalid_page_range">Ange ett giltigt sidintervall.</string>
+<string name="tfp_preparing_page">Förbereder sida %1...</string>
+<string name="tfp_menu_file">Arkiv</string>
+<string name="tfp_menu_zoom">Zooma</string>
+<string name="tfp_menu_zoom_fit">Anpassa till skärmbredd</string>
+<string name="tfp_menu_zoom_percent">%1%</string>
+<string name="tfp_menu_display_mode">Visningsläge</string>
+<string name="tfp_misc_original_display">Originalvisning</string>
+<string name="tfp_misc_positive_display">Positiv visning</string>
+<string name="tfp_misc_negative_display">Negativ visning</string>
+<string name="tfp_menu_brightness">Ljusstyrka</string>
+<string name="tfp_misc_cancel_audio">Stäng av ljudet genom att trycka på bakåtknappen.</string>
+<string name="tfp_label_product">%s Mobile for Android\u2122</string>
+<string name="tfp_link_about"><a href="http://www.thinkfree.com/go?id=mobile_main">Om</a></string>
+<string name="tfp_link_help"><a href="http://www.thinkfree.com/go?id=help_en_us_and_hd">Hjälp</a></string>
+<string name="tfp_link_support"><a href="http://www.thinkfree.com/go?id=help_online">Support</a></string>
+<string name="tfp_link_terms"><a href="http://www.thinkfree.com/go?id=terms">Villkor</a></string>
+<string name="tfp_link_privacy"><a href="http://www.thinkfree.com/go?id=privacy">Sekretess</a></string>
+<string name="tfp_link_ack"><a href="http://www.thinkfree.com/go?id=ack_and">Tack till</a></string>
+<string name="tfp_link_separator">|</string>
+<string name="tfp_label_copyright">\u00A92011 Hancom Inc. Med ensamrätt. \nThinkFree och ThinkFree-logotypen är varumärken som tillhör Hancom Inc.</string>
+<string name="tfp_label_accord">Delar av den här produkten är ändringar av arbeten som har skapats och <a href="http://code.google.com/policies.html">delas av Google</a> och som används i enlighet med de villkor som beskrivs i <a href="http://creativecommons.org/licenses/by/2.5">Creative Commons 2.5 Attribution License.</a></string>
+</resources>

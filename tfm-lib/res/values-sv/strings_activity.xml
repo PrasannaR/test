@@ -1,0 +1,113 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources>   
+   	<!-- About Activity -->
+   	<string name="label_product">%s Mobile for Android\u2122</string>
+  	<string name="link_about"><a href="http://www.thinkfree.com/go?id=mobile_main">Om</a></string>
+  	<string name="link_help"><a href="http://www.thinkfree.com/go?id=help_en_us_and_hd">Hjälp</a></string>
+  	<string name="link_support"><a href="http://www.thinkfree.com/go?id=help_online">Support</a></string>
+  	<string name="link_terms"><a href="http://www.thinkfree.com/go?id=terms">Villkor</a></string>
+  	<string name="link_privacy"><a href="http://www.thinkfree.com/go?id=privacy">Sekretess</a></string>
+  	<string name="link_ack"><a href="http://www.thinkfree.com/go?id=ack_and">Tack till</a></string>
+  	<string name="link_separator">|</string>
+  	<string name="label_copyright">\u00A92011 Hancom Inc. Med ensamrätt. \nThinkFree och ThinkFree-logotypen är varumärken som tillhör Hancom Inc.</string>
+	
+  	<!-- File Properties Activity -->
+    <string name="fileproperties">Egenskaper</string>
+    <string name="fileprop_noinfo">Ingen information</string>
+    <string name="fileprop_basic">Grundläggande</string>
+    <string name="fileprop_extended">Utökad</string>
+    <string name="fileprop_filename">Namn</string>
+	<string name="fileprop_filesize">Storlek</string>
+    <string name="fileprop_title">Rubrik</string>
+    <string name="fileprop_subject">Ämne</string>
+    <string name="fileprop_author">Författare</string>
+    <string name="fileprop_keywords">Nyckelord</string>
+    <string name="fileprop_comments">Kommentarer</string>
+    <string name="fileprop_template">Mall</string>
+    <string name="fileprop_revnumber">Versionsnummer</string>
+    <string name="fileprop_lastprinted">Utskrivet</string>
+    <string name="fileprop_createdtm">Skapat</string>
+	<string name="fileprop_lastmodified">Ändrat</string>
+    <string name="fileprop_pagecount">Antal sidor</string>
+    <string name="fileprop_wordcount">Antal ord</string>
+    <string name="fileprop_charcount">Antal tecken</string>
+	<string name="fileprop_appname">Programnamn</string>   
+	<string name="fileprop_creator">Skapare</string>
+	<string name="fileprop_description">Beskrivning</string>
+	<string name="fileprop_lastmodifiedby">Senast ändrat av</string>
+	<string name="fileprop_version">Version</string>
+	<string name="fileprop_category">Kategori</string>
+	<string name="fileprop_language">Språk</string>
+	<string name="fileprop_charwithspacecount">Antal tecken inklusive blanksteg</string>
+	<string name="fileprop_sharedoc">Delat</string>
+	<string name="fileprop_appversion">Programversion</string>
+	<string name="fileprop_codepage">Teckentabell</string>
+	<string name="fileprop_presformat">Presentationsformat</string>     
+	<string name="fileprop_bytecount">Antal byte</string>
+	<string name="fileprop_linecount">Antal rader</string>
+	<string name="fileprop_parcount">Antal stycken</string>
+	<string name="fileprop_slidecount">Antal bilder</string>
+	<string name="fileprop_notecouont">Antal anteckningar</string>
+	<string name="fileprop_hiddencount">Antal dolda bilder</string>
+	<string name="fileprop_mmclipcount">Antal multimedieklipp</string>
+	<string name="fileprop_scale">Skala</string>
+	<string name="fileprop_manager">Chef</string>
+	<string name="fileprop_company">Företag</string>
+	<string name="fileprop_security">Säkerhet</string>
+	<string name="fileprop_lastsavedtm">Sparat</string>
+	<string name="fileprop_value_shared">sant</string>
+	<string name="fileprop_value_not_shared">falskt</string>
+	<string name="fileprop_filetype">Typ</string>
+	<string name="fileprop_location">Plats</string>
+	<string name="fileprop_value_attachment">Bilaga</string>
+  	
+	<!-- Manager -->
+	<string name="new_file_hint">Filnamn</string>
+
+	<!-- messages -->
+	<string name="msg_calculating">Beräknar...</string>
+	<string name="msg_loading_asis">Läser in...</string>
+    <string name="msg_processing">Bearbetar...</string>
+	<string name="msg_file_not_found">Det gick inte att hitta %s.</string>
+    <string name="msg_connection_refused">Det uppstod ett nätverksanslutningsfel</string>
+    
+   	<!--  OOM Activity -->
+   	<string name="oom_error_msg">Slut på minne. Det gick inte att läsa in filen på rätt sätt. \nVill du visa det innehåll som har lästs in hittills?</string>
+    <string name="oom_error_close_label">Stäng</string>
+    <string name="oom_error_continue_label">Fortsätt</string>
+    
+    <!-- Updater -->
+	<string name="updater_check">Kontrollerar...</string>
+	<string name="updater_update_failed">Det gick inte att uppdatera</string>
+	<string name="updater_uptodate">Senaste version</string>
+	<string name="updater_confirm_update">Vill du uppdatera till den senaste versionen?</string>
+	<string name="updater_download_started">Den senaste versionen hämtas.</string>
+	<string name="updater_download_completed">Hämtningen slutfördes</string>
+	
+	<!-- Font -->
+    <string name="font_introduce_dialog_message">Om du installerar teckensnittspaket kan du använda flera olika teckensnitt.\nVill du gå vidare till hämtningssidan?</string>
+    <string name="font_introduce_dialog_check_message">Visa inte nästa gång</string>
+    
+    <!-- Preview -->
+	<string name="txt_none_select_item">Du har inte valt något dokument.</string>
+	<string name="txt_file_size">Filstorlek</string>
+	<string name="txt_last_modify_date">Ändrat</string>
+	<string name="txt_file_format">Filformat</string>
+    
+	<string name="btn_email_attach_preview">Bifoga fil</string>
+	
+	<!-- Activation -->
+	<string name="later">Senare</string>
+	<string name="activate_title">Aktivering</string>
+	<string name="activate_now">Aktivera nu</string>
+	<string name="activate_new_desc">
+	    Tack för att du använder ThinkFree Office.\n
+		Välj &quot;Aktivera nu&quot; om du vill aktivera ThinkFree Office på din enhet.
+	</string>
+	<string name="activate_desc">Om du vill aktivera %2$s på enheten klickar du på \&quot;%1$s\&quot;.</string>
+	<string name="activate_result_ok">Aktiveringen har slutförts</string>
+	<string name="activate_result_failed_network_error">En nätverksanslutning krävs.</string>
+	<string name="activate_result_failed_invalid_hardware">Det går inte att aktivera %s på den här maskinvaruenheten.</string>
+	<string name="activate_result_failed_server_error">Det gick inte att överföra data när produkten aktiverades.</string>
+	
+</resources>

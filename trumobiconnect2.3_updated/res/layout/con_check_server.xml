@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+	android:filterTouchesWhenObscured="true"
+ >
+    
+<!-- Alert Header -->
+
+    <!-- <LinearLayout
+        android:id="@+id/layout_checkserver_header"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" 
+        android:gravity="center_vertical"
+        android:layout_margin="10dp">
+        
+        <ImageView 
+            android:id="@+id/checkserver_header_icon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:src="@drawable/ic_menu_app"/>
+        <TextView 
+            android:id="@+id/checkserver_header_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/CheckingServer"
+            style="@style/Textview"/>
+        
+    </LinearLayout> -->
+    
+    <!-- <View 
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:background="@android:color/darker_gray"/> -->
+     
+     <LinearLayout
+        android:id="@+id/layout_checkserver_content"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" 
+        android:gravity="center_vertical"
+		android:filterTouchesWhenObscured="true"
+       >
+     <ProgressBar 
+         android:id="@+id/progress"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+		 android:filterTouchesWhenObscured="true"
+         android:layout_margin="10dp"
+         />
+    <TextView 
+            android:id="@+id/checkserver_content_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+			android:filterTouchesWhenObscured="true"
+            android:text=""
+            style="@style/Textview"/>
+    </LinearLayout>
+    
+    <!-- <LinearLayout
+         android:id="@+id/layout_checkserver_footer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" 
+        android:gravity="center_vertical"
+        >
+        
+        <Button 
+            android:id="@+id/checkserver_cancel_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_weight="1"
+            android:text="@string/Cancel"
+            android:background="@drawable/button_bg"
+            style="@style/Textview"
+            />
+            
+      
+        
+        
+    </LinearLayout> -->
+
+</LinearLayout>

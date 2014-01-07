@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<!-- title -->
+    <string name="show_title_app">ThinkFree Show</string>
+    <string name="show_title_preferences">Innstillinger for ThinkFree Show</string>
+
+	<!-- LABEL_COMMON -->
+    <string name="show_label_ok">OK</string>
+    <string name="show_label_cancel">Avbryt</string>
+
+    <!-- labels -->
+    <string name="show_label_slides">Lysbilder</string>
+    <string name="show_label_note">Merknad</string>
+    <string name="show_label_slideshow">Lysbildefremvisning</string>
+    <string name="show_label_print">Skriv ut</string>
+    
+    <!-- messages -->
+    <string name="show_msg_loading">Laster ...</string>
+    <string name="show_msg_zoom">%d%%</string>
+    <string name="show_msg_no_slide">Ingen lysbilder</string>
+    <string name="show_msg_no_note">Ingen merknader</string>
+    <string name="show_msg_printing">Skriver ut \'%s\' ...</string>
+    <string name="show_msg_print_fail">Kunne ikke skrive ut</string>
+    <string name="show_msg_out_of_memory">Ikke nok minne</string>
+    <string name="show_msg_unsurpported_video">Ingen tilgang til filen. Filtypen støttes ikke, eller filen mangler eller er skadet.</string>
+    <string name="show_msg_last_slideshow">Slutt på lysbildefremvisning</string>
+    
+    <!-- LABEL_TOOL_BAR -->
+    <string name="show_label_print_range">Utskriftsområde</string>
+    <string name="show_label_print_range_all">Alle</string>
+    <string name="show_label_print_range_current">Gjeldende lysbilde</string>
+    <string name="show_label_print_range_from">Fra:</string>
+    <string name="show_label_print_range_to">Til:</string>
+    
+    <!-- video option -->
+    <string name="show_video_option">Videoalternativer</string>
+    <string name="show_video_option_tapped">Ved trykk</string>
+    <string name="show_video_option_automatically">Automatisk</string>
+    
+    <!-- string name="show_msg_unknown_problem">Unknown problem occurred</string-->
+
+    <!-- preferences -->
+    <string name="show_label_auto_orientation">Automatisk skjermretning</string>
+    <string name="show_desc_auto_orientation">Aktiver automatisk skjermretning ved å angi formatforholdet</string>
+    <string name="show_label_show_hidden_slides">Vis skjulte lysbilder</string>
+    <string name="show_desc_show_hidden_slides">Vis skjulte lysbilder</string>
+    <string name="show_label_show_ink_annotations">Vis håndskriftmerknader</string>
+    <string name="show_desc_show_ink_annotations">Vis håndskriftmerknader</string>
+    <string name="show_label_flowview_on_portrait">Angi som visningsmodus i stående format</string>
+    <string name="show_desc_flowview_on_portrait">Angi som visningsmodus i stående format og redigeringsmodus i liggende format</string>
+    
+    <!-- FILE TYPE -->
+    <string name="show_filetype_ppt">PowerPoint 97–2003(*.ppt)</string>
+    <string name="show_filetype_pptx">PowerPoint(*.pptx)</string>
+</resources>

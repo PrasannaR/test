@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<string name="tfp_app_name">ThinkFree PDF Viewer</string>
+<string name="tfp_err_bad_catalog">Podczas otwierania pliku wystąpił błąd. Katalog stron jest nieprawidłowy.</string>
+<string name="tfp_err_damaged_file">Podczas otwierania pliku wystąpił błąd. Plik jest prawdopodobnie uszkodzony.</string>
+<string name="tfp_err_open_file">Podczas otwierania pliku wystąpił błąd. Plik nie istnieje lub nie można go odczytać.</string>
+<string name="tfp_err_open_unknown">Podczas otwierania pliku wystąpił błąd. Może to nie być prawidłowy plik PDF.</string>
+<string name="tfp_err_out_of_memory">Błąd. Zbyt mało wolnej pamięci, aby kontynuować.</string>
+<string name="tfp_err_non_standard_security_handler">Podczas otwierania pliku wystąpił błąd. Plik jest zaszyfrowany za pomocą nieobsługiwanego programu obsługi zabezpieczeń.</string>
+<string name="tfp_err_loading_page">W trakcie ładowania strony wystąpił błąd.</string>
+<string name="tfp_msg_blank_page">Pusta strona</string>
+<string name="tfp_msg_no_read_mode">Tryb odczytu nie\njest dostępny\ndla tej strony.</string>
+<string name="tfp_msg_err_loading_page">W trakcie ładowania\nstrony wystąpił błąd.</string>
+<string name="tfp_menu_reading_view">Widok do odczytywania</string>
+<string name="tfp_menu_page_view">Widok strony</string>
+<string name="tfp_misc_page" formatted="false">%1 z %2</string>
+<string name="tfp_app_description">Przeglądaj rodzime pliki Adobe PDF i załączniki.</string>
+<string name="tfp_misc_ok">OK</string>
+<string name="tfp_msg_err_loading_file">W trakcie ładowania pliku wystąpił błąd</string>
+<string name="tfp_menu_about">Informacje</string>
+<string name="tfp_menu_go_to_page">Idź do strony</string>
+<string name="tfp_page_label">Strona (1–%1):</string>
+<string name="tfp_misc_cancel">Anuluj</string>
+<string name="tfp_err_invalid_page_num">Wprowadź poprawny numer strony.</string>
+<string name="tfp_password_hint">Hasło</string>
+<string name="tfp_password_instructions">Ten plik PDF jest chroniony hasłem. Wprowadź hasło, aby kontynuować.</string>
+<string name="tfp_menu_save">Zapisz</string>
+<string name="tfp_unknown_name">Nieznany.pdf</string>
+<string name="tfp_misc_yes">Tak</string>
+<string name="tfp_misc_no">Nie</string>
+<string name="tfp_confirm_save">Zapisać \'%1\' na karcie pamięci?</string>
+<string name="tfp_save_complete">Zapisywanie zakończone</string>
+<string name="tfp_no_bookmarks">Brak zakładek</string>
+<string name="tfp_menu_bookmarks">Zakładki</string>
+<string name="tfp_menu_go_to">Idź do</string>
+<string name="tfp_menu_collapse">Zwiń</string>
+<string name="tfp_menu_expand">Rozwiń</string>
+<string name="tfp_menu_send">Wyślij</string>
+<string name="tfp_misc_emailing">Wysyłanie pocztą e-mail: %1</string>
+<string name="tfp_menu_properties">Właściwości</string>
+<string name="tfp_prop_title">Tytuł:</string>
+<string name="tfp_prop_author">Autor:</string>
+<string name="tfp_prop_subject">Temat:</string>
+<string name="tfp_prop_keywords">Słowa kluczowe:</string>
+<string name="tfp_prop_modified">Zmodyfikowany:</string>
+<string name="tfp_menu_find">Znajdź</string>
+<string name="tfp_find_hint">Znajdź:</string>
+<string name="tfp_find_no_matches">Brak zgodnych elementów.</string>
+<string name="tfp_find_complete">Zakończono wyszukiwanie.</string>
+<string name="tfp_finding">Wyszukiwanie \'%1\'. Czekaj...</string>
+<string name="tfp_wait_page_load">Poczekaj, aż bieżąca strona załaduje się.</string>
+<string name="tfp_menu_print">Drukuj</string>
+<string name="tfp_security_print">Drukowanie jest zabronione przez zabezpieczenia dokumentu.</string>
+<string name="tfp_misc_page_range">Zakres stron</string>
+<string name="tfp_all_pages_label">Wszystkie strony</string>
+<string name="tfp_current_page_label">Bieżąca strona</string>
+<string name="tfp_page_from_label">Od:</string>
+<string name="tfp_page_to_label">Do:</string>
+<string name="tfp_err_invalid_page_range">Wprowadź prawidłowy zakres stron.</string>
+<string name="tfp_preparing_page">Przygotowywanie strony %1...</string>
+<string name="tfp_menu_file">Plik</string>
+<string name="tfp_menu_zoom">Powiększenie</string>
+<string name="tfp_menu_zoom_fit">Dopasuj do szerokości ekranu</string>
+<string name="tfp_menu_zoom_percent">%1%</string>
+<string name="tfp_menu_display_mode">Tryb ekranu</string>
+<string name="tfp_misc_original_display">Wyświetlanie oryginalne</string>
+<string name="tfp_misc_positive_display">Wyświetlanie pozytywowe</string>
+<string name="tfp_misc_negative_display">Wyświetlanie negatywowe</string>
+<string name="tfp_menu_brightness">Jasność</string>
+<string name="tfp_misc_cancel_audio">Naciśnij przycisk Wstecz, aby wyłączyć dźwięk.</string>
+<string name="tfp_label_product">%s Mobile for Android\u2122</string>
+<string name="tfp_link_about"><a href="http://www.thinkfree.com/go?id=mobile_main">Informacje</a></string>
+<string name="tfp_link_help"><a href="http://www.thinkfree.com/go?id=help_en_us_and_hd">Pomoc</a></string>
+<string name="tfp_link_support"><a href="http://www.thinkfree.com/go?id=help_online">Wsparcie</a></string>
+<string name="tfp_link_terms"><a href="http://www.thinkfree.com/go?id=terms">Warunki</a></string>
+<string name="tfp_link_privacy"><a href="http://www.thinkfree.com/go?id=privacy">Prywatność</a></string>
+<string name="tfp_link_ack"><a href="http://www.thinkfree.com/go?id=ack_and">Prawa autorskie</a></string>
+<string name="tfp_link_separator">|</string>
+<string name="tfp_label_copyright">\u00A92011 Hancom Inc. Wszelkie prawa zastrzeżone. \nThinkFree i logo ThinkFree są znakami towarowymi firmy Hancom Inc.</string>
+<string name="tfp_label_accord">Fragmenty tego produktu stanowią modyfikacje oparte na pracach utworzonych i  <a href="http://code.google.com/policies.html">udostępnianych przez firmę Google;</a> zostały one użyte zgodnie z warunkami opisanymi w licencji  <a href="http://creativecommons.org/licenses/by/2.5">Creative Commons 2.5 Attributions License.</a></string>
+</resources>

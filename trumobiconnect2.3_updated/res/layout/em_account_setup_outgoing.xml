@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2008 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+  
+          http://www.apache.org/licenses/LICENSE-2.0
+  
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/message_list_item_back_color"
+    android:filterTouchesWhenObscured="true"
+    android:fillViewport="true" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical" >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/account_setup_outgoing_smtp_server_label"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textColor="@color/message_list_item_text_color" />
+            <!-- Note: we use inputType=textUri as the closest approximation to a server name -->
+
+            <com.cognizant.trumobi.commonabstractclass.TruMobBaseEditText
+                android:id="@+id/account_server"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/em_eidttext_border"
+                android:imeOptions="actionDone"
+                android:inputType="textUri" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/account_setup_outgoing_port_label"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textColor="@color/message_list_item_text_color" />
+
+            <com.cognizant.trumobi.commonabstractclass.TruMobBaseEditText
+                android:id="@+id/account_port"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/em_eidttext_border"
+                android:imeOptions="actionDone"
+                android:inputType="number" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/account_setup_outgoing_security_label"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textColor="@color/message_list_item_text_color" />
+
+            <Spinner
+                android:id="@+id/account_security_type"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <CheckBox
+                android:id="@+id/account_require_login"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/account_setup_outgoing_require_login_label" />
+
+            <LinearLayout
+                android:id="@+id/account_require_login_settings"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:visibility="gone" >
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/account_setup_outgoing_username_label"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:textColor="@color/message_list_item_text_color" />
+
+                <com.cognizant.trumobi.commonabstractclass.TruMobBaseEditText
+                    android:id="@+id/account_username"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/em_eidttext_border"
+                    android:imeOptions="actionDone"
+                    android:inputType="textEmailAddress" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/account_setup_outgoing_password_label"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:textColor="@color/message_list_item_text_color" />
+
+                <com.cognizant.trumobi.commonabstractclass.TruMobBaseEditText
+                    android:id="@+id/account_password"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/em_eidttext_border"
+                    android:imeOptions="actionDone"
+                    android:inputType="textPassword" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="54dip"
+            android:background="@android:drawable/bottom_bar" >
+
+            <Button
+                android:id="@+id/next"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:drawableRight="@drawable/em_button_indicator_next"
+                android:minWidth="@dimen/button_minWidth"
+                android:text="@string/next_action" />
+        </RelativeLayout>
+    </LinearLayout>
+
+</ScrollView>
